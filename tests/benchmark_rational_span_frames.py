@@ -39,7 +39,7 @@ for h, expected in ((10, 16), (12, 320)):
     results.append(result)
 record = dict(status='PASS complete mixed-point cut audits',
               audit_seconds=repr(time.monotonic()-started),
-              peak_rss_kib=resource.getrusage(resource.RUSAGE_SELF).ru_maxrss,
+              peak_rss_kib=resource.getrusage(resource.RUSAGE_SELF).ru_maxrss // (1024 if sys.platform == 'darwin' else 1),
               result=results,
               result_sha256=hashlib.sha256(json.dumps(
                   results, sort_keys=True, separators=(',', ':')).encode()).hexdigest())

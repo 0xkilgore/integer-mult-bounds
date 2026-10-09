@@ -30,6 +30,8 @@ historical PDF targets belong to their respective checkpoints. Review changes to
 claims in the README and note together. Finite tests should address a mathematical
 identity or a failure mode, rather than simply restating implementation details.
 
+**Regenerated artifacts and hashes.** When verification regenerates a compressed artifact, compare its decompressed payload (or a documented canonical representation of every proof-relevant field). Compression headers and streams can differ across Python, zlib and tar versions. Keep exact hashes for committed source archives and other immutable inputs; a regenerated container hash may be recorded with environment details but should not determine mathematical equality across environments. See the [community reproducibility audit](research/gzip-container-reproducibility/README.md) by Maxime Fleury, following Antoine Olivier’s independent replay findings.
+
 New contributions are under the repository's Apache-2.0 license. Retain source
 attribution and disclose substantial AI assistance. Do not describe certificate
 success as a formal verification of the full multiplication theorem.
