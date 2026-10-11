@@ -37,3 +37,5 @@ Post-factor followup: [retiming through five-operation groups, new extreme frame
 New positive hosting nomination: [exact rational scaling to84 replicas](negative-searches/rational-hosting/README.md); physical/full checks pending, initial zero-rank reporting failure retained.
 
 New structural search: [nested donor entrances](negative-searches/nested-donors/README.md), four fixed-incumbent attempts and20 fully priced local candidates, no gain; exact words, witnesses, results and initial constructor failure retained.
+
+Circuit simplification: [40 redundant additions removed and native checks passed](negative-searches/commuting-cancellations/README.md), unchanged paid profile and two subsequent retiming screens with no gain.

@@ -17,3 +17,5 @@ Fresh default8-replica combined Python3.14 replay [passed after the content-bind
 Fresh default64-replica combined Python3.14 replay [passed](replica64-full314.json), independently rebuilding both suppliers. Earlier pending statements are superseded. GitHub CI remains separate.
 
 Complete84-replica Python3.11 wrapper [passed with explicit completed-provider reuse](replica84-complete311.json). Fresh full3.14 replay remains separate.
+
+The fresh default84-replica Python3.14 wrapper [passed](replica84-full314.json), rebuilding both suppliers and all new checks. This supersedes pending statuses above; no GitHub CI pass is implied.
