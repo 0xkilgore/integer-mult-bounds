@@ -1,6 +1,6 @@
 # Research experiment log
 
-A shared record of what was tried, what happened, and when a retry is justified. This initial import covers the original100-idea campaign, two recent100-trial R715 batches, 14 additional scoped search records and 16 execution-failure attempt groups (31 retained artifacts, including propagated wrapper errors). It does not claim every historical command was recoverable. [Counts](COUNTS.json) distinguish ideas, trials, artifacts and attempts.
+A shared record of what was tried, what happened, and when a retry is justified. This initial import covers the original100-idea campaign, three recent100-trial R715 batches, 14 additional scoped search records and 16 execution-failure attempt groups (31 retained artifacts, including propagated wrapper errors). It does not claim every historical command was recoverable. [Counts](COUNTS.json) distinguish ideas, trials, artifacts and attempts.
 
 | Category | Contents |
 |---|---|
@@ -24,3 +24,5 @@ The original100-item archive is pinned to PR368 commit `fa8ab946df57ebadae1a470b
 Attribution: original campaign authors and all credited upstream contributors retain authorship; source reports and notices remain linked in the campaign archive. Index and recent R715 search/verification work by Rohan Arun with OpenAI Codex assistance. Conditional supplier/compiler and analytic assumptions remain unchanged.
 
 Latest followup: [warm kernel, target-factor composition and new recorded failures](followups/warm-kernel-and-target-factors.md).
+
+Additional completed search: [100 factored-kernel trials, no gain](kernel-search/factored-warm-100.md).

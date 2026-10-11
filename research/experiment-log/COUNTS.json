@@ -10,7 +10,7 @@
     "bounded_infeasible": 3,
     "implemented": 1
   },
-  "recent_search_trials": 200,
+  "recent_search_trials": 300,
   "negative_search_records": 14,
   "failure_artifact_files": 31,
   "failure_attempt_groups": 16,
