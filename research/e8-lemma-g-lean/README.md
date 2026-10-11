@@ -8,7 +8,7 @@ Lemma G is the entrance-gauge lemma of PR #484. It covers three steps:
 Its value is measurable. With no-bank hosting (#496/#500), the full gauge/kernel word reaches complex `b = 1.333854e-3`. The Lemma-G-free path (kernel79 only) reaches `1.310216e-3`, so Lemma G is worth +1.80% of `b`.
 
 This package splits Lemma G into two parts:
-* **an abstract lemma, proved in Lean 4** for every field, every module and every family of invertible label operators;
+* **an abstract lemma, proved in Lean 4** for every semiring (in particular every field), every module and every family of invertible label operators;
 * **finitely many instance hypotheses on the emitted streams**, checked exhaustively by Python.
 
 `PROOF.md` holds the clean statement and proof. Its §5 lists what changed relative to #484's §2.
@@ -47,20 +47,21 @@ Every theorem is general. No instance data is enumerated in Lean, and `decide` a
 
 | | hypothesis | check |
 | --- | --- | --- |
-| H1 | the emitted stream is well labelled (extended labels: tag × frame) | frames: #484 `code/lemmaG/lg_lib.check_labels` (G0, G2, G3). Tags: `code/check_extended_labels.py` (new; 4 mutants rejected) |
-| H2 | every climb and centre step executes `T_b T_a⁻¹` | #484 `lg_instances` I-tr, on all 512 basis columns of every used transition |
+| H1 | the emitted stream is well labelled (extended labels: tag × frame) | frames: #484 `code/lemmaG/lg_lib.check_labels` (G0, G2, G3). Tags: `code/check_extended_labels.py` (new; 3 adapter mutants rejected on every word, 2 wrapper mutants on the wrapper words) |
+| H2 | every climb and centre step executes `T_b T_a⁻¹`; each source and target has exactly one non-identity adapter and every other adapter is the identity, at frame 0 or FULL | #484 `lg_instances` I-tr, on all 512 basis columns of every used transition (recipes are circuits of linear primitives, so 512 columns determine them; not run on the anchor). Adapter bridge: `code/check_extended_labels.py` |
 | H3 | `S = (x,s,y) ↦ (x,s,y+x)` forward, `(x−y,s,y)` backward | #484 `lg_lib.scalar_replay`, exact, all 800 columns |
 | H4 | endpoint labels as in W | #484 G4 |
 | H5 | accounting (nested ascents, strict centre chains, mass) | #484 G2, G3, ACC |
+| H6 | #433's data-adapter identities (`T_p⁻¹M_i = C_q⁻¹`, `T_FULL T_p⁻¹M_i = F C_q⁻¹`, `N_t⁻¹T_final = F C_q⁻¹`) | `code/check_adapters.py` (new), every port, all 512 columns, exact |
 
-On the headline word, H1–H5 hold in both orientations: 0 violations, I-tr 2945/2945. With them, the Lean theorem gives the end-to-end identity of the complete emitted program **for every input**. #484's `lg_e2e.py` tests that identity on 814 sampled columns; here it follows from the exhaustive checks.
+On all four words (anchor, kernel79, gauge80, headline), H1, H3, H4, H5 and H6 hold in both orientations, with 0 violations and 0 failures; H2 (I-tr) holds on the three gauge/kernel words, 2945/2945 on the headline. Together with Lemma A (#484 I-helper), the Lean theorem then gives the end-to-end identity of the complete emitted program **for every input with empty private registers**. #484's `lg_e2e.py` tests that identity on 814 sampled columns; here it follows from the exhaustive checks.
 
 ## Trust base
 
 * **Lean kernel** (4.21.0), **Mathlib** v4.21.0 (`lake-manifest.json` pins rev `308445d`, the same as `formal/lean` on main), and the axioms `propext`, `Classical.choice`, `Quot.sound`.
 * **The Python instance checks**, as listed above, including the reading of the emitted JSON events as Lean `Event`s (PROOF.md §4, "Extended labels").
 * **Inherited interfaces outside Lemma G:**
-  * #433's data-adapter endpoint, i.e. the anchor's data block;
+  * #433's data-adapter endpoint: its three identities are now checked exhaustively (H6);
   * Lemma A, which turns `L_E⁻¹ Φ_E R_E⁻¹` into `C_[w] ⊗ I` (#484 I-helper, exhaustive);
   * #442's accounting model: a nested climb `A ⊆ B` is charged `|B| − |A|`.
 
@@ -68,12 +69,12 @@ On the headline word, H1–H5 hold in both orientations: 0 violations, I-tr 2945
 
 ```sh
 python3 research/e8-lemma-g-lean/verify.py                                       # Lean: manifest, source scan, cache get, build, axioms
-python3 research/e8-lemma-g-lean/verify.py --instances /abs/out/of/484/verify    # also the extended-label instance check
+python3 research/e8-lemma-g-lean/verify.py --instances /abs/out/of/484/verify    # also the instance checks (numpy)
 ```
 
-* Requirements: elan on `PATH` (`lean-toolchain` pins `leanprover/lean4:v4.21.0`), network access for `lake exe cache get`, and Python 3.9+.
+* Requirements: elan on `PATH` (`lean-toolchain` pins `leanprover/lean4:v4.21.0`), network access for `lake exe cache get`, and Python 3.9+ (with numpy for `--instances`, as #484's stage).
 * A cold run downloads Mathlib's prebuilt cache, then builds this package's five modules in about a minute.
-* `--instances` needs the output directory of #484's `verify.py`, which takes about 25 minutes. It checks every word present: the headline and the anchor, plus gauge80 and kernel79 when #484 ran with `--all`.
+* `--instances` needs the output directory of #484's `verify.py`, which takes about 25 minutes. It checks every word present: the headline and the anchor, plus gauge80 and kernel79 when #484 ran with `--all`. For each word it confirms that #484's own checks passed on inputs equal to #484's `EXPECTED.json`, then runs H1 (tags) and H6. The #484 files it imports or compares against are pinned in `MANIFEST.json` (`external_files`).
 
 ## Files
 
@@ -84,7 +85,8 @@ python3 research/e8-lemma-g-lean/verify.py --instances /abs/out/of/484/verify   
 | `LemmaG/Frames.lean` | the frames of F₂⁹ satisfy the order hypotheses |
 | `LemmaG/BitEntrance.lean` | the bit-side identities |
 | `PrintAxioms.lean` | the axiom probe |
-| `code/check_extended_labels.py` | instance check H1, tags |
+| `code/check_extended_labels.py` | instance check H1: tags and the adapter/wrapper bridge, with mutants |
+| `code/check_adapters.py` | instance check H6: #433's data-adapter identities |
 | `verify.py`, `MANIFEST.json` | the check script and the sha256 of every file |
 
 ## Credits

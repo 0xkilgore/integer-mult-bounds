@@ -4,7 +4,7 @@ Lemma G is the entrance-gauge lemma of PR #484 (`research/e8-complex-gauge-kerne
 frames, labelled targets, and the centre scatter along a chain. This file splits it into
 
 * **(i) an abstract lemma**, proved once for all: Theorems 1–4 below, formalised in Lean (`LemmaG/*.lean`, names in brackets), and
-* **(ii) instance hypotheses H1–H5** on the emitted streams, checked exhaustively by Python: #484's stage `code/lemmaG/` and
+* **(ii) instance hypotheses H1–H6** on the emitted streams, checked exhaustively by Python: #484's stage `code/lemmaG/` and
   this package's `code/check_extended_labels.py`.
 
 §5 lists what changed relative to #484's §2.
@@ -136,20 +136,23 @@ These are the two identities of the bit-side entrance transfer (`D_I D_E = D_{E�
 
 | | hypothesis | where it is checked | result (headline word, both orientations) |
 | --- | --- | --- | --- |
-| H1 | well labelled in the extended labels | frames: #484 `lg_lib.check_labels` (G0 at every add and copy, G2 climb source, G3 centre-step source and copy label); tags: `code/check_extended_labels.py` | 0 violations; 4 tag mutants rejected |
-| H2 | exact recipes | climbs and centre steps: #484 `lg_instances` I-tr, every used transition on all 512 basis columns; adapters and wrappers: by the definition of the extended family | 2945 transitions, 0 failures |
+| H1 | well labelled in the extended labels | frames: #484 `lg_lib.check_labels` (G0 at every add and copy, G2 climb source, G3 centre-step source and copy label); tags: `code/check_extended_labels.py` | 0 violations on all four words; 3 adapter mutants rejected on every word, plus 2 wrapper mutants on the three wrapper words |
+| H2 | exact recipes | climbs and centre steps: #484 `lg_instances` I-tr, every used transition on all 512 basis columns (not run on the anchor); a recipe is a circuit of linear primitives, so it is `C`-linear and 512 columns determine it on every vector. Adapters and wrappers: exact by the definition of the extended family, given the bridge that `code/check_extended_labels.py` enforces, as `lg_phys.run` executes it: each source has exactly one entry adapter, `(pre,i) → T`, executing `M_i`; each target has exactly one exit adapter, `T → (post,t)`, executing `N_t⁻¹`; every other adapter has no serialized operator, i.e. is the identity, at frame 0 (entry) or FULL (exit); each entering helper has exactly one pre and one post wrapper, keyed by its start frame (#484 G1 also checks this) | 2945 transitions, 0 failures |
 | H3 | `S` = `(x,s,y) ↦ (x,s,y+x)` forward, `(x−y,s,y)` backward | #484 `lg_lib.scalar_replay`, exact rational replay, all 800 columns; private copies cleared | exact |
 | H4 | endpoint labels | #484 G4: sources at their port lines, targets at 0, helpers at 0 or `E_j`; final labels as in W | 0 violations |
 | H5 | accounting | #484 G2 (ascending nested climbs), G3 (strict nested centre steps), ACC (per-register telescoping, centre mass `dim c_k`, paid profile = `local_profile`) | 0 violations |
+| H6 | #433's data-adapter identities: `T_{p_i}⁻¹ M_i = C_{q_i}⁻¹`, `T_FULL T_{p_i}⁻¹ M_i = F C_{q_i}⁻¹`, `N_t⁻¹ T_{final_t} = F C_{q_i}⁻¹` | `code/check_adapters.py`, every port, all 512 basis columns, exact | 0 failures on all four words |
 
 **Lemma G.** Assume H1–H4 hold for the emitted word V of a variant. Then for **every** input with empty private registers, each orientation of V computes `D(λ¹) S D(λ⁰)⁻¹` (Theorem 1). By Corollary 2 and H3:
-* *Sources and targets.* Each row is `e_r` or `e_r ± e_{pair(r)}`, and the labels at both ends are W's (H4, with the same adapters). The data block is therefore **W's data block**.
+* *Sources and targets.* Each row is `e_r` or `e_r ± e_{pair(r)}`, and the labels at both ends are W's (H4, with the same adapters). The data block is therefore **W's data block**. With H6 it is the intended #433 transform: source `i ↦ F x_i` and target `v+i ↦ F C_{q_i}⁻¹(h_{v+i} + x_i)` forward, with `x_i = C_{q_i}⁻¹ h_i`, and the backward rows likewise.
 * *Cross blocks.* No helper column enters a data row, and no data column enters a helper row. So the cross blocks are 0.
 * *Helpers.* The block of entering helper `j` is
 
   `T_(done,j) T_(prew,j)⁻¹ = L_E⁻¹ · T_FULL T_E⁻¹ · R_E⁻¹ = L_E⁻¹ Φ_E R_E⁻¹`,
 
   which is the virtual entrance of #471/#458 with its wrappers. Lemma A (#484 I-helper) evaluates it to `C_[w] ⊗ I`.
+
+Hence, given H1–H6 and Lemma A, the complete emitted program equals #484's end-to-end formula on every input with empty private registers. #484's `lg_e2e.py` sampled 814 columns of that identity.
 
 Assume H5 as well. By Theorem 4, each non-private register pays `rk λ¹ − rk λ⁰`, and each centre copy pays `dim c_k`. The only start labels that differ from W are `λ⁰_j = E_j`, and the final labels agree. So the local mass is `mass(W) − Σ_j dim E_j`.
 
@@ -167,7 +170,7 @@ Assume H5 as well. By Theorem 4, each non-private register pays `rk λ¹ − rk 
 ## 5. Changes relative to #484 PROOF.md §2
 
 1. **Relabel source.** Lemma C's hypothesis named only G0 for adds and copies. The proof also needs every climb or centre step `A → B` to find its register at `A`. This is now part of admissibility. #484's checker already enforced it (G2, G3).
-2. **Adapters and wrappers are not endpoint operators in stream order.** The entry adapters run after the frame-zero preconditioner, and the exit adapters before the full-frame cleanup. In the headline forward stream, 550 entry adapters are not the first event on their register and 672 exit adapters are not the last. They are now relabel events of the extended label set, so Theorem 1 covers the whole stream. The tag condition this needs is checked by the new `code/check_extended_labels.py`. Every variant passes, and four mutants are rejected: a dropped source entry adapter, a target exit adapter moved before the target's last add, a dropped `R_E⁻¹`, and an `L_E⁻¹` moved before the helper's last add.
+2. **Adapters and wrappers: an implicit commutation step.** #484 §2.1 left adapters and wrappers outside Lemma C as endpoint operators. Register-wise this is right. In every word and orientation, each non-identity adapter and each wrapper is the first or last event on its register. The adapters that sit mid-stream (headline forward: 550 entry, 672 exit) are all identities. But Lemma C as stated covers a stream without adapter events. Using it needs the unwritten step "an operator that is first (last) on its register commutes past every event on other registers", which #484 checked only indirectly (phase order, G0, G4). The clean proof reads adapters and wrappers as relabel events of an extended label set, so Theorem 1 covers the whole stream. The condition this needs is checked directly by the new `code/check_extended_labels.py`, including the bridge in the H2 row. All four words pass. Three mutants are rejected on every word: a dropped source entry adapter, a duplicated source entry adapter, and a target exit adapter moved before the target's last add. Two more are rejected on the three wrapper words: a dropped `R_E⁻¹`, and an `L_E⁻¹` moved before the helper's last add.
 3. **From the rational replay to the action on `H`.** "S, the rational matrix of the scalar events" is now a proved step: `scalRun_eq_sum` and `S_rowform`. That step also explains why the replay's empty private copies are harmless.
 4. **Minimal label condition.** Exactness needs `λ_t = λ_s` at an add, `λ_r = F` at a copy, and nothing at a scale. The checker's G0 (operands at the annotated frame, scale at its operand's label) is stronger.
 5. **(a)–(d) are not needed for exactness at all** (Theorem 3.1). #484 says (b), (c) and nestedness are accounting conditions. The clean proof also places (a) and (d) there, and confirms that the emitter's well-labelledness uses only "partners do not move, partners at their frames". This matches the mutant classification of #484 §2.6 (M3, M3b, M7, M8: physics PASS).
@@ -176,3 +179,4 @@ Assume H5 as well. By Theorem 4, each non-private register pays `rk λ¹ − rk 
    * the private copy is not a served target;
    * Claim 2's "dim E ≤ dim E′ ⇒ E ⊆ E′ in a chain" needs a strictly monotone rank (Lemma 3.0).
 7. **The kernel updates** are an instance of the same emitter, with the donor as mover. Their exactness therefore needs only the class entrance condition of Lemma K.
+8. **The "every input" claim names its inherited facts.** It rests on #433's data-adapter identities, now checked exhaustively (H6, `code/check_adapters.py`), and on Lemma A (#484 I-helper, exhaustive). It holds for inputs with empty private registers.
