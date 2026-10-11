@@ -1,0 +1,41 @@
+{
+ "format": "e8-lemma-g-lean-v1",
+ "lean_toolchain": "leanprover/lean4:v4.21.0",
+ "mathlib": {
+  "inputRev": "v4.21.0",
+  "rev": "308445d7985027f538e281e18df29ca16ede2ba3"
+ },
+ "library": "LemmaG",
+ "modules": [
+  "LemmaG.Stream",
+  "LemmaG.Schedule",
+  "LemmaG.Frames",
+  "LemmaG.BitEntrance"
+ ],
+ "main_theorem": "LemmaG.Stream.conj_matrix",
+ "axiom_probe": "PrintAxioms.lean",
+ "allowed_axioms": [
+  "Classical.choice",
+  "Quot.sound",
+  "propext"
+ ],
+ "instance_check": "code/check_extended_labels.py (reads the output of PR #484 verify.py)",
+ "files": {
+  ".gitignore": "d4e3917adcfaaa8d53ccc3eb2c9c3423307b0de18d8efbb32e3a92aa53ffb0f9",
+  "LICENSE": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+  "LemmaG.lean": "ac5ab476d9c8e29de95b92844bdb3d9a59f108dfffb89c31ea65e413d0f4c09b",
+  "LemmaG/BitEntrance.lean": "49872d04ec0cb0035a741075e3d593563a55ba8b5642cd225a8d06c166e890c8",
+  "LemmaG/Frames.lean": "64e9bf83af211fd75ac2c7877b98604b11e2ba90b8e918435b92d0dcea0ccef7",
+  "LemmaG/Schedule.lean": "df2c5feb64185810038b5095abc41c5455de3499b584acfea53c607233703ebb",
+  "LemmaG/Stream.lean": "7138f4b859d0574a803e99401f05ef5e0ec9eeac0eb480775cd9b86595c365f8",
+  "NOTICE.md": "41b01b1317c56c28d0606086e429fb1121dab2d17db58d7932b27d2bb4ad38b8",
+  "PROOF.md": "5373c3a5eaca79987d9762d186e06de6270127020357835ac36988589dabbe85",
+  "PrintAxioms.lean": "6f3032539edaf260f66c9cf65d152f15d3735245ca9919fb5f4c921223e2436d",
+  "README.md": "8dbcc40fbf92da1983f398a8ab0b748cdbf339df36577cd5737e6681a9cfd4a7",
+  "code/check_extended_labels.py": "ff750dadacf6ab445a1125037a87f3f59c1530c3e1d6ad2721deb50660452d8a",
+  "lake-manifest.json": "a6082ec3e086d463f5eb3ba1befdbec45e868e2b328c6b066e25fcc82d1353f8",
+  "lakefile.toml": "0d6ef7ebfd0c900dde7c8b5075ec4b7b47942e801dc5effb4288e078c17e203b",
+  "lean-toolchain": "d24fed434d3b13adfaab57724a0a7f270ea8bf1c818b5ae5cf25cbce24dd685c",
+  "verify.py": "7855e90eea5a6d80364296f9237c4696fee1de1d93d3b79e7030ed77e9ba57f4"
+ }
+}
