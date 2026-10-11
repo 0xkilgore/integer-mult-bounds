@@ -57,3 +57,5 @@ Coordinated complex gauges: [476 trials, 22 profile classes, all-hosted and bank
 Retimed-frontier followup: [PR501 directed closures, 400 neutral moves, and six stage-count models](negative-searches/complex501-followups/README.md), all with no improvement in their tested neighborhoods.
 
 Stage-dependent composition: [retimed gauge/kernel trade searches, every homogeneous loser, and the mixed-word nomination](negative-searches/complex501-gauge-trades/README.md). The new computed candidate is in draft PR473 pending physical admission.
+
+- [Asynchronous scheduling followups](negative-searches/async505-schedules/README.md):10,224 fixed-map rejections, two no-gain allocation models,48 new orders, original execution/matching failures and repaired explicit owner construction.
