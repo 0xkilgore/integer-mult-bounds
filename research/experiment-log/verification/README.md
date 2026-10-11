@@ -15,3 +15,5 @@ The complete64-replica Python3.11 wrapper [passed with explicit completed-provid
 Fresh default8-replica combined Python3.14 replay [passed after the content-binding repair](complex79-full314.json). The original failures remain retained. This is separate from the later64-replica full replay.
 
 Fresh default64-replica combined Python3.14 replay [passed](replica64-full314.json), independently rebuilding both suppliers. Earlier pending statements are superseded. GitHub CI remains separate.
+
+Complete84-replica Python3.11 wrapper [passed with explicit completed-provider reuse](replica84-complete311.json). Fresh full3.14 replay remains separate.

@@ -35,3 +35,5 @@ Latest recorded failure: [complex-template hash mismatch](execution-failures/com
 Post-factor followup: [retiming through five-operation groups, new extreme frames and delivery reordering](negative-searches/factored-retiming/README.md), all with no gain and an initial reporting failure retained.
 
 New positive hosting nomination: [exact rational scaling to84 replicas](negative-searches/rational-hosting/README.md); physical/full checks pending, initial zero-rank reporting failure retained.
+
+New structural search: [nested donor entrances](negative-searches/nested-donors/README.md), four fixed-incumbent attempts and20 fully priced local candidates, no gain; exact words, witnesses, results and initial constructor failure retained.
