@@ -1,0 +1,24 @@
+# Research experiment log
+
+A shared record of what was tried, what happened, and when a retry is justified. This initial import covers the original100-idea campaign, two recent100-trial R715 batches, 14 additional scoped search records and 16 execution-failure attempt groups (31 retained artifacts, including propagated wrapper errors). It does not claim every historical command was recoverable. [Counts](COUNTS.json) distinguish ideas, trials, artifacts and attempts.
+
+| Category | Contents |
+|---|---|
+| [Original100 ideas](campaign-100/README.md) | Eight topic files; successes, scoped failures, partial work and40 proposals with no execution evidence |
+| [From-scratch kernel trials](kernel-search/from-scratch-100.md) | All100 trials, no improvement over the fixed baseline; exact input witnesses retained |
+| [Retain-and-repair trials](kernel-search/retain-and-repair-100.md) | All100 trials, including losers and improved candidates; parameters and limits retained |
+| [Other negative searches](negative-searches/results.json) | Retiming, target mixing, donor/entrance search, stage counts, solver timeouts and rejected interface |
+| [Execution failures](execution-failures/index.json) | Separate files for storage, compiler, dependency, path, serialization, metadata and assertion failures |
+| [Completed verification](verification/README.md) | Reusable full/component receipts with explicit scope |
+
+## Before repeating an experiment
+
+Read the matching category and exact source record. Compare the source word/hash, baseline, assumptions, objective, seed range, parameter choices and verifier scope. Reuse a completed matching run when possible. Record the concrete changed assumption, input, search neighborhood or repaired environment that justifies a retry. A time limit is not infeasibility; a losing finite search is not a global impossibility; an environment error is not a mathematical rejection.
+
+For future entries use [ENTRY-TEMPLATE.json](ENTRY-TEMPLATE.json). Keep raw failures and correction records; add a superseding entry instead of overwriting history. Store one file per coherent experiment or batch within its topic, with stable IDs and evidence paths/hashes. Keep successful and failed runs together so the baseline is reproducible. Contributors should summarize what went wrong and what future agents should check first.
+
+## Evidence and limits
+
+The original100-item archive is pinned to PR368 commit `fa8ab946df57ebadae1a470b637c2a590a0a5317`. Recent PR473 evidence is pinned to `31e557d09c0d55959c91fd27d903bed46fe2d607`. Local import sources and SHA256 hashes are in [PROVENANCE.json](PROVENANCE.json). Paths inside historical raw records identify their original workspace; category links are the public navigation. Archived [discovery scripts](discovery-scripts/README.md) preserve the search recipe but require their original dependencies. This publication reorganizes evidence; it does not rerun or independently validate every historical claim.
+
+Attribution: original campaign authors and all credited upstream contributors retain authorship; source reports and notices remain linked in the campaign archive. Index and recent R715 search/verification work by Rohan Arun with OpenAI Codex assistance. Conditional supplier/compiler and analytic assumptions remain unchanged.
