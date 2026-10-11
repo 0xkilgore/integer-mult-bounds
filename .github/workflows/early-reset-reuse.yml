@@ -1,4 +1,4 @@
-name: Verify early reset reuse
+name: Verify early reset and kernel composition
 on: [push, pull_request]
 jobs:
   verify:
@@ -12,7 +12,7 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: ${{ matrix.python }}
-      - run: python -B research/e8-early-reset-reuse/verify.py "$RUNNER_TEMP/early-reset-reuse"
+      - run: python -B research/e8-early-reset-kernel/verify.py "$RUNNER_TEMP/early-reset-reuse"
       - uses: actions/upload-artifact@v4
         if: always()
         with:
