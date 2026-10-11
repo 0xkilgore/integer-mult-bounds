@@ -6,7 +6,9 @@ def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()
 c=json.load(gzip.open(O/'CANONICAL-WORD.json.gz'))
 r=json.loads((P/'inputs/complex-phase-receipt.json').read_text())
 raw=gzip.decompress((P/'inputs/complex-phase-recipes.json.gz').read_bytes());recipes=json.loads(raw)
-assert sha(O/'CANONICAL-WORD.json.gz')==r['canonical_word_sha256']
+# Bind the exact decoded witness, independently of gzip implementation metadata.
+assert hashlib.sha256(gzip.decompress((O/'CANONICAL-WORD.json.gz').read_bytes())).hexdigest()==r['canonical_word_payload_sha256']
+r['canonical_word_sha256']=sha(O/'CANONICAL-WORD.json.gz')
 assert hashlib.sha256(raw).hexdigest()==r['recipe_sha256']
 edges=set(map(tuple,c['edges']))|{(a,b) for f in c['center_frames'] for a,b in ((f,0),(0,f))}
 assert {(z['old'],z['new']) for z in recipes['children']}==edges

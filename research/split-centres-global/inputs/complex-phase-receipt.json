@@ -18,5 +18,6 @@
   "all_child_equalities_include_global_phase": true,
   "recipe_sha256": "242fe77af077973e1933524fe5c7ff3b68bef14b1f6938e024827de78d954492",
   "seconds": 17.302232877002098,
-  "scope": "Every local frame and center transition. Expanded scalar-interface integration and global emitted program are separate obligations."
+  "scope": "Every local frame and center transition. Expanded scalar-interface integration and global emitted program are separate obligations.",
+  "canonical_word_payload_sha256": "be2d8d412b948bce50a0fc852ab4c01f57bff4c3c8272da80c09be5bcdf253bf"
 }

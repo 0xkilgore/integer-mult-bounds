@@ -33,7 +33,9 @@ steps=[]
 def run(name,file,*args):
  with (out/(name+'.log')).open('w') as log:
   r=subprocess.run([sys.executable,'-B',str(ROOT/file),*map(str,args)],cwd=out,env=env,stdout=log,stderr=subprocess.STDOUT)
- assert r.returncode==0,(name,str(out/(name+'.log')))
+ if r.returncode:
+  print((out/(name+'.log')).read_text()[-16000:],file=sys.stderr,flush=True)
+  raise RuntimeError((name,r.returncode,str(out/(name+'.log'))))
  steps.append(name);print('PASS',name,flush=True)
 run('hamming_packets','vendor/hamming_packets.py')
 for name in ('complex_construct','complex_audit','complex_emit','complex_phases','bit_construct'):run(name,'code/'+name+'.py')
