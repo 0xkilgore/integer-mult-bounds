@@ -5,6 +5,7 @@ import LemmaA
 #print axioms LemmaA.family_endpoint
 #print axioms LemmaA.endpoint_indep
 #print axioms LemmaA.commute_of_disjoint
+#print axioms LemmaA.commute_of_not_mem
 #print axioms LemmaA.shuffle_eval
 #print axioms LemmaA.whole_invocation
 #print axioms LemmaA.split_off
