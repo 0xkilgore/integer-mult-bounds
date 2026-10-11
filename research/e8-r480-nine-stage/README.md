@@ -48,7 +48,8 @@ P. Parent: #503's `verify.py` (`--light` in light mode; full mode also runs #493
    with the 10^-16 bad-branch allowance (next grid point rejected). Then #493's per-supplier outer loop, verbatim:
    six bootstrap levels, 47 strict inequalities, next_grid / zero_eta / zero_beta / unit_beta controls. It is run with
    #484, #471 and #458 (cited complex b, `data/complex-b.json` of #493).
-5. Every number against `EXPECTED.json`.
+5. Findings (a) and (b) below, on R480 and R489.
+6. Every number against `EXPECTED.json`.
 
 ```sh
 BOOST_INCLUDE=/path/to/boost python research/e8-r480-nine-stage/verify.py /absolute/new/output --light   # 10 to 15 minutes
@@ -57,6 +58,47 @@ BOOST_INCLUDE=/path/to/boost python research/e8-r480-nine-stage/verify.py /absol
 
 Finite invoice (nine-stage, as in #463): prefix 193 bits (charged 256), two-level coefficient 425 bits (charged 512),
 row coefficient 18,355 < 20,161, halving depth 2.
+
+## Findings on the R489 family (knowledge)
+
+Checked by `verify.py` (step 5, on R480 and on #493's R489):
+
+- **(a) R480 is LP-optimal for its skeleton.** `code/findings/flowlp2.py` solves a min-flow LP on the frame lattice of
+  one 4-frame. Registers are unit flows, sources are free at their lines, helpers are born at frame zero, and the
+  dual is a max-weight antichain. The lattice has the 4 lines, the 6 cells and two transverse quads per cell. The
+  node lower bounds come from the junk-dimension lemma: two dirty branches of a cell span only one vector that
+  carries the cell sum. So a cross cell needs ≥ 3 registers, and a matching cell, whose two pure sources bring no
+  junk dimension, needs ≥ 4. The optimum is **16 helpers per 4-frame, 480 over the 30 frames**. Without these bounds
+  the optimum is 8. The bound rests on three hypotheses:
+  - (H1) 3 branches per source (the spherical 4-design carrier bound);
+  - (H2) every cell sum feeds 2 transverse quads;
+  - (H3) the matching-cell sources feed the block frame.
+
+  `code/findings/levels.py` reads R480's own frame visits and shows the word attains every node bound. Its 120 cross
+  cells hold 3 helpers each, and its 60 matching cells hold 2 helpers and 2 sources each. Each of the 480 helpers
+  stands at exactly one cell and at exactly one D6 frame, so **levels 2 and 6 are tight antichains**. Levels 1, 4
+  and 7 carry 240, 360 and 240 helpers. A word with fewer helpers must break H1, H2 or H3.
+- **(b) Kernel pivots are exactly 0.** `code/findings/piv0.py` checks R480 and R489. Each of the 120 root-line
+  entrance classes (the helpers whose first frame contains the line) has linearly independent delivery vectors,
+  i.e. nullity 0. Nullity is monotone, and coordinate and higher-rank entrance classes are sub-classes. So the
+  maximum pivot count of #443's kernel is 0 for coordinate and root-line entrances of any rank. Every residual stays
+  width 8. That is why the eleven-stage schedule's rank-7 idle children stay unhostable, and why nine stages win.
+
+Exploration outside the package, not run by `verify.py`:
+
+- **(c) The helper ledger is at its floors.** There are 240 carriers, at the 4-design bound (two per source). The
+  other 240 registers are the junk-dimension count per cell: one extra per cross cell, two per matching cell. Every
+  shared symbol is held by exactly as many registers as the Dilworth width χ of its read frames. So the
+  copy-removal methods built on the #370-lattice words (read-then-climb, XOR fusion, Bcw inlining with ILP chains)
+  have nothing to act on here.
+- **(d) Idle fusion has no legal glue.** Fusing a pair's successive idle advances would put the rank-7 children to
+  use, but it needs glue between the pair's two members, and none is legal:
+  - An X→Y bridge add mixes frames at rank 1 in #445's geometry (X wires contain the line q, Y wires do not).
+  - With X→X and Y→Y shears only, a Gröbner-basis test finds no glue for K = 2..5 (the basis is [1], so there is no
+    solution even over ℂ).
+
+  A check that compares only pair levels misses the X/Y frame difference. #493's own audit hard-codes the twin
+  X→X/Y→Y form, so it is not affected.
 
 ## Scope (stated plainly)
 

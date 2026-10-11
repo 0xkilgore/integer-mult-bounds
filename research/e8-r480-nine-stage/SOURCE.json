@@ -89,5 +89,19 @@
    "sha256": "d8b90cd5d152df3c7c351230863d9e61816ad5e1f21d69bea1a86a5daad559a3",
    "lineage": "PR #442 (DaysSky / Claude), research/idle-axis-hosting, vendored unchanged by PR #463"
   }
+ },
+ "findings": {
+  "code/findings/flowlp2.py": {
+   "origin": "DreamingOfClouds research notes (frame-lattice entropy/LP scout, Claude Sonnet 5.5 via Claude Code), not from a PR; byte-identical to the research copy",
+   "sha256": "2e778aa9adaee190f9b72a6dac45b5fdeac04110baa00cdc1b0ff49e2ae84554"
+  },
+  "code/findings/piv0.py": {
+   "origin": "DreamingOfClouds research notes (R489 toolbox pass, Claude Opus 5.5 via Claude Code), not from a PR; byte-identical to the research copy",
+   "sha256": "b6dea0162404d7a54d1e20c4b14720f00239eb4512187e09e6eb8e075887a00e"
+  },
+  "code/findings/levels.py": {
+   "origin": "new in this package",
+   "sha256": "366a56e07b61df63b46eb50dba4843e9416a63eb993106f1d139742d575767db"
+  }
  }
 }

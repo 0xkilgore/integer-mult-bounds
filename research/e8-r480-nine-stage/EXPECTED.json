@@ -61,5 +61,42 @@
   "bit_lower": "391360506745414227149/250000000000000000000000",
   "bit_lower_decimal": "0.001565442026981656908596",
   "stages": 11
+ },
+ "findings": {
+  "lp_helpers_per_4frame": 16,
+  "lp_total": 480,
+  "levels": {
+   "1": {
+    "frames": 120,
+    "helper_visits": 240
+   },
+   "2": {
+    "frames": 180,
+    "helper_visits": 480
+   },
+   "4": {
+    "frames": 60,
+    "helper_visits": 360
+   },
+   "6": {
+    "frames": 180,
+    "helper_visits": 480
+   },
+   "7": {
+    "frames": 120,
+    "helper_visits": 240
+   }
+  },
+  "cells": {
+   "2,2,0": 60,
+   "3,0,0": 120
+  },
+  "d6": {
+   "2,1,2": 60,
+   "3,0,0": 120
+  },
+  "pivots_max": 0,
+  "line_classes": 120,
+  "class_nullity": 0
  }
 }

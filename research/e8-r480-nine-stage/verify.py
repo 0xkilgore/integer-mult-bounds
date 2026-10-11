@@ -131,7 +131,36 @@ run([PY, '-B', HERE / 'code/assemble9.py', V9, V9 / 'hosted', V9 / 'hosted/AUDIT
 r = json.loads((WD / 'RESULT.json').read_text())
 
 # ------------------------------------------------------------------------------------------------------------------
-step('5. summary against EXPECTED.json')
+step('5. findings on the R489 family: (a) LP floor and tight levels, (b) kernel pivots')
+FD = HERE / 'code/findings'; ef = EXP['findings']
+# (a) min-flow LP on the frame lattice of one 4-frame with the junk-dimension node bounds (cross cell >= 3, matching >= 4)
+out = run([PY, '-B', FD / 'flowlp2.py']).stdout
+assert 'no junk lemma (donors + 2 wires per cell only): 8.0 per 4-frame' in out
+assert 'junk lemma node inflow cross>=3, matching>=4: 16.0 per 4-frame -> 480.0 +9 totals = 489.0' in out
+# ... and R480's own frame visits: every node bound attained, levels 2 (180 cells) and 6 (180 D6 frames) tight
+lv = {}
+for name, w in (('r480', WORD), ('r489', PARENT / 'data/bit/bitE8mut-r489.json.gz')):
+    run([PY, '-B', FD / 'levels.py', w, WD / ('levels-%s.json' % name)])
+    lv[name] = json.loads((WD / ('levels-%s.json' % name)).read_text())
+    assert lv[name]['levels'] == ef['levels'] and lv[name]['cells'] == ef['cells'] and lv[name]['d6'] == ef['d6'], name
+a = lv['r480']
+assert a['R'] == 480 and a['levels']['2']['helper_visits'] == a['levels']['6']['helper_visits'] == 480
+assert a['cells'] == {'2,2,0': 60, '3,0,0': 120}      # matching cells: 2 helpers + 2 sources = 4; cross cells: 3 helpers
+print('   (a) LP: 16 helpers per 4-frame -> 480 (8 without the junk-dimension bounds). R480 attains it: every cross cell'
+      ' holds 3 helpers, every matching cell 2 helpers + 2 sources; all 480 helpers visit exactly one cell (level 2) and'
+      ' exactly one D6 frame (level 6), so both antichains are tight; levels 1/4/7 carry %d/%d/%d. R489 has the same'
+      ' visits plus its 9 fresh totals.' % (a['levels']['1']['helper_visits'], a['levels']['4']['helper_visits'], a['levels']['7']['helper_visits']))
+# (b) kernel pivots: every root-line entrance class has independent delivery vectors
+for name, w in (('r480', WORD), ('r489', PARENT / 'data/bit/bitE8mut-r489.json.gz')):
+    out = run([PY, '-B', FD / 'piv0.py', w, WD / ('piv0-%s.json' % name)]).stdout
+    assert 'class nullity Counter({0: 120})' in out and 'sum nullity all 0 coord 0' in out, name
+    assert name == 'r480' or 'class sizes Counter({6: 120})' in out
+print('   (b) kernel pivots: on R480 and R489 all 120 root-line entrance classes (on R489 6 helpers each: 2 carriers of'
+      ' the line, 4 cell registers through it; on R480 the 9 total hosts are excluded, as the kernel requires) have'
+      ' nullity 0, so the maximum pivot count is 0 for coordinate and root-line entrances of any rank')
+
+# ------------------------------------------------------------------------------------------------------------------
+step('6. summary against EXPECTED.json')
 e = EXP['nine']
 assert r['bit_lower'] == e['bit_lower'] and r['bit_profile'] == e['profile']
 for k_ in e['bit']: assert r['bit'][k_] == e['bit'][k_], k_

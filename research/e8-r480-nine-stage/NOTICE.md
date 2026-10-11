@@ -9,6 +9,9 @@ Apache-2.0 (`LICENSE`). Prepared by DreamingOfClouds with Claude Opus 5.5 (Anthr
 - `code/adapt.py`: writes the adapted `audit_parent_k.py` (2 listed edits, each anchor checked to occur exactly once).
 - `data/selection9-r480.json`: the nine-stage hosting selection, nominated by PR #442's programme through the vendored
   `emit_k.py --discover` and rediscovered by `verify.py`.
+- `code/findings/levels.py` (frame-level register visits). `code/findings/flowlp2.py` (the junk-dimension min-flow LP) and
+  `code/findings/piv0.py` (pivot classes) are byte-identical copies of DreamingOfClouds research scripts (Claude Sonnet 5.5 /
+  Claude Opus 5.5 via Claude Code), not from a PR; sha256 in `SOURCE.json`.
 - `verify.py`, `EXPECTED.json`, `MANIFEST.json`, `SOURCE.json`, `README.md`.
 
 ## Vendored, byte-identical (`vendor/`; git blob ids and sha256 in `SOURCE.json`, recomputed by `verify.py`)
