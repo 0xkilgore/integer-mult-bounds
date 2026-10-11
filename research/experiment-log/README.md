@@ -26,3 +26,5 @@ Attribution: original campaign authors and all credited upstream contributors re
 Latest followup: [warm kernel, target-factor composition and new recorded failures](followups/warm-kernel-and-target-factors.md).
 
 Additional completed search: [100 factored-kernel trials, no gain](kernel-search/factored-warm-100.md).
+
+New replication screen: [ten counts with all results and assignments](negative-searches/factored-replica-screens.md); best aggregate remains physically unverified.
