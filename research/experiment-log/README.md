@@ -45,3 +45,5 @@ Hierarchy search: [all 424 alternatives and the baseline](negative-searches/hier
 Changed-stock followup: [R714 exact local replay and40 kernel trials](negative-searches/r714-kernels/README.md), including the infeasible no-kernel baseline and both no-gain batches. [Replica28 initial manifest failures](execution-failures/response-replica28-manifest/README.md) preserve both Python-version attempts and the root-only inventory correction.
 
 New composition screen: [PR485 selection plus target factors, response packets and nested promotions](negative-searches/pr485-composition/README.md): five variants, two distinct words, both below the submitted bound.
+
+Kernel basis followup: [eight no-gain donor-expression runs, four basis-exchange runs and the cancellation-first hypothesis](kernel-search/nested-basis-exchanges/README.md). All endpoints, seeds, histories, exact prices and losing alternatives are retained. The successful rank139 candidate is published separately in PR473.
