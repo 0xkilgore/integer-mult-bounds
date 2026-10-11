@@ -55,3 +55,5 @@ Complex-side frontier followups: [PR496 packing, entrance, basis and retiming sc
 Coordinated complex gauges: [476 trials, 22 profile classes, all-hosted and bank-permitting prices](negative-searches/complex496-coordinated-gauges/README.md), with no admitted gain.
 
 Retimed-frontier followup: [PR501 directed closures, 400 neutral moves, and six stage-count models](negative-searches/complex501-followups/README.md), all with no improvement in their tested neighborhoods.
+
+Stage-dependent composition: [retimed gauge/kernel trade searches, every homogeneous loser, and the mixed-word nomination](negative-searches/complex501-gauge-trades/README.md). The new computed candidate is in draft PR473 pending physical admission.
