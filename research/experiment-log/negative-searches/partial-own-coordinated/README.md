@@ -11,3 +11,14 @@ The aggregate fixed-order LP showed a floating cost gain of 50.13743185065687. A
 The next search incorporates pattern-to-call constraints jointly with pattern selection; its script is retained, but this snapshot makes no claim about its unfinished solve. The published verified PR473 value remains conditional kappa 0.001388049083313897.
 
 Scripts retain original frontier390 discovery paths. Full source and licenses are preserved in PR473 complex-partial-own-async; these are historical experiment records, not standalone verification entrypoints. Credit eumemic for the new factory, Dugongue for coordinated gauges and asynchronous scheduling, retained earlier authors, and Rohan Arun with OpenAI Codex assistance for this composition attempt.
+
+
+## Completed followup
+
+The joint full-pattern LP has the same floating bound, gain50.13743185072963, but its 180-second MILP run ended without an integer incumbent. This is a search timeout, not evidence of infeasibility.
+
+A restricted joint pattern/call model (menu frozen from the failed candidate plus homogeneous fillings and empty patterns) found a feasible integer allocation with the same gain43.48133549315389. It reports gap0 within that restricted floating model; this is not an exact or unrestricted optimality proof. Crucially, its pattern counts can differ across groups, and its per-pattern call capacities are enforced during optimization. Literal coloring then succeeds for all40,320 helper roles.
+
+Fresh global controller/chart audit, invoice and exact assembly subsequently passed: conditional kappa0.001388082565814657, b0.001390012017262092088600. It improves the preceding verified result by0.0024121986 percent. All2,963 actual charts pass and19 mutated controllers are rejected; prefix205, charged512, row16467<20161. Two exact moment engines, six bootstrap steps,47 strict inequalities and four outer controls pass. New local physics was freshly checked; the unchanged partial-own factory/provider is reused and unchanged bit493 operator cited/repriced. The packaged wrapper passes with published byte-pinned completed inputs and fresh reconstruction plus async stages. No cold package or CI pass claimed. Portable source, exact inputs and receipts are in PR473 complex-partial-coordinated-async.
+
+The first failed allocation remains a real failed experiment, even though changing pattern counts subsequently repairs the construction. Do not label the entire gauge family infeasible based on that fixed-pattern failure.
