@@ -21,3 +21,5 @@ Complete84-replica Python3.11 wrapper [passed with explicit completed-provider r
 The fresh default84-replica Python3.14 wrapper [passed](replica84-full314.json), rebuilding both suppliers and all new checks. This supersedes pending statuses above; no GitHub CI pass is implied.
 
 Parent PR483 passed a [fresh full Python3.11 replay](pr483-full311.json), using an explicit [inventory-only adapter](pr483-manifest-adapter.json) for its absent .gitattributes entry. Our28-replica extension passed its [changed-bit physical replay](response-replica28-initial-bit311.json) and [exact assembly with the previously completed complex provider](response-replica28-initial-assembly.json). Fresh full extension replays remain separate.
+
+The28-replica extension passed fresh default full verification on [Python3.11](response-replica28-full311.json) and [Python3.14](response-replica28-full314.json), both rebuilding the complex supplier. These supersede pending statuses above. The initial inventory failures remain recorded; no GitHub CI pass is implied.
