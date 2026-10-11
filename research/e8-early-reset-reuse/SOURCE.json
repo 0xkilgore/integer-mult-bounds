@@ -1,0 +1,6 @@
+{
+  "parent_pr": 433,
+  "parent_commit": "2992f234bcb2538cb70f4d026aa8d08250b1040c",
+  "parent_manifest_sha256": "c903e548e42d04a243a034d320b15e6cb26b878c30f935181336ea6ea679a004",
+  "attribution": "Rohan Arun with substantial OpenAI Codex assistance. icekylinx PR433 split centres and source reuse; ai-nanachi PR426 clean reset principle and base bit word; Zhihao Chen PR425/386; Dylan Crow PR370; Jacob Sussman E8 and inherited framework."
+}
