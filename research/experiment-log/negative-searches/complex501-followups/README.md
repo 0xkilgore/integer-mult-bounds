@@ -19,3 +19,9 @@ These are floating MILP/price nomination screens. The solvers report optimality 
 Retry guidance: these fixed-order directed closures and neutral moves found no gain. A meaningful retry can change scalar order using proven commutations, alter the local gauge/kernel word, or expand the model beyond the tested whole-owner patterns. Do not relabel a source reconstruction, model score or solver status as a full theorem verification. The archive retains scripts, assignments, profiles and failed execution diagnosis for reproducibility in the original frontier390 layout.
 
 Credits: upstream PR501 map and source notices are retained under upstream501; PR484 geometry is by DreamingOfClouds with the credited predecessors; pooled placement is inherited from eumemic's PR496. Followup searches and archive prepared by Rohan Arun with OpenAI Codex assistance.
+
+## Adjacent scalar commutations
+
+A subsequent [local reassignment screen](complex501-adjacent-commutations/RESULT.json) tests 112 adjacent commuting gate pairs with three frame assignments each: 336 attempts, all rejected by exact frame nesting. Each pair shares a register; disjoint swaps, unchanged frames and noncommuting operations are excluded. For additions, the exact condition forbids either destination from feeding the other operation. Scale operations are checked separately.
+
+The broader [propagated repair screen](complex501-commutation-propagation/RESULT.json) tests the same 112 pairs with forward frame joins or backward frame intersections: 224 attempts, all rejected. Forward propagation can force a target above its final perpendicular space; backward propagation can force a source below its initial line. Exact errors for each attempt are retained. These are finite local construction rejections, not a proof that all reorderings are impossible. Multi-operation permutations and altered gauge/centre boundaries remain outside this search.
