@@ -141,5 +141,14 @@
       "whole454-parent-full314/parent451/parent445/FAILURE.json",
       "whole454-parent-full314/parent451/parent445/parent444/FAILURE.json"
     ]
+  },
+  {
+    "run": "r715-hierarchy-baseline-rebuild",
+    "category": "assertion",
+    "interpretation": "Strict object equality failed; separate algebraic diagnosis proves only two commuting source-order changes. Preserve original failure; no byte-equality or complete supplier pass.",
+    "records": [
+      "../negative-searches/hierarchy-rewrites/r715-hierarchy-baseline-rebuild.log",
+      "../negative-searches/hierarchy-rewrites/r715-hierarchy-baseline-rebuild/ORDER-EQUIVALENCE.json"
+    ]
   }
 ]

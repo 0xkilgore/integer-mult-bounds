@@ -34,8 +34,10 @@ Latest recorded failure: [complex-template hash mismatch](execution-failures/com
 
 Post-factor followup: [retiming through five-operation groups, new extreme frames and delivery reordering](negative-searches/factored-retiming/README.md), all with no gain and an initial reporting failure retained.
 
-New positive hosting nomination: [exact rational scaling to84 replicas](negative-searches/rational-hosting/README.md); physical/full checks pending, initial zero-rank reporting failure retained.
+Completed hosting followup: [exact rational scaling to84 replicas](negative-searches/rational-hosting/README.md); fresh full Python3.14 and completed-provider-reuse Python3.11 receipts are now in [verification](verification/README.md). The initial zero-rank reporting failure is retained.
 
 New structural search: [nested donor entrances](negative-searches/nested-donors/README.md), four fixed-incumbent attempts and20 fully priced local candidates, no gain; exact words, witnesses, results and initial constructor failure retained.
 
 Circuit simplification: [40 redundant additions removed and native checks passed](negative-searches/commuting-cancellations/README.md), unchanged paid profile and two subsequent retiming screens with no gain.
+
+Hierarchy search: [all 424 alternatives and the baseline](negative-searches/hierarchy-rewrites/README.md), including 423 alternatives without helper-stock reduction, one unverified R714 nomination, every compiled word, and the failed strict baseline comparison with its separate diagnosis.
