@@ -61,8 +61,9 @@ def load(vdir, programs_from='template'):
     rec = json.loads((sc / 'CLIFFORD-RECIPES.json').read_text())
     ra = sc / 'RESIDUAL-ADAPTERS.json'
     wraps = json.loads(ra.read_text())['recipes'] if ra.exists() else {}
-    shas = {p.name: hashlib.sha256(p.read_bytes()).hexdigest() for p in sorted(sc.glob('*')) if p.name in
-            ('CANONICAL-WORD.json.gz', 'LOCAL-PROGRAMS.json.gz', 'CLIFFORD-RECIPES.json', 'RESIDUAL-ADAPTERS.json')}
+    # the .gz inputs are pinned by the sha256 of their DECOMPRESSED json (key without '.gz'): the gzip container bytes depend on the zlib of the Python in use
+    shas = {(p.name[:-3] if p.name.endswith('.gz') else p.name): hashlib.sha256(gzip.decompress(p.read_bytes()) if p.name.endswith('.gz') else p.read_bytes()).hexdigest()
+            for p in sorted(sc.glob('*')) if p.name in ('CANONICAL-WORD.json.gz', 'LOCAL-PROGRAMS.json.gz', 'CLIFFORD-RECIPES.json', 'RESIDUAL-ADAPTERS.json')}
     return dict(c=c, progs=progs, tpl=tpl, rec=rec, wraps=wraps, shas=shas, vdir=str(vdir))
 
 

@@ -58,9 +58,9 @@
     "status": "PASS"
    },
    "inputs": {
-    "CANONICAL-WORD.json.gz": "79ff8e19335d5d5d1563ef0bc218106945d6a2b88ece53ee24bb3d88b2594ba3",
+    "CANONICAL-WORD.json": "be2d8d412b948bce50a0fc852ab4c01f57bff4c3c8272da80c09be5bcdf253bf",
     "CLIFFORD-RECIPES.json": "242fe77af077973e1933524fe5c7ff3b68bef14b1f6938e024827de78d954492",
-    "LOCAL-PROGRAMS.json.gz": "65829d265c3ad5955263301b5be23114fec562aa7847d58658df873205aba37e"
+    "LOCAL-PROGRAMS.json": "e1b483423ec93c47c80d21a01d92591f3856d1ec68da231372ec2bc29f7e8fd8"
    },
    "labels": {
     "backward": {
@@ -129,9 +129,9 @@
     "status": "PASS"
    },
    "inputs": {
-    "CANONICAL-WORD.json.gz": "9cab76738d247e5491af4c27e766822baf3e31c748c52ba7cfe9326f4e497b05",
+    "CANONICAL-WORD.json": "fd09083f9c356d324b967b68f8b4e967867a34642c2108c823bc4f3c8e632974",
     "CLIFFORD-RECIPES.json": "c531b90b512a437e779c8068647ef8fc594ebe188cb00c0426c58f3cafa8b544",
-    "LOCAL-PROGRAMS.json.gz": "36ece6da1d5db23eedf2f752c186703ac260117d53c1105c056e7226e2d7a888",
+    "LOCAL-PROGRAMS.json": "8fc44dbb951b6a1af653070aaccd52a12b8f13ecb9cc5245a2d5a0a0112122d2",
     "RESIDUAL-ADAPTERS.json": "00fa8dfc8cf72d34b87eeb199b8a5f5345533147c5cfb9b455a071e1d6f9c4ae"
    },
    "instances": {
@@ -253,9 +253,9 @@
     "status": "PASS"
    },
    "inputs": {
-    "CANONICAL-WORD.json.gz": "c85d1438f69e8bb43494256047fafd7d866e0dbed19984448b5e5372d345bc35",
+    "CANONICAL-WORD.json": "124051482e9e7f3358cae1eaf18e29c76e94f825dee1f39e3e80ac55a59f87e5",
     "CLIFFORD-RECIPES.json": "626d06a0219fe20cf0dc6405b45fab0bb9e26d6307c92ff053eaec231559a420",
-    "LOCAL-PROGRAMS.json.gz": "77a5c419b6ca752e59ee39394d315bb3a6fb290cb5baf3fa375f9965f047d7e6",
+    "LOCAL-PROGRAMS.json": "47f5ef86b36dbf5bafe7a20b96ca21984206b11502090924d91fd40c2d692190",
     "RESIDUAL-ADAPTERS.json": "546196e37830b9ccbc544834cb6f37ba4ad841faf96f025fe5155f5ba3924e07"
    },
    "instances": {
@@ -534,9 +534,9 @@
     "status": "PASS"
    },
    "inputs": {
-    "CANONICAL-WORD.json.gz": "2dc13f2856c405ebc40de60b28d5bfcec3f346f8b6fe29779b7c5e60aa6d8ebc",
+    "CANONICAL-WORD.json": "1e643855b0a37636f6c4aa90c45c23c0f7abbb438028a91affab6df8b485a22d",
     "CLIFFORD-RECIPES.json": "d7adae00b756bd3333a55195f2a98de39cca555ba30a9bccdebf94d5c8a789f4",
-    "LOCAL-PROGRAMS.json.gz": "47c81829f4a1818848262471f25445d99b867c2a0ef13b426326a29f4861363a",
+    "LOCAL-PROGRAMS.json": "ecd8f4cadd13eef3445bfdaac3d28aa6c77de09231223da223fcfc55d03c1e3e",
     "RESIDUAL-ADAPTERS.json": "5581b0f32e8d32a5a39692ce9559b21e46c41df357d72adcef138e6f148c23a3"
    },
    "instances": {
