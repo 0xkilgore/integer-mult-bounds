@@ -51,3 +51,7 @@ Kernel basis followup: [eight no-gain donor-expression runs, four basis-exchange
 Further search: [80000 exchanges with temporary entrance demotion](kernel-search/nested-basis-demotions/README.md) found no global gain despite a better local proxy; exact prices, histories and a floating packing-marginal diagnostic are preserved.
 
 Complex-side frontier followups: [PR496 packing, entrance, basis and retiming screens](negative-searches/complex496-followups/README.md), all without an admitted improvement; initial execution failures and an explicitly unreviewed fallback-count arithmetic proposal retained.
+
+Coordinated complex gauges: [476 trials, 22 profile classes, all-hosted and bank-permitting prices](negative-searches/complex496-coordinated-gauges/README.md), with no admitted gain.
+
+Retimed-frontier followup: [PR501 directed closures, 400 neutral moves, and six stage-count models](negative-searches/complex501-followups/README.md), all with no improvement in their tested neighborhoods.
