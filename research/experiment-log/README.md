@@ -33,3 +33,5 @@ New replication screen: [ten counts with all results and assignments](negative-s
 Latest recorded failure: [complex-template hash mismatch](execution-failures/complex-template-hash.md). Latest successes and unresolved checks are indexed in [verification](verification/README.md). Initial counts above are the import baseline; later outcomes are retained in followup and verification files.
 
 Post-factor followup: [retiming through five-operation groups, new extreme frames and delivery reordering](negative-searches/factored-retiming/README.md), all with no gain and an initial reporting failure retained.
+
+New positive hosting nomination: [exact rational scaling to84 replicas](negative-searches/rational-hosting/README.md); physical/full checks pending, initial zero-rank reporting failure retained.

@@ -11,3 +11,7 @@ Latest terminal outcomes supersede the pending statuses above: the corrected com
 The complex-template mismatch has now been traced to gzip header bytes and consequent source-reference hashes. [Content-binding diagnosis and retained retry failure](complex-content-repair/README.md). Fresh full replay remains separate.
 
 The complete64-replica Python3.11 wrapper [passed with explicit completed-provider reuse](replica64-complete311.json) at conditional kappa647814601462333/500000000000000000. Fresh full3.14 replay remains pending.
+
+Fresh default8-replica combined Python3.14 replay [passed after the content-binding repair](complex79-full314.json). The original failures remain retained. This is separate from the later64-replica full replay.
+
+Fresh default64-replica combined Python3.14 replay [passed](replica64-full314.json), independently rebuilding both suppliers. Earlier pending statements are superseded. GitHub CI remains separate.
