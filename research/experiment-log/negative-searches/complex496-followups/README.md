@@ -17,3 +17,9 @@ The first retiming launch failed while treating a centre-scatter `None` marker a
 Scripts use the original frontier390 directory layout and the source-pinned upstream code; they are retained discovery recipes, not a standalone verifier. The saved base word and selections make local candidate inputs explicit. Constructor/profile checks are not independent dirty-column, Gaussian-phase or physical-controller certificates. No full replay is claimed for any changed candidate. A separate fresh replay of the unchanged PR484 provider was running when this record was prepared; its result must be recorded separately.
 
 Retry guidance: simple replica scaling, fixed-role promotions and these single-exchange/retiming neighborhoods found no gain. Change the complex local word, coordinate multiple gauge/donor changes, or justify a sharper complete fallback count before retrying. Any new packing must satisfy whole-family ownership and be priced with the complete moment; a better local score alone is insufficient.
+
+## Completed unchanged-provider and pooled-component verification
+
+The previously running fresh Python 3.14.8 PR484 provider replay completed with exit 0: [provider receipt](verification/complex-provider-RECEIPT.json). All retained word, scalar, phase, hosting, mutation and independent Lemma G stages passed. This is the default headline/anchor replay, not the optional `--all` per-tool variants.
+
+A subsequent [pooled complex component replay](verification/pooled-component-RECEIPT.json) completed all six stages: emitter, independent controller, serial-pooling operator, actual owners, scalar invoice and global prefix. These checks use the original PR496 map and newly rebuilt PR484 output. They do not replay PR493's bit supplier or the complete PR496 outer assembly. This distinction must be preserved.
