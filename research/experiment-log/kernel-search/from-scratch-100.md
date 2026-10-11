@@ -108,3 +108,5 @@ Parameters and per-trial results: [from-scratch-100.json](from-scratch-100.json)
 | 99 | 1.0 | 0.3 | 102 / 108 | 0.0012910787066130228 | no_gain_over_batch_baseline |
 
 Do not repeat the identical frozen100 seeds and parameters expecting a new result. A different base word, objective, seed range or neighborhood is a new experiment. These results do not prove global optimality.
+
+Source inputs: [INPUTS.json](INPUTS.json). Original published batches and saved witnesses: [pinned PR473 evidence](https://github.com/rohanarun/integer-mult-bounds/tree/31e557d09c0d55959c91fd27d903bed46fe2d607/research/r715-pr472-deliveries-validation).
