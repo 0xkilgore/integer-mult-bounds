@@ -7,6 +7,7 @@ A shared record of what was tried, what happened, and when a retry is justified.
 | [Original100 ideas](campaign-100/README.md) | Eight topic files; successes, scoped failures, partial work and40 proposals with no execution evidence |
 | [From-scratch kernel trials](kernel-search/from-scratch-100.md) | All100 trials, no improvement over the fixed baseline; exact input witnesses retained |
 | [Retain-and-repair trials](kernel-search/retain-and-repair-100.md) | All100 trials, including losers and improved candidates; parameters and limits retained |
+| [Factored-kernel trials](kernel-search/factored-warm-100.md) | All 100 additional trials, no gain, with raw ledger and search script |
 | [Other negative searches](negative-searches/results.json) | Retiming, target mixing, donor/entrance search, stage counts, solver timeouts and rejected interface |
 | [Execution failures](execution-failures/index.json) | Separate files for storage, compiler, dependency, path, serialization, metadata and assertion failures |
 | [Completed verification](verification/README.md) | Reusable full/component receipts with explicit scope |
@@ -27,4 +28,6 @@ Latest followup: [warm kernel, target-factor composition and new recorded failur
 
 Additional completed search: [100 factored-kernel trials, no gain](kernel-search/factored-warm-100.md).
 
-New replication screen: [ten counts with all results and assignments](negative-searches/factored-replica-screens.md); best aggregate remains physically unverified.
+New replication screen: [ten counts with all results and assignments](negative-searches/factored-replica-screens.md); the best aggregate has now passed initial physical checks, while stronger-complex composition and full verification remain pending. See [latest terminal outcomes](verification/latest-terminal-outcomes.json).
+
+Latest recorded failure: [complex-template hash mismatch](execution-failures/complex-template-hash.md). Latest successes and unresolved checks are indexed in [verification](verification/README.md). Initial counts above are the import baseline; later outcomes are retained in followup and verification files.
