@@ -4,7 +4,7 @@
 fresh registers. Each one is formed on a register that is already dead, and the host is the **last** eligible
 register of the total's combination instead of the first. Everything else is #493's word, gate for gate: the
 partition, plan, sources, carriers, cells, quads, Q-nodes, phase B and literal cleanup. The result is
-**R = 480**. That is the lower bound #493's README proves for its own family ("R ≥ 480").
+**R = 480**. That is the R ≥ 480 bound #493's README argues for its family (an analysis under its stated hypotheses: this partition, three branches per source, totals in phase A; not machine-checked).
 
 | quantity | value |
 |---|---|

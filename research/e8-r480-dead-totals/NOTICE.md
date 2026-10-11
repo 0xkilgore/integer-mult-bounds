@@ -16,6 +16,6 @@ Apache-2.0 (`LICENSE`). Prepared by DreamingOfClouds with Claude Opus 5.5 (Anthr
 The generator and its modules (`code/skeleton/`), the frozen plan and partition (`data/skeleton/`), the relaxed
 checker generator, `interface.py` and the mutants (`code/bit/independent/`, `code/bit/mutate_records*.py`), the
 vendored PR #370 checker, exporters, cohort checkers and Gram check, the nine- and eleven-stage geometry, PR #472's
-adapted emitter, audit, invoice and assembly (`code/eleven/`), PR #315's moment engines, the hub files under
+adapted emitter, audit, invoice and assembly (`code/eleven/`; audit.py and local_audit.py via code/adapt.py), PR #315's moment engines, the hub files under
 `code/hub/`, and the cited complex receipts. The provenance and licences of those files are listed in PR #493's
 `NOTICE.md`. Its `MANIFEST.sha256` is checked by step 0 of `verify.py`.
