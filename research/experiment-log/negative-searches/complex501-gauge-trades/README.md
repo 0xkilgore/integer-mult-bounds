@@ -20,3 +20,7 @@ This is a useful exception to the homogeneous failures: stage-specific demands c
 Retry guidance: do not discard a locally legal losing word solely because its homogeneous price is lower. Retain its full width and paid profile for stage-dependent composition. For general mixtures within a stage, matching colors must also respect the chosen word for each invocation; unconstrained aggregate edge coloring does not automatically do that. The present nomination avoids that ambiguity by choosing one word per complete stage.
 
 Credits: source gauges/kernel to DreamingOfClouds and credited predecessors; retiming/whole-owner baseline to PR501/502 authors; this search and stage-dependent nomination by Rohan Arun with OpenAI Codex assistance. Scripts retain the original frontier390 paths and dependencies; these are discovery records, not standalone verification commands.
+
+## Completed followup
+
+The stage4 nomination subsequently passed both fresh local-word admissions, independent mixed controller/chart checks, conservative finite invoice,142-bit prefix and exact assembly. The packaged wrapper passed with explicitly byte-pinned completed provider/local reuse, freshly rerunning the mixed controller, invoice and arithmetic. PR473 contains the portable verifier and full evidence. PR505 then surpassed this result by changing the replica schedule; this historical success is no longer the current target. The original homogeneous no-gain results remain valid for their tested schedule and should not be generalized to asynchronous schedules.
