@@ -63,7 +63,7 @@ row coefficient 18,355 < 20,161, halving depth 2.
 
 Checked by `verify.py` (step 5, on R480 and on #493's R489):
 
-- **(a) R480 is LP-optimal for its skeleton.** `code/findings/flowlp2.py` solves a min-flow LP on the frame lattice of
+- **(a) An LP floor of 480 for R480's skeleton.** `code/findings/flowlp2.py` solves a min-flow LP on the frame lattice of
   one 4-frame. Registers are unit flows, sources are free at their lines, helpers are born at frame zero, and the
   dual is a max-weight antichain. The lattice has the 4 lines, the 6 cells and two transverse quads per cell. The
   node lower bounds come from the junk-dimension lemma: two dirty branches of a cell span only one vector that
@@ -77,7 +77,7 @@ Checked by `verify.py` (step 5, on R480 and on #493's R489):
   `code/findings/levels.py` reads R480's own frame visits and shows the word attains every node bound. Its 120 cross
   cells hold 3 helpers each, and its 60 matching cells hold 2 helpers and 2 sources each. Each of the 480 helpers
   stands at exactly one cell and at exactly one D6 frame, so **levels 2 and 6 are tight antichains**. Levels 1, 4
-  and 7 carry 240, 360 and 240 helpers. A word with fewer helpers must break H1, H2 or H3.
+  and 7 carry 240, 360 and 240 helpers. A word with fewer helpers must break H1, H2 or H3. `verify.py` checks the LP optimum given these node bounds, and the tight levels on R480's own data. The junk-dimension lemma and the flow model itself (that every word of the family is such a flow) are argued here, not machine-checked.
 - **(b) Kernel pivots are exactly 0.** `code/findings/piv0.py` checks R480 and R489. Each of the 120 root-line
   entrance classes (the helpers whose first frame contains the line) has linearly independent delivery vectors,
   i.e. nullity 0. Nullity is monotone, and coordinate and higher-rank entrance classes are sub-classes. So the
