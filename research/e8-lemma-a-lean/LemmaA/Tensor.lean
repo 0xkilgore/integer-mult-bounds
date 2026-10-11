@@ -103,4 +103,47 @@ theorem pieces_product (χ : W ≃ₗ[K] A ⊗[K] B) (f : Φ) (C : A →ₗ[K] A
 
 end Family
 
+section Piece
+
+variable {ι Λ : Type*} [DecidableEq ι] [Fintype ι]
+variable {Φ W : Type*} [DecidableEq Φ] [AddCommMonoid W] [Module K W]
+
+/-- **The realized invocation as a single-family piece.**  Under the hypotheses of
+`lemmaA_family`, plus a zero helper column (Lemma G, H3), the complete realized invocation acts on
+the helper's family `own j` as the piece `famAct (own j) (chart⁻¹ ∘ (C ⊗ id) ∘ chart)`, and no other
+family reads `own j`: these are the hypotheses `hEf`, `hread` of `split_off` and `async_window`. -/
+theorem lemmaA_piece (T : Λ → (A ⊗[K] B) ≃ₗ[K] (A ⊗[K] B)) (σ : Hosting ι Φ K W (A ⊗[K] B))
+    (hinj : Function.Injective σ.own) (rec : Λ → Λ → A ⊗[K] B → A ⊗[K] B)
+    (es : List (Event ι Λ K)) (l : ι → Λ) (hrec : RecipesExact T rec es) (hw : WellLabelled es l)
+    (j : ι) (hS : ∀ s, S es j s = if s = j then 1 else 0) (hcol : ∀ r, r ≠ j → S es r j = 0)
+    (C : A →ₗ[K] A) (hfac : ∀ v, T (labRun es l j) ((T (l j)).symm v) = C.rTensor B v) :
+    (∀ y, realizeRun σ rec es y (σ.own j) =
+      famAct (σ.own j) ((σ.chart j).symm ∘ C.rTensor B ∘ σ.chart j) y (σ.own j)) ∧
+    (∀ y w g, g ≠ σ.own j →
+      realizeRun σ rec es (Function.update y (σ.own j) w) g = realizeRun σ rec es y g) :=
+  ⟨fun y => by
+    rw [lemmaA_family T σ hinj rec es l y hrec hw j hS C hfac]
+    simp [famAct],
+   fun y w g hg => endpoint_indep T σ hinj rec es l y hrec hw j hcol w g hg⟩
+
+/-- **Lemma A with asynchronous borrowing (#505).**  A complete realized invocation whose helper
+`j` borrows the pending block of family `own j` can be split: the rest of the invocation runs in
+place, and its piece on `own j` runs just before the pending child's deadline, provided every
+action in between commutes with that piece. -/
+theorem lemmaA_async (T : Λ → (A ⊗[K] B) ≃ₗ[K] (A ⊗[K] B)) (σ : Hosting ι Φ K W (A ⊗[K] B))
+    (hinj : Function.Injective σ.own) (rec : Λ → Λ → A ⊗[K] B → A ⊗[K] B)
+    (es : List (Event ι Λ K)) (l : ι → Λ) (hrec : RecipesExact T rec es) (hw : WellLabelled es l)
+    (j : ι) (hS : ∀ s, S es j s = if s = j then 1 else 0) (hcol : ∀ r, r ≠ j → S es r j = 0)
+    (C : A →ₗ[K] A) (hfac : ∀ v, T (labRun es l j) ((T (l j)).symm v) = C.rTensor B v)
+    (xs ys zs : List ((Φ → W) → (Φ → W)))
+    (hys : ∀ a ∈ ys, a ∘ famAct (σ.own j) ((σ.chart j).symm ∘ C.rTensor B ∘ σ.chart j) =
+      famAct (σ.own j) ((σ.chart j).symm ∘ C.rTensor B ∘ σ.chart j) ∘ a) :
+    evalW (xs ++ realizeRun σ rec es :: ys ++ zs) =
+      evalW (xs ++ (fun y => Function.update (realizeRun σ rec es y) (σ.own j) (y (σ.own j))) :: ys ++
+        famAct (σ.own j) ((σ.chart j).symm ∘ C.rTensor B ∘ σ.chart j) :: zs) := by
+  obtain ⟨hEf, hread⟩ := lemmaA_piece T σ hinj rec es l hrec hw j hS hcol C hfac
+  exact async_window _ _ (σ.own j) (famAct_supported _ _) hEf hread xs ys zs hys
+
+end Piece
+
 end LemmaA

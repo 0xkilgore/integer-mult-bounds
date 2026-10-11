@@ -14,5 +14,11 @@ import LemmaA
 #print axioms LemmaA.spectators_fixed
 #print axioms LemmaA.helper_block
 #print axioms LemmaA.lemmaA_family
+#print axioms LemmaA.lemmaA_piece
+#print axioms LemmaA.lemmaA_async
 #print axioms LemmaA.pieces_commute
 #print axioms LemmaA.pieces_product
+#print axioms LemmaA.streamOwner_injective
+#print axioms LemmaA.streamOwner_injective_of_disjoint
+#print axioms LemmaA.sweep_unique
+#print axioms LemmaA.lemmaA_streams

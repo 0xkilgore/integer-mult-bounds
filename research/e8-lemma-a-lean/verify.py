@@ -1,18 +1,22 @@
 # Apache-2.0.  Prepared by DreamingOfClouds with Claude Opus 5.5 (Anthropic), via Claude Code.
 """Verify the Lean formalisation of Lemma A.
 
-usage: python3 verify.py [--no-cache] [--instances BASE]
+usage: python3 verify.py [--no-cache] [--instances BASE] [--async T.json.gz]
   1. every file listed in MANIFEST.json has its recorded sha256 and no unlisted file sits in LemmaA/ or code/; the files of
      the Lemma G package (path dependency) and of PR #484 that are used have their recorded sha256 ("external_files");
   2. the Lean sources contain no `sorry`, `admit`, `axiom`, `native_decide`, `implemented_by`, `extern`, `unsafe`, `opaque`
      and no `set_option` other than the heartbeat limits (Lemma G's sources are scanned too);
   3. `lake exe cache get` (Mathlib's pinned build, skipped with --no-cache) and `lake build` (builds LemmaG as well);
   4. `lake env lean PrintAxioms.lean`: each main theorem depends only on propext, Classical.choice, Quot.sound;
-  5. with --instances BASE (BASE = the output directory of PR #484's verify.py, with or without --all), on every #484 word
-     present (the headline is required; --all adds gauge80 and kernel79):
-       a. #484's own results: LEMMA-A.json (exact factorization on every entrance frame), HOSTING-AUDIT.json (strict
-          one-helper audit, where present), LEMMA-G-CHECK.json (I-helper, scalar replay) on inputs equal to EXPECTED.json;
-       b. code/check_owners.py (owner units injective; every entering helper the sole register on its family).
+  5. with --instances BASE (BASE = the output directory of PR #484's verify.py; --all there adds gauge80 and kernel79), on
+     every word present (the headline is required; the anchor is checked where present):
+       a. #484's own results on inputs equal to EXPECTED.json: LEMMA-A.json (required for every wrapped word),
+          HOSTING-AUDIT.json (strict one-helper audit, where present), LEMMA-G-CHECK.json (I-helper count = EXPECTED,
+          scalar replay);
+       b. the Lemma G package's code/check_extended_labels.py --mutants: (F) is read in Lemma G's extended labels;
+       c. code/check_owners.py --mutants: one owner per stream (disjoint footprints on shared families), centre copies;
+       d. code/check_windows.py --mutants: every hosted block inside its pending child's open window, blocks disjoint;
+  6. with --async T.json.gz (an asynchronous hosted template, e.g. the one PR #505's verify.py emits): c. and d. on it.
 Python 3.9+, standard library only; `lake` from elan on PATH (the toolchain is pinned by lean-toolchain)."""
 import hashlib, json, os, re, subprocess, sys
 from pathlib import Path
@@ -81,28 +85,39 @@ def main():
 
     if '--instances' in args:
         base = Path(args[args.index('--instances') + 1])
-        words = [w for w in ('gauge80-kernel42', 'gauge80', 'kernel79') if (base / w / 'hosted').is_dir()]
+        words = [w for w in ('gauge80-kernel42', 'gauge80', 'kernel79', 'anchor') if (base / w / 'hosted').is_dir()]
         if 'gauge80-kernel42' not in words: fail(f'{base} lacks the headline word')
         E = json.loads((HERE.parent / 'e8-complex-gauge-kernel' / 'EXPECTED.json').read_text())
         for w in words:
+            L = json.loads((base / 'lemmaG' / w / 'LEMMA-G-CHECK.json').read_text())
+            if L['inputs'] != E['lemma_G_independent_checks'][w]['inputs']: fail(f'{w}: emitted inputs differ from #484 EXPECTED.json')
+            if any(L['labels'][o]['n_label_violations'] or L['labels'][o]['scalar_violations'] for o in ('forward', 'backward')):
+                fail(f'{w}: #484 label/scalar check')
+            if w == 'anchor':
+                print('instances: anchor: #484 label and scalar checks PASS (no wrappers)', flush=True); continue
             la = base / w / 'LEMMA-A.json'
-            if w == 'gauge80-kernel42' and not la.exists(): fail('headline: #484 LEMMA-A.json missing')
-            A = json.loads(la.read_text()) if la.exists() else {'status': 'PASS_RESIDUAL_WRAPPERS_ARE_EXACT', 'frames': 0}
+            if not la.exists(): fail(f'{w}: #484 LEMMA-A.json missing')
+            A = json.loads(la.read_text())
             if A['status'] != 'PASS_RESIDUAL_WRAPPERS_ARE_EXACT': fail(f'{w}: #484 LEMMA-A.json')
             if w == 'gauge80-kernel42' and A['frames'] != E['wrapper_check']['frames']: fail('headline: #484 LEMMA-A frames')
             ha = base / w / 'HOSTING-AUDIT.json'
             if ha.exists():
                 H = json.loads(ha.read_text())
                 if not (H['status'].startswith('PASS') and H['one_helper_per_family']): fail(f'{w}: #484 hosting audit')
-            L = json.loads((base / 'lemmaG' / w / 'LEMMA-G-CHECK.json').read_text())
-            if L['inputs'] != E['lemma_G_independent_checks'][w]['inputs']: fail(f'{w}: emitted inputs differ from #484 EXPECTED.json')
-            if any(L['labels'][o]['n_label_violations'] or L['labels'][o]['scalar_violations'] for o in ('forward', 'backward')):
-                fail(f'{w}: #484 label/scalar check')
             if L['instances']['I-helper']['failures']: fail(f'{w}: #484 I-helper')
+            if L['instances']['I-helper']['entering_helpers'] != E['lemma_G_independent_checks'][w]['instances']['I-helper']['entering_helpers']:
+                fail(f'{w}: I-helper count differs from EXPECTED.json')
             print('instances: %s: #484 Lemma A exact part (%d frames), %shosting audit, I-helper %d helpers, scalar replay: PASS'
                   % (w, A['frames'], 'strict ' if ha.exists() else 'no ', L['instances']['I-helper']['entering_helpers']), flush=True)
-        run([sys.executable, '-B', 'code/check_owners.py', str(base), *words], 3600)
-        print('instances: owner maps PASS on', ', '.join(words), flush=True)
+        out = run([sys.executable, '-B', str(HERE.parent / 'e8-lemma-g-lean' / 'code' / 'check_extended_labels.py'), str(base), *words, '--mutants'], 3600)
+        print('\n'.join(l for l in out.splitlines() if re.match(r'^\S+ (forward|backward) violations', l) or 'mutants (' in l
+                        or 'extended labels' in l), flush=True)
+        print(run([sys.executable, '-B', 'code/check_owners.py', str(base), *words, '--mutants'], 3600).strip(), flush=True)
+        print(run([sys.executable, '-B', 'code/check_windows.py', *[str(base / w / 'hosted' / 'GLOBAL-TEMPLATE.json.gz') for w in words], '--mutants'], 3600).strip(), flush=True)
+    if '--async' in args:
+        tpl = args[args.index('--async') + 1]
+        print(run([sys.executable, '-B', 'code/check_owners.py', '--template', tpl, '16', '--mutants'], 3600).strip(), flush=True)
+        print(run([sys.executable, '-B', 'code/check_windows.py', tpl, '--mutants'], 3600).strip(), flush=True)
     print('PASS Lemma A Lean verification', flush=True)
 
 
