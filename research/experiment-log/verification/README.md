@@ -9,3 +9,5 @@ Completion update: the110-pivot warm-kernel default Python3.14 wrapper passed (`
 Latest terminal outcomes supersede the pending statuses above: the corrected combined Python 3.11 wrapper passed with explicitly bound completed-provider reuse. The fresh Python 3.14 combined wrapper failed its final complex-template hash comparison after the preceding stages passed; diagnosis remains open. The 64-replica physical component passed its initial checks with the legacy complex assembler, but the stronger-complex composition and full wrapper remain unverified. [Receipts and failure records](latest-terminal-outcomes.json); [failure and retry guidance](../execution-failures/complex-template-hash.md).
 
 The complex-template mismatch has now been traced to gzip header bytes and consequent source-reference hashes. [Content-binding diagnosis and retained retry failure](complex-content-repair/README.md). Fresh full replay remains separate.
+
+The complete64-replica Python3.11 wrapper [passed with explicit completed-provider reuse](replica64-complete311.json) at conditional kappa647814601462333/500000000000000000. Fresh full3.14 replay remains pending.

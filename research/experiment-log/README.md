@@ -31,3 +31,5 @@ Additional completed search: [100 factored-kernel trials, no gain](kernel-search
 New replication screen: [ten counts with all results and assignments](negative-searches/factored-replica-screens.md); the best aggregate has now passed initial physical checks, while stronger-complex composition and full verification remain pending. See [latest terminal outcomes](verification/latest-terminal-outcomes.json).
 
 Latest recorded failure: [complex-template hash mismatch](execution-failures/complex-template-hash.md). Latest successes and unresolved checks are indexed in [verification](verification/README.md). Initial counts above are the import baseline; later outcomes are retained in followup and verification files.
+
+Post-factor followup: [retiming through five-operation groups, new extreme frames and delivery reordering](negative-searches/factored-retiming/README.md), all with no gain and an initial reporting failure retained.
