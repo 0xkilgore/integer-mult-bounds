@@ -393,5 +393,287 @@
         "invoice"
       ]
     }
+  },
+  {
+    "source": "r715-warm-full314/RECEIPT.json",
+    "receipt": {
+      "status": "PASS_FULL_R715_WARM_KERNEL_COMPOSITION",
+      "python": "3.14.8",
+      "kappa": "258807852883313/200000000000000000",
+      "manifest_sha256": "d27d48e2e5eae52b3a05e4a5b360a5f6cf481f86b2b76d7a5be4231eece48fef",
+      "source_sha256": "1a593cb23f71113496e95a26b4a12497e4c7fdb9cfa3522d44f695d876c548e5",
+      "complex_receipt_sha256": "aea7bf891dfe838a6dba091dfd40da9cbd1975b135a3d1c550b87670348f44ef",
+      "metadata_portability_sha256": "091e33e1749c7f83b34314dab3324297dddf89de27eaf89569a896f998eec18f",
+      "steps": [
+        {
+          "name": "full-complex458",
+          "seconds": 683.89,
+          "log_sha256": "5510bef98117712278d6048aaf8088a1e3a0d5d8137d666730b01af84a536c4e"
+        },
+        {
+          "name": "source-reconstruction",
+          "seconds": 67.01,
+          "log_sha256": "02a481b326454c0d485e0ff26aa2535323a949cd7a4e1856c3089722e9fef1b8"
+        },
+        {
+          "name": "export",
+          "seconds": 0.38,
+          "log_sha256": "a5817c652617c6ca1ca2373a9463b6e9ffd90c763121b8bca7955702589f2634"
+        },
+        {
+          "name": "physical-labels",
+          "seconds": 0.39,
+          "log_sha256": "26a7469f119d10f82cea9a913a78e24916df430b3ac89eb8f2bc20530250f501"
+        },
+        {
+          "name": "mixing-controls",
+          "seconds": 0.24,
+          "log_sha256": "cb7c000a04abf38d74a0cbc52e2be1051740c10ea08148d9d61e7010ac0253f5"
+        },
+        {
+          "name": "stage-cohort",
+          "seconds": 0.05,
+          "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "name": "compile-legality",
+          "seconds": 2.1,
+          "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "name": "compile-legality_ncopy_h",
+          "seconds": 2.01,
+          "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "name": "compile-columns_h",
+          "seconds": 1.6,
+          "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "name": "compile-columns_k5",
+          "seconds": 1.65,
+          "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "name": "official-legality",
+          "seconds": 0.27,
+          "log_sha256": "21fdb1abd499fc0ed1a09c94fb3532031991b9080388d75e03bf261d11f75b61"
+        },
+        {
+          "name": "columns_h",
+          "seconds": 0.06,
+          "log_sha256": "dfd23280e6d11cc4b82323bd4cabc2648dc6d70736e2c65ee0bf3206b9a5e569"
+        },
+        {
+          "name": "columns_k5",
+          "seconds": 0.06,
+          "log_sha256": "21494e7bddfbde39d6b9f4acd7603b1bf6a01afca22d33d1e8e2413925ee8690"
+        },
+        {
+          "name": "record-mutations",
+          "seconds": 0.22,
+          "log_sha256": "41fb31a983687eb1355cb763d05c8575b45eb4313c7008f3fe2ac8b4eddb9f54"
+        },
+        {
+          "name": "gram",
+          "seconds": 0.08,
+          "log_sha256": "fcdef57f371d05413e1639c67a73e7ed2dd34f84422e5391e0d7323e4614be0e"
+        },
+        {
+          "name": "geometry",
+          "seconds": 2.22,
+          "log_sha256": "ed2e7f675ba8d918eac2ba6f2d26d8accd50546bc7983269354d3849bbc6e18a"
+        },
+        {
+          "name": "emit",
+          "seconds": 3.77,
+          "log_sha256": "5820c6765343c988a3565b17942c8aa82a7a5fcdcc1d551c956b470bf63fa3d0"
+        },
+        {
+          "name": "audit",
+          "seconds": 9.12,
+          "log_sha256": "645b107f1dd7a3acd94cd5a3246ad1979bb34b131fe7cef3a680c989583b743d"
+        },
+        {
+          "name": "invoice-and-outer",
+          "seconds": 0.31,
+          "log_sha256": "7142db6171c4d27ad38ceb45ec804cfb712db7cd03d0723a654cc044ef6ed625"
+        }
+      ]
+    }
+  },
+  {
+    "source": "r715-warm-factors-complete311-fixed/RECEIPT.json",
+    "receipt": {
+      "status": "PASS_R715_WARM_FACTORS_COMPONENT_COMPLETED_COMPLEX_REUSED",
+      "python": "3.11.15",
+      "kappa": "323880830669511/250000000000000000",
+      "manifest_sha256": "05c575638521c1d52d94b3ee283388574bcb97d819723265a64dfce682596eec",
+      "source_sha256": "f45f0fba96fd0d2c1dcd18772ca3aaf5f6068e0e50ed1a0505ab72bd6cee6d62",
+      "complex_receipt_sha256": "462a1f188eec07d6ef09062c14353c64317cb36252048077f3b6a24d0f00e0a9",
+      "metadata_portability_sha256": "9b5bf72fcb1386d55247bbda01af0a2ed3aec0b20c4f5d5c51597324d4ecacf3",
+      "steps": [
+        {
+          "name": "source-reconstruction",
+          "seconds": 109.25,
+          "log_sha256": "ffe232aec25107fb82dbd876e8b2778d5d5e42b83792f987eb0693edfc1ed809"
+        },
+        {
+          "name": "export",
+          "seconds": 0.59,
+          "log_sha256": "a5817c652617c6ca1ca2373a9463b6e9ffd90c763121b8bca7955702589f2634"
+        },
+        {
+          "name": "physical-labels",
+          "seconds": 0.36,
+          "log_sha256": "121c9c031e5c703fa1bb0db540ef105d79e2b3c98f5bcc8a98fcd3c92af744c5"
+        },
+        {
+          "name": "mixing-controls",
+          "seconds": 0.26,
+          "log_sha256": "911e0a8b168f3a9c3726d8f13b7c31491e019c9be4ed950cc2a402bf06c7a3bd"
+        },
+        {
+          "name": "stage-cohort",
+          "seconds": 0.05,
+          "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "name": "compile-legality",
+          "seconds": 1.98,
+          "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "name": "compile-legality_ncopy_h",
+          "seconds": 1.9,
+          "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "name": "compile-columns_h",
+          "seconds": 1.5,
+          "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "name": "compile-columns_k5",
+          "seconds": 1.58,
+          "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "name": "official-legality",
+          "seconds": 0.14,
+          "log_sha256": "f1e7996bd955742d4f137720d45a3abaceba76d9eff9ca80dc99ac97deacf55c"
+        },
+        {
+          "name": "columns_h",
+          "seconds": 0.06,
+          "log_sha256": "afa7e55322620dd470d5c0a5274da67f4369c77a6ef0379332aba6097002b2b9"
+        },
+        {
+          "name": "columns_k5",
+          "seconds": 0.05,
+          "log_sha256": "34c096a125fd4900b7ae8eabd4d29269f7c2008d4fea3d32bb02e7332b014347"
+        },
+        {
+          "name": "record-mutations",
+          "seconds": 0.29,
+          "log_sha256": "41fb31a983687eb1355cb763d05c8575b45eb4313c7008f3fe2ac8b4eddb9f54"
+        },
+        {
+          "name": "gram",
+          "seconds": 0.08,
+          "log_sha256": "fcdef57f371d05413e1639c67a73e7ed2dd34f84422e5391e0d7323e4614be0e"
+        },
+        {
+          "name": "geometry",
+          "seconds": 2.64,
+          "log_sha256": "ed2e7f675ba8d918eac2ba6f2d26d8accd50546bc7983269354d3849bbc6e18a"
+        },
+        {
+          "name": "emit",
+          "seconds": 3.97,
+          "log_sha256": "14efe58e3c2d679ce70d4e7a5f975929de43dcf191df26de94cd9fcd8f6e9a3d"
+        },
+        {
+          "name": "audit",
+          "seconds": 12.61,
+          "log_sha256": "ff770f830c7c514e801345d3f8c4c220b95d628abde8ebfa51623469f9652fce"
+        },
+        {
+          "name": "invoice-and-outer",
+          "seconds": 0.32,
+          "log_sha256": "10789298ed92dbbd2d77bd1eaf9b137ee5db0c22e2fb7d5d0514a6c26e1d2416"
+        }
+      ]
+    }
+  },
+  {
+    "source": "pr478-full311-portable2/RECEIPT.json",
+    "receipt": {
+      "status": "PASS_R715_NEXT_FULL_COMPOSITION",
+      "kappa": "1295508560071773/1000000000000000000",
+      "seconds": 253.784,
+      "python": "3.11.15 (main, Mar  3 2026, 00:52:57) [Clang 17.0.0 (clang-1700.6.3.2)]",
+      "manifest_sha256": "d8847f47377171106c36f78097695b0d6263b374fac3f80566a93422959cbf25",
+      "steps": [
+        {
+          "name": "changed-bit",
+          "seconds": 29.678,
+          "log_sha256": "0af7b5bc1f4386571b2dc54077fa6326d11e4a09d8c2189663058d81d501fe49"
+        },
+        {
+          "name": "complex-scalar-and-phase",
+          "seconds": 106.669,
+          "log_sha256": "d3481df895fd23e2ea1fbbde2232d0e4b8f9d4058e9aec499626de258745b1d9"
+        },
+        {
+          "name": "complex-normalization",
+          "seconds": 62.427,
+          "log_sha256": "efb94f9616574ca86794f8241608d1a733902a48d7bea6971f3e2187ad3aecfb"
+        },
+        {
+          "name": "data-phases",
+          "seconds": 14.994,
+          "log_sha256": "30336ab7a1b0101807c5774a69694f429c6d23f0ee795565290b2967c87bcb73"
+        },
+        {
+          "name": "borrowed-emission",
+          "seconds": 2.063,
+          "log_sha256": "2800e8bde0d9c985aa085f03392b561554a1046a441282d3ef47842e6083e057"
+        },
+        {
+          "name": "borrowed-independent",
+          "seconds": 29.152,
+          "log_sha256": "4f378d976ceecdf734f00d3c3efb9bb4c9d67a6a1f964c82fa622f48b9f763d4"
+        },
+        {
+          "name": "routes-independent",
+          "seconds": 1.944,
+          "log_sha256": "8d1135a0acd4e4f0ab6b6c98e7a5cce72db4c3dd714b9be6647f5fc2b5bc697b"
+        },
+        {
+          "name": "whole-controller",
+          "seconds": 6.482,
+          "log_sha256": "7f8c67685ff2c4a71168eda426ba673f12660388828a6cc296f101e773fc2a18"
+        },
+        {
+          "name": "two-moments-and-47-constraints",
+          "seconds": 0.314,
+          "log_sha256": "64ce70ae046c6906a71f931af302ef91b4e0b2d2a25825b8b4a300c5f87c6279"
+        }
+      ],
+      "scope": "Fresh changed bit and complex supplier replay with47constraints. All-size interfaces remain conditional; no Lean certification."
+    },
+    "adapter": {
+      "status": "MANIFEST_ONLY_ADAPTER_FOR_MISSING_PUBLIC_ATTRIBUTES",
+      "upstream_commit": "bea1d52fd330c699903f81612ee58be81697d1eb",
+      "original_manifest_sha256": "8413311b4c57efdac292098e157103126df88735c4217239e422b672a474b2a0",
+      "adapter_manifest_sha256": "d8847f47377171106c36f78097695b0d6263b374fac3f80566a93422959cbf25",
+      "missing_from_git": {
+        ".gitattributes": "e4743c834e8463aab8324390a67b1b3c7fdfe2e2b553948aaa5e8e98b31b3b8c"
+      },
+      "all_existing_files_unchanged": 150,
+      "scope": "Upstream default verifier rejects its own public package because a listed .gitattributes file is absent. Only manifest inventory is repaired; no source, constructor, mathematical input, expected result or verifier executable is modified."
+    }
   }
 ]

@@ -1,10 +1,10 @@
 {
   ".gitattributes": "48747480eddba024928d03be9bf83dc579e5515768647507a767e8187a85c9ab",
-  "COUNTS.json": "8e0b2f9b4a06099228c1f1031de9b7054fc296a35c17dbdd5dc6675b009a98b7",
+  "COUNTS.json": "77600221144d9bfdb666909506a074ede40aedf3200f206d5ff5f18c8552d85d",
   "ENTRY-TEMPLATE.json": "356934c5b200324f369f09034ac86ba6deb8e5b76679a14d94cb48a8aa1feb0e",
   "PROVENANCE.json": "807a33a21d9f9ff7ebed203a7c6ab41cc680b313fad713bf165a4d8c7c6da789",
   "README.md": "ddd127a4314bd172b358cbcc95d5351f6451adf3fb2981de7077820cc7d8daad",
-  "validate.py": "b56efe4f87c048edf219ea9fce64a4f1196b431e2c66b0dbc14c07281a8a69f1",
+  "validate.py": "417acf290e9d9eeb9e2b19e7cf9cd7ebd563e4896319d0cb298f3ccff31be1fa",
   "campaign-100/algebraic-word-construction.md": "48dcaea35c79e1893c8ecdb307dc2c9e9cc45df89ba989949cf0106f36feed16",
   "campaign-100/alternative-suppliers.md": "0392b76c54749379f732d34225a82f8c335e38ff6a41d45ec7b5afe39fc4a813",
   "campaign-100/analytic-theory.md": "43534dfec4f206ae91dda02e52e27ece94579128e5e9113293fa7e45690e1345",
@@ -58,6 +58,6 @@
   "negative-searches/solver-timeout.md": "6b6a02dbe720fe9bb1ca748dfef2c24941d00acc277faeac470e85228277fc3e",
   "negative-searches/stage-count.md": "0a69ebf12c178ea1bd67bdd552a4a4c581cde1894149640a4cd4e8de0a020512",
   "negative-searches/target-mixing.md": "60c5ac180251aeeac028fa80782b1144e0c29e556821d38206e78fad3ca29f6c",
-  "verification/completed-receipts.json": "120351903823afeebce636900fea60745dc86d20848fbcbdadce393cedac639c",
-  "verification/README.md": "a8d19c921404aaa05a254c614d27bd08f2e18dd30d3e69672697616205335ad3"
+  "verification/completed-receipts.json": "ce960ce5f3264d1f0ecfc510ced43ffe7f93738c790bc0ebcc1e58f962d7a428",
+  "verification/README.md": "61a05689b888585f52ac8edd8a1f5d009a990e105cd0e20dac5b13d99b285d3e"
 }
