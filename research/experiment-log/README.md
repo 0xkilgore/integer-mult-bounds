@@ -61,3 +61,5 @@ Stage-dependent composition: [retimed gauge/kernel trade searches, every homogen
 - [Asynchronous scheduling followups](negative-searches/async505-schedules/README.md):10,224 fixed-map rejections, two no-gain allocation models,48 new orders, original execution/matching failures and repaired explicit owner construction.
 
 - [Exact asynchronous inventory limit](negative-searches/async505-inventory-wall/README.md):133 timing screens,146-profile exact dual certificate in two arithmetic engines, and new kernel/entrance screens.
+
+- [Partial-own asynchronous composition](negative-searches/partial-own-async/README.md):new-factory allocation, completed finite composition, and a separately unverified coordinated-gauge followup.
