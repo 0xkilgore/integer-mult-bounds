@@ -41,3 +41,5 @@ New structural search: [nested donor entrances](negative-searches/nested-donors/
 Circuit simplification: [40 redundant additions removed and native checks passed](negative-searches/commuting-cancellations/README.md), unchanged paid profile and two subsequent retiming screens with no gain.
 
 Hierarchy search: [all 424 alternatives and the baseline](negative-searches/hierarchy-rewrites/README.md), including 423 alternatives without helper-stock reduction, one unverified R714 nomination, every compiled word, and the failed strict baseline comparison with its separate diagnosis.
+
+Changed-stock followup: [R714 exact local replay and40 kernel trials](negative-searches/r714-kernels/README.md), including the infeasible no-kernel baseline and both no-gain batches. [Replica28 initial manifest failures](execution-failures/response-replica28-manifest/README.md) preserve both Python-version attempts and the root-only inventory correction.
