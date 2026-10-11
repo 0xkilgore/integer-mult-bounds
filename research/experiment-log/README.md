@@ -47,3 +47,5 @@ Changed-stock followup: [R714 exact local replay and40 kernel trials](negative-s
 New composition screen: [PR485 selection plus target factors, response packets and nested promotions](negative-searches/pr485-composition/README.md): five variants, two distinct words, both below the submitted bound.
 
 Kernel basis followup: [eight no-gain donor-expression runs, four basis-exchange runs and the cancellation-first hypothesis](kernel-search/nested-basis-exchanges/README.md). All endpoints, seeds, histories, exact prices and losing alternatives are retained. The successful rank139 candidate is published separately in PR473.
+
+Further search: [80000 exchanges with temporary entrance demotion](kernel-search/nested-basis-demotions/README.md) found no global gain despite a better local proxy; exact prices, histories and a floating packing-marginal diagnostic are preserved.
