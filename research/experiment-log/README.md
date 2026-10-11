@@ -22,3 +22,5 @@ For future entries use [ENTRY-TEMPLATE.json](ENTRY-TEMPLATE.json). Keep raw fail
 The original100-item archive is pinned to PR368 commit `fa8ab946df57ebadae1a470b637c2a590a0a5317`. Recent PR473 evidence is pinned to `31e557d09c0d55959c91fd27d903bed46fe2d607`. Local import sources and SHA256 hashes are in [PROVENANCE.json](PROVENANCE.json). Paths inside historical raw records identify their original workspace; category links are the public navigation. Archived [discovery scripts](discovery-scripts/README.md) preserve the search recipe but require their original dependencies. This publication reorganizes evidence; it does not rerun or independently validate every historical claim.
 
 Attribution: original campaign authors and all credited upstream contributors retain authorship; source reports and notices remain linked in the campaign archive. Index and recent R715 search/verification work by Rohan Arun with OpenAI Codex assistance. Conditional supplier/compiler and analytic assumptions remain unchanged.
+
+Latest followup: [warm kernel, target-factor composition and new recorded failures](followups/warm-kernel-and-target-factors.md).
