@@ -1,21 +1,20 @@
-# Native complex moment on PR552
+# Native complex moment: PR558 plus the exact recurrence correction
 
-Conditional **kappa = 0.001591968905569359**, above PR552's0.001591968902833346 by **2.736013e-12** (+0.00000017186347%). This is a tiny accounting correction, not a new circuit or geometry.
+Conditional **kappa = 0.001592517892053334**, above PR558's0.001592517889315014 by **2.738320e-12** (+0.00000017194909%). This is a tiny accounting correction on eumemic's structural result; it is not another geometry or circuit improvement.
 
-The exact binary-Clifford complex cover has a complete recursive-child histogram. Its generic pricing code nevertheless adds the bit supplier's bad-residue fallback surcharge. This package returns to the native complex moment. The bit surcharge, scalar word, owner schedule and finite invoice remain unchanged. [Independent proof-scope review](PROOF.md) explains the exact chart and whole-cover argument.
+The exact binary-Clifford complex cover has a complete recursive-child histogram. Generic pricing adds the bit supplier's GL local-ring bad-residue surcharge to both sides. This package returns the complex side to its native moment. The bit charge, selected scalar word, owner schedule and finite invoice remain unchanged. [Independent proof-scope review](PROOF.md) gives the uniform chart/right-translation argument.
 
-Complex b becomes0.001594507311629175685644. Cited PR543 c remains0.001653826988146798944268. Two rational engines certify the discovery endpoint and reject the next10^-24 tick; six bootstrap levels and47 strict outer inequalities give the displayed kappa.
+Complex b becomes0.001595058050537679100938. Cited PR543 c stays0.001653826988146798944268. Both rational discovery engines pass the new endpoint and reject the next10^-24 tick; seven bootstrap levels and47 strict outer inequalities give the displayed kappa.
 
-## Draft validation
+## Draft verification
 
-Source-scope review passed. Packaged Python3.11/3.14 and dedicated CI checks follow draft publication; CI is not claimed green. The unchanged PR552 physical package was independently replayed earlier. Its receipts are retained; this new arithmetic-only verifier cites that operator rather than freshly reconstructing it.
-
-Run Python3.11+ with assertions enabled:
+PR552 regression packaged checks passed on Python3.11/3.14. PR558's published full admission receipts are pinned; our independent full PR558 replay and the updated packaged checks are running after the draft update. CI is not claimed green. This arithmetic-only verifier cites unchanged physical operators rather than rebuilding them.
 
     python -B verify.py --work /absolute/new/output
+    python -B verify.py --provider 552 --work /absolute/new/regression-output
 
-Offline, standard library only. It binds the unchanged owner/profile/invoice, reproduces the old complex endpoint and old kappa, retains the bit contamination and checks its endpoint in both engines, certifies the new complex endpoint and next-tick rejection, and checks the outer assembly and parameter controls.
+Python3.11+, standard library, offline, assertions enabled. Inputs/owner/invoice and exact baseline are bound; the original bit contamination is checked in both engines. The new complex endpoint and next tick,47 outer inequalities, seven bootstrap cutoffs and parameter controls are checked. The552 regression retains six bootstrap levels and its original candidate0.001591968905569359.
 
-The2,972 chart types are explicitly audited; full-group uniformity follows by orthogonal right-translation, not enumerating every group element. All inherited all-size compiler, common-label/mutable-source, complete-call hosting, precision/tape and analytic-transfer assumptions remain. PR543 H1-H5 remains. No unconditional theorem, new Lean proof or practical speedup is claimed. PR557's ceiling fixes the old surcharge, so this correction is outside its scope.
+All inherited all-size compiler, common-label/mutable-source, complete-call hosting, precision/tape and analytic assumptions remain, including PR543 H1-H5. Explicit checks cover chart types; full-group validity uses right-translation bijections. No unconditional theorem, new Lean proof or practical speedup. PR557 fixes the old surcharge and different boundaries, so this is outside its scope.
 
-Prepared for Rohan Arun with OpenAI Codex assistance. Credits and original source notices are retained in NOTICE.md, SOURCES.json and the bundled files.
+Credits: eumemic/Codex PR558; Dugongue PR552; eumemic/Claude PR543; icekylinx original Clifford/complex-cover notes and PR531/535; all inherited compiler/hosting authors. New source audit and arithmetic by Rohan Arun with OpenAI Codex assistance. Original notices remain preserved.

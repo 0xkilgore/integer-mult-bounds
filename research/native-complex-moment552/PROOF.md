@@ -40,3 +40,8 @@ This remains conditional on the retained all-size realization, common-label/comp
 PR557 explicitly fixes its conservative bad-class charge and excludes alternative charges from its ceiling. Changing that unnecessary complex surcharge therefore lies outside that certificate's stated model; it does not contradict the verified fixed-charge ceiling. Separately, PR557 fixes the PR551 scalar word and does not directly cover final PR552.
 
 No numerical value is claimed by this review. Both rational engines, the next endpoint, all strict outer inequalities, and a publication package must be checked by the parent before announcing a new conditional bound. No PR or provider source was edited, and all artifacts remain on the mounted SSD.
+
+
+## Transfer to PR558
+
+PR558 changes eight kernel entrances and repacks complete owners, while retaining byte-identical local emission, scalar audit, phase/adapters, complete-owner emission/audit and invoice code from reviewed PR552. Its new exact finite witness uses the same native binary-Clifford/orthogonal-cover contract and introduces no q-adic selector. The same pure-complex recurrence therefore applies after its new finite admission. The published receipts are pinned; an independent full replay is running. The bit supplier and its bad-class charge remain unchanged.

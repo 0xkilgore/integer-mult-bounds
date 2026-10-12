@@ -38,5 +38,10 @@
       }
     ]
   },
-  "input_receipts": "PR552 owner and invoice are from the same completed independent replay. Published original invoice is preserved separately; profile/template match pinned EXPECTED."
+  "input_receipts": "PR552 owner and invoice are from the same completed independent replay. Published original invoice is preserved separately; profile/template match pinned EXPECTED.",
+  "pr558": {
+    "head": "060b137c8a6f9d73fd7864c7f8cf2736d6441774",
+    "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/558",
+    "inputs": "Exact published python314 validation receipts; normalized EXPECTED copies result plus profile alias and invoice template, checked at runtime."
+  }
 }
