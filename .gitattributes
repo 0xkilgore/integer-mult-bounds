@@ -25,3 +25,6 @@ research/graded-box-convolution-validation/** -text
 
 # Preserve archived experiment bytes; whitespace is part of their source manifests.
 research/experiment-log/** -whitespace
+
+# Preserve the exact frozen E8 bit supplier source manifest.
+research/e8-bit-carrier-skeleton/** -text -whitespace
