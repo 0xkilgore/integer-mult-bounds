@@ -1,5 +1,5 @@
 {
-  "NOTICE": "28ecac12671b11d1105dbca00eea56f87ec22f32cf86b50f72c71ab9ebbbd494",
+  "NOTICE": "ffa33f7ae4d7a74582ec095b4008203f3a99546437a468b072ed5d5e63b90b06",
   "PROOF.txt": "b333b5ac4f47e1a72b4c471a37d27a90b409fc296196404b00308ac8ae3b19c7",
   "README.txt": "a8454b691244bc5d9221610fcbd4529db4f7f730bc57334525dbbab840b3a35e",
   "code/generate_constraints.py": "704386c0f34f14db4f34f8afdfe871399b461a5f182e23fc5a8678eac23ed408",
@@ -14,6 +14,6 @@
   "evidence/MODEL.json": "6b7b83c0cd158dc8a28f00fd09d79595b354282a8f71cbbbfc926c12f87512d0",
   "evidence/PARITY-CERTIFICATE.json": "4b9c7f9358cdd9c6f81611f9e424630f5c9e0bb503bb198277e6ac762fdb64e0",
   "evidence/QUADRATIC.json": "c22981700e5683bb9702d347d84d1ada950d35ec4b3c44ecc7ae0481cb3a7cb7",
-  "sources/SOURCES.json": "6cd5e5414bf4bb58d4feb9359f91cf75e73153f5b701c8913e57c154faea7498",
+  "sources/SOURCES.json": "03b0805284ed2af4ae882bb2b3e34260520c6d11564c9e6ffcaa91129d938da2",
   "verify.py": "792ffdd66a27e6b6ab559590acddbe5662075c57a5efaacee5d387d49ad8f4b2"
 }
