@@ -1,5 +1,11 @@
 # Contributing and independent review
 
+Before reviewing an existing PR, consult the [central review ledger](docs/research/pr-ledger.md).
+Record the reviewed commit and its evidence separately from publication and GitHub closure.
+Recheck the current head before closing incorporated work, link its retained source and attribution,
+and leave partial or changed submissions open with the remaining question recorded. Research notes
+and verification tools can merit integration even when they do not improve the selected bound.
+
 This is a research draft. Corrections to the mathematics, implementation,
 source attribution, and stated scope are welcome through issues or pull requests.
 

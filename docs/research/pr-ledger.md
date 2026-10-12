@@ -9,14 +9,18 @@ The ledger separates historical review from integration. A prior snapshot or a m
 | Disposition | Count |
 |---|---:|
 | changed since review | 6 |
-| incorporated | 3 |
-| partially reviewed | 148 |
+| incorporated | 8 |
+| partially reviewed | 143 |
 | unreviewed | 289 |
+
+At the closing snapshot: **5 merged, 3 closed as already incorporated, 438 starting PRs still open**. 3 new arrivals bring the live open count to 441.
+
+New arrivals outside this round: [#537](https://github.com/CrocSwap/integer-mult-bounds/pull/537), [#536](https://github.com/CrocSwap/integer-mult-bounds/pull/536), [#535](https://github.com/CrocSwap/integer-mult-bounds/pull/535). Their claims remain unreviewed.
 
 ## Remaining priorities
 
-1. Finish the #442/#484/#509/#516/#520 dependency, Lean and tooling batch.
-2. Review #533’s newer supplier against the published #531 baseline; its title remains an unverified claim.
+1. Follow the new Linux CI for the published #442/#484/#509/#516/#520 batch; the [scoped review](community-formal-20261012-review.md) records completed local checks.
+2. Review #533’s updated supplier against the published #531 baseline and triage the newer #535/#536/#537 followups together; their titles remain unverified claims.
 3. Review #525’s checkpoint/ceiling and #529/#532’s distinct construction mechanisms; retain parallel credit.
 4. Reconcile #210/#279 updates with their earlier incorporated heads; audit #236’s source-package integration separately from its already published review receipts.
 5. Continue the formal-interface queue, including draft #528, after its prerequisites are published. Review drafts as proposals, not ready-to-merge submissions.
@@ -388,7 +392,7 @@ Each evidence link leads to the original scoped assessment. The JSON records exa
 | [#439](https://github.com/CrocSwap/integer-mult-bounds/pull/439) | chafreaky | unreviewed | No exact-head review established; inspect contribution and dependencies. |
 | [#440](https://github.com/CrocSwap/integer-mult-bounds/pull/440) | eumemic | unreviewed | No exact-head review established; inspect contribution and dependencies. |
 | [#441](https://github.com/CrocSwap/integer-mult-bounds/pull/441) | eumemic | unreviewed | No exact-head review established; inspect contribution and dependencies. |
-| [#442](https://github.com/CrocSwap/integer-mult-bounds/pull/442) | DaysSky | partially reviewed | No exact-head review established; inspect contribution and dependencies. |
+| [#442](https://github.com/CrocSwap/integer-mult-bounds/pull/442) | DaysSky | incorporated | [record 1](../../docs/research/community-formal-20261012-integration.json) · [record 2](../../docs/research/community-formal-20261012-review.md) |
 | [#443](https://github.com/CrocSwap/integer-mult-bounds/pull/443) | chafreaky | unreviewed | No exact-head review established; inspect contribution and dependencies. |
 | [#444](https://github.com/CrocSwap/integer-mult-bounds/pull/444) | chafreaky | unreviewed | No exact-head review established; inspect contribution and dependencies. |
 | [#445](https://github.com/CrocSwap/integer-mult-bounds/pull/445) | chafreaky | unreviewed | No exact-head review established; inspect contribution and dependencies. |
@@ -427,7 +431,7 @@ Each evidence link leads to the original scoped assessment. The JSON records exa
 | [#481](https://github.com/CrocSwap/integer-mult-bounds/pull/481) | chafreaky | unreviewed | No exact-head review established; inspect contribution and dependencies. |
 | [#482](https://github.com/CrocSwap/integer-mult-bounds/pull/482) | eumemic | unreviewed | No exact-head review established; inspect contribution and dependencies. |
 | [#483](https://github.com/CrocSwap/integer-mult-bounds/pull/483) | Dugongue | unreviewed | No exact-head review established; inspect contribution and dependencies. |
-| [#484](https://github.com/CrocSwap/integer-mult-bounds/pull/484) | DreamingOfClouds | partially reviewed | No exact-head review established; inspect contribution and dependencies. |
+| [#484](https://github.com/CrocSwap/integer-mult-bounds/pull/484) | DreamingOfClouds | incorporated | [record 1](../../docs/research/community-formal-20261012-integration.json) · [record 2](../../docs/research/community-formal-20261012-review.md) |
 | [#485](https://github.com/CrocSwap/integer-mult-bounds/pull/485) | DreamingOfClouds | unreviewed | No exact-head review established; inspect contribution and dependencies. |
 | [#486](https://github.com/CrocSwap/integer-mult-bounds/pull/486) | chafreaky | unreviewed | No exact-head review established; inspect contribution and dependencies. |
 | [#487](https://github.com/CrocSwap/integer-mult-bounds/pull/487) | jamesyc | unreviewed | No exact-head review established; inspect contribution and dependencies. |
@@ -451,17 +455,17 @@ Each evidence link leads to the original scoped assessment. The JSON records exa
 | [#506](https://github.com/CrocSwap/integer-mult-bounds/pull/506) | chafreaky | unreviewed | No exact-head review established; inspect contribution and dependencies. |
 | [#507](https://github.com/CrocSwap/integer-mult-bounds/pull/507) | eumemic | unreviewed | No exact-head review established; inspect contribution and dependencies. |
 | [#508](https://github.com/CrocSwap/integer-mult-bounds/pull/508) | Dugongue | unreviewed | No exact-head review established; inspect contribution and dependencies. |
-| [#509](https://github.com/CrocSwap/integer-mult-bounds/pull/509) | DreamingOfClouds | partially reviewed | No exact-head review established; inspect contribution and dependencies. |
+| [#509](https://github.com/CrocSwap/integer-mult-bounds/pull/509) | DreamingOfClouds | incorporated | [record 1](../../docs/research/community-formal-20261012-integration.json) · [record 2](../../docs/research/community-formal-20261012-review.md) |
 | [#510](https://github.com/CrocSwap/integer-mult-bounds/pull/510) | DreamingOfClouds | unreviewed | No exact-head review established; inspect contribution and dependencies. |
 | [#511](https://github.com/CrocSwap/integer-mult-bounds/pull/511) | jamesyc | unreviewed | No exact-head review established; inspect contribution and dependencies. |
 | [#512](https://github.com/CrocSwap/integer-mult-bounds/pull/512) | chafreaky | unreviewed | No exact-head review established; inspect contribution and dependencies. |
 | [#513](https://github.com/CrocSwap/integer-mult-bounds/pull/513) | jamesyc | unreviewed | No exact-head review established; inspect contribution and dependencies. |
 | [#515](https://github.com/CrocSwap/integer-mult-bounds/pull/515) | DreamingOfClouds | unreviewed | No exact-head review established; inspect contribution and dependencies. |
-| [#516](https://github.com/CrocSwap/integer-mult-bounds/pull/516) | DreamingOfClouds | partially reviewed | No exact-head review established; inspect contribution and dependencies. |
+| [#516](https://github.com/CrocSwap/integer-mult-bounds/pull/516) | DreamingOfClouds | incorporated | [record 1](../../docs/research/community-formal-20261012-integration.json) · [record 2](../../docs/research/community-formal-20261012-review.md) |
 | [#517](https://github.com/CrocSwap/integer-mult-bounds/pull/517) | chafreaky | unreviewed | No exact-head review established; inspect contribution and dependencies. |
 | [#518](https://github.com/CrocSwap/integer-mult-bounds/pull/518) | Dugongue | unreviewed | No exact-head review established; inspect contribution and dependencies. |
 | [#519](https://github.com/CrocSwap/integer-mult-bounds/pull/519) | jamesyc | unreviewed | No exact-head review established; inspect contribution and dependencies. |
-| [#520](https://github.com/CrocSwap/integer-mult-bounds/pull/520) | higherbeing | partially reviewed | No exact-head review established; inspect contribution and dependencies. |
+| [#520](https://github.com/CrocSwap/integer-mult-bounds/pull/520) | higherbeing | incorporated | [record 1](../../docs/research/community-formal-20261012-integration.json) · [record 2](../../docs/research/community-formal-20261012-review.md) |
 | [#521](https://github.com/CrocSwap/integer-mult-bounds/pull/521) | applecrusher | unreviewed | No exact-head review established; inspect contribution and dependencies. |
 | [#522](https://github.com/CrocSwap/integer-mult-bounds/pull/522) | Dugongue | unreviewed | No exact-head review established; inspect contribution and dependencies. |
 | [#525](https://github.com/CrocSwap/integer-mult-bounds/pull/525) | chafreaky | unreviewed | No exact-head review established; inspect contribution and dependencies. |

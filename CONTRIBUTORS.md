@@ -9,12 +9,12 @@ records fresh finite replays, dependency checks and retained interface assumptio
 | [icekylinx](https://github.com/icekylinx) | #531 direct delivery, 504-helper construction, frame coalescing and physical allocation; #523 exact port restriction; earlier source-basis and split-center work. |
 | [eumemic](https://github.com/eumemic) | #493 source-carrier bit supplier and full replay; #507 partial-own factory and #496 integration ancestry. |
 | [Dugongue](https://github.com/Dugongue) | #514 coordinated entrance/kernel construction; #505 asynchronous whole-owner scheduling; #522 related rank-sector idea. |
-| [DreamingOfClouds](https://github.com/DreamingOfClouds) | #484 shared-donor kernels, gauges and normalized wrappers; exact moment and assembly machinery. |
+| [DreamingOfClouds](https://github.com/DreamingOfClouds) | #484 shared-donor kernels, gauges and normalized wrappers; #509/#516 general Lean proofs of labeled-stream conjugation, physical realization, spectators and commuting windows; exact moment and assembly machinery. |
 | [Chafik Boukhalfa](https://github.com/chafreaky) | #472/#445 eleven-stage geometry, emitters, physical checks and invoice; #458 spectator wrappers. |
 | [DaysSky](https://github.com/DaysSky) | #442 idle-axis hosting and #381 bridged column checks. |
 | [Zhihao Chen](https://github.com/jacklightChen) | #425 mutable-basis interface and Hamming/scalar ancestry; #386 geometry. |
 | Dylan Crow and [Jacob Sussman](https://github.com/jacobalansussman) | #370 bit-format/checker and E8 geometry contributions recorded by the supplier notices. |
-| [higherbeing](https://github.com/higherbeing) | #520 related delivery geometry and allocation framing; idea credit, not an imported implementation. |
+| [higherbeing](https://github.com/higherbeing) | #520 open whole-owner allocation tools, exact delivery-layer diagnostics and the plane-cover correction; imported with scoped validation and maintainer solver-status fixes. |
 
 Original commits, notices, licenses and AI-assistance disclosures are retained.
 Earlier, parallel and superseded contributions remain credited below and in the
