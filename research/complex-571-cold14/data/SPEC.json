@@ -2,8 +2,8 @@
  "schema": "witness-spec/1",
  "name": "cold14",
  "data": {
-  "plan_sha256": "5fb7735839fdff4cceeda5890275f7093e07d6b096bbb6616021f4f389dba356",
-  "owners_sha256": "ad0e3e6fd1743792257e5e935164680aa0dba832c45daee9a8a0fc985948af1a"
+  "plan_sha256": "1879679a44b373006907cbca8261a9cd187c7b868472afab04e002bf95331d9e",
+  "owners_sha256": "944695b855d3224809d71f43b33fa2290f7fde4934eaf3a6ea87ac1631f59688"
  },
  "providers": {
   "atm3": {
@@ -2592,45 +2592,37 @@
    "jp8": 6
   },
   "global_profile": {
-   "1": 185869,
-   "2": 32471,
-   "3": 23609,
+   "1": 185792,
+   "2": 32576,
+   "3": 23600,
    "4": 14128,
    "5": 5040,
    "6": 2016,
-   "7": 6,
-   "8": 581,
-   "16": 15,
-   "24": 1,
-   "32": 76,
-   "48": 2039
+   "8": 576,
+   "32": 1,
+   "48": 2094
   },
   "owners_per_call": 728,
   "hosted_residuals": 36288,
   "rank_mass": 520704,
-  "actual_73column_sigmas": 8413,
-  "cross_replica_helper_roles": 29008,
-  "idle_remainders": 2307,
+  "actual_73column_sigmas": 8346,
+  "cross_replica_helper_roles": 28760,
+  "idle_remainders": 2279,
   "live": 7168,
   "physical": 7682,
   "deficit": 2560,
   "entering_helper_roles": 16344,
   "idle_remainder_profile": {
-   "1": 149,
-   "2": 7,
-   "3": 9,
-   "7": 6,
-   "8": 5,
-   "16": 15,
-   "24": 1,
-   "32": 76,
-   "48": 2039
+   "1": 72,
+   "2": 112,
+   "32": 1,
+   "48": 2094
   },
-  "complex_lower": "811388090885497712649/500000000000000000000000",
-  "conservative_complex_lower": "324555235777144989533/200000000000000000000000",
-  "kappa": "1620147045734211/1000000000000000000",
-  "kappa_decimal": "0.001620147045734211",
-  "conservative_kappa_decimal": "0.001620147042858282",
+  "complex_lower": "405979480841370757873/250000000000000000000000",
+  "conservative_complex_lower": "405979480119620719519/250000000000000000000000",
+  "kappa": "20266063618123/12500000000000000",
+  "kappa_decimal": "0.00162128508944984",
+  "conservative_kappa_decimal": "0.001621285086572193",
   "gain_baseline_kappa": "0.001601260169988325",
   "mutations_rejected": 31,
   "assembly_controls_rejected": 155

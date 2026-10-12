@@ -18,7 +18,7 @@ DreamingOfClouds with Claude Opus 5.5 (Anthropic), via Claude Code. (The PR601 p
 **This package (complex-571-cold14, DreamingOfClouds).** It starts from PR601 (jeremykothe2, `research/complex-571-hpem46`, commit `529ab7dcb59d5ea7a5798e9e06cf5b3aee8a1550`). Everything above is kept unchanged except the following:
 - every provider chain (ck, atm3, jp8) gains the typed step `cold_end` (`code/build_cold_end.py`, `code/cold_end_controls.py`; recipes `data/recipes/*-cold_end.json.gz`);
 - the generalised native chain and the global admission scripts accept cold helpers that end below FULL (with `0:U` wrappers), a refactored exact cleanup, and check the wrapper order;
-- `data/PLAN.json` / `data/OWNERS.json.gz` (dispatch and literal owner map) come from a relocate/swap/ejection-chain/provider-flip annealing search started from PR601's map (not an admission dependency);
+- `data/PLAN.json` / `data/OWNERS.json.gz` (dispatch and literal owner map) come from a relocate/swap/ejection-chain/provider-flip annealing search started from PR601's map, refined by an exact pattern-restricted owner model (CP-SAT) with a literal edge-colouring expansion (not an admission dependency);
 - `data/SPEC.json` holds the expected values, recorded by a discovery run and then checked by a strict run.
 
 The cold-end construction (a row-plus-column cone condition for low-frame ends, a rank-0 dirt-spread premix and multi-gate lower-frame cleanup) builds on PR591 / PR592 / PR593 / PR601 (jeremykothe2) and our PR599 (Lean: multi-gate and cold hyperplane-end tails). DreamingOfClouds with Claude Opus 5.5 (Anthropic), via Claude Code. Build on this at your own risk.

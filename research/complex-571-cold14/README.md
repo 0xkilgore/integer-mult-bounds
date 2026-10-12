@@ -1,19 +1,19 @@
-# complex-571-cold14: conditional κ 0.001620147045734211
+# complex-571-cold14: conditional κ 0.00162128508944984
 
 **Build on this at your own risk.** DreamingOfClouds with Claude Opus 5.5 (Anthropic), via Claude Code. This package awaits independent review.
 
 ## Result
 
-κ = **0.001620147045734211** (conservative model 0.001620147042858282). That is **+0.368% over PR601** (0.001614202339036103) on dispatch ck ×44, atm3 ×22, jp8 ×6. The value comes from `ASSEMBLY.json` of the strict `verify.py` run on this package's literal owner map. The paid profile is {1:185869, 2:32471, 3:23609, 4:14128, 5:5040, 6:2016, 7:6, 8:581, 16:15, 24:1, 32:76, 48:2039} (live 7168, deficit 2560).
+κ = **0.00162128508944984** (conservative model 0.001621285086572193). That is **+0.439% over PR601** (0.001614202339036103) on dispatch ck ×44, atm3 ×22, jp8 ×6. The value comes from `ASSEMBLY.json` of the strict `verify.py` run on this package's literal owner map. The paid profile is {1:185792, 2:32576, 3:23600, 4:14128, 5:5040, 6:2016, 8:576, 32:1, 48:2094} (live 7168, deficit 2560).
 
 The complex side binds:
 
 | quantity | value |
 |---|---|
-| native complex lower bound | 0.001622776181770995425298 |
+| native complex lower bound | 0.001623917923365483031492 |
 | bit supplier value (PR543) | 0.0016538 (`bit_lower` 0.001653826988146798944268) |
-| κ with the bit cap | 0.001620147045734211 |
-| κ without the bit cap | 0.001620147045734211 |
+| κ with the bit cap | 0.00162128508944984 |
+| κ without the bit cap | 0.00162128508944984 |
 
 The bit value is above the complex bound, so it does not bind, and κ is the same with or without the cap.
 
@@ -43,7 +43,7 @@ Effect per call and per provider:
 - the paid local profile changes by {1:+28, 5:+14, 6:−28};
 - 14 helpers go from width 9 to width 4.
 
-The dispatch and the literal owner map are re-solved for the new widths (`data/PLAN.json`, `data/OWNERS.json.gz`). They come from an annealing search started from PR601's map, using relocate, swap, ejection-chain, bin-evacuation and provider-flip moves. Every inherited window, family and capacity constraint is kept.
+The dispatch and the literal owner map are re-solved for the new widths (`data/PLAN.json`, `data/OWNERS.json.gz`). They come from an annealing search started from PR601's map (relocate, swap, ejection-chain, bin-evacuation and provider-flip moves), followed by an exact owner model that is warm-started from the annealed map and restricted to the patterns of that map and of the LP optimum. The exact model holds one helper per port per call, and its solution is expanded literally by bipartite edge colouring (Kőnig). Every inherited window, family and capacity constraint is kept, and the package's verifier re-admits the map independently.
 
 The approach borrows from the uncomputation literature: Bennett 1989; Gidney 2015 (borrowed dirty ancillas); Häner–Roetteler–Svore 2017.
 
@@ -103,12 +103,12 @@ All LP figures below are first-order bounds. They come from the aggregate hostin
 |---|---|
 | LP ceiling, fixed dispatch (PR601's ck 45 / atm3 21 / jp8 6, all cold) | ≈ +0.49% |
 | LP ceiling, free dispatch over {ck, atm3, jp8} cold | ≈ +0.71% |
-| this package's literal map | +0.368% |
-| remaining owner-map headroom on the fixed dispatch | ≈ 0.12 pt |
+| this package's literal map (fixed dispatch ck 44 / atm3 22 / jp8 6) | +0.439% |
+| remaining owner-map headroom on this dispatch (exact model's bound = LP) | ≈ 0.06 pt |
 
 - **Free dispatch is jp8-heavy.** The LP puts about 70 calls on jp8 and about 2 on atm3. The LP's idle remainder is pure rank-48 idle children, whereas the literal map still leaves some rank-16 and rank-32 idle children.
-- **What limits jp8.** The time windows do not limit jp8. Time-refinability does: within each owner group, each port may host at most one helper per call. The aggregate optimum ignores this, and the exact per-port refinement of it is infeasible. Literal maps for jp8-heavy dispatches found so far are worse than PR601's dispatch.
-- **Closing the gap.** An exact, edge-colourable owner model is the remaining owner-side lever: per-time Hall conditions, or a pattern-restricted model warm-started from this map.
+- **What limits jp8.** Neither the time windows nor time-refinability bind at the LP level: adding per-pattern, one-helper-per-port-per-call constraints leaves the LP optimum unchanged. The gap to the jp8-heavy ceiling is integrality and search. The first integer aggregate optimum was not refinable per port, and the literal maps found so far for jp8-heavy dispatches are worse than this package's dispatch.
+- **Closing the gap.** The exact owner model used here (pattern-restricted, edge-colourable) closes about half of the fixed-dispatch gap; its bound equals the LP. The jp8-heavy dispatch needs the same integer model solved on that dispatch.
 - **End dimension (first-order).** Raising a unit's end frame from dim 4 to dim d needs the last tail gate at that frame, which lifts one partner. This adds 2ψ(d−4) + ψ(9−d) − ψ(5) to the local cost per unit, where ψ(r) = r·ln(73/r). That is +6.8, +10.6, +13.0 and +14.1 for d = 5…8. The remaining hosting headroom is about 1–2 per unit, so d = 4 is the best end dimension for these units.
 - **Necessary condition, for any cleanup factorisation.** A helper h can end at a frame U only if, at the end of B, the supports of its row in the inverse state map and of its dirt column both lie in Q_U, the registers whose end-of-B frames lie in U. The transport checks this condition for every low-frame end. Choosing which units satisfy it, through the premix, is the supply question. This package uses 14 units per word. Their optimality per word is not certified here.
 
@@ -118,7 +118,7 @@ Fetch the pinned sources exactly as for PR601, then run:
 
 ```sh
 research/complex-571-cold14/verify.sh /tmp/complex-571-cold14 ..
-# kappa 0.001620147045734211
+# kappa 0.00162128508944984
 ```
 
 `verify.py` uses only the standard library and requires assertions. It runs these stages:
