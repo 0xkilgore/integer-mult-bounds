@@ -23,3 +23,14 @@ DreamingOfClouds with Claude Opus 5.5 (Anthropic), via Claude Code. (The PR601 p
 
 The cold-end construction (a row-plus-column cone condition for low-frame ends, a rank-0 dirt-spread premix and multi-gate lower-frame cleanup) builds on PR591 / PR592 / PR593 / PR601 (jeremykothe2) and our PR599 (Lean: multi-gate and cold hyperplane-end tails). DreamingOfClouds with Claude Opus 5.5 (Anthropic), via Claude Code. Build on this at your own risk.
 
+
+## Owner consolidation revision
+
+Jeremy Diviney, with OpenAI Codex assistance, starts from PR610 at
+`b7c680ea38b9a25a89fce189bb927b45842362d0` (DreamingOfClouds with Claude Opus 5.5).
+Twelve literal helper placements are consolidated into already occupied owners;
+the affected offsets, global paid profile and expected result pins are refreshed.
+The dispatch, provider words, construction recipes, external source pins and every
+verifier script remain unchanged. The added discovery tool is Apache-2.0 and is
+not an admission dependency. It makes no optimality claim. All preceding credit,
+license notices and conditional assumptions are retained.

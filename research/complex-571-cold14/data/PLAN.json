@@ -1,6 +1,6 @@
 {
  "status": "LITERAL_OWNER_NOMINATION_PENDING_ADMISSION",
- "mode": "frozen-saturation-pattern-time-matching",
+ "mode": "literal-partial-owner-consolidation",
  "K": 4,
  "T": 8,
  "M": 73,
@@ -9,18 +9,16 @@
  "deficit": 2560,
  "profile": {
   "1": 178526,
-  "2": 24344,
+  "2": 24345,
   "3": 33840,
-  "4": 13248,
+  "4": 13249,
   "5": 5040,
   "6": 2016,
   "8": 576,
   "32": 1,
-  "39": 3,
-  "41": 10,
-  "43": 1,
-  "44": 2,
-  "48": 2008
+  "35": 1,
+  "41": 1,
+  "48": 2020
  },
  "order": [
   [
@@ -4032,7 +4030,7 @@
   "16": 2,
   "17": 2
  },
- "solver_status": "relocate_swap_chain_flip_annealing_of_pr601_literal_map",
+ "solver_status": "GREEDY_FEASIBLE_NOT_OPTIMAL",
  "gap": null,
  "provider_calls": [
   {
@@ -42664,7 +42662,7 @@
    }
   }
  },
- "source_plan_sha256": "329750b57d80ee60893ca1be6bba38f39a2264dd63bf2158ca0ac68f406326cd",
- "assignment_sha256": "2d3c5691e3f62cb0c98efcb998a25ac947936404a53e33755b82aaa795da1314",
+ "source_plan_sha256": "b582ceb0c95b5bf30685519f0c1c6ec48a9ecc7ad8818ea2839c964e3e9f77c0",
+ "assignment_sha256": "f75c4efb6bfac492c75e862163484602b4edb181f067a3537d2278dd2fb11c80",
  "source_owners_sha256": "2d3c5691e3f62cb0c98efcb998a25ac947936404a53e33755b82aaa795da1314"
 }

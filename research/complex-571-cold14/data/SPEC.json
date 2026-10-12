@@ -2,8 +2,8 @@
  "schema": "witness-spec/1",
  "name": "cold14",
  "data": {
-  "plan_sha256": "b582ceb0c95b5bf30685519f0c1c6ec48a9ecc7ad8818ea2839c964e3e9f77c0",
-  "owners_sha256": "2d3c5691e3f62cb0c98efcb998a25ac947936404a53e33755b82aaa795da1314"
+  "plan_sha256": "a9400c48e3e163cfcce1f1f651e1592d15b372cd30cdbdf9415db6980c6882c1",
+  "owners_sha256": "3c8b20eba5cbc67e219fbb261a36387bdcd45d6be64c543f57507dc85164319e"
  },
  "providers": {
   "ck": {
@@ -1950,24 +1950,22 @@
   },
   "global_profile": {
    "1": 178526,
-   "2": 24344,
+   "2": 24345,
    "3": 33840,
-   "4": 13248,
+   "4": 13249,
    "5": 5040,
    "6": 2016,
    "8": 576,
    "32": 1,
-   "39": 3,
-   "41": 10,
-   "43": 1,
-   "44": 2,
-   "48": 2008
+   "35": 1,
+   "41": 1,
+   "48": 2020
   },
   "owners_per_call": 728,
   "hosted_residuals": 36288,
   "rank_mass": 520704,
-  "actual_73column_sigmas": 7735,
-  "cross_replica_helper_roles": 28243,
+  "actual_73column_sigmas": 7737,
+  "cross_replica_helper_roles": 28244,
   "idle_remainders": 2051,
   "live": 7168,
   "physical": 7682,
@@ -1975,18 +1973,18 @@
   "entering_helper_roles": 16344,
   "idle_remainder_profile": {
    "1": 26,
+   "2": 1,
+   "4": 1,
    "32": 1,
-   "39": 3,
-   "41": 10,
-   "43": 1,
-   "44": 2,
-   "48": 2008
+   "35": 1,
+   "41": 1,
+   "48": 2020
   },
-  "complex_lower": "814005673613905131117/500000000000000000000000",
-  "conservative_complex_lower": "814005672200512079087/500000000000000000000000",
-  "kappa": "162536523418317/100000000000000000",
-  "kappa_decimal": "0.00162536523418317",
-  "conservative_kappa_decimal": "0.001625365231365566",
+  "complex_lower": "65123241723313677121/40000000000000000000000",
+  "conservative_complex_lower": "1628081040255934644259/1000000000000000000000000",
+  "kappa": "406358675913763/250000000000000000",
+  "kappa_decimal": "0.001625434703655052",
+  "conservative_kappa_decimal": "0.001625434700837327",
   "gain_baseline_kappa": "0.001601260169988325",
   "mutations_rejected": 23,
   "assembly_controls_rejected": 114

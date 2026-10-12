@@ -1,3 +1,37 @@
+# complex-571-cold14: conditional κ 0.001625434703655052
+
+This revision consolidates twelve helpers in PR610's literal owner map and raises
+its conditional κ from **0.00162536523418317** to **0.001625434703655052**
+(**+0.00427408%**). The conservative value is **0.001625434700837327**.
+The native complex lower endpoint is **0.001628081043082841928025**;
+the inherited bit supplier does not bind.
+
+The dispatch remains jp8 ×71 / ck ×1. All provider words, recipes, external pins,
+and verifier scripts are unchanged from PR610 at
+`b7c680ea38b9a25a89fce189bb927b45842362d0`. Twelve helper placements change,
+and two additional records change only their packed offsets. The global profile is
+{1:178526, 2:24345, 3:33840, 4:13249, 5:5040, 6:2016, 8:576,
+32:1, 35:1, 41:1, 48:2020}, with live 7168, physical 7682 and deficit 2560.
+
+See [OWNER-CONSOLIDATION.md](OWNER-CONSOLIDATION.md) for the exact change,
+source pins and reproduction. `data/CONSOLIDATION.json` records all twelve moves;
+`tools/consolidate_owners.py` deterministically nominates them from PR610's map.
+The search tool is not an admission dependency. Use the existing `verify.sh` or
+`verify.py` commands below to rebuild and admit the frozen candidate.
+
+Prepared by Jeremy Diviney with OpenAI Codex assistance. This revision awaits
+independent review and inherits every conditional assumption in NOTICE.md.
+DreamingOfClouds and the other predecessor authors retain credit for the circuits,
+provider dispatch, verifier and original owner construction.
+
+---
+
+## Historical PR610 background
+
+The text below is PR610's original report, retained for attribution and context.
+Its numerical values and references to “this package” describe the pinned
+predecessor; the current result is the one above.
+
 # complex-571-cold14: conditional κ 0.00162536523418317
 
 **Build on this at your own risk.** DreamingOfClouds with Claude Opus 5.5 (Anthropic), via Claude Code. This package awaits independent review.
