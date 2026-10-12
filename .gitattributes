@@ -43,3 +43,7 @@ research/e8-complex-gauge-kernel/** -text -whitespace
 research/e8-lemma-a-lean/** -text -whitespace
 research/e8-lemma-g-lean/** -text -whitespace
 research/community-formal-20261012-audit/** -text -whitespace
+
+# Preserve exact joint-prefix source, upstream snapshots and replay evidence bytes.
+research/complex-joint-prefix/** -text -whitespace
+research/complex-joint-prefix-validation/** -text -whitespace
