@@ -1,5 +1,5 @@
 {
-  "status": "REVIEWED_LOCAL_PUBLICATION_PENDING",
+  "status": "PUBLISHED_EIGHT_MERGED_ONE_PARTIAL_LINUX_PENDING",
   "selected_kappa": "16127213726553/10000000000000000",
   "selected_decimal": "0.0016127213726553",
   "reviewed_heads": {
@@ -20,12 +20,21 @@
     "research/community-hyperplane599-audit/COMPLETED-EVIDENCE.json": "8ba40cbf54e133bdcc8a6253d5e82bd07908ec71c22e7f6999e4f5309659c13a",
     "research/community-hyperplane599-audit/REVIEW-NOTES.json": "74d303187edcfca07a157522f0ffb0074a1cea47aa2dc6a884cfbb42736f0224",
     "research/community-hyperplane599-audit/CONTENT-COVERAGE.json": "2d20976d44aed182ff93aba64cc319b63fb44cf31c025539dfe27fa9d12397fe",
-    "research/community-hyperplane599-audit/DISPOSITIONS.json": "96b69742b95ea320066e01b714cf526761b583aba4857413edf070761b76b6ac"
+    "research/community-hyperplane599-audit/DISPOSITIONS.json": "00763b888859d15618eda871a42a9c0e6912ea33b932a29c02bc6e2df984efc1",
+    "research/community-hyperplane599-audit/PUBLICATION.json": "2f43b380d8ecc4763f77e0b1553ef74c0671b08d08941018d995ee0028cb0fc5",
+    "research/community-hyperplane599-audit/CI-STATUS.json": "1663306f68e5b66e3108757e63630c228ae3bac1c93af10edafc32c077a7e58f"
   },
-  "linux_ci": "Not yet run for this integration. Prior family588 workflow remains queued.",
+  "linux_ci": {
+    "status": "queued",
+    "conclusion": null,
+    "head": "343b5fa018dce7a3c58ff25273e017ac1ea8f244",
+    "run_id": 38281344577,
+    "url": "https://github.com/CrocSwap/integer-mult-bounds/actions/runs/38281344577"
+  },
   "remaining": [
-    "Publish reviewed source and explanations",
-    "Keep #594 historical branch reconciliation open"
+    "#594 inherited historical branch reconciliation remains open.",
+    "Remote Linux CI has not completed; local finite, formal and clean-archive checks passed."
   ],
-  "scope": "Finite scalar, frame, phase, whole-owner, invoice and exact assembly checks. All-size/compiler/common-label/mutable-basis/pooled-cell hosting/residual/precision/tape/analytic assumptions remain. This is not a full Lean multiplication theorem. See review for replay reuse and Linux CI status."
+  "scope": "Finite scalar, frame, phase, whole-owner, invoice and exact assembly checks. All-size/compiler/common-label/mutable-basis/pooled-cell hosting/residual/precision/tape/analytic assumptions remain. This is not a full Lean multiplication theorem. See review for replay reuse and Linux CI status.",
+  "publication_commit": "343b5fa018dce7a3c58ff25273e017ac1ea8f244"
 }

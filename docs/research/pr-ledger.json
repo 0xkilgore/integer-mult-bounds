@@ -12,8 +12,8 @@
   ],
   "counts": {
     "changed_since_review": 6,
-    "incorporated": 60,
-    "partially_reviewed": 153,
+    "incorporated": 68,
+    "partially_reviewed": 145,
     "unreviewed": 282
   },
   "source_sha256": {
@@ -35,7 +35,7 @@
     "research/pr-reconciliation-20261012/ending-snapshot.json": "629522d6a438733f5316ee362979c35fb9f703ac801c3d30b6fc390ea62d2322",
     "research/community-family533-audit/DISPOSITIONS.json": "e0e51f92dc715525b8ff5e4987551336c292b0a466f1f3fb87221fb96d54544d",
     "research/community-family588-audit/DISPOSITIONS.json": "70f66f8c223b0929904ff88e27713b5bdbdb0d6b92f4d55cf518565135d678b5",
-    "research/community-hyperplane599-audit/DISPOSITIONS.json": "96b69742b95ea320066e01b714cf526761b583aba4857413edf070761b76b6ac"
+    "research/community-hyperplane599-audit/DISPOSITIONS.json": "00763b888859d15618eda871a42a9c0e6912ea33b932a29c02bc6e2df984efc1"
   },
   "scope": "Reconciliation index, not blanket mathematical verification. Partial includes triage or scoped checks; mentions alone are not review. Integrated archives are distinguished from active implementations. No automatic closures.",
   "pull_requests": [
@@ -15368,16 +15368,22 @@
       "integration_location": [
         "research/e8-bit-p111-tuned"
       ],
-      "github_state": "OPEN",
-      "closure": null,
+      "github_state": "MERGED",
+      "closure": {
+        "reviewed_head": "a5afc8c6169ea61ba7c51dfd3cade02cc7b13b46",
+        "github_state": "MERGED",
+        "merged_at": "2026-10-12T17:00:38Z",
+        "integration_commit": "343b5fa018dce7a3c58ff25273e017ac1ea8f244",
+        "explanation_url": "https://github.com/CrocSwap/integer-mult-bounds/blob/343b5fa018dce7a3c58ff25273e017ac1ea8f244/docs/research/community-hyperplane599-review.md"
+      },
       "reviewed_head": "a5afc8c6169ea61ba7c51dfd3cade02cc7b13b46",
-      "disposition": "partially_reviewed",
-      "unresolved_question": "Reviewed and locally verified; publication and exact-head resolution pending.",
+      "disposition": "incorporated",
+      "unresolved_question": "",
       "review_completion": {
         "changed_file_coverage": true,
         "scoped_mechanism_review": true,
         "required_execution_complete": true,
-        "published": false
+        "published": true
       },
       "verification_evidence": [
         "research/community-hyperplane599-audit/COMPLETED-EVIDENCE.json"
@@ -15414,16 +15420,22 @@
       "integration_location": [
         "research/complex-571-hpeq1"
       ],
-      "github_state": "OPEN",
-      "closure": null,
+      "github_state": "MERGED",
+      "closure": {
+        "reviewed_head": "f622547244bf6d895a571a7b035142ba66279806",
+        "github_state": "MERGED",
+        "merged_at": "2026-10-12T17:00:38Z",
+        "integration_commit": "343b5fa018dce7a3c58ff25273e017ac1ea8f244",
+        "explanation_url": "https://github.com/CrocSwap/integer-mult-bounds/blob/343b5fa018dce7a3c58ff25273e017ac1ea8f244/docs/research/community-hyperplane599-review.md"
+      },
       "reviewed_head": "f622547244bf6d895a571a7b035142ba66279806",
-      "disposition": "partially_reviewed",
-      "unresolved_question": "Reviewed and locally verified; publication and exact-head resolution pending.",
+      "disposition": "incorporated",
+      "unresolved_question": "",
       "review_completion": {
         "changed_file_coverage": true,
         "scoped_mechanism_review": true,
         "required_execution_complete": true,
-        "published": false
+        "published": true
       },
       "verification_evidence": [
         "research/community-hyperplane599-audit/COMPLETED-EVIDENCE.json"
@@ -15460,16 +15472,22 @@
       "integration_location": [
         "research/complex-571-hpeq4"
       ],
-      "github_state": "OPEN",
-      "closure": null,
+      "github_state": "MERGED",
+      "closure": {
+        "reviewed_head": "1f471c445c06a45a32e2c47e8d74c8264b68356b",
+        "github_state": "MERGED",
+        "merged_at": "2026-10-12T17:00:38Z",
+        "integration_commit": "343b5fa018dce7a3c58ff25273e017ac1ea8f244",
+        "explanation_url": "https://github.com/CrocSwap/integer-mult-bounds/blob/343b5fa018dce7a3c58ff25273e017ac1ea8f244/docs/research/community-hyperplane599-review.md"
+      },
       "reviewed_head": "1f471c445c06a45a32e2c47e8d74c8264b68356b",
-      "disposition": "partially_reviewed",
-      "unresolved_question": "Reviewed and locally verified; publication and exact-head resolution pending.",
+      "disposition": "incorporated",
+      "unresolved_question": "",
       "review_completion": {
         "changed_file_coverage": true,
         "scoped_mechanism_review": true,
         "required_execution_complete": true,
-        "published": false
+        "published": true
       },
       "verification_evidence": [
         "research/community-hyperplane599-audit/COMPLETED-EVIDENCE.json"
@@ -15506,16 +15524,22 @@
       "integration_location": [
         "research/hyperplane-end-lean"
       ],
-      "github_state": "OPEN",
-      "closure": null,
+      "github_state": "MERGED",
+      "closure": {
+        "reviewed_head": "fdb6dcc6d7bc29764c5b6b4d32b7fa050acf74a4",
+        "github_state": "MERGED",
+        "merged_at": "2026-10-12T17:00:38Z",
+        "integration_commit": "343b5fa018dce7a3c58ff25273e017ac1ea8f244",
+        "explanation_url": "https://github.com/CrocSwap/integer-mult-bounds/blob/343b5fa018dce7a3c58ff25273e017ac1ea8f244/docs/research/community-hyperplane599-review.md"
+      },
       "reviewed_head": "fdb6dcc6d7bc29764c5b6b4d32b7fa050acf74a4",
-      "disposition": "partially_reviewed",
-      "unresolved_question": "Reviewed and locally verified; publication and exact-head resolution pending.",
+      "disposition": "incorporated",
+      "unresolved_question": "",
       "review_completion": {
         "changed_file_coverage": true,
         "scoped_mechanism_review": true,
         "required_execution_complete": true,
-        "published": false
+        "published": true
       },
       "verification_evidence": [
         "research/community-hyperplane599-audit/COMPLETED-EVIDENCE.json"
@@ -15557,12 +15581,12 @@
       "closure": null,
       "reviewed_head": "770e8ef302e2fd48e9522373ef7ff980187c978b",
       "disposition": "partially_reviewed",
-      "unresolved_question": "Historical branch differences outside the three replay files require reconciliation.",
+      "unresolved_question": "Three new independent-replay files are published and credited. The inherited historical branch differences remain unreviewed; do not close the full PR on this evidence.",
       "review_completion": {
         "changed_file_coverage": false,
         "scoped_mechanism_review": true,
         "required_execution_complete": true,
-        "published": false
+        "published": true
       },
       "verification_evidence": [
         "research/community-hyperplane599-audit/COMPLETED-EVIDENCE.json"
@@ -15599,16 +15623,22 @@
       "integration_location": [
         "research/format-limits"
       ],
-      "github_state": "OPEN",
-      "closure": null,
+      "github_state": "MERGED",
+      "closure": {
+        "reviewed_head": "39112c2577452fa278489fb9fd77a9aecb2cdc24",
+        "github_state": "MERGED",
+        "merged_at": "2026-10-12T17:00:38Z",
+        "integration_commit": "343b5fa018dce7a3c58ff25273e017ac1ea8f244",
+        "explanation_url": "https://github.com/CrocSwap/integer-mult-bounds/blob/343b5fa018dce7a3c58ff25273e017ac1ea8f244/docs/research/community-hyperplane599-review.md"
+      },
       "reviewed_head": "39112c2577452fa278489fb9fd77a9aecb2cdc24",
-      "disposition": "partially_reviewed",
-      "unresolved_question": "Reviewed and locally verified; publication and exact-head resolution pending.",
+      "disposition": "incorporated",
+      "unresolved_question": "",
       "review_completion": {
         "changed_file_coverage": true,
         "scoped_mechanism_review": true,
         "required_execution_complete": true,
-        "published": false
+        "published": true
       },
       "verification_evidence": [
         "research/community-hyperplane599-audit/COMPLETED-EVIDENCE.json"
@@ -15645,16 +15675,22 @@
       "integration_location": [
         "research/complex-571-hpeq5"
       ],
-      "github_state": "OPEN",
-      "closure": null,
+      "github_state": "MERGED",
+      "closure": {
+        "reviewed_head": "7732dd5e46863ff294b5e443661cb9d99abf4e01",
+        "github_state": "MERGED",
+        "merged_at": "2026-10-12T17:00:38Z",
+        "integration_commit": "343b5fa018dce7a3c58ff25273e017ac1ea8f244",
+        "explanation_url": "https://github.com/CrocSwap/integer-mult-bounds/blob/343b5fa018dce7a3c58ff25273e017ac1ea8f244/docs/research/community-hyperplane599-review.md"
+      },
       "reviewed_head": "7732dd5e46863ff294b5e443661cb9d99abf4e01",
-      "disposition": "partially_reviewed",
-      "unresolved_question": "Reviewed and locally verified; publication and exact-head resolution pending.",
+      "disposition": "incorporated",
+      "unresolved_question": "",
       "review_completion": {
         "changed_file_coverage": true,
         "scoped_mechanism_review": true,
         "required_execution_complete": true,
-        "published": false
+        "published": true
       },
       "verification_evidence": [
         "research/community-hyperplane599-audit/COMPLETED-EVIDENCE.json"
@@ -15693,16 +15729,22 @@
         "research/turyn-code-space",
         "research/turyn-port-labels"
       ],
-      "github_state": "OPEN",
-      "closure": null,
+      "github_state": "MERGED",
+      "closure": {
+        "reviewed_head": "615ca6f06fdea0c50dbef733370c47349e25c555",
+        "github_state": "MERGED",
+        "merged_at": "2026-10-12T17:00:38Z",
+        "integration_commit": "343b5fa018dce7a3c58ff25273e017ac1ea8f244",
+        "explanation_url": "https://github.com/CrocSwap/integer-mult-bounds/blob/343b5fa018dce7a3c58ff25273e017ac1ea8f244/docs/research/community-hyperplane599-review.md"
+      },
       "reviewed_head": "615ca6f06fdea0c50dbef733370c47349e25c555",
-      "disposition": "partially_reviewed",
-      "unresolved_question": "Reviewed and locally verified; publication and exact-head resolution pending.",
+      "disposition": "incorporated",
+      "unresolved_question": "",
       "review_completion": {
         "changed_file_coverage": true,
         "scoped_mechanism_review": true,
         "required_execution_complete": true,
-        "published": false
+        "published": true
       },
       "verification_evidence": [
         "research/community-hyperplane599-audit/COMPLETED-EVIDENCE.json"
@@ -15739,16 +15781,22 @@
       "integration_location": [
         "research/hyperplane-end-lean"
       ],
-      "github_state": "OPEN",
-      "closure": null,
+      "github_state": "MERGED",
+      "closure": {
+        "reviewed_head": "bc13c8a3e000442606bd2dbe8583a17649ba6c32",
+        "github_state": "MERGED",
+        "merged_at": "2026-10-12T17:00:38Z",
+        "integration_commit": "343b5fa018dce7a3c58ff25273e017ac1ea8f244",
+        "explanation_url": "https://github.com/CrocSwap/integer-mult-bounds/blob/343b5fa018dce7a3c58ff25273e017ac1ea8f244/docs/research/community-hyperplane599-review.md"
+      },
       "reviewed_head": "bc13c8a3e000442606bd2dbe8583a17649ba6c32",
-      "disposition": "partially_reviewed",
-      "unresolved_question": "Reviewed and locally verified; publication and exact-head resolution pending.",
+      "disposition": "incorporated",
+      "unresolved_question": "",
       "review_completion": {
         "changed_file_coverage": true,
         "scoped_mechanism_review": true,
         "required_execution_complete": true,
-        "published": false
+        "published": true
       },
       "verification_evidence": [
         "research/community-hyperplane599-audit/COMPLETED-EVIDENCE.json"
@@ -15768,7 +15816,7 @@
   ],
   "github_dispositions": {
     "CLOSED": 3,
-    "MERGED": 57,
-    "OPEN": 441
+    "MERGED": 65,
+    "OPEN": 433
   }
 }

@@ -23,13 +23,11 @@
   ],
   "running": {},
   "next": [
-    "Finish exact HPE and Lean replays",
-    "Run instance/recipe binding on all providers",
-    "Integrate selected result only after all checks pass",
-    "Publish supported PR resolutions; leave594 historical scope open"
+    "Check Linux run when it executes.",
+    "Historical PR594 reconciliation and deferred Lean queue remain separate work."
   ],
   "lean": "42 results passed; emitted wrapper literals and all five local instance checks passed",
-  "status": "All scoped checks passed; commit and publication pending",
+  "status": "Published; eight PRs merged; PR594 partial; Linux queued",
   "partial": {
     "594": "New independent-replay files incorporated; inherited historical differences unresolved."
   }
