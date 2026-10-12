@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-12T13:29:49.730579+00:00",
+  "updated_utc": "2026-10-12T14:41:19.765306+00:00",
   "status": "in_progress_not_publication_admission",
   "notes": {
     "543": {
@@ -33,13 +33,13 @@
       "execution": "Stress replay completed; retain full stdout and final counts"
     },
     "587": {
-      "review": "Inputs and expected outputs separated. pin() returns recomputed got; expected values only compare. Cold runs do full physical admission. Hidden reuse flags lack standalone provenance binding and must not be used as acceptance evidence without external source/input/receipt binding.",
-      "execution": "Source inspection only so far; fixture/mutation suite pending"
+      "review": "Inputs and expected outputs separated. pin() returns recomputed got; expected values only compare. Cold runs do full physical admission. Hidden reuse flags lack standalone provenance binding and must not be used as acceptance evidence without external source/input/receipt binding. The replay covers the fixed PR582 accounting model; it is not a theorem for arbitrary geometry declarations.",
+      "execution": "Complete eight-test fixture suite passed: fresh generation, exact expected comparison, source check, fresh strict replay and four profile/dispatch/owner/kernel mutations rejected at their intended checks."
     },
     "588": {
-      "review": "Gate moves pass pairwise transvection commutation; raising frames follows moves, cleanup regenerated and responses invariant. Must still validate native frames/phases/owner contracts and full bill. Full original cold replay passed with all provider chains; the integrated public cold command is running separately.",
+      "review": "Gate moves pass pairwise transvection commutation; raising frames follows moves, cleanup regenerated and responses invariant. Must still validate native frames/phases/owner contracts and full bill. Full original cold replay passed with all provider chains; the integrated public cold command also passed from scratch.",
       "source_variant": "Canonical PR569 head adds seven historical logs and changes NOTICE/README/MANIFEST only; all shared executable/recipe/input bytes match. See complete PIN-VARIANTS.json comparison.",
-      "execution": "Full cold 43-stage replay passed at original source pins; exact binding to freshly replayed PR543 passed, with four independent binding mutations rejected. Documentation-only pin update plus seven restored historical logs passed independent rebuild/global re-admission reusing hash-bound unchanged phase artifacts. Clean Git archive passes default source pin check.",
+      "execution": "Full cold 43-stage replay passed at original source pins; exact binding to freshly replayed PR543 passed, with four independent binding mutations rejected. Documentation-only pin update plus seven restored historical logs passed independent rebuild/global re-admission reusing hash-bound unchanged phase artifacts. Clean Git archive passes default source pin check. The integrated public cold command subsequently rebuilt both suppliers with no reuse and passed the exact binding at the same kappa.",
       "kappa": "400569730495803/250000000000000000"
     },
     "555": {
@@ -81,10 +81,12 @@
       "execution": "Fresh complete replay passed; source/stage/result receipts preserved in BATCH2-EVIDENCE.json."
     },
     "567": {
-      "review": "Second cold relation is recomputed after the first, and inverse cleanup rebuilt. Literal owner reassignment is necessary: merely enlarging old remainders can erase the gain. Portable identities retain decompressed proof bytes and validate references before normalizing timing metadata."
+      "review": "Second cold relation is recomputed after the first, and inverse cleanup rebuilt. Literal owner reassignment is necessary: merely enlarging old remainders can erase the gain. Portable identities retain decompressed proof bytes and validate references before normalizing timing metadata.",
+      "execution": "Fresh complete package command passed; stage, result, receipt/control records and log archived in BATCH2-EVIDENCE.json."
     },
     "568": {
-      "review": "Multi-cut donors read a pivot that retains its initial dirt before its original touch. Cancellation is an exact sum of dyadic response columns at their own cuts. Target donors and helper donors require their individual chronology; complete scalar restoration, native phases and allocation are checked separately."
+      "review": "Multi-cut donors read a pivot that retains its initial dirt before its original touch. Cancellation is an exact sum of dyadic response columns at their own cuts. Target donors and helper donors require their individual chronology; complete scalar restoration, native phases and allocation are checked separately.",
+      "execution": "Fresh complete package command passed; stage, result, receipt/control records and log archived in BATCH2-EVIDENCE.json."
     },
     "569": {
       "review": "Entrance promotions change only frames under exact nesting/response constraints. Six explicit providers and the global mixed assignment are separately admitted. Exact capacity duals are scoped upper bounds on the nominated inventory/packing class; nomination search optimality is not claimed.",
@@ -92,7 +94,7 @@
     },
     "571": {
       "review": "A combined prefix replaces the literal old prefix after an exact shared response/frame match. The reusable frontier driver verifies source, baseline, provider and prior-global receipts including every stage/log before reuse. Ten joint-basis bounded searches have replayed; those negative findings are scoped to their declared catalogs.",
-      "execution": "Ten bounded joint-basis searches passed. Frontier driver started after validating complete fresh PR569 baseline/provider/global receipts; running."
+      "execution": "Both ten bounded joint-basis research searches and complete fresh frontier construction/phase/owner/invoice/assembly/control replay passed. Prior #569 receipts and artifacts were verified before reuse."
     },
     "572": {
       "review": "Thirty-two entrance promotions preserve every scalar operation, coefficient and order of the eight-cold word. New frame paths and owner schedule are fully charged. Exact integer width counts alone are insufficient; the actual per-call matching/owner map is the admission evidence."
@@ -116,7 +118,8 @@
       "review": "Mixes 48 added-kernel joint-prefix calls and 24 plain joint-prefix calls. Recompute the entire invoice and both moments from actual words and owners; searching five families does not claim global optimality."
     },
     "582": {
-      "review": "The #587 fixture reconstructs this exact declared witness twice (generation and strict replay) and compares all published expected construction/provider/global fields. This is the proposed execution coverage for #582, not a claim to have run its original standalone driver. Full fixture completion and input binding remain required."
+      "review": "The #587 fixture reconstructs this exact declared witness twice (generation and strict replay) and compares all published expected construction/provider/global fields. This is the proposed execution coverage for #582, not a claim to have run its original standalone driver. Full fixture completion and input binding remain required.",
+      "execution": "Full fresh generic strict replay passed; all declared inputs and published expected construction/provider/global fields exactly bound in PR582-PR587-BINDING.json."
     },
     "583": {
       "review": "Six raised gate frames preserve scalar incidences and coefficients, turning pairs of rank-one climbs into rank-two climbs without changing helper endpoints. Every changed native transport and phase is still rebuilt and paid."
@@ -126,6 +129,38 @@
     },
     "586": {
       "review": "Provides portable decompressed-content identities and rebound semantic/reference mutation controls for promoted coalescences. It does not add a further numerical gain to #584. Its sources are bundled, so the historical dependency remains reproducible."
+    },
+    "538": {
+      "review": "Transfers 662 frozen native-body frame lifts onto the raw 92-pivot constructor by exact scalar-gate identity. Each lifted frame contains its raw constructor frame; every actual chain, phase edge and owner is checked. New kernel/entrance/cut/cleanup boundaries are fixed. Gains of the two parents are not added. Fresh changed supplier replay passed; PR493 bit and unchanged data-phase certificate remain pinned dependencies.",
+      "execution": "Passed at the documented finite/arithmetic scope; see archived replay records and dependency bindings."
+    },
+    "539": {
+      "review": "For m=64 the literal fallback charge uses F=98682 and bad fraction bounded by 1/2305843009213693952; good classes retain full weight and bad edges are bounded separately. Both old endpoints and the new exact rational endpoint are reproduced. This is arithmetic-only under the compressed-cover transport premise, not a new proof of that transport or a new scalar circuit.",
+      "execution": "Passed at the documented finite/arithmetic scope; see archived replay records and dependency bindings."
+    },
+    "542": {
+      "review": "Observable slicing deletes only exact target-zero A responses and their inverse cleanup. Nineteen causal minimum-frame changes are transferred by exact gate identity to the preloaded word and every containment is rechecked. Least feasible subspace labels for a fixed word are not moment-optimality. Full --physical maintainer replay passed, including native columns, bridge and hosting controls; PR535 complex input is an already reviewed dependency.",
+      "execution": "Passed at the documented finite/arithmetic scope; see archived replay records and dependency bindings."
+    },
+    "544": {
+      "review": "Combines trace preloads, zero-response slicing and ten specifically certified bit frame changes with a newly admitted static44 complex allocation. Both changed suppliers receive fresh physical replay. Frozen search choices are nominations; exact frame chains, phases, arbitrary-input columns, owner chronology and the full bill establish the finite witness.",
+      "execution": "Passed at the documented finite/arithmetic scope; see archived replay records and dependency bindings."
+    },
+    "546": {
+      "review": "Admits the local-only static44 response word under a reassigned complete owner map. Sorted helper widths fit the retained slots; actual residual charts and every remainder are recounted. Fresh changed phase edges are checked, while 2861 unchanged local edges and the data controller remain hash-bound dependencies. The separately physically replayed #542 bit supplier is repriced, not silently replaced.",
+      "execution": "Passed at the documented finite/arithmetic scope; see archived replay records and dependency bindings."
+    },
+    "547": {
+      "review": "Pure composition of unchanged #543 bit and #548 complex profiles through two exact moment engines and all outer inequalities. The larger #543 bit rate prevents adding the two parent gains arithmetically; the actual supplier minimum binds. Both underlying changed operators are independently replayed elsewhere in this family. Historical earlier #544 composition and failures remain retained.",
+      "execution": "Passed at the documented finite/arithmetic scope; see archived replay records and dependency bindings."
+    },
+    "554": {
+      "review": "The 120 jointly selected frame changes preserve scalar instructions, entrances, widths, ports, centers and cut. All native frame chains and full phase recipes are rebuilt before repricing the unchanged owner plan. Floating search scores only nominate; exact finite admission decides. The one-event exclusion and search failures are scoped, not global frame optimality. Fresh full replay passed.",
+      "execution": "Passed at the documented finite/arithmetic scope; see archived replay records and dependency bindings."
+    },
+    "558": {
+      "review": "Eight selected pivots gain rank-five entrances and matching kernel frames without changing scalar operations. Width reduction and the whole-owner reallocation are charged together; promoting all eligible pivots is not assumed favorable. All 728 columns per orientation, kernel omissions, phases, wrappers, owners and exact assembly are checked. Canonical source bytes match the #588 cold-replayed foundation.",
+      "execution": "Passed at the documented finite/arithmetic scope; see archived replay records and dependency bindings."
     }
   }
 }

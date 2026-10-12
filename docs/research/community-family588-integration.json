@@ -54,11 +54,22 @@
     "batch1": "Twelve standalone package replay commands passed and their stage/summary/control evidence is archived",
     "bit_alternatives": "PR545 and PR555 finite changed-construction replays passed, including exact hosting portability and stock controls",
     "research": "Scoped proof reviews, exact dual controls, bounded joint-basis searches and source-complement normal forms retained",
-    "batch2_started": "PR561, PR562, full PR564 foundation and PR569 six-provider/global construction passed; remaining batch jobs continue."
+    "batch2_started": "PR561, PR562, full PR564 foundation and PR569 six-provider/global construction passed; remaining batch jobs continue.",
+    "pr571": "Both ten bounded joint-basis research searches and the complete fresh composed-prefix finite admission passed, reusing fully validated fresh #569 dependencies.",
+    "selected_public_cold": "Public entry point rebuilt bit543 and all 43 complex588 stages from scratch with integrated default pins; exact binding passed. See PUBLIC-COLD-EVIDENCE.json.",
+    "batch2_completed_prs": [
+      561,
+      562,
+      564,
+      567,
+      568,
+      569,
+      571
+    ],
+    "pr587": "All eight tooling tests passed; PR582 inputs and complete expected outputs bound to the fresh strict witness replay."
   },
   "remaining": [
-    "Finish remaining queue2, PR571 frontier and PR587 tooling/PR582 witness coverage.",
-    "Collect integrated public cold command result.",
+    "Finish ten remaining queue2 sibling replays.",
     "Finalize dispositions, publication documents and prepublication heads.",
     "Publish to main, resolve fully covered unchanged PRs and record unrelated arrivals."
   ],
@@ -75,7 +86,12 @@
     "research/community-family588-audit/PIN-VARIANTS.json": "878d6b18b176a8e68f5b612b5b0111d650106df22ce49b88a6a85469f77b48d2",
     "research/community-family588-audit/HISTORICAL-PIN-REPRODUCTION.json": "4c3e0a14ff18828d48a6addbb64a51bb4c32d6351648e5a7206e067447a2a046",
     "research/community-family588-audit/PRIOR-PACKAGING-REPAIR.json": "86f26979e345c4e8c9bc5be073f8e06f1e28efed81cbc8a9013111818ec8ec2d",
-    "research/community-family588-audit/BATCH2-EVIDENCE.json": "9b6a66f7941fda9d9d785d2b898b38e142ac1faac10d15feb2e4bed069af034e"
+    "research/community-family588-audit/BATCH2-EVIDENCE.json": "0f7bcc6db95209669df596efd2f5bc8764fb0b34f115116aead0cc8b65ba4334",
+    "research/community-family588-audit/PUBLIC-COLD-EVIDENCE.json": "86e62cf9fb934b95a57a0b48cbcda6bcbece04b18a663708932dbaaca89836d8",
+    "research/community-family588-audit/PR582-PR587-BINDING.json": "8271b32d9f3953c72d6e91729e40776f90dab28f12b20c7359f2213329972ff3",
+    "research/community-family588-audit/PR587-STRICT-EVIDENCE.json": "e0211d7300dd2642c8e0c540be5f1a1c8ae36434e6d38445615bd3f27e28b30a",
+    "research/community-family588-audit/PR587-SUITE-EVIDENCE.json": "1b6ec6e30d8a2bca22c34c14905cd20cb9e484b29b88f62821fdf12dbad1d979",
+    "research/community-family588-audit/SCOPED-EVIDENCE.json": "cb0aeb4b1c312619d48333096afff0766423ebfc87806b342f5cbef1126ed71a"
   },
   "toolchain": {
     "platform": "macOS arm64",

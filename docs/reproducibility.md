@@ -1,6 +1,50 @@
 # Reproducing the result
 
-For the selected coordinated-frame/entrance-bank construction, run
+## Current prepared checkpoint: #588 with #543
+
+The [selected record](../certificates/selected-result.json) gives the exact
+checkpoint and publication status. Its public command is:
+
+```sh
+python3 -m pip install numpy sympy scipy
+make frontier588-verify
+```
+
+Use Python 3.11 or newer, Make, a C++17 compiler and genuine Boost headers.
+Set `CXX` and `BOOST_INCLUDE` when they are outside the default paths; Ubuntu
+can use `g++` and `/usr/include`. Keep Python assertions enabled. NumPy,
+SymPy and SciPy are required for the bit-side replay and its stock controls;
+the complex package uses the standard library. No search optimizer is needed
+for the selected replay.
+
+The Make target creates a fresh temporary output directory. For a chosen
+location and concurrency limit, run:
+
+```sh
+python3 -B scripts/verify_frontier588.py --work /absolute/new/output --jobs 2
+```
+
+The output must be new and outside the checkout. This rebuilds the R420 bit
+supplier, cold-replays the complex foundation and all selected provider
+chains, reconstructs physical owners and finite invoices, then checks the
+exact dependency binding and 47 strict outer inequalities. It writes
+`RESULT.json`, `STEPS.json`, complete stage logs, and the individual suppliers'
+receipts. It has no proof-reuse or discovery mode.
+
+The [maintainer review](research/community-family588-review.md) identifies
+inherited all-size and analytic assumptions, pooled-cell bit hosting, exact
+source pins, historical replay overrides, and verification limits. The full
+public command passed locally on macOS with Python 3.14.6. A configured Linux
+workflow is separate from an observed passing Linux run.
+
+`make selected-record-check` checks metadata, exact source inventories and
+certificate/proof hashes; it does not replay the operators. The preceding
+#535 checkpoint remains available through `make frontier535-verify` and
+[its frozen record](../certificates/checkpoints/post-center535.json).
+
+## Historical coordinated-frame checkpoint and earlier targets
+
+For the historical coordinated-frame/entrance-bank construction, run
 `make entrance-bank-verify`. This runs the publication-to-certificate binding,
 the full frozen offline finite replay and the bank-scheduling diagnostic.
 The [construction](../research/coordinated-frames-and-entrance-banks/PROOF.md)
@@ -40,7 +84,7 @@ Its [incremental reproduction guide](stopped-product.md) covers the h24
 rational-center producer, new moments, stopping parameters and assembly.
 The community checkpoint and historical targets below retain their own scope.
 
-The selected witness is documented in the [round-eight maintainer review](research/community-round8-review.md)
+That historical witness is documented in the [round-eight maintainer review](research/community-round8-review.md)
 and [current status](research/current-status.md), with the
 [selected certificate](../research/coordinated-frames-and-entrance-banks/certificate.json).
 The [joint-frame review](research/community-round2-review.md) remains a historical checkpoint.
@@ -49,9 +93,9 @@ patches, and the [preserved research](research/preserved-research.md) are histor
 reproduction targets. Run `make verify-research` to regenerate its certificates;
 the expanded tests also run in `make verify-tests`.
 
-## Requirements
+## Historical target requirements
 
-The verification path needs Python 3.11 or newer, Git, Make, and a C++17 compiler supporting
+The original verification path below needs Python 3.11 or newer, Git, Make, and a C++17 compiler supporting
 unsigned 128-bit integers and OpenMP (GCC, or Clang with libomp), with no
 third-party Python packages. The enlarged-frame profiler additionally needs Boost
 multiprecision headers (`libboost-dev` on Ubuntu); the ordinary joint-frame

@@ -8,9 +8,9 @@ operators to the same exact assembly:
       =0.001602278921983212.
 \]
 
-The remaining family reviews and publication checks are in progress. This
-page does not yet select a new published result or approve closure of the
-whole family. [Per-PR dispositions](../../research/community-family588-audit/DISPOSITIONS.json)
+The remaining family reviews and publication checks are in progress. The
+local selected record is prepared for publication; this page does not claim
+that it has reached main or approve closure of the whole family. [Per-PR dispositions](../../research/community-family588-audit/DISPOSITIONS.json)
 record that distinction.
 
 ## Scope and frozen inputs
@@ -94,12 +94,45 @@ change, and seven historical logs are restored. The complete comparison is
 in [PIN-VARIANTS.json](../../research/community-family588-audit/PIN-VARIANTS.json).
 The updated pin passes a clean Git-archive check and a fresh provider rebuild
 and global admission using the already checked, unchanged phase artifacts.
-The original cold replay is preserved separately.
+The original cold replay is preserved separately. The final public command then
+rebuilt both suppliers from scratch using the integrated default pins; all three
+outer stages and all 43 complex stages passed. Its
+[execution record](../../research/community-family588-audit/PUBLIC-COLD-EVIDENCE.json)
+binds the fresh bit, complex and combined results.
 
 Exact source bytes, including CRLF-sensitive manifests and upstream-tracked
 logs, are retained. Historical workflow jobs remain available by manual
 dispatch. The selected composition has a separate shared cold-replay command
 and Linux workflow; local success is not reported as Linux CI success.
+
+## Review organization
+
+The [dependency map](../../research/community-family588-audit/DEPENDENCIES.json)
+separates shared foundations, changed providers and final composition. A passing
+parent does not certify a changed child. When evidence is reused, exact source,
+input and output bindings are checked; each changed frame path, phase program,
+owner schedule and invoice still receives its own required admission.
+
+The [central ledger](pr-ledger.md) retains the starting head, reviewed head,
+latest observed head and contribution scope separately. Its detailed
+[dispositions](../../research/community-family588-audit/DISPOSITIONS.json)
+track source review, execution completion and publication independently.
+A submission is not ready to close just because its numerical bound is smaller
+than a later result. Its research, tools, original notices and changed files
+must also be covered.
+
+All 8,219 changed-file entries across these 43 PRs have an explicit
+[content disposition](../../research/community-family588-audit/CONTENT-COVERAGE.json).
+Overlapping paths count once for each contributing PR. The integrated source
+inventory has 7,848 unique files, including the two maintainer entry points.
+Source-byte coverage proves preservation, not mathematical correctness; the
+[mechanism notes](../../research/community-family588-audit/REVIEW-NOTES.json)
+and fresh execution evidence supply the distinct review record.
+
+Historical search scripts and negative results retain their original scope.
+An unsuccessful search is not an impossibility theorem. A retained discovery
+run is not described as rerun unless its fresh output is recorded. The final
+frozen constructions are verified without rerunning their heuristic optimizers.
 
 ## Parallel work and research
 

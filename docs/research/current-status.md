@@ -1,17 +1,27 @@
-# Current selected record
+# Current reviewed record
 
-The selected maintainer-reviewed conditional witness is
-**κ=1517760977820331/10^18=0.001517760977820331**, from #531 on #523
-with #493's bit supplier. See the [selected record](../../certificates/selected-result.json),
-[review and assumptions](community-pr531-review.md), and
-[fresh integration receipts](community-pr531-integration.json).
-All three finite packages were replayed, including the complex predecessor
-and full bit physical audit; all-size and analytic interfaces remain conditional.
+The locally reviewed conditional witness is
+**κ=400569730495803/250000000000000000=0.001602278921983212**, from
+Jeremy Kothe's #588 with eumemic's #543 bit supplier. Publication preparation
+and the remaining family reviews are in progress. The preceding published
+checkpoint is [#535/#510](../../certificates/checkpoints/post-center535.json).
 
-The [research integration index](research-notes-20261011.md) also records
-accepted research and verification work that does not change κ. Larger pending
-PR claims remain proposals until reviewed. The gen4 result is preserved in
-[its checkpoint](../../certificates/checkpoints/gen4-pr279.json).
+See the [selected record](../../certificates/selected-result.json),
+[review and assumptions](community-family588-review.md),
+[execution receipts](community-family588-integration.json), and
+[per-PR dispositions](../../research/community-family588-audit/DISPOSITIONS.json).
+The public `make frontier588-verify` command cold-rebuilt both finite suppliers
+and their exact composition. All-size/compiler/common-label/mutable-basis,
+pooled-cell hosting, normalized residual, precision/tape and analytic
+interfaces remain conditional. Linux CI is tracked separately; no full Lean
+multiplication theorem is claimed.
+
+The frozen round covers 43 construction, research and tooling PRs through
+#588. Separate Lean proposals and later arrivals stay in the next queue.
+Parallel and superseded mechanisms, exact diagnostics and negative results
+retain attribution in the [contributor record](../../CONTRIBUTORS.md).
+The [research integration index](research-notes-20261011.md) preserves earlier
+non-frontier contributions. Larger pending claims remain proposals until reviewed.
 
 Earlier “selected” statements below are historical snapshots.
 

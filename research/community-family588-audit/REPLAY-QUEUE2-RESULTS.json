@@ -28,5 +28,35 @@
     "exit_code": 0,
     "seconds": 1040.021,
     "completed_utc": "2026-10-12T14:14:40.805301+00:00"
+  },
+  {
+    "pr": 567,
+    "package": "complex-doublecold",
+    "command": [
+      "/tmp/integer-mult-review-venv/bin/python",
+      "-B",
+      "research/complex-doublecold/verify.py",
+      "--work",
+      "/tmp/im567-review"
+    ],
+    "log": "/tmp/im567-review.log",
+    "exit_code": 0,
+    "seconds": 1101.898,
+    "completed_utc": "2026-10-12T14:32:49.420247+00:00"
+  },
+  {
+    "pr": 568,
+    "package": "complex-multicold",
+    "command": [
+      "/tmp/integer-mult-review-venv/bin/python",
+      "-B",
+      "research/complex-multicold/verify.py",
+      "--work",
+      "/tmp/im568-review"
+    ],
+    "log": "/tmp/im568-review.log",
+    "exit_code": 0,
+    "seconds": 1128.848,
+    "completed_utc": "2026-10-12T14:33:29.654108+00:00"
   }
 ]

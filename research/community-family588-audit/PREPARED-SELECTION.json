@@ -50,8 +50,8 @@
     315
   ],
   "source_manifest": "research/community-family588-audit/SELECTED-SOURCE.json",
-  "certificate": "research/community-family588-audit/pr588/integrated/ASSEMBLY.json",
-  "certificate_sha256": "8aed622cf938a94730c85624247c531baf0802524b8cd4f854a47c2d4af7502e",
+  "certificate": "research/community-family588-audit/pr588/public-cold/complex/ASSEMBLY.json",
+  "certificate_sha256": "ba3c205c11c6187dcad5374923002ce586279b572d2af16327f66e8a9c5acbff",
   "proof": "research/complex-571-free4fc8/NOTICE.md",
   "proof_supplements": {
     "research/e8-bit-r420/README.md": "9807be57c6adf26b30e4f54e2f8160075bbc05091f1a6d157e43d2a4620c1c9f",
