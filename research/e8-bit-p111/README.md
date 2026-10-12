@@ -154,3 +154,5 @@ minutes on 4 cores (the two controls run in the background).
   `punct_cfg.py`, and its word, hosting selection and EXPECTED.json (control).
 - `discovery/` (not run by `verify.sh`): the nomination of P and of the generator parameters.
 - `DEPENDS.json`: the files of main this package uses, pinned.
+- `tune/`: two A-section transports of this word (nine-stage c 0.001733427039589844234749, +0.0216%; eleven-stage 0.001710951900777583975622;
+  no κ changes), with its own `tune/verify.sh`. This `verify.sh` is unchanged and checks the untuned word.
