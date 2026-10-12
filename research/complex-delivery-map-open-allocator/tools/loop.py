@@ -7,6 +7,10 @@ from collections import Counter,defaultdict
 from ortools.sat.python import cp_model
 PLAN,WID,OUT=sys.argv[1:4];LIM=float(sys.argv[4])if len(sys.argv)>4 else 300;ITERS=int(sys.argv[5])if len(sys.argv)>5 else 12
 plan=json.load(open(PLAN));nw={int(k):v for k,v in json.loads(WID).items()};M=73
+if not nw or any(w<=0 or not isinstance(n,int) or n<0 for w,n in nw.items()):
+    raise SystemExit('Widths must be positive integers with nonnegative integer counts')
+if ITERS<=0:
+    raise SystemExit('max_iters must be positive')
 order=[tuple(x)for x in plan['order']];T=len(order)
 win={tuple(map(int,k.split(','))):(v[0],sorted(v[1]))for k,v in plan['windows'].items()}
 ranks=sorted({r for r,_ in win.values()});W=sorted(nw);SUBS=[S for k in range(1,len(W)+1)for S in itertools.combinations(W,k)]
@@ -43,7 +47,8 @@ def solve(hint):
         for k,v in hint['y'].items():
             if k in y:m.AddHint(y[k],v)
     s=cp_model.CpSolver();s.parameters.max_time_in_seconds=LIM;s.parameters.num_workers=8;st=s.Solve(m)
-    assert st in(cp_model.OPTIMAL,cp_model.FEASIBLE),s.StatusName(st)
+    if st not in (cp_model.OPTIMAL,cp_model.FEASIBLE):
+        raise SystemExit('No feasible allocation: '+s.StatusName(st)+'; output not written')
     X={k:s.Value(v)for k,v in x.items()};Y={k:s.Value(v)for k,v in y.items()}
     return dict(status=s.StatusName(st),obj=s.ObjectiveValue()/SC,bound=s.BestObjectiveBound()/SC,x=X,y=Y)
 def nominate(sol):

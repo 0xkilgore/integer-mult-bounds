@@ -8,6 +8,8 @@ from collections import Counter,defaultdict
 from ortools.sat.python import cp_model
 PLAN,WID,OUT=sys.argv[1:4];LIM=float(sys.argv[4])if len(sys.argv)>4 else 300;COST=sys.argv[5]if len(sys.argv)>5 else'phi'
 plan=json.load(open(PLAN));nw={int(k):v for k,v in json.loads(WID).items()};M=73
+if not nw or any(w<=0 or not isinstance(n,int) or n<0 for w,n in nw.items()):
+    raise SystemExit('Widths must be positive integers with nonnegative integer counts')
 order=[tuple(x)for x in plan['order']];T=len(order);assert T==72
 win={tuple(map(int,k.split(','))):(v[0],sorted(v[1]))for k,v in plan['windows'].items()}   # (orp,i)->(rank,times)
 ranks=sorted({r for r,_ in win.values()});W=sorted(nw)
@@ -44,6 +46,8 @@ SC=1000
 m.Minimize(sum(int(round(SC*g(r-sum(P))))*y[i,orp,P]for(orp,i),(r,times)in win.items()for P in pats[r]))
 s=cp_model.CpSolver();s.parameters.max_time_in_seconds=LIM;s.parameters.num_workers=8;t0=time.time();st=s.Solve(m)
 print('status',s.StatusName(st),'obj',s.ObjectiveValue()/SC,'bound',s.BestObjectiveBound()/SC,'t',round(time.time()-t0),flush=True)
+if st not in (cp_model.OPTIMAL,cp_model.FEASIBLE):
+    raise SystemExit('No feasible allocation: '+s.StatusName(st)+'; output not written')
 rem=Counter();X=[];Y=[]
 for (orp,i),(r,times)in win.items():
     for P in pats[r]:
