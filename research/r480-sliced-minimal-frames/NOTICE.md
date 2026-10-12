@@ -106,3 +106,5 @@ PR #442 (DaysSky): idle-axis hosting of whole residuals. Jacob Sussman introduce
 
 
 Complex535 is cited at25f9b7c2310d40c9efdfbe368a40ba6e74d3b0a2: icekylinx with disclosed OpenAI assistance. Literal bad-class charge follows Srikrishnabalaji461 and464/465/539. The input source note and moment/outer engines retain predecessor attribution.
+
+The additional60-preload trace refinement, unmodified scripts/preload60.py, pinned source word and proof are from Dugongue PR541 at6fd04b2e266b7915b69f96f27758cfce520aa40a, with disclosed OpenAI assistance. The new integration retains that event/frame schedule, then applies our observable slice and19 frozen frame reductions. Individual histogram gains are not added; the complete combined word is recounted.

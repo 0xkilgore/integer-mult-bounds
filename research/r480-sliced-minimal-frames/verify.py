@@ -15,8 +15,18 @@ for name in ['slice','minimum','price']:
  f=O/(name+'.py');shutil.copyfile(P/'scripts'/(name+'.py'),f)
  with (O/(name+'.log')).open('w')as log:subprocess.run([sys.executable,'-B',str(f)],cwd=O,env=env,stdout=log,stderr=subprocess.STDOUT,check=True)
  print(name,'PASS',flush=True)
-new=O/'bit510-sliced-minimal-frames/WORD.json.gz';assert json.loads(gzip.decompress(new.read_bytes()))==json.loads(gzip.decompress((P/'inputs/CANDIDATE.json.gz').read_bytes()))
-x=json.loads((O/'bit510-sliced-minimal-price/RESULT.json').read_text());assert x==json.loads((P/'EXPECTED.json').read_text())
+new=O/'bit510-sliced-minimal-frames/WORD.json.gz';assert json.loads(gzip.decompress(new.read_bytes()))==json.loads(gzip.decompress((P/'inputs/BASE-CANDIDATE.json.gz').read_bytes()))
+x=json.loads((O/'bit510-sliced-minimal-price/RESULT.json').read_text());assert x==json.loads((P/'inputs/BASE-EXPECTED.json').read_text())
 m=json.loads((O/'bit510-sliced-minimal-frames/RESULT.json').read_text());e=json.loads((P/'evidence/MINIMUM-FRAMES.json').read_text());assert {k:v for k,v in m.items()if k!='seconds'}=={k:v for k,v in e.items()if k!='seconds'}
+# Reconstruct PR541 exactly, then retain only the frozen beneficial frame reductions.
+f=O/'preload60.py';shutil.copyfile(P/'scripts/preload60.py',f)
+with (O/'preload60.log').open('w')as log:subprocess.run([sys.executable,'-B',str(f),'--input',str(w/'bitE8mut-r480.json.gz'),'--out',str(O/'trace541-rebuild')],cwd=O,env=env,stdout=log,stderr=subprocess.STDOUT,check=True)
+assert json.loads(gzip.decompress((O/'trace541-rebuild/WORD.json.gz').read_bytes()))==json.loads(gzip.decompress((P/'inputs/PR541-WORD.json.gz').read_bytes()))
+for name in ['trace_slice','transfer','profile','trace_price']:
+ f=O/(name+'.py');shutil.copyfile(P/'scripts'/(name+'.py'),f)
+ with (O/(name+'.log')).open('w')as log:subprocess.run([sys.executable,'-B',str(f)],cwd=O,env=env,stdout=log,stderr=subprocess.STDOUT,check=True)
+ print(name,'PASS',flush=True)
+new=O/'trace541-frozen-minimum/WORD.json.gz';assert json.loads(gzip.decompress(new.read_bytes()))==json.loads(gzip.decompress((P/'inputs/CANDIDATE.json.gz').read_bytes()))
+x=json.loads((O/'trace541-frozen-minimum-price/RESULT.json').read_text());assert x==json.loads((P/'EXPECTED.json').read_text())
 r=dict(status='PASS_PACKAGED_RECONSTRUCTION_AND_PROSPECTIVE_PRICE',kappa=x['kappa_decimal'],bit=x['bit_decimal'],word_sha256=hashlib.sha256(new.read_bytes()).hexdigest(),manifest_sha256=hashlib.sha256((P/'MANIFEST.json').read_bytes()).hexdigest(),python=sys.version,seconds=time.monotonic()-start,scope='Exact reconstruction of source slice and least frames,720 scalar columns, nesting and two rational moment engines with47 outer constraints. Prospective unchanged owner schedule and prior finite allowances; physical template and finite invoice remain pending. No completed supplier admission.')
 (O/'RECEIPT.json').write_text(json.dumps(r,indent=2)+'\n');print(r['status'],r['kappa'],flush=True)

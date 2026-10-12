@@ -1,29 +1,27 @@
-# Sliced R480 with causal minimum frames
+# PR541 trace refinement with sliced R480 frame reductions
 
-**Draft candidate conditional kappa = 0.001586980532763499**, about **0.1293065%** above PR539. The scalar word, frame nesting and both exact moment engines pass; the new physical template and finite invoice remain pending. This is not yet a fully admitted supplier.
+**Draft combined conditional kappa = 0.001587467473762886**, above PR541's0.001587212454640692. The complex supplier now binds. The original standalone sliced-frame candidate0.001586980532763499 passed fresh physical admission; that receipt is retained as baseline evidence and does not certify this combined word. Full physical replay of the combined word is pending after this draft update.
 
-## Change
+## Complete construction
 
-Starting from PR510's R480 word, an exact backward F2 target-response calculation identifies227 A gates with zero target response. Removing them and their227 inverse cleanup gates preserves the full scalar endpoint. This alone leaves the recursive histogram unchanged.
+1. Rebuild Dugongue PR541's60-preload trace refinement on PR510's R480 word exactly, using the unmodified pinned constructor. Compare against its published word.
+2. Apply our backward F2 target-response slice, removing227 A gates and their227 inverse cleanup gates. This preserves arbitrary scalar inputs and literal restoration.
+3. Transfer the19 lower frames found by our causal minimum-frame construction on the original sliced R480 word. Each transfer is matched to its actual gate and independently checked for frame containment. Preserve every other PR541 frame choice.
 
-Next process all remaining operations chronologically. At each A/B gate, replace its constructor frame by the exact rational span of the preceding operand frames. This produces the least feasible frame assignment in subspace inclusion for that fixed chronological word, with initial, center and final frames fixed. It is not a claim of global moment optimality.19 A-operation frames shrink, including three new rank-three root-closed frames. All frames remain nested, and phase B is unchanged. Source/helper inverse cleanup is literal at the full frame.
+The distinction in step3 matters: recalculating the unrestricted causal minimum for the entire combined word was a losing experiment. Likewise the two separate histogram deltas do not simply add. This submission recounts the actual final word.
 
-The paid local histogram, including nine center copies, becomes
+The local paid profile, including9 center copies, is `{1:1286,2:1319,3:45,4:169,5:1,6:130,8:9}`. The complete prospective nine-stage profile is `{1:370368,2:395232,3:12960,4:64032,5:288,6:52800,7:23040,8:2592}`.480 helper residuals of width8,30720 live rows,30729 physical rows and rank deficit9984 remain. Proposed hosting uses the unchanged exact PR510 selection.
 
-`{1:1217,2:1421,4:169,5:1,6:130,8:9}`
+Two rational engines give bit c = **0.001590005077309865651707**. Cited PR535 complex b = **0.001589991533606044174031** is smaller, so six bootstrap levels and47 outer inequalities give the displayed complex-bound kappa. Literal fallback charging follows PR539 and its461/464/465 ancestry. Finite allowances are still provisional until the combined physical invoice passes.
 
-versus `{1:1200,2:1440,4:180,6:120,8:9}`. Rank mass,480 helpers and width-eight helper intervals remain unchanged. The prospective nine-stage profile reuses PR510's whole-owner selection and adds288 copies of the local histogram difference:
+## Verification
 
-`{1:350496,2:424608,4:64032,5:288,6:52800,7:23040,8:2592}`.
+`python -B verify.py /absolute/new/output` reconstructs both the original sliced-frame baseline and the full composition (Python3.11+, SymPy, no optimizer/network), checks the final candidate against pinned bytes by mathematical JSON content, and reproduces both-engine exact pricing. Output must be new and outside this package.
 
-Its bit endpoint is **0.001589503043149746028939**. PR535's unchanged cited complex endpoint is0.001589991533606044174031, so the bit side still binds. Literal bad-class charging follows PR539 and its461/464/465 ancestry.
+Completed for the combined word: independent Python3.11 scalar/frame checker,720 columns, all120 source restorations,674 nondegenerate used frames with only prime2 in determinants, and changed five-stage price. Exact global-profile arithmetic and47 outer inequalities pass under the inherited finite allowances.
 
-## Checks and pending work
+Completed for the original standalone baseline only: fresh C++ record/formal-column and mutation checks, all675 frame Grams, both local orientations, explicit138240-owner hosting, parent/hosting mutations and fresh finite invoice. The baseline prefix is191 bits charged192; two-level coefficient421 charged512; row coefficient18355. These receipts are explicitly labeled BASE and are not passed off as combined-word verification.
 
-The inherited mutable-source independent checker passes all720 F2 columns, all120 source restorations,674 nondegenerate used frames with only prime2 in their Gram determinants, and the changed five-stage price on Python3.11.15. The PR425 interface-hypothesis audit passes. The prospective nine-stage profile passes both exact moment engines and47 strict outer inequalities; this currently assumes the preceding finite allowances remain valid.
+Pending: combined physical emission, chronological prefix/finite invoice, global mutations and complete packaged admission. All inherited all-size compiler, common-label/mutable-source realization, compressed geometry, whole-call hosting, restored work, precision/tape and analytic-transfer assumptions remain conditional. No unconditional theorem, full Lean proof or measured runtime gain is claimed.
 
-`python -B verify.py /absolute/new/output` reproduces the frozen input-to-candidate transformation and exact prospective price (Python3.11+, SymPy). Decimal arithmetic proposes an endpoint; rational intervals accept it and reject the next grid point. No optimizer or network is needed. Output must be outside this package.
-
-Full record-level geometry, chronological prefix bounds, explicit nine-stage whole-owner emission, mutation controls and finite invoice are being checked after draft submission. The old finite constants are not a substitute for that verification. No completed CI pass, full physical admission, all-size theorem, Lean completion or measured runtime gain is claimed.
-
-All inherited all-size bit/compiler, mutable-source/common-label realization, compressed geometry, whole-call hosting, restored-work, precision/tape and analytic-transfer assumptions remain conditional. See NOTICE.md for original attribution and SOURCES.json for pins. This is a new scalar/frame rewrite of the existing supplier; the complex supplier is cited rather than rebuilt.
+See NOTICE.md and SOURCES.json. Dugongue541 supplies the preload transformation; our new work supplies slicing, lower frames and this compatibility-checked composition. PR535's complex operator is cited rather than rebuilt.
