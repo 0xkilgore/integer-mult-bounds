@@ -121,7 +121,8 @@
       "execution": "Fresh complete package command passed; stage, result, receipt/control records and log archived in BATCH2-EVIDENCE.json."
     },
     "579": {
-      "review": "Mixes 48 added-kernel joint-prefix calls and 24 plain joint-prefix calls. Recompute the entire invoice and both moments from actual words and owners; searching five families does not claim global optimality."
+      "review": "Mixes 48 added-kernel joint-prefix calls and 24 plain joint-prefix calls. Recompute the entire invoice and both moments from actual words and owners; searching five families does not claim global optimality.",
+      "execution": "Fresh complete package command passed; stage, result, receipt/control records and log archived in BATCH2-EVIDENCE.json."
     },
     "582": {
       "review": "The #587 fixture reconstructs this exact declared witness twice (generation and strict replay) and compares all published expected construction/provider/global fields. This is the proposed execution coverage for #582, not a claim to have run its original standalone driver. Full fixture completion and input binding remain required.",

@@ -148,5 +148,20 @@
     "exit_code": 0,
     "seconds": 1149.912,
     "completed_utc": "2026-10-12T15:15:45.073558+00:00"
+  },
+  {
+    "pr": 579,
+    "package": "joint-prefix-kernel-packing",
+    "command": [
+      "/tmp/integer-mult-review-venv/bin/python",
+      "-B",
+      "research/joint-prefix-kernel-packing/verify.py",
+      "--work",
+      "/tmp/im579-review"
+    ],
+    "log": "/tmp/im579-review.log",
+    "exit_code": 0,
+    "seconds": 809.356,
+    "completed_utc": "2026-10-12T15:23:23.070870+00:00"
   }
 ]

@@ -1194,16 +1194,17 @@
       ],
       "closure": null,
       "scope": "Mixes 48 added-kernel joint-prefix calls and 24 plain joint-prefix calls. Recompute the entire invoice and both moments from actual words and owners; searching five families does not claim global optimality.",
-      "unresolved_question": "Finish queued physical/tooling replay, then complete publication checks, integration and fresh-head check.",
+      "unresolved_question": "Complete publication checks, integrate, and recheck head before closure.",
       "review_completion": {
         "changed_file_coverage": true,
         "scoped_mechanism_review": true,
-        "required_execution_complete": false,
+        "required_execution_complete": true,
         "published": false
       },
       "verification_evidence": [
         "research/community-family588-audit/REVIEW-NOTES.json",
-        "research/community-family588-audit/CONTENT-COVERAGE.json"
+        "research/community-family588-audit/CONTENT-COVERAGE.json",
+        "research/community-family588-audit/pr579"
       ]
     },
     {

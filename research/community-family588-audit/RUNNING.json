@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-12T15:16:25.420550+00:00",
+  "updated_utc": "2026-10-12T15:24:10.477042+00:00",
   "goal_status": "active, concrete review/publication-preparation progress; not published and no current-family PRs closed",
   "branch": "integration/family588-20261012",
   "worktree": "/tmp/integer-mult-family588",
@@ -39,6 +39,7 @@
     576,
     577,
     578,
+    579,
     580,
     582,
     587,
@@ -61,14 +62,15 @@
         575,
         576,
         578,
-        577
+        577,
+        579
       ],
       "entries": 14
     }
   ],
   "next": [
     "Poll these same live sessions; do not restart because a tool observation times out.",
-    "Archive 4 remaining queue2 replays with /tmp/im588-checkpoint-completed.py.",
+    "Archive 3 remaining queue2 replays with /tmp/im588-checkpoint-completed.py.",
     "Publication docs and selected-result.json now contain the prepared #588 record. Remove explicit preparation wording and update final receipts/status only when publishing; preserve old #535 checkpoint.",
     "Finalize per-PR dispositions and review, update README/current-status/reproduction/CI and selected-result from PREPARED-SELECTION only when ready.",
     "Refresh full receipt bindings and run selected-record/reconciliation checks, exact staged bytes and fresh Git-archive source-pin check.",
@@ -77,7 +79,7 @@
   ],
   "source_pins": "Selected #588 uses canonical integrated #569. Historical #582/#584/#587 can use exact bundled subset research/promoted-kernel-coalescing/vendor/larger_gain; verified pins and source equality in HISTORICAL-PIN-REPRODUCTION.json.",
   "preserve": "Root worktree and its seven unrelated untracked research dirs remain untouched.",
-  "checkpoint_commit": "6d0d9558d963bbb91fd25568a84a9328a9d2b88c",
+  "checkpoint_commit": "5505fdd7299a56fafcbdc33ec2214193b65824f9",
   "scope_caveat_571": "Research and complete frontier admission both passed.",
   "public_cold_command": "PASS complete bit543 + complex588 + exact binding; evidence in PUBLIC-COLD-EVIDENCE.json",
   "publication_edit_helper": "/tmp/im588-finalize-publication.py refuses changes until all 43 source/coverage/execution gates pass; prepares documentation only, without push or publication flags."

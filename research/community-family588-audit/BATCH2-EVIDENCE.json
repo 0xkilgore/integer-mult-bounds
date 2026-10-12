@@ -264,5 +264,24 @@
       "research/community-family588-audit/pr577/global/GENERATED-IDENTITY-CONTROLS.json": "28611849dd110dcc6f0914d4c8a1b1604eab360ddd86ed8b21104bf43e506403",
       "research/community-family588-audit/pr577/replay.log.txt": "21cbc2e506115a5b8b5c2650b1b405cbde155581d83c10670f1067e93d3e4b16"
     }
+  },
+  {
+    "pr": 579,
+    "status": "PASS_FRESH_FINITE_REPLAY",
+    "command": [
+      "/tmp/integer-mult-review-venv/bin/python",
+      "-B",
+      "research/joint-prefix-kernel-packing/verify.py",
+      "--work",
+      "/tmp/im579-review"
+    ],
+    "seconds": 809.356,
+    "output": "/tmp/im579-review",
+    "files": {
+      "research/community-family588-audit/pr579/RESULT.json": "22ad457a63b220e7aff8e5224346559544d2b37d5b04aad3745ec4b04ce87c31",
+      "research/community-family588-audit/pr579/STAGES.json": "4a979bb02f3da23657a67735bd4137c897f75c417b02ecf50183eed434864089",
+      "research/community-family588-audit/pr579/RECEIPT.json": "11436bd7308d685cf2581a7fdb11b8867680ea798fd8db31a4d6a0f60d671735",
+      "research/community-family588-audit/pr579/replay.log.txt": "14ed4de520ed3e494235383ec22f5afc1f83f34a8bfcba95d7a47d894115de52"
+    }
   }
 ]

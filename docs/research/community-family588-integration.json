@@ -70,7 +70,8 @@
       575,
       576,
       577,
-      578
+      578,
+      579
     ],
     "pr587": "All eight tooling tests passed; PR582 inputs and complete expected outputs bound to the fresh strict witness replay.",
     "review_bookkeeping": "Six focused closure/evidence integrity tests and five selected-record mutation tests pass. Central ledger now retains detailed review/execution/publication flags and rejects premature incorporation.",
@@ -79,7 +80,7 @@
     "ancestry_screen": "All 489 currently open PR heads screened against the 84 commits introduced by preserving the frozen contributor heads. No outside-scope open head is included. New arrivals #589\u2013#594 remain deferred."
   },
   "remaining": [
-    "Finish 4 remaining queue2 sibling replays: #579, #583, #584, #586.",
+    "Finish 3 remaining queue2 sibling replays: #583, #584, #586.",
     "Finalize dispositions, publication documents and prepublication heads.",
     "Publish to main, resolve fully covered unchanged PRs and record unrelated arrivals."
   ],
@@ -96,7 +97,7 @@
     "research/community-family588-audit/PIN-VARIANTS.json": "878d6b18b176a8e68f5b612b5b0111d650106df22ce49b88a6a85469f77b48d2",
     "research/community-family588-audit/HISTORICAL-PIN-REPRODUCTION.json": "4c3e0a14ff18828d48a6addbb64a51bb4c32d6351648e5a7206e067447a2a046",
     "research/community-family588-audit/PRIOR-PACKAGING-REPAIR.json": "86f26979e345c4e8c9bc5be073f8e06f1e28efed81cbc8a9013111818ec8ec2d",
-    "research/community-family588-audit/BATCH2-EVIDENCE.json": "a9cee85f707105005414607ce3d1bc009468e2b019f73cb56b7218d0c3cfde04",
+    "research/community-family588-audit/BATCH2-EVIDENCE.json": "9eb4db73d4f304f06c74cf6d5c56caa533d004b4947b3a487bfd10b2827b7c9f",
     "research/community-family588-audit/PUBLIC-COLD-EVIDENCE.json": "86e62cf9fb934b95a57a0b48cbcda6bcbece04b18a663708932dbaaca89836d8",
     "research/community-family588-audit/PR582-PR587-BINDING.json": "8271b32d9f3953c72d6e91729e40776f90dab28f12b20c7359f2213329972ff3",
     "research/community-family588-audit/PR587-STRICT-EVIDENCE.json": "e0211d7300dd2642c8e0c540be5f1a1c8ae36434e6d38445615bd3f27e28b30a",
