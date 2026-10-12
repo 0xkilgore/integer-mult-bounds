@@ -130,6 +130,71 @@
         "research/pr-reconciliation-20261012/content-comparison.json"
       ],
       "unresolved_question": "Whole-current-PR incorporation is not established: 12 changed paths lack byte-identical coverage in main or its checked PR181 archive. Distinguish later equivalent edits, unique content and historical implementations before closure."
+    },
+    "442": {
+      "starting_head": "4e16d001d505d4f21dd2bcfc44591f9be4c279bd",
+      "disposition": "incorporated",
+      "integration_location": [
+        "research/idle-axis-hosting"
+      ],
+      "reconciliation_evidence": [
+        "docs/research/community-formal-20261012-review.md",
+        "docs/research/community-formal-20261012-integration.json"
+      ],
+      "unresolved_question": null,
+      "closure": null
+    },
+    "484": {
+      "starting_head": "d30a05f90190dff6435e62ebed95aff9a0ddb610",
+      "disposition": "incorporated",
+      "integration_location": [
+        "research/e8-complex-gauge-kernel"
+      ],
+      "reconciliation_evidence": [
+        "docs/research/community-formal-20261012-review.md",
+        "docs/research/community-formal-20261012-integration.json"
+      ],
+      "unresolved_question": null,
+      "closure": null
+    },
+    "509": {
+      "starting_head": "7b9c720ecc9f483c383e7cd9c2ab81f06ee5df59",
+      "disposition": "incorporated",
+      "integration_location": [
+        "research/e8-lemma-g-lean"
+      ],
+      "reconciliation_evidence": [
+        "docs/research/community-formal-20261012-review.md",
+        "docs/research/community-formal-20261012-integration.json"
+      ],
+      "unresolved_question": null,
+      "closure": null
+    },
+    "516": {
+      "starting_head": "1c6b6ff9366a94e1f86a6c5d661a7df75c6ff814",
+      "disposition": "incorporated",
+      "integration_location": [
+        "research/e8-lemma-a-lean"
+      ],
+      "reconciliation_evidence": [
+        "docs/research/community-formal-20261012-review.md",
+        "docs/research/community-formal-20261012-integration.json"
+      ],
+      "unresolved_question": null,
+      "closure": null
+    },
+    "520": {
+      "starting_head": "6077fa76950facbce11ec2f04dfbc93493114a44",
+      "disposition": "incorporated",
+      "integration_location": [
+        "research/complex-delivery-map-open-allocator"
+      ],
+      "reconciliation_evidence": [
+        "docs/research/community-formal-20261012-review.md",
+        "docs/research/community-formal-20261012-integration.json"
+      ],
+      "unresolved_question": null,
+      "closure": null
     }
   }
 }

@@ -5,8 +5,8 @@
   "starting_open_count": 446,
   "counts": {
     "changed_since_review": 6,
-    "incorporated": 3,
-    "partially_reviewed": 148,
+    "incorporated": 8,
+    "partially_reviewed": 143,
     "unreviewed": 289
   },
   "source_sha256": {
@@ -23,7 +23,8 @@
     "docs/research/community-pr279-integration.json": "e790e42bbd0e57e3be92191309d3489ec91b738239622e69759604212b2d0f29",
     "docs/research/research-notes-20261011.json": "43d846bbed3b3dc6db097a3f5ca7179ea7a048e064f535e72e116da1f69ca5bb",
     "docs/research/community-pr531-integration.json": "3010ec433f84c56fa0add43641f708abde0fdecb7790553673beaf9bd8fe4282",
-    "research/pr-reconciliation-20261012/decisions.json": "23cc947e92cea94f1fd45122de24d38e34101fb29590e94bc45847334538aeae"
+    "docs/research/community-formal-20261012-integration.json": "fc171f4e3dbad9c870b13e141460facaffde957e15c6bb8f984d97686007b7d1",
+    "research/pr-reconciliation-20261012/decisions.json": "3aaaca4ca320ef6635d641bfc0b05468874f9512de95c14702913140b1a06f07"
   },
   "scope": "Reconciliation index, not blanket mathematical verification. Partial includes triage or scoped checks; mentions alone are not review. Integrated archives are distinguished from active implementations. No automatic closures.",
   "pull_requests": [
@@ -9821,6 +9822,7 @@
       "historical_assessment_heads": [],
       "evidence": [],
       "historical_mentions": [
+        "docs/research/community-formal-20261012-review.md",
         "docs/research/community-pr531-review.md"
       ],
       "disposition": "unreviewed",
@@ -10007,6 +10009,7 @@
       "historical_assessment_heads": [],
       "evidence": [],
       "historical_mentions": [
+        "docs/research/community-formal-20261012-review.md",
         "docs/research/community-pr531-review.md"
       ],
       "disposition": "unreviewed",
@@ -10212,17 +10215,35 @@
       "draft": false,
       "starting_head": "4e16d001d505d4f21dd2bcfc44591f9be4c279bd",
       "current_head": "4e16d001d505d4f21dd2bcfc44591f9be4c279bd",
-      "previously_reviewed_heads": [],
-      "historical_assessment_heads": [],
-      "evidence": [],
+      "previously_reviewed_heads": [
+        "4e16d001d505d4f21dd2bcfc44591f9be4c279bd"
+      ],
+      "historical_assessment_heads": [
+        "4e16d001d505d4f21dd2bcfc44591f9be4c279bd"
+      ],
+      "evidence": [
+        {
+          "head": "4e16d001d505d4f21dd2bcfc44591f9be4c279bd",
+          "evidence": "docs/research/community-formal-20261012-integration.json",
+          "scope": "Scoped dependency replay; see receipt.",
+          "kind": "integration"
+        }
+      ],
       "historical_mentions": [
+        "docs/research/community-formal-20261012-review.md",
         "docs/research/community-pr531-review.md"
       ],
-      "disposition": "partially_reviewed",
-      "integration_location": [],
+      "disposition": "incorporated",
+      "integration_location": [
+        "research/idle-axis-hosting"
+      ],
       "github_state": "OPEN",
-      "unresolved_question": "Finish the active formalization/construction/tooling batch and publish its scoped evidence.",
-      "closure": null
+      "unresolved_question": null,
+      "closure": null,
+      "reconciliation_evidence": [
+        "docs/research/community-formal-20261012-review.md",
+        "docs/research/community-formal-20261012-integration.json"
+      ]
     },
     {
       "number": 443,
@@ -11119,17 +11140,35 @@
       "draft": false,
       "starting_head": "d30a05f90190dff6435e62ebed95aff9a0ddb610",
       "current_head": "d30a05f90190dff6435e62ebed95aff9a0ddb610",
-      "previously_reviewed_heads": [],
-      "historical_assessment_heads": [],
-      "evidence": [],
+      "previously_reviewed_heads": [
+        "d30a05f90190dff6435e62ebed95aff9a0ddb610"
+      ],
+      "historical_assessment_heads": [
+        "d30a05f90190dff6435e62ebed95aff9a0ddb610"
+      ],
+      "evidence": [
+        {
+          "head": "d30a05f90190dff6435e62ebed95aff9a0ddb610",
+          "evidence": "docs/research/community-formal-20261012-integration.json",
+          "scope": "Full --all replay, including cold PR442 and ancestor builds; all four words, symbolic/phase/label/instance/end-to-end checks and controls pass. No --discover-check claim.",
+          "kind": "integration"
+        }
+      ],
       "historical_mentions": [
+        "docs/research/community-formal-20261012-review.md",
         "docs/research/community-pr531-review.md"
       ],
-      "disposition": "partially_reviewed",
-      "integration_location": [],
+      "disposition": "incorporated",
+      "integration_location": [
+        "research/e8-complex-gauge-kernel"
+      ],
       "github_state": "OPEN",
-      "unresolved_question": "Finish the active formalization/construction/tooling batch and publish its scoped evidence.",
-      "closure": null
+      "unresolved_question": null,
+      "closure": null,
+      "reconciliation_evidence": [
+        "docs/research/community-formal-20261012-review.md",
+        "docs/research/community-formal-20261012-integration.json"
+      ]
     },
     {
       "number": 485,
@@ -11587,6 +11626,7 @@
       "historical_assessment_heads": [],
       "evidence": [],
       "historical_mentions": [
+        "docs/research/community-formal-20261012-review.md",
         "docs/research/community-pr531-review.md"
       ],
       "disposition": "unreviewed",
@@ -11635,6 +11675,7 @@
       "historical_assessment_heads": [],
       "evidence": [],
       "historical_mentions": [
+        "docs/research/community-formal-20261012-review.md",
         "docs/research/community-pr531-review.md"
       ],
       "disposition": "unreviewed",
@@ -11679,15 +11720,34 @@
       "draft": false,
       "starting_head": "7b9c720ecc9f483c383e7cd9c2ab81f06ee5df59",
       "current_head": "7b9c720ecc9f483c383e7cd9c2ab81f06ee5df59",
-      "previously_reviewed_heads": [],
-      "historical_assessment_heads": [],
-      "evidence": [],
-      "historical_mentions": [],
-      "disposition": "partially_reviewed",
-      "integration_location": [],
+      "previously_reviewed_heads": [
+        "7b9c720ecc9f483c383e7cd9c2ab81f06ee5df59"
+      ],
+      "historical_assessment_heads": [
+        "7b9c720ecc9f483c383e7cd9c2ab81f06ee5df59"
+      ],
+      "evidence": [
+        {
+          "head": "7b9c720ecc9f483c383e7cd9c2ab81f06ee5df59",
+          "evidence": "docs/research/community-formal-20261012-integration.json",
+          "scope": "16 Lean theorem axiom reports; four-word instance checks, extended-label mutants, all-512-column adapter identities pass.",
+          "kind": "integration"
+        }
+      ],
+      "historical_mentions": [
+        "docs/research/community-formal-20261012-review.md"
+      ],
+      "disposition": "incorporated",
+      "integration_location": [
+        "research/e8-lemma-g-lean"
+      ],
       "github_state": "OPEN",
-      "unresolved_question": "Finish the active formalization/construction/tooling batch and publish its scoped evidence.",
-      "closure": null
+      "unresolved_question": null,
+      "closure": null,
+      "reconciliation_evidence": [
+        "docs/research/community-formal-20261012-review.md",
+        "docs/research/community-formal-20261012-integration.json"
+      ]
     },
     {
       "number": 510,
@@ -11751,7 +11811,9 @@
       "previously_reviewed_heads": [],
       "historical_assessment_heads": [],
       "evidence": [],
-      "historical_mentions": [],
+      "historical_mentions": [
+        "docs/research/community-formal-20261012-review.md"
+      ],
       "disposition": "unreviewed",
       "integration_location": [],
       "github_state": "OPEN",
@@ -11817,15 +11879,34 @@
       "draft": false,
       "starting_head": "1c6b6ff9366a94e1f86a6c5d661a7df75c6ff814",
       "current_head": "1c6b6ff9366a94e1f86a6c5d661a7df75c6ff814",
-      "previously_reviewed_heads": [],
-      "historical_assessment_heads": [],
-      "evidence": [],
-      "historical_mentions": [],
-      "disposition": "partially_reviewed",
-      "integration_location": [],
+      "previously_reviewed_heads": [
+        "1c6b6ff9366a94e1f86a6c5d661a7df75c6ff814"
+      ],
+      "historical_assessment_heads": [
+        "1c6b6ff9366a94e1f86a6c5d661a7df75c6ff814"
+      ],
+      "evidence": [
+        {
+          "head": "1c6b6ff9366a94e1f86a6c5d661a7df75c6ff814",
+          "evidence": "docs/research/community-formal-20261012-integration.json",
+          "scope": "24 Lean theorem axiom reports; four-word exact-wrapper, owner and window hypotheses plus controls pass. No new PR505/512 async instance replay claimed.",
+          "kind": "integration"
+        }
+      ],
+      "historical_mentions": [
+        "docs/research/community-formal-20261012-review.md"
+      ],
+      "disposition": "incorporated",
+      "integration_location": [
+        "research/e8-lemma-a-lean"
+      ],
       "github_state": "OPEN",
-      "unresolved_question": "Finish the active formalization/construction/tooling batch and publish its scoped evidence.",
-      "closure": null
+      "unresolved_question": null,
+      "closure": null,
+      "reconciliation_evidence": [
+        "docs/research/community-formal-20261012-review.md",
+        "docs/research/community-formal-20261012-integration.json"
+      ]
     },
     {
       "number": 517,
@@ -11909,17 +11990,35 @@
       "draft": false,
       "starting_head": "6077fa76950facbce11ec2f04dfbc93493114a44",
       "current_head": "6077fa76950facbce11ec2f04dfbc93493114a44",
-      "previously_reviewed_heads": [],
-      "historical_assessment_heads": [],
-      "evidence": [],
+      "previously_reviewed_heads": [
+        "6077fa76950facbce11ec2f04dfbc93493114a44"
+      ],
+      "historical_assessment_heads": [
+        "6077fa76950facbce11ec2f04dfbc93493114a44"
+      ],
+      "evidence": [
+        {
+          "head": "6077fa76950facbce11ec2f04dfbc93493114a44",
+          "evidence": "docs/research/community-formal-20261012-integration.json",
+          "scope": "Three regression methods (12 subprocess cases), including UNKNOWN/INFEASIBLE under -O, preservation of existing output, zero-width rejection, feasible conservation and literal nomination. Delivery and plane diagnostics exactly reproduce PR433 and PR484 reports. PR507 and the large optimizer receipts not independently replayed here.",
+          "kind": "integration"
+        }
+      ],
       "historical_mentions": [
+        "docs/research/community-formal-20261012-review.md",
         "docs/research/community-pr531-review.md"
       ],
-      "disposition": "partially_reviewed",
-      "integration_location": [],
+      "disposition": "incorporated",
+      "integration_location": [
+        "research/complex-delivery-map-open-allocator"
+      ],
       "github_state": "OPEN",
-      "unresolved_question": "Finish the active formalization/construction/tooling batch and publish its scoped evidence.",
-      "closure": null
+      "unresolved_question": null,
+      "closure": null,
+      "reconciliation_evidence": [
+        "docs/research/community-formal-20261012-review.md",
+        "docs/research/community-formal-20261012-integration.json"
+      ]
     },
     {
       "number": 521,

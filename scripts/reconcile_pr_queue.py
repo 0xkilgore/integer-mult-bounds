@@ -82,6 +82,12 @@ def build():
     for number, head in d['reviewed_heads'].items():
         add(number, head, path, d['scope'], 'integration')
 
+    path = 'docs/research/community-formal-20261012-integration.json'
+    if (ROOT / path).exists():
+        d = load(path)
+        for number, head in d['reviewed_heads'].items():
+            add(number, head, path, d['checks'].get('pr' + number, 'Scoped dependency replay; see receipt.'), 'integration')
+
     # Markdown links locate older context, without upgrading a mention to an audit.
     mentions = collections.defaultdict(list)
     for p in sorted((ROOT / 'docs/research').glob('*.md')):
@@ -144,7 +150,7 @@ def build():
              '| Disposition | Count |', '|---|---:|']
     lines += [f'| {k.replace("_", " ")} | {v} |' for k, v in counts.items()]
     lines += ['', '## Remaining priorities', '',
-              '1. Finish the #442/#484/#509/#516/#520 dependency, Lean and tooling batch.',
+              '1. Confirm publication/closure of the #442/#484/#509/#516/#520 dependency, Lean and tooling batch; its scoped review is recorded separately.',
               '2. Review #533’s newer supplier against the published #531 baseline; its title remains an unverified claim.',
               '3. Review #525’s checkpoint/ceiling and #529/#532’s distinct construction mechanisms; retain parallel credit.',
               '4. Reconcile #210/#279 updates with their earlier incorporated heads; audit #236’s source-package integration separately from its already published review receipts.',
