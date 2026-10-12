@@ -39,6 +39,15 @@ python3 -m pip install -r research/five-stage-gen4-banks/requirements.txt
 make gen4-bank-verify
 ```
 
+## Research notes and verification contributions
+
+[The research integration index](docs/research/research-notes-20261011.md)
+records accepted experiments, scoped obstructions, verification improvements,
+and attribution. These contributions can be valuable without changing the
+selected exponent. The [experiment archive](research/experiment-log/README.md)
+distinguishes failed searches, execution errors, proposals, and reported
+verification; inclusion does not independently certify every historical claim.
+
 ## Historical audited checkpoint: 527 reused sources
 
 **eumemic's [#210](https://github.com/CrocSwap/integer-mult-bounds/pull/210)**,

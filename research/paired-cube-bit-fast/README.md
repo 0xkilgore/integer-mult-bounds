@@ -15,7 +15,7 @@ byte, and runs that tree's independent `check_paired_cube_bit.py` on the result.
 
 Only the exact linear algebra changed. Interning order and every tie-break are preserved, because frame ids
 appear in the output: built-in modular inverse (`pow(x, -1, P)`), incremental joins, a cheaper Gram test (on the
-annihilator when it is shorter, using G^-1 = I - J/(9-h)), a direct `perp` formula, per-space caches.
+annihilator when it is shorter, using G^-1 = I + J/(9-h)), a direct `perp` formula, per-space caches.
 
 Scope: equivalence is checked by byte-identical regeneration of the p=12 default word, not proved. The
 `perp` formula and the "input contained in join" cache rest on standard algebra and have not been reviewed by

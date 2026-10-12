@@ -23,6 +23,29 @@ not import every numerical refinement from the source527 branch. Original
 commits, licenses and AI-assistance disclosures are preserved. Douglas Colkitt
 performed the maintainer review and integration with OpenAI Codex assistance.
 
+### Research and verification integration, 2026-10-11
+
+The [research integration review](docs/research/research-notes-20261011.md)
+records these contributions separately from improvements to κ:
+
+- **Ali Romman (aliromman), #468:** a computer-assisted nine-call lower bound
+  for the stated three-register abelian bit model, with two exact engines.
+- **Chafik Boukhalfa (chafreaky), #524:** mixed-radix carry-graded convolution,
+  its scoped proof and exact finite controls; no multiplication-time claim.
+- **Rohan Arun, #477:** an attributed experiment archive preserving proposals,
+  unsuccessful searches, execution failures and reported verification.
+- **Richard Hoekstra, #239:** exact dual-Gram frame-check acceleration.
+- **Romain Hédouin, #190 and #222:** removal of unrelated source pins and
+  faster byte-equivalent generation of the historical bit word.
+- **Joel Pulikkan (GamingPuzzled), #218 and #231:** parallel frame checks and
+  the scoped Lucas-parity obstruction for the star/overlap decoder family.
+- **Maxime Fleury, #220:** gzip-container reproducibility audit and guidance.
+- **Jacob Sussman, #209:** the parallel Fourier-side Lean development reference.
+
+Original authorship, predecessor credits and AI-assistance disclosures remain
+in the imported packages and commits. Research inclusion is not a new record
+or formal verification of the complete multiplication theorem.
+
 ### Historical source527 checkpoint
 
 **eumemic's [#210](https://github.com/CrocSwap/integer-mult-bounds/pull/210),

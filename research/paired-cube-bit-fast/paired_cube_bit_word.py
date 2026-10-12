@@ -342,7 +342,7 @@ INV15 = pow(15, -1, P)
 def gram_nondegenerate_frame(rows, h, ann=None):
     """G = I - J/9 nondegenerate on the F_P-subspace with basis rows (a rank test of the Gram matrix mod P; a
     determinant nonzero mod P is nonzero over Q, and frames here are reductions of rational frames of the same
-    dimension). If the annihilator rows are given and shorter, the equivalent test of G^-1 = I - J/(9-h) on the
+    dimension). If the annihilator rows are given and shorter, the equivalent test of G^-1 = I + J/(9-h) on the
     annihilator is used: G is invertible mod P, and G is nondegenerate on V iff V and G^-1 V^perp meet only in 0,
     iff G V and V^perp meet only in 0, iff G^-1 is nondegenerate on V^perp."""
     if ann is not None and len(ann) < len(rows):

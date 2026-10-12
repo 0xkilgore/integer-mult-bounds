@@ -1,3 +1,18 @@
+# Current selected record
+
+The selected maintainer-reviewed conditional witness remains
+**κ=90446448750933/125000000000000000=0.000723571590007464** from #279 on #276.
+Use the [selected record](../../certificates/selected-result.json) and
+[its review](community-pr279-review.md) for the current construction and scope.
+The [2026-10-11 research integration](research-notes-20261011.md) adds research
+and verification contributions without changing that selection. Larger numbers
+in pending PRs are submitted claims until their dependencies are reviewed.
+
+The earlier “selected” or “current” statements below are preserved historical
+snapshots; they do not supersede the record above.
+
+---
+
 # Selected construction: coordinated frames and completed entrance banks
 
 The selected conditional witness is **κ=330942774629799/500000000000000000
