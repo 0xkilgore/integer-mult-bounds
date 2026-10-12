@@ -30,7 +30,7 @@ Python 3.11+; standard library only; assertions enabled. The output directory mu
 
 The verifier reproduces both old component endpoints and the old kappa, certifies the new bit endpoint using two independent rational moment engines, rejects the next 10^-24 bit grid point, and checks all 47 outer inequalities. It rejects the next 10^-18 kappa grid point, invalid assembly parameters, a tampered histogram, and the new bit endpoint under the old rounded allowance. Decimal arithmetic only proposes endpoints; rational intervals decide acceptance.
 
-Draft status: initial standalone arithmetic calculation passed. The packaged verifier and cross-version runs are pending at submission; receipts will follow. No CI pass or fresh operator replay is claimed.
+The packaged verifier passed on Python 3.11.15 and Python 3.14.8. All mathematical output is identical across versions; only runtime and interpreter metadata differ. Exact receipts and the tested package manifest are preserved in `evidence/`. Both rational engines, all 47 strict outer inequalities, six explicit bootstrap cutoffs and all six negative controls passed. GitHub CI is separately pending; no fresh supplier-operator replay is claimed.
 
 ## Scope
 
