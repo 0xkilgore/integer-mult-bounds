@@ -24,6 +24,12 @@ All 341 artifacts declared by PR569's manifest are tracked and hash-matching
 after its packaging-only log fix. The original dirty `research/checker-strips`
 checkout was preserved. No code-review workflow was run, as requested.
 
+All 34 retained Python files parsed successfully. `git diff --check` reports
+three trailing blank lines in the copied `audit_allcold.py` and two retained
+copies of `base_two_moment.py`. Those source bytes are preserved because their
+hashes are part of the replay bindings; this is not recorded as a clean
+whitespace-check pass.
+
 No fresh repository-wide `make verify` or `make gen4-bank-verify` pass is
 claimed for this research branch. During PR569 preparation,
 `make gen4-bank-verify` passed; the broader `make verify` reached an inherited
