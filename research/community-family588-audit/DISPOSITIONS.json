@@ -1328,16 +1328,17 @@
       ],
       "closure": null,
       "scope": "Applies six coalescences to each prefix provider selected by the free4f owner map. Width equality permits testing the same map but does not waive fresh local phase, global binding or invoice checks. Historical PR569 source pin requires an explicit source override.",
-      "unresolved_question": "Finish queued physical/tooling replay, then complete publication checks, integration and fresh-head check.",
+      "unresolved_question": "Complete publication checks, integrate, and recheck head before closure.",
       "review_completion": {
         "changed_file_coverage": true,
         "scoped_mechanism_review": true,
-        "required_execution_complete": false,
+        "required_execution_complete": true,
         "published": false
       },
       "verification_evidence": [
         "research/community-family588-audit/REVIEW-NOTES.json",
-        "research/community-family588-audit/CONTENT-COVERAGE.json"
+        "research/community-family588-audit/CONTENT-COVERAGE.json",
+        "research/community-family588-audit/pr584"
       ]
     },
     {

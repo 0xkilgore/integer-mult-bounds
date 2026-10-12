@@ -178,5 +178,24 @@
     "exit_code": 0,
     "seconds": 1028.459,
     "completed_utc": "2026-10-12T15:32:53.533044+00:00"
+  },
+  {
+    "pr": 584,
+    "package": "complex-571-free4fc",
+    "command": [
+      "/tmp/integer-mult-review-venv/bin/python",
+      "-B",
+      "research/complex-571-free4fc/verify.py",
+      "--work",
+      "/tmp/im584-review",
+      "--jobs",
+      "2",
+      "--source",
+      "larger_gain=/tmp/im588-pins/research/larger-gain"
+    ],
+    "log": "/tmp/im584-review.log",
+    "exit_code": 0,
+    "seconds": 699.947,
+    "completed_utc": "2026-10-12T15:35:03.018555+00:00"
   }
 ]

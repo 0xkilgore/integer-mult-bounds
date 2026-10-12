@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-12T15:33:42.679880+00:00",
+  "updated_utc": "2026-10-12T15:36:14.367785+00:00",
   "goal_status": "active, concrete review/publication-preparation progress; not published and no current-family PRs closed",
   "branch": "integration/family588-20261012",
   "worktree": "/tmp/integer-mult-family588",
@@ -43,6 +43,7 @@
     580,
     582,
     583,
+    584,
     587,
     588
   ],
@@ -65,14 +66,15 @@
         578,
         577,
         579,
-        583
+        583,
+        584
       ],
       "entries": 14
     }
   ],
   "next": [
     "Poll these same live sessions; do not restart because a tool observation times out.",
-    "Archive 2 remaining queue2 replays with /tmp/im588-checkpoint-completed.py.",
+    "Archive 1 remaining queue2 replays with /tmp/im588-checkpoint-completed.py.",
     "Publication docs and selected-result.json now contain the prepared #588 record. Remove explicit preparation wording and update final receipts/status only when publishing; preserve old #535 checkpoint.",
     "Finalize per-PR dispositions and review, update README/current-status/reproduction/CI and selected-result from PREPARED-SELECTION only when ready.",
     "Refresh full receipt bindings and run selected-record/reconciliation checks, exact staged bytes and fresh Git-archive source-pin check.",
@@ -81,7 +83,7 @@
   ],
   "source_pins": "Selected #588 uses canonical integrated #569. Historical #582/#584/#587 can use exact bundled subset research/promoted-kernel-coalescing/vendor/larger_gain; verified pins and source equality in HISTORICAL-PIN-REPRODUCTION.json.",
   "preserve": "Root worktree and its seven unrelated untracked research dirs remain untouched.",
-  "checkpoint_commit": "b642fa9dea8f2e961581272a585337292c193139",
+  "checkpoint_commit": "e049c082f7cae8f1a285fb305ee9274f9572565e",
   "scope_caveat_571": "Research and complete frontier admission both passed.",
   "public_cold_command": "PASS complete bit543 + complex588 + exact binding; evidence in PUBLIC-COLD-EVIDENCE.json",
   "publication_edit_helper": "/tmp/im588-finalize-publication.py refuses changes until all 43 source/coverage/execution gates pass; prepares documentation only, without push or publication flags."

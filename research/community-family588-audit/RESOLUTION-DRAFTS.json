@@ -239,7 +239,7 @@
     {
       "number": 584,
       "reviewed_head": "e580557d85eb8b8a100361926252d120eb447a44",
-      "required_execution_complete": false,
+      "required_execution_complete": true,
       "body_template": "Thank you @jeremykothe2. This contribution at `e580557d85eb8b8a100361926252d120eb447a44` is incorporated in the reviewed family through #588, published in PUBLICATION_COMMIT.\n\nApplies six coalescences to each prefix provider selected by the free4f owner map. Width equality permits testing the same map but does not waive fresh local phase, global binding or invoice checks. Historical PR569 source pin requires an explicit source override.\n\nPreserved implementation and research:\n\n- [research/complex-571-free4fc](https://github.com/CrocSwap/integer-mult-bounds/tree/PUBLICATION_COMMIT/research/complex-571-free4fc)\n\nThe [family review](https://github.com/CrocSwap/integer-mult-bounds/blob/PUBLICATION_COMMIT/docs/research/community-family588-review.md) and [individual disposition](https://github.com/CrocSwap/integer-mult-bounds/blob/main/research/community-family588-audit/DISPOSITIONS.json) record the scope, evidence and attribution. Parallel and intermediate contributions remain credited even where a later composition has a stronger bound. The published multiplication bound remains conditional on the documented compiler, realization, hosting and analytic assumptions; these finite checks are not a full Lean multiplication proof."
     },
     {
