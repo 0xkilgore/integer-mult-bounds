@@ -1,7 +1,7 @@
 cff-version: 1.2.0
 message: >-
   Please cite the selected composition and its constituent contributions,
-  this project and the upstream manuscript. The prepared checkpoint is PR588
+  this project and the upstream manuscript. The selected checkpoint is PR588
   with PR543; consult certificates/selected-result.json for publication status.
   Project-level authorship identifies the maintainer, not sole authorship of
   the community result. See CONTRIBUTORS.md and the frozen source notices.
@@ -16,7 +16,7 @@ date-released: 2026-10-12
 repository-code: "https://github.com/CrocSwap/integer-mult-bounds"
 url: "https://github.com/CrocSwap/integer-mult-bounds"
 abstract: >-
-  Community research on integer multiplication. The prepared maintainer-reviewed
+  Community research on integer multiplication. The selected maintainer-reviewed
   conditional finite composition has kappa = 400569730495803/250000000000000000
   = 0.001602278921983212. Jeremy Kothe's PR588 complex construction composes
   with eumemic's PR543 interleaved-source bit supplier, building on cold

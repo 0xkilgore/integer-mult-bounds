@@ -13,9 +13,9 @@ T(n)=O\!\left(n(\log n)^{1-\kappa}\right),\qquad
 \kappa=\frac{400569730495803}{250000000000000000}=0.001602278921983212.
 $$
 
-**Publication preparation is in progress.** The last published checkpoint is
-[#535 with #510](certificates/checkpoints/post-center535.json); the remaining
-frozen-family reviews and publication checks are tracked in the linked review.
+The preceding [#535 with #510 checkpoint](certificates/checkpoints/post-center535.json)
+is preserved. The [family review](docs/research/community-family588-review.md)
+records the 43 contributions, verification scope and integration evidence.
 
 The bit circuit delays source updates until targets have read them, reducing
 its helper count from 480 to 420. The complex construction combines cold

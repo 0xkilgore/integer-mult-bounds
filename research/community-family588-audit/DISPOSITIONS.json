@@ -1,5 +1,5 @@
 {
-  "status": "IN_PROGRESS_NOT_PUBLICATION_OR_CLOSURE",
+  "status": "REVIEW_COMPLETE_PUBLICATION_PENDING",
   "review": "docs/research/community-family588-review.md",
   "pull_requests": [
     {

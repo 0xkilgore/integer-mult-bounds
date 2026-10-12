@@ -1,6 +1,6 @@
 {
-  "updated_utc": "2026-10-12T15:42:57.297609+00:00",
-  "goal_status": "active, concrete review/publication-preparation progress; not published and no current-family PRs closed",
+  "updated_utc": "2026-10-12T15:44:13.683423+00:00",
+  "goal_status": "All 43 scoped reviews and required execution checks passed. Publication and GitHub resolution remain.",
   "branch": "integration/family588-20261012",
   "worktree": "/tmp/integer-mult-family588",
   "finite_or_scoped_replays_passed": [
@@ -49,39 +49,12 @@
     588
   ],
   "not_a_full_disposition": "Replay success alone does not establish all changed-file coverage, unique research review or closure readiness.",
-  "running": [
-    {
-      "name": "queue2 remaining package replays",
-      "session": 57868,
-      "log": "/tmp/im588-review-queue2.log",
-      "receipt": "REPLAY-QUEUE2-RESULTS.json",
-      "completed": [
-        561,
-        562,
-        567,
-        568,
-        574,
-        572,
-        575,
-        576,
-        578,
-        577,
-        579,
-        583,
-        584,
-        586
-      ],
-      "entries": 14
-    }
-  ],
+  "running": [],
   "next": [
-    "Poll these same live sessions; do not restart because a tool observation times out.",
-    "Archive 0 remaining queue2 replays with /tmp/im588-checkpoint-completed.py.",
-    "Publication docs and selected-result.json now contain the prepared #588 record. Remove explicit preparation wording and update final receipts/status only when publishing; preserve old #535 checkpoint.",
-    "Finalize per-PR dispositions and review, update README/current-status/reproduction/CI and selected-result from PREPARED-SELECTION only when ready.",
-    "Refresh full receipt bindings and run selected-record/reconciliation checks, exact staged bytes and fresh Git-archive source-pin check.",
-    "Recheck frozen heads and origin/main, preserve original ancestry, publish to main, resolve fully covered unchanged PRs with attribution/explanation.",
-    "Record Linux CI status and unrelated arrivals; audit all 43 dispositions before completing goal."
+    "Commit publication metadata, preserve all reviewed contributor heads in ancestry, and verify unchanged content tree.",
+    "Push reviewed integration to main, verify remote contents and record exact publication commit.",
+    "Resolve unchanged fully reviewed PRs with individual attribution and record GitHub evidence.",
+    "Update central ledger and final receipt, record Linux CI and later arrivals, then audit goal completion."
   ],
   "source_pins": "Selected #588 uses canonical integrated #569. Historical #582/#584/#587 can use exact bundled subset research/promoted-kernel-coalescing/vendor/larger_gain; verified pins and source equality in HISTORICAL-PIN-REPRODUCTION.json.",
   "preserve": "Root worktree and its seven unrelated untracked research dirs remain untouched.",

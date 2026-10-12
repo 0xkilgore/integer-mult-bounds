@@ -1,6 +1,6 @@
 # Reproducing the result
 
-## Current prepared checkpoint: #588 with #543
+## Current reviewed checkpoint: #588 with #543
 
 The [selected record](../certificates/selected-result.json) gives the exact
 checkpoint and publication status. Its public command is:

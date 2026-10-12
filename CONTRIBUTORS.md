@@ -1,9 +1,9 @@
 # Community contribution record
 
-**Latest locally reviewed composition: #588 with #543, κ=0.001602278921983212.**
-Family integration is in progress; the [selected record](certificates/selected-result.json)
-identifies the prepared checkpoint and its publication status. The previous
-published checkpoint is [#535/#510](certificates/checkpoints/post-center535.json).
+**Current reviewed composition: #588 with #543, κ=0.001602278921983212.**
+The [selected record](certificates/selected-result.json) identifies the current
+checkpoint. The previous [#535/#510 checkpoint](certificates/checkpoints/post-center535.json)
+remains available.
 The [family review](docs/research/community-family588-review.md) and
 [per-PR dispositions](research/community-family588-audit/DISPOSITIONS.json)
 record verification scope and remaining work.

@@ -1,4 +1,4 @@
-# Frozen family through #588 — review in progress
+# Reviewed family through #588
 
 The maintainer has cold-replayed **#588 with #543** and bound both finite
 operators to the same exact assembly:
@@ -8,10 +8,10 @@ operators to the same exact assembly:
       =0.001602278921983212.
 \]
 
-The remaining family reviews and publication checks are in progress. The
-local selected record is prepared for publication; this page does not claim
-that it has reached main or approve closure of the whole family. [Per-PR dispositions](../../research/community-family588-audit/DISPOSITIONS.json)
-record that distinction.
+All 43 frozen contributions have completed their required source reviews
+and scoped execution checks. [Per-PR dispositions](../../research/community-family588-audit/DISPOSITIONS.json)
+record evidence, publication and GitHub resolution separately. The review
+does not certify later changes to those PRs or later submissions.
 
 ## Scope and frozen inputs
 

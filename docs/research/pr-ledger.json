@@ -33,7 +33,7 @@
     "research/pr-reconciliation-20261012/decisions.json": "b710c0a7e7599a929120a4d4dfb067335964d9b0c8fd66818ff3fd5a3856e11f",
     "research/pr-reconciliation-20261012/ending-snapshot.json": "629522d6a438733f5316ee362979c35fb9f703ac801c3d30b6fc390ea62d2322",
     "research/community-family533-audit/DISPOSITIONS.json": "e0e51f92dc715525b8ff5e4987551336c292b0a466f1f3fb87221fb96d54544d",
-    "research/community-family588-audit/DISPOSITIONS.json": "6e262657393e4f0c06a2b06c1824c146280eaa7332629f34dda9bc3d120300ae"
+    "research/community-family588-audit/DISPOSITIONS.json": "fd75611236c30219a0e052150e644ae67be6de39864a3f7248cd0e43571a4c30"
   },
   "scope": "Reconciliation index, not blanket mathematical verification. Partial includes triage or scoped checks; mentions alone are not review. Integrated archives are distinguished from active implementations. No automatic closures.",
   "pull_requests": [

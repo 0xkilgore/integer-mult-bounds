@@ -1,5 +1,5 @@
 {
-  "status": "IN_PROGRESS_NOT_PUBLISHED_NOT_CLOSURE_APPROVAL",
+  "status": "READY_FOR_PUBLICATION_FULL_FROZEN_FAMILY_REVIEWED",
   "kappa": "400569730495803/250000000000000000",
   "decimal": "0.001602278921983212",
   "reviewed_heads": {
@@ -54,7 +54,7 @@
     "batch1": "Twelve standalone package replay commands passed and their stage/summary/control evidence is archived",
     "bit_alternatives": "PR545 and PR555 finite changed-construction replays passed, including exact hosting portability and stock controls",
     "research": "Scoped proof reviews, exact dual controls, bounded joint-basis searches and source-complement normal forms retained",
-    "batch2_started": "PR561, PR562, full PR564 foundation and PR569 six-provider/global construction passed; remaining batch jobs continue.",
+    "batch2_started": "All required second-batch replays completed; exact commands and archived results are recorded in BATCH2-EVIDENCE.json.",
     "pr571": "Both ten bounded joint-basis research searches and the complete fresh composed-prefix finite admission passed, reusing fully validated fresh #569 dependencies.",
     "selected_public_cold": "Public entry point rebuilt bit543 and all 43 complex588 stages from scratch with integrated default pins; exact binding passed. See PUBLIC-COLD-EVIDENCE.json.",
     "batch2_completed_prs": [
@@ -83,9 +83,9 @@
     "ancestry_screen": "All 492 currently open PR heads screened against 84 new ancestor commits; 0 outside-scope heads included. See PREPUBLICATION-ANCESTRY.json."
   },
   "remaining": [
-    "Finalize publication documents and prepublication head checks; all required executions passed.",
-    "Finalize dispositions, publication documents and prepublication heads.",
-    "Publish to main, resolve fully covered unchanged PRs and record unrelated arrivals."
+    "Refresh frozen heads and origin/main; preserve reviewed original ancestry and publish to main.",
+    "Verify remote publication, resolve fully covered unchanged PRs and record resolution evidence.",
+    "Record Linux CI status and later arrivals; perform the complete final audit."
   ],
   "receipts": {
     "research/community-family588-audit/SOURCE.json": "3cae009dc9b0c2e00a92c649ebb1a4e21553cfca6e76d1819c30646b69c9d457",
@@ -108,10 +108,10 @@
     "research/community-family588-audit/SCOPED-EVIDENCE.json": "cb0aeb4b1c312619d48333096afff0766423ebfc87806b342f5cbef1126ed71a",
     "research/community-family588-audit/BOOKKEEPING-CONTROLS.json": "eade90ab496c65e9079aede71bc7daef7c7f4a9e38958afb2363bb5de36fcf0b",
     "research/community-family588-audit/CLEAN-CHECKOUT.json": "dff1edfb0caf27ca201f64baf4bea019dbfc6b3869d5c3d9a0299610a99e549d",
-    "research/community-family588-audit/PREPUBLICATION-HEADS.json": "7ee11dd5552947d911b08b0520b207527efd98298e0b80092e01ee3a8259acd6",
-    "research/community-family588-audit/CURRENT-OPEN.json": "8d6b8e9b1141c50e93845f5d1c63292a93c803bb81cd004e07e9f1c7e650bab8",
-    "research/community-family588-audit/PREPUBLICATION-ANCESTRY.json": "ddbe6e2eb1c1875b77829e0a84393804d050d62b4ae8e3ccfa91b7505869b0a8",
-    "research/community-family588-audit/LATER-ARRIVALS.json": "10f3046630ac708b778417a9a8cfa947d5cc511dde76bb5778989ee7f5f46060"
+    "research/community-family588-audit/PREPUBLICATION-HEADS.json": "c575ef0fcdc2aac598e60f98cc462eb44f17646fc69a87e1c38fad9a7ce9ca1b",
+    "research/community-family588-audit/CURRENT-OPEN.json": "c4e0b54088bd0faa3a727589273cbe6d8255d76a70292561d0510b33bcdba66f",
+    "research/community-family588-audit/PREPUBLICATION-ANCESTRY.json": "998d91e06637c0139515b90acc99f1fbe1a1e589b06e970f8f44108b8b9ad753",
+    "research/community-family588-audit/LATER-ARRIVALS.json": "7d446b4069a8d7c3bf07c4020bf289ec61aa530f6bd3edb891f1df1c6feaa4dc"
   },
   "toolchain": {
     "platform": "macOS arm64",

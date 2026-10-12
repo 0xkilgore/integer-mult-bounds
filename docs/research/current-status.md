@@ -1,10 +1,9 @@
 # Current reviewed record
 
-The locally reviewed conditional witness is
+The selected reviewed conditional witness is
 **κ=400569730495803/250000000000000000=0.001602278921983212**, from
-Jeremy Kothe's #588 with eumemic's #543 bit supplier. Publication preparation
-and the remaining family reviews are in progress. The preceding published
-checkpoint is [#535/#510](../../certificates/checkpoints/post-center535.json).
+Jeremy Kothe's #588 with eumemic's #543 bit supplier. The preceding
+[#535/#510 checkpoint](../../certificates/checkpoints/post-center535.json) is preserved.
 
 See the [selected record](../../certificates/selected-result.json),
 [review and assumptions](community-family588-review.md),
