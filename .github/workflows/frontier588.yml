@@ -2,41 +2,6 @@ name: Selected family 588 finite composition
 
 on:
   workflow_dispatch:
-  pull_request:
-    paths:
-      - 'research/e8-bit-r420/**'
-      - 'research/e8-bit-carrier-skeleton/**'
-      - 'research/direct-delivery504-global/**'
-      - 'research/complex-571-free4fc8/**'
-      - 'research/complex-multicold/**'
-      - 'research/larger-gain/**'
-      - 'research/structural-gain/**'
-      - 'research/complex-joint-prefix/**'
-      - 'research/kernel-frame-coalescing/**'
-      - 'scripts/verify_frontier588*.py'
-      - 'scripts/verify_selected_result.py'
-      - 'certificates/selected-result.json'
-      - 'research/community-family588-audit/SELECTED-SOURCE.json'
-      - 'Makefile'
-      - '.github/workflows/frontier588.yml'
-  push:
-    branches: [main]
-    paths:
-      - 'research/e8-bit-r420/**'
-      - 'research/e8-bit-carrier-skeleton/**'
-      - 'research/direct-delivery504-global/**'
-      - 'research/complex-571-free4fc8/**'
-      - 'research/complex-multicold/**'
-      - 'research/larger-gain/**'
-      - 'research/structural-gain/**'
-      - 'research/complex-joint-prefix/**'
-      - 'research/kernel-frame-coalescing/**'
-      - 'scripts/verify_frontier588*.py'
-      - 'scripts/verify_selected_result.py'
-      - 'certificates/selected-result.json'
-      - 'research/community-family588-audit/SELECTED-SOURCE.json'
-      - 'Makefile'
-      - '.github/workflows/frontier588.yml'
 
 permissions:
   contents: read

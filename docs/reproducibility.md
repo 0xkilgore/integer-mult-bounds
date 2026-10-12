@@ -1,46 +1,49 @@
 # Reproducing the result
 
-## Current reviewed checkpoint: #588 with #543
-
-The [selected record](../certificates/selected-result.json) gives the exact
-checkpoint and publication status. Its public command is:
+## Current reviewed checkpoint: #596 with #543
 
 ```sh
 python3 -m pip install numpy sympy scipy
-make frontier588-verify
+make frontier596-verify
+# Or choose a fresh output directory:
+python3 -B scripts/verify_frontier596.py --work /absolute/new/output --jobs 2
 ```
 
-Use Python 3.11 or newer, Make, a C++17 compiler and genuine Boost headers.
-Set `CXX` and `BOOST_INCLUDE` when they are outside the default paths; Ubuntu
-can use `g++` and `/usr/include`. Keep Python assertions enabled. NumPy,
-SymPy and SciPy are required for the bit-side replay and its stock controls;
-the complex package uses the standard library. No search optimizer is needed
-for the selected replay.
+Use Python 3.11+, Make, C++17 and Boost headers; set `CXX` and `BOOST_INCLUDE`
+as needed. Keep assertions enabled. The output must be new and outside the
+checkout. This command rebuilds both suppliers, including the complex baseline,
+then verifies their exact composition. It does not use retained local proofs.
+The runner selects the pinned older #569 source subset already bundled in
+`research/promoted-kernel-coalescing/vendor/larger_gain`.
 
-The Make target creates a fresh temporary output directory. For a chosen
-location and concurrency limit, run:
+The [review](research/community-hyperplane599-review.md) and
+[integration receipt](research/community-hyperplane599-integration.json)
+record the fresh selected replays and explicit reuse for intermediate PRs.
+Local macOS results and remote Linux CI are separate statuses. The configured
+selected workflow is `frontier596.yml`; historical frontier588 is manual.
+
+`make selected-record-check` checks metadata and exact source/proof hashes;
+it does not replay the operators. `make frontier588-verify` and
+[the frozen checkpoint](../certificates/checkpoints/family588.json) retain the
+previous composition. Older reproduction targets remain available.
+
+For Lean, run `python3 research/hyperplane-end-lean/verify.py`. It builds the
+combined #593/#599 package and checks theorem axioms. Use `--instances` with
+the generated `ck-local`, `atm3-local`, and optionally #591's `jp8-local`
+directories for finite label checks. Then run:
 
 ```sh
-python3 -B scripts/verify_frontier588.py --work /absolute/new/output --jobs 2
+python3 scripts/verify_hpe_lean_binding.py /output/ck-local /output/atm3-local --out /output/LEAN-BINDING.json
 ```
 
-The output must be new and outside the checkout. This rebuilds the R420 bit
-supplier, cold-replays the complex foundation and all selected provider
-chains, reconstructs physical owners and finite invoices, then checks the
-exact dependency binding and 47 strict outer inequalities. It writes
-`RESULT.json`, `STEPS.json`, complete stage logs, and the individual suppliers'
-receipts. It has no proof-reuse or discovery mode.
+This checks that emitted wrapper recipes equal the literals proved in Lean.
+It does not discharge all compiler, hosting or analytic hypotheses.
 
-The [maintainer review](research/community-family588-review.md) identifies
-inherited all-size and analytic assumptions, pooled-cell bit hosting, exact
-source pins, historical replay overrides, and verification limits. The full
-public command passed locally on macOS with Python 3.14.6. A configured Linux
-workflow is separate from an observed passing Linux run.
-
-`make selected-record-check` checks metadata, exact source inventories and
-certificate/proof hashes; it does not replay the operators. The preceding
-#535 checkpoint remains available through `make frontier535-verify` and
-[its frozen record](../certificates/checkpoints/post-center535.json).
+#589's complete tuned package is preserved at `research/e8-bit-p111-tuned`;
+run `bash research/e8-bit-p111-tuned/tune/verify.sh /fresh/output` with the same
+Python/C++/Boost dependencies. #555 remains byte-identical at its old location.
+The format-limits and three Leech/Turyn research packages retain their own
+reproduction commands, scopes and dependency lists.
 
 ## Historical coordinated-frame checkpoint and earlier targets
 

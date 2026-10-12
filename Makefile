@@ -21,7 +21,7 @@ verify:
 	$(MAKE) verify-recycled-bit
 	$(MAKE) verify-entrance-banks
 	$(MAKE) gen4-bank-verify
-	$(MAKE) frontier588-verify
+	$(MAKE) frontier596-verify
 	$(MAKE) verify-certificates
 	$(MAKE) verify-ternary
 	$(MAKE) verify-research
@@ -563,3 +563,8 @@ recycled-bit-full-verify:
 
 verify-recycled-bit: recycled-bit-full-verify
 	python3 -m unittest discover -s tests -p 'test_recycled_bit_integration.py' -v
+
+.PHONY: frontier596-verify
+frontier596-verify: selected-record-check
+	@work=$$(mktemp -d "$${TMPDIR:-/tmp}/integer-mult-frontier596.XXXXXX"); \
+	python3 -B scripts/verify_frontier596.py --work "$$work/replay"

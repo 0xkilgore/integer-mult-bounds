@@ -3,16 +3,17 @@
   "snapshot": "research/pr-reconciliation-20261012/starting-snapshot.json",
   "starting_main": "f19cb621be2caf3a7291a37c343c1c55afe935e0",
   "starting_open_count": 446,
-  "inventory_count": 492,
-  "family_round": "research/community-family588-audit/DISPOSITIONS.json",
+  "inventory_count": 501,
+  "family_round": "research/community-hyperplane599-audit/DISPOSITIONS.json",
   "family_rounds": [
     "research/community-family533-audit/DISPOSITIONS.json",
-    "research/community-family588-audit/DISPOSITIONS.json"
+    "research/community-family588-audit/DISPOSITIONS.json",
+    "research/community-hyperplane599-audit/DISPOSITIONS.json"
   ],
   "counts": {
     "changed_since_review": 6,
     "incorporated": 60,
-    "partially_reviewed": 144,
+    "partially_reviewed": 153,
     "unreviewed": 282
   },
   "source_sha256": {
@@ -33,7 +34,8 @@
     "research/pr-reconciliation-20261012/decisions.json": "b710c0a7e7599a929120a4d4dfb067335964d9b0c8fd66818ff3fd5a3856e11f",
     "research/pr-reconciliation-20261012/ending-snapshot.json": "629522d6a438733f5316ee362979c35fb9f703ac801c3d30b6fc390ea62d2322",
     "research/community-family533-audit/DISPOSITIONS.json": "e0e51f92dc715525b8ff5e4987551336c292b0a466f1f3fb87221fb96d54544d",
-    "research/community-family588-audit/DISPOSITIONS.json": "70f66f8c223b0929904ff88e27713b5bdbdb0d6b92f4d55cf518565135d678b5"
+    "research/community-family588-audit/DISPOSITIONS.json": "70f66f8c223b0929904ff88e27713b5bdbdb0d6b92f4d55cf518565135d678b5",
+    "research/community-hyperplane599-audit/DISPOSITIONS.json": "96b69742b95ea320066e01b714cf526761b583aba4857413edf070761b76b6ac"
   },
   "scope": "Reconciliation index, not blanket mathematical verification. Partial includes triage or scoped checks; mentions alone are not review. Integrated archives are distinguished from active implementations. No automatic closures.",
   "pull_requests": [
@@ -2701,6 +2703,7 @@
       ],
       "historical_mentions": [
         "docs/research/community-final-audit.md",
+        "docs/research/community-hyperplane599-review.md",
         "docs/research/community-integration.md",
         "docs/research/community-round2-review.md",
         "docs/research/community-round2-twitter.md",
@@ -10984,6 +10987,7 @@
       "evidence": [],
       "historical_mentions": [
         "docs/research/community-family588-review.md",
+        "docs/research/community-hyperplane599-review.md",
         "docs/research/community-pr531-review.md"
       ],
       "disposition": "unreviewed",
@@ -15336,6 +15340,423 @@
       "reconciliation_evidence": [
         "research/community-family588-audit/DISPOSITIONS.json"
       ]
+    },
+    {
+      "number": 589,
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/589",
+      "title": "Bit c = 0.001733427039589844: two A-section transports on #555's punctured R439 word (+0.0216%, κ unchanged)",
+      "contributor": {
+        "login": "DreamingOfClouds",
+        "name": null,
+        "id": "U_kgDOClpS9w",
+        "is_bot": false
+      },
+      "draft": false,
+      "starting_head": "a5afc8c6169ea61ba7c51dfd3cade02cc7b13b46",
+      "current_head": "a5afc8c6169ea61ba7c51dfd3cade02cc7b13b46",
+      "previously_reviewed_heads": [],
+      "historical_assessment_heads": [],
+      "evidence": [
+        {
+          "head": "a5afc8c6169ea61ba7c51dfd3cade02cc7b13b46",
+          "evidence": "research/community-hyperplane599-audit/DISPOSITIONS.json",
+          "scope": "Two A-section transports on the punctured bit word; exact scalar and frame replay plus nine/eleven-stage hosting. Supplier-only headroom; the selected complex-limited composition keeps PR543. Preserve this complete package under e8-bit-p111-tuned to leave the frozen PR555 package unchanged.",
+          "kind": "integration_or_partial_review"
+        }
+      ],
+      "historical_mentions": [],
+      "integration_location": [
+        "research/e8-bit-p111-tuned"
+      ],
+      "github_state": "OPEN",
+      "closure": null,
+      "reviewed_head": "a5afc8c6169ea61ba7c51dfd3cade02cc7b13b46",
+      "disposition": "partially_reviewed",
+      "unresolved_question": "Reviewed and locally verified; publication and exact-head resolution pending.",
+      "review_completion": {
+        "changed_file_coverage": true,
+        "scoped_mechanism_review": true,
+        "required_execution_complete": true,
+        "published": false
+      },
+      "verification_evidence": [
+        "research/community-hyperplane599-audit/COMPLETED-EVIDENCE.json"
+      ],
+      "current_head_observed_in": "research/community-hyperplane599-audit/DISPOSITIONS.json",
+      "reconciliation_evidence": [
+        "research/community-hyperplane599-audit/DISPOSITIONS.json"
+      ]
+    },
+    {
+      "number": 591,
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/591",
+      "title": "Conditional κ = 0.001609915765452068: hyperplane-ended helpers on the PR588 witness",
+      "contributor": {
+        "login": "jeremykothe2",
+        "name": null,
+        "id": "U_kgDOEKXqaA",
+        "is_bot": false
+      },
+      "draft": false,
+      "starting_head": "f622547244bf6d895a571a7b035142ba66279806",
+      "current_head": "f622547244bf6d895a571a7b035142ba66279806",
+      "previously_reviewed_heads": [],
+      "historical_assessment_heads": [],
+      "evidence": [
+        {
+          "head": "f622547244bf6d895a571a7b035142ba66279806",
+          "evidence": "research/community-hyperplane599-audit/DISPOSITIONS.json",
+          "scope": "Generalize entering-helper terminal frames from FULL to certified hyperplanes. The cleanup moves commute, restore arbitrary helper rows, and admit reflected programs. Wrappers must be keyed by both entrance and terminal frame. Full local frames, exact Clifford phase, physical ownership and exact assembly replay required. Declared new saving is conditional, with unchanged all-size/analytic obligations.",
+          "kind": "integration_or_partial_review"
+        }
+      ],
+      "historical_mentions": [],
+      "integration_location": [
+        "research/complex-571-hpeq1"
+      ],
+      "github_state": "OPEN",
+      "closure": null,
+      "reviewed_head": "f622547244bf6d895a571a7b035142ba66279806",
+      "disposition": "partially_reviewed",
+      "unresolved_question": "Reviewed and locally verified; publication and exact-head resolution pending.",
+      "review_completion": {
+        "changed_file_coverage": true,
+        "scoped_mechanism_review": true,
+        "required_execution_complete": true,
+        "published": false
+      },
+      "verification_evidence": [
+        "research/community-hyperplane599-audit/COMPLETED-EVIDENCE.json"
+      ],
+      "current_head_observed_in": "research/community-hyperplane599-audit/DISPOSITIONS.json",
+      "reconciliation_evidence": [
+        "research/community-hyperplane599-audit/DISPOSITIONS.json"
+      ]
+    },
+    {
+      "number": 592,
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/592",
+      "title": "Conditional κ = 0.001612719427075359: hyperplane-ended helpers with ck/atm3 dispatch",
+      "contributor": {
+        "login": "jeremykothe2",
+        "name": null,
+        "id": "U_kgDOEKXqaA",
+        "is_bot": false
+      },
+      "draft": false,
+      "starting_head": "1f471c445c06a45a32e2c47e8d74c8264b68356b",
+      "current_head": "1f471c445c06a45a32e2c47e8d74c8264b68356b",
+      "previously_reviewed_heads": [],
+      "historical_assessment_heads": [],
+      "evidence": [
+        {
+          "head": "1f471c445c06a45a32e2c47e8d74c8264b68356b",
+          "evidence": "research/community-hyperplane599-audit/DISPOSITIONS.json",
+          "scope": "Same source verifier, constructors and local providers as PR596, with a different ck/atm3 dispatch and literal owner allocation. Rebuild the pinned words, reuse byte-matched freshly checked PR596 locals, and independently rerun global admission, invoices and controls.",
+          "kind": "integration_or_partial_review"
+        }
+      ],
+      "historical_mentions": [],
+      "integration_location": [
+        "research/complex-571-hpeq4"
+      ],
+      "github_state": "OPEN",
+      "closure": null,
+      "reviewed_head": "1f471c445c06a45a32e2c47e8d74c8264b68356b",
+      "disposition": "partially_reviewed",
+      "unresolved_question": "Reviewed and locally verified; publication and exact-head resolution pending.",
+      "review_completion": {
+        "changed_file_coverage": true,
+        "scoped_mechanism_review": true,
+        "required_execution_complete": true,
+        "published": false
+      },
+      "verification_evidence": [
+        "research/community-hyperplane599-audit/COMPLETED-EVIDENCE.json"
+      ],
+      "current_head_observed_in": "research/community-hyperplane599-audit/DISPOSITIONS.json",
+      "reconciliation_evidence": [
+        "research/community-hyperplane599-audit/DISPOSITIONS.json"
+      ]
+    },
+    {
+      "number": 593,
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/593",
+      "title": "[Lean] Hyperplane-ended helpers: Lemma A with an arbitrary terminal frame (no κ claim)",
+      "contributor": {
+        "login": "jeremykothe2",
+        "name": null,
+        "id": "U_kgDOEKXqaA",
+        "is_bot": false
+      },
+      "draft": false,
+      "starting_head": "fdb6dcc6d7bc29764c5b6b4d32b7fa050acf74a4",
+      "current_head": "fdb6dcc6d7bc29764c5b6b4d32b7fa050acf74a4",
+      "previously_reviewed_heads": [],
+      "historical_assessment_heads": [],
+      "evidence": [
+        {
+          "head": "fdb6dcc6d7bc29764c5b6b4d32b7fa050acf74a4",
+          "evidence": "research/community-hyperplane599-audit/DISPOSITIONS.json",
+          "scope": "Lean proof of arbitrary-terminal helper interface and the exact three non-cold Clifford factorizations. Physical recipes, scalar rows, hosting and compiler hypotheses still require instance checks. Maintainer adds exact emitted-to-Lean wrapper binding and denominator mutation control.",
+          "kind": "integration_or_partial_review"
+        }
+      ],
+      "historical_mentions": [],
+      "integration_location": [
+        "research/hyperplane-end-lean"
+      ],
+      "github_state": "OPEN",
+      "closure": null,
+      "reviewed_head": "fdb6dcc6d7bc29764c5b6b4d32b7fa050acf74a4",
+      "disposition": "partially_reviewed",
+      "unresolved_question": "Reviewed and locally verified; publication and exact-head resolution pending.",
+      "review_completion": {
+        "changed_file_coverage": true,
+        "scoped_mechanism_review": true,
+        "required_execution_complete": true,
+        "published": false
+      },
+      "verification_evidence": [
+        "research/community-hyperplane599-audit/COMPLETED-EVIDENCE.json"
+      ],
+      "current_head_observed_in": "research/community-hyperplane599-audit/DISPOSITIONS.json",
+      "reconciliation_evidence": [
+        "research/community-hyperplane599-audit/DISPOSITIONS.json"
+      ]
+    },
+    {
+      "number": 594,
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/594",
+      "title": "Conditional κ = 0.001609915765452068: independent PR591 replay",
+      "contributor": {
+        "login": "eumemic",
+        "name": null,
+        "id": "U_kgDOBaipYw",
+        "is_bot": false
+      },
+      "draft": false,
+      "starting_head": "770e8ef302e2fd48e9522373ef7ff980187c978b",
+      "current_head": "770e8ef302e2fd48e9522373ef7ff980187c978b",
+      "previously_reviewed_heads": [],
+      "historical_assessment_heads": [],
+      "evidence": [
+        {
+          "head": "770e8ef302e2fd48e9522373ef7ff980187c978b",
+          "evidence": "research/community-hyperplane599-audit/DISPOSITIONS.json",
+          "scope": "Incorporate the three new files of commit 770e8ef3: independent PR591 replay announcement, certificate and hash auditor. The source PR also contains extensive older branch differences; these are not blanket-approved or overwritten onto main. Keep PR open pending historical content reconciliation; the independent replay claim is attributed, not confused with our own fresh replay.",
+          "kind": "integration_or_partial_review"
+        }
+      ],
+      "historical_mentions": [],
+      "integration_location": [
+        "certificates/frontier-20261012-591.json",
+        "certificates/pr591-independent-replay"
+      ],
+      "github_state": "OPEN",
+      "closure": null,
+      "reviewed_head": "770e8ef302e2fd48e9522373ef7ff980187c978b",
+      "disposition": "partially_reviewed",
+      "unresolved_question": "Historical branch differences outside the three replay files require reconciliation.",
+      "review_completion": {
+        "changed_file_coverage": false,
+        "scoped_mechanism_review": true,
+        "required_execution_complete": true,
+        "published": false
+      },
+      "verification_evidence": [
+        "research/community-hyperplane599-audit/COMPLETED-EVIDENCE.json"
+      ],
+      "current_head_observed_in": "research/community-hyperplane599-audit/DISPOSITIONS.json",
+      "reconciliation_evidence": [
+        "research/community-hyperplane599-audit/DISPOSITIONS.json"
+      ]
+    },
+    {
+      "number": 595,
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/595",
+      "title": "Format limits (no κ claim): certified ceiling κ ≤ 5.1595e-3, spec census, structural lemmas, helper bounds and open problems",
+      "contributor": {
+        "login": "DreamingOfClouds",
+        "name": null,
+        "id": "U_kgDOClpS9w",
+        "is_bot": false
+      },
+      "draft": false,
+      "starting_head": "39112c2577452fa278489fb9fd77a9aecb2cdc24",
+      "current_head": "39112c2577452fa278489fb9fd77a9aecb2cdc24",
+      "previously_reviewed_heads": [],
+      "historical_assessment_heads": [],
+      "evidence": [
+        {
+          "head": "39112c2577452fa278489fb9fd77a9aecb2cdc24",
+          "evidence": "research/community-hyperplane599-audit/DISPOSITIONS.json",
+          "scope": "Retain as scoped research: numerical ceiling follows the stated S2 accounting axioms and cited premises, not a universal multiplication/network barrier. Certified interval arithmetic, finite toys, SAT results and tolerance-based optimization checks have distinct evidentiary scope. No new kappa claim.",
+          "kind": "integration_or_partial_review"
+        }
+      ],
+      "historical_mentions": [],
+      "integration_location": [
+        "research/format-limits"
+      ],
+      "github_state": "OPEN",
+      "closure": null,
+      "reviewed_head": "39112c2577452fa278489fb9fd77a9aecb2cdc24",
+      "disposition": "partially_reviewed",
+      "unresolved_question": "Reviewed and locally verified; publication and exact-head resolution pending.",
+      "review_completion": {
+        "changed_file_coverage": true,
+        "scoped_mechanism_review": true,
+        "required_execution_complete": true,
+        "published": false
+      },
+      "verification_evidence": [
+        "research/community-hyperplane599-audit/COMPLETED-EVIDENCE.json"
+      ],
+      "current_head_observed_in": "research/community-hyperplane599-audit/DISPOSITIONS.json",
+      "reconciliation_evidence": [
+        "research/community-hyperplane599-audit/DISPOSITIONS.json"
+      ]
+    },
+    {
+      "number": 596,
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/596",
+      "title": "Conditional κ = 0.0016127213726553: improved owner map for the PR592 hyperplane-ended witness",
+      "contributor": {
+        "login": "jeremykothe2",
+        "name": null,
+        "id": "U_kgDOEKXqaA",
+        "is_bot": false
+      },
+      "draft": false,
+      "starting_head": "7732dd5e46863ff294b5e443661cb9d99abf4e01",
+      "current_head": "7732dd5e46863ff294b5e443661cb9d99abf4e01",
+      "previously_reviewed_heads": [],
+      "historical_assessment_heads": [],
+      "evidence": [
+        {
+          "head": "7732dd5e46863ff294b5e443661cb9d99abf4e01",
+          "evidence": "research/community-hyperplane599-audit/DISPOSITIONS.json",
+          "scope": "Select only after fresh baseline, constructors, local frames, global owner admission, two exact moment engines, strict outer inequalities and negative controls pass. Relative to PR592 only owner/data nominations change; the code is byte-identical.",
+          "kind": "integration_or_partial_review"
+        }
+      ],
+      "historical_mentions": [],
+      "integration_location": [
+        "research/complex-571-hpeq5"
+      ],
+      "github_state": "OPEN",
+      "closure": null,
+      "reviewed_head": "7732dd5e46863ff294b5e443661cb9d99abf4e01",
+      "disposition": "partially_reviewed",
+      "unresolved_question": "Reviewed and locally verified; publication and exact-head resolution pending.",
+      "review_completion": {
+        "changed_file_coverage": true,
+        "scoped_mechanism_review": true,
+        "required_execution_complete": true,
+        "published": false
+      },
+      "verification_evidence": [
+        "research/community-hyperplane599-audit/COMPLETED-EVIDENCE.json"
+      ],
+      "current_head_observed_in": "research/community-hyperplane599-audit/DISPOSITIONS.json",
+      "reconciliation_evidence": [
+        "research/community-hyperplane599-audit/DISPOSITIONS.json"
+      ]
+    },
+    {
+      "number": 598,
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/598",
+      "title": "Leech/Turyn research (no κ claim): scoped fitting bounds and cost screens",
+      "contributor": {
+        "login": "DominikScholz",
+        "name": null,
+        "id": "MDQ6VXNlcjEyODI2NTg1",
+        "is_bot": false
+      },
+      "draft": false,
+      "starting_head": "615ca6f06fdea0c50dbef733370c47349e25c555",
+      "current_head": "615ca6f06fdea0c50dbef733370c47349e25c555",
+      "previously_reviewed_heads": [],
+      "historical_assessment_heads": [],
+      "evidence": [
+        {
+          "head": "615ca6f06fdea0c50dbef733370c47349e25c555",
+          "evidence": "research/community-hyperplane599-audit/DISPOSITIONS.json",
+          "scope": "Three research packages: exact Leech/Turyn geometry and factorization; glue-class fitting rank 27 and quadratic-family census; full-port obstructions and encoder-support bounds. Scoped classes, not a general nonexistence theorem; no constructed supplier or improved kappa.",
+          "kind": "integration_or_partial_review"
+        }
+      ],
+      "historical_mentions": [],
+      "integration_location": [
+        "research/leech-lattice",
+        "research/turyn-code-space",
+        "research/turyn-port-labels"
+      ],
+      "github_state": "OPEN",
+      "closure": null,
+      "reviewed_head": "615ca6f06fdea0c50dbef733370c47349e25c555",
+      "disposition": "partially_reviewed",
+      "unresolved_question": "Reviewed and locally verified; publication and exact-head resolution pending.",
+      "review_completion": {
+        "changed_file_coverage": true,
+        "scoped_mechanism_review": true,
+        "required_execution_complete": true,
+        "published": false
+      },
+      "verification_evidence": [
+        "research/community-hyperplane599-audit/COMPLETED-EVIDENCE.json"
+      ],
+      "current_head_observed_in": "research/community-hyperplane599-audit/DISPOSITIONS.json",
+      "reconciliation_evidence": [
+        "research/community-hyperplane599-audit/DISPOSITIONS.json"
+      ]
+    },
+    {
+      "number": 599,
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/599",
+      "title": "[Lean] Hyperplane-end helpers: multi-gate cleanup tails and the cold specialisation (stacked on #593, no κ claim)",
+      "contributor": {
+        "login": "DreamingOfClouds",
+        "name": null,
+        "id": "U_kgDOClpS9w",
+        "is_bot": false
+      },
+      "draft": false,
+      "starting_head": "bc13c8a3e000442606bd2dbe8583a17649ba6c32",
+      "current_head": "bc13c8a3e000442606bd2dbe8583a17649ba6c32",
+      "previously_reviewed_heads": [],
+      "historical_assessment_heads": [],
+      "evidence": [
+        {
+          "head": "bc13c8a3e000442606bd2dbe8583a17649ba6c32",
+          "evidence": "research/community-hyperplane599-audit/DISPOSITIONS.json",
+          "scope": "Combine multi-gate cleanup tails and cold specialization with the newer PR593 exact Clifford identities. These general extensions retain per-pair factorization and physical hypotheses; no multi-gate/cold selected witness or exponent gain claimed.",
+          "kind": "integration_or_partial_review"
+        }
+      ],
+      "historical_mentions": [],
+      "integration_location": [
+        "research/hyperplane-end-lean"
+      ],
+      "github_state": "OPEN",
+      "closure": null,
+      "reviewed_head": "bc13c8a3e000442606bd2dbe8583a17649ba6c32",
+      "disposition": "partially_reviewed",
+      "unresolved_question": "Reviewed and locally verified; publication and exact-head resolution pending.",
+      "review_completion": {
+        "changed_file_coverage": true,
+        "scoped_mechanism_review": true,
+        "required_execution_complete": true,
+        "published": false
+      },
+      "verification_evidence": [
+        "research/community-hyperplane599-audit/COMPLETED-EVIDENCE.json"
+      ],
+      "current_head_observed_in": "research/community-hyperplane599-audit/DISPOSITIONS.json",
+      "reconciliation_evidence": [
+        "research/community-hyperplane599-audit/DISPOSITIONS.json"
+      ]
     }
   ],
   "ending_snapshot": "research/pr-reconciliation-20261012/ending-snapshot.json",
@@ -15348,6 +15769,6 @@
   "github_dispositions": {
     "CLOSED": 3,
     "MERGED": 57,
-    "OPEN": 432
+    "OPEN": 441
   }
 }

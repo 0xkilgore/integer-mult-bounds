@@ -1,4 +1,21 @@
-# Current reviewed record
+# Current reviewed status
+
+The selected conditional saving is **κ=0.0016127213726553**, Jeremy Kothe's
+#596 on #591/#592 with eumemic's #543 bit supplier. See the
+[review](community-hyperplane599-review.md),
+[integration receipt](community-hyperplane599-integration.json),
+[selected record](../../certificates/selected-result.json) and
+[PR ledger](pr-ledger.md). The public replay is `make frontier596-verify`.
+
+#593/#599 add scoped Lean proofs; #589 adds bit headroom; #595/#598 add research.
+#594's independent replay contribution is incorporated, while its older branch
+differences await reconciliation. All inherited all-size/realization/hosting/
+precision/tape/analytic conditions remain; this is not a full formal proof of
+multiplication. Remote Linux CI status is recorded separately from local checks.
+
+## Superseded status snapshot through #588
+
+### Historical reviewed record
 
 The selected reviewed conditional witness is
 **κ=400569730495803/250000000000000000=0.001602278921983212**, from

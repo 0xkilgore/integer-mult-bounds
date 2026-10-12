@@ -1,6 +1,6 @@
 # PR review and integration ledger
 
-The immutable starting snapshot contains **446 PRs**. Explicit later family rounds extend the current inventory to **492**; unrelated arrivals remain outside the round.
+The immutable starting snapshot contains **446 PRs**. Explicit later family rounds extend the current inventory to **501**; unrelated arrivals remain outside the round.
 
 [Machine-readable ledger](pr-ledger.json) · [Starting snapshot](../../research/pr-reconciliation-20261012/starting-snapshot.json)
 
@@ -10,7 +10,7 @@ The ledger separates historical review from integration. A prior snapshot or a m
 |---|---:|
 | changed since review | 6 |
 | incorporated | 60 |
-| partially reviewed | 144 |
+| partially reviewed | 153 |
 | unreviewed | 282 |
 
 The earlier reconciliation closing snapshot had 438 starting PRs still open and 441 total open. These are historical counts, not a live queue measurement. Later dispositions are recorded below.
@@ -529,3 +529,12 @@ Each evidence link leads to the original scoped assessment. The JSON records exa
 | [#586](https://github.com/CrocSwap/integer-mult-bounds/pull/586) | chafreaky | incorporated | [record 1](../../research/community-family588-audit/DISPOSITIONS.json) |
 | [#587](https://github.com/CrocSwap/integer-mult-bounds/pull/587) | jeremykothe2 | incorporated | [record 1](../../research/community-family588-audit/DISPOSITIONS.json) |
 | [#588](https://github.com/CrocSwap/integer-mult-bounds/pull/588) | jeremykothe2 | incorporated | [record 1](../../research/community-family588-audit/DISPOSITIONS.json) |
+| [#589](https://github.com/CrocSwap/integer-mult-bounds/pull/589) | DreamingOfClouds | partially reviewed | [record 1](../../research/community-hyperplane599-audit/DISPOSITIONS.json) |
+| [#591](https://github.com/CrocSwap/integer-mult-bounds/pull/591) | jeremykothe2 | partially reviewed | [record 1](../../research/community-hyperplane599-audit/DISPOSITIONS.json) |
+| [#592](https://github.com/CrocSwap/integer-mult-bounds/pull/592) | jeremykothe2 | partially reviewed | [record 1](../../research/community-hyperplane599-audit/DISPOSITIONS.json) |
+| [#593](https://github.com/CrocSwap/integer-mult-bounds/pull/593) | jeremykothe2 | partially reviewed | [record 1](../../research/community-hyperplane599-audit/DISPOSITIONS.json) |
+| [#594](https://github.com/CrocSwap/integer-mult-bounds/pull/594) | eumemic | partially reviewed | [record 1](../../research/community-hyperplane599-audit/DISPOSITIONS.json) |
+| [#595](https://github.com/CrocSwap/integer-mult-bounds/pull/595) | DreamingOfClouds | partially reviewed | [record 1](../../research/community-hyperplane599-audit/DISPOSITIONS.json) |
+| [#596](https://github.com/CrocSwap/integer-mult-bounds/pull/596) | jeremykothe2 | partially reviewed | [record 1](../../research/community-hyperplane599-audit/DISPOSITIONS.json) |
+| [#598](https://github.com/CrocSwap/integer-mult-bounds/pull/598) | DominikScholz | partially reviewed | [record 1](../../research/community-hyperplane599-audit/DISPOSITIONS.json) |
+| [#599](https://github.com/CrocSwap/integer-mult-bounds/pull/599) | DreamingOfClouds | partially reviewed | [record 1](../../research/community-hyperplane599-audit/DISPOSITIONS.json) |

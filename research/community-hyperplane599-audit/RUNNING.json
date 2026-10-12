@@ -1,0 +1,36 @@
+{
+  "branch": "integration/hyperplane599-20261012",
+  "scope": [
+    589,
+    591,
+    592,
+    593,
+    594,
+    595,
+    596,
+    598,
+    599
+  ],
+  "passed": [
+    589,
+    591,
+    592,
+    593,
+    595,
+    596,
+    598,
+    599
+  ],
+  "running": {},
+  "next": [
+    "Finish exact HPE and Lean replays",
+    "Run instance/recipe binding on all providers",
+    "Integrate selected result only after all checks pass",
+    "Publish supported PR resolutions; leave594 historical scope open"
+  ],
+  "lean": "42 results passed; emitted wrapper literals and all five local instance checks passed",
+  "status": "All scoped checks passed; commit and publication pending",
+  "partial": {
+    "594": "New independent-replay files incorporated; inherited historical differences unresolved."
+  }
+}

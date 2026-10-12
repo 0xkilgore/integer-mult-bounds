@@ -1,6 +1,23 @@
 # Community contribution record
 
-**Current reviewed composition: #588 with #543, κ=0.001602278921983212.**
+**Current reviewed composition: #596 with #543, κ=0.0016127213726553.**
+The [review](docs/research/community-hyperplane599-review.md) and
+[dispositions](research/community-hyperplane599-audit/DISPOSITIONS.json)
+distinguish selected improvements, verification, parallel research and open scope.
+
+| Contributor | Work in this round |
+|---|---|
+| [Jeremy Kothe](https://github.com/jeremykothe2) | #591 hyperplane-ended helpers; #592 dispatch and #596 owner-map improvement; #593 Lean helper interface and exact Clifford identities. |
+| [DreamingOfClouds](https://github.com/DreamingOfClouds) | #589 bit transports/headroom; #595 scoped format ceilings and helper budgets; #599 multi-gate/cold Lean extensions. |
+| [eumemic](https://github.com/eumemic) | Retained #543 selected bit supplier; #594 independent replay report and hash auditor. The older branch diff in #594 remains open. |
+| [Dominik Scholz](https://github.com/DominikScholz) | #598 exact Leech/Turyn constructions, fitting obstructions and scoped cost research; cumulative #569/#571 supplier lineage. |
+
+Original licenses and assistance disclosures are retained. Maintainer review,
+instance-binding checks and integration: Douglas Colkitt with OpenAI Codex assistance.
+
+## Historical family through #588
+
+**Historical reviewed composition: #588 with #543, κ=0.001602278921983212.**
 The [selected record](certificates/selected-result.json) identifies the current
 checkpoint. The previous [#535/#510 checkpoint](certificates/checkpoints/post-center535.json)
 remains available.
