@@ -1,6 +1,6 @@
 {
-  "updated_utc": "2026-10-12T13:46:28.048154+00:00",
-  "goal_status": "active; not published and no current-family PRs closed",
+  "updated_utc": "2026-10-12T14:16:48.145954+00:00",
+  "goal_status": "active, concrete review/publication-preparation progress; not published and no current-family PRs closed",
   "branch": "integration/family588-20261012",
   "worktree": "/tmp/integer-mult-family588",
   "finite_or_scoped_replays_passed": [
@@ -16,54 +16,66 @@
     548,
     549,
     550,
+    551,
     552,
+    554,
     555,
     556,
     557,
     558,
     559,
+    560,
+    561,
+    562,
+    563,
+    564,
+    569,
+    571,
     580,
     588
   ],
   "not_a_full_disposition": "Replay success alone does not establish all changed-file coverage, unique research review or closure readiness.",
   "running": [
     {
-      "name": "queue1",
-      "session": 15344,
-      "log": "/tmp/im588-review-queue.log",
-      "receipt": "REPLAY-QUEUE-RESULTS.json",
-      "entries": 12
-    },
-    {
-      "name": "queue2",
+      "name": "queue2 remaining package replays",
       "session": 57868,
       "log": "/tmp/im588-review-queue2.log",
       "receipt": "REPLAY-QUEUE2-RESULTS.json",
-      "entries": 14,
-      "waits_for": "all twelve queue1 results"
+      "completed": [
+        561,
+        562
+      ],
+      "entries": 14
     },
     {
-      "name": "PR587 end-to-end fixture/mutations",
+      "name": "PR587 fixture and mutations; PR582 construction",
       "session": 67607,
       "log": "/tmp/im587-review.log",
       "output": "/tmp/im587-review"
     },
     {
-      "name": "PR569 complete baseline564/six-provider/global replay",
-      "session": 16591,
-      "log": "/tmp/im569-review.log",
-      "output": "/tmp/im569-review"
+      "name": "PR571 frontier admission",
+      "session": 24512,
+      "log": "/tmp/im571-review.log",
+      "output": "/tmp/im571-review"
+    },
+    {
+      "name": "Integrated public cold command",
+      "session": 78269,
+      "log": "/tmp/im588-cold-command.log",
+      "output": "/tmp/im588-cold-command"
     }
   ],
   "next": [
-    "Gather running completions without restarting on tool observation timeouts.",
-    "Run PR571 frontier-composition/reproduce.py with --source research/complex-allcold --baseline /tmp/im569-review/baseline564 --prior-providers /tmp/im569-review/providers --prior-global /tmp/im569-review after successful PR569 completion.",
-    "Run PR571 joint-basis/reproduce.py with --source-package research/complex-allcold --promoted-word /tmp/im588-review/baseline558/reconstruction/promoted/FULL-WORD.json.gz --optimizer-python /tmp/integer-mult-review-venv/bin/python and fresh --work.",
-    "Review unique research and full changed-file coverage; include workflow and attributes dispositions.",
-    "Bind PR582 to PR587 full fixture/strict replay (actual identical inputs and final expected values) or perform separate replay if needed.",
-    "Prepare selected-result, combined cold replay command/CI, credit, central ledger, dispositions; do not treat every numerical ancestor as automatically fully reviewed.",
-    "Recheck frozen heads and origin/main before ancestry merge/publication and closure. Record unrelated arrivals, leave changed or partially covered heads open."
+    "Poll these same live sessions; do not restart because a tool observation times out.",
+    "Archive completed remaining replays and finish PR582/587 fixture binding.",
+    "Finalize per-PR dispositions and review, update README/current-status/reproduction/CI and selected-result from PREPARED-SELECTION only when ready.",
+    "Refresh full receipt bindings and run selected-record/reconciliation checks, exact staged bytes and fresh Git-archive source-pin check.",
+    "Recheck frozen heads and origin/main, preserve original ancestry, publish to main, resolve fully covered unchanged PRs with attribution/explanation.",
+    "Record Linux CI status and unrelated arrivals; audit all 43 dispositions before completing goal."
   ],
-  "source_pins": "/tmp/im588-pins/research/larger-gain is old PR569 variant required by historical #582/#584/#587; new selected #588 now resolves the canonical latest package by default.",
-  "preserve": "Root worktree and its seven unrelated untracked research dirs remain untouched."
+  "source_pins": "Selected #588 uses canonical integrated #569. Historical #582/#584/#587 can use exact bundled subset research/promoted-kernel-coalescing/vendor/larger_gain; verified pins and source equality in HISTORICAL-PIN-REPRODUCTION.json.",
+  "preserve": "Root worktree and its seven unrelated untracked research dirs remain untouched.",
+  "checkpoint_commit": "ed9ed7f0",
+  "scope_caveat_571": "Joint-basis research passed; full frontier admission still running."
 }

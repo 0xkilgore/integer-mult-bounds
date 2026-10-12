@@ -1,0 +1,62 @@
+[
+  {
+    "pr": 561,
+    "status": "PASS_FRESH_FINITE_REPLAY",
+    "output": "/tmp/im561-review",
+    "files": {
+      "research/community-family588-audit/pr561/ASSEMBLY.json": "fdc959daed40d277bdfeef4584ba67eaa80698608cd3899acf97e60e495edbd4",
+      "research/community-family588-audit/pr561/RESULT.json": "bb7cd1eb061842672cc201e2101147db94b206cbc388707af621c384824d0ed2",
+      "research/community-family588-audit/pr561/KERNEL-OMISSION-CONTROLS.json": "558f61371ebb3a417e63abb5a45c90eb4fc6ec52df5e18432e866b699bb67a32",
+      "research/community-family588-audit/pr561/STAGES.json": "e3d3e187c0be5e1c8b564fc298317212a21cb4e2b50e1feb8143a16c0c15f2a0",
+      "research/community-family588-audit/pr561/ASSEMBLY-CONTROLS.json": "c34627e810f0c0b74db755f40248af7b72aac9c44abccd71ea1ccafd1a51a05a",
+      "research/community-family588-audit/pr561/RECEIPT.json": "956052e5b50a76a489772e6edab68ad54b3b83564cfd7d5b8e1aba654f0887f1",
+      "research/community-family588-audit/pr561/replay.log.txt": "af22536cc17b80d874410638faa61e93bc6a135b2b944417b1fcf6fc2efc4fca"
+    }
+  },
+  {
+    "pr": 562,
+    "status": "PASS_FRESH_FINITE_REPLAY",
+    "output": "/tmp/im562-review",
+    "files": {
+      "research/community-family588-audit/pr562/ASSEMBLY.json": "da60be12fbe1fa0c88bb988c04b80df047de70ddd58db84d95dcd836b358773b",
+      "research/community-family588-audit/pr562/RESULT.json": "a7c9d41aca8d79fae4a118c9775e61abbc4adcbf36e7e0ec5031a0025094035e",
+      "research/community-family588-audit/pr562/FOUR-SCALAR-CONTROLS.json": "3e0cadea3b4492f5958bc0f8ea65807fbfd4693c85403b74ad134fc497078cea",
+      "research/community-family588-audit/pr562/STAGES.json": "9b895d955e6e7c803ee6f0e23bc46cf8e699d5507f5bae7803c089a31f107565",
+      "research/community-family588-audit/pr562/ASSEMBLY-CONTROLS.json": "a91be4681922c792fd896ab959d431b7c9800213984f7dc8de2d0c9c9d497024",
+      "research/community-family588-audit/pr562/RECEIPT.json": "c820cad2427f0a72d7b733c693835bcdd3b9f3a634851ac9a20acb899bb1696e",
+      "research/community-family588-audit/pr562/replay.log.txt": "b68f038bbc05d67244367dff1ff45c704fe49ab556d9412cee34cc8d594a0137"
+    }
+  },
+  {
+    "pr": 564,
+    "status": "PASS_FRESH_FINITE_REPLAY",
+    "output": "/tmp/im569-review/baseline564",
+    "files": {
+      "research/community-family588-audit/pr564/ASSEMBLY.json": "425e2825d3bf49b10d2797cf42d0f1579d00c69c0920f7428a51b93833349392",
+      "research/community-family588-audit/pr564/RESULT.json": "a60296dbe1fcb739b09ca3b3e329d2386d1179774e66e275e062442c3cf3af10",
+      "research/community-family588-audit/pr564/FOUR-SCALAR-CONTROLS.json": "3e0cadea3b4492f5958bc0f8ea65807fbfd4693c85403b74ad134fc497078cea",
+      "research/community-family588-audit/pr564/PHASE-TIMING-CONTROLS.json": "4134e4bd03858c038920cfcefe758ad7f427f12f77ffe50e70975f2b8e283bb0",
+      "research/community-family588-audit/pr564/STAGES.json": "0b05a2605e94767624a7bc35825d68258f4e0730ea16e57ad3268bb4c2d78acd",
+      "research/community-family588-audit/pr564/ASSEMBLY-CONTROLS.json": "d1ff474f288c91fe92090dd0de529207d074da719283ba414737aa1337414a76",
+      "research/community-family588-audit/pr564/RECEIPT.json": "dfbe858d03ef3712627507758ea4ed3fc93b46570d798e910bd4e76984f045ef",
+      "research/community-family588-audit/pr564/replay.log.txt": "e168abd9087750cad57c0ec2741b3f49aab6f005e3da16eeb9d784065dc4cea7"
+    }
+  },
+  {
+    "pr": 569,
+    "status": "PASS_FRESH_FINITE_REPLAY",
+    "output": "/tmp/im569-review",
+    "files": {
+      "research/community-family588-audit/pr569/RESULT.json": "25843fc3a304f7af2b9ba5740578a7f47085e6fd4427269ac176625680066afe",
+      "research/community-family588-audit/pr569/STAGES.json": "b531adc40ad8e56867220b28ddbf9ad6d37ba16799261127b861875043a09eb9",
+      "research/community-family588-audit/pr569/RECEIPT.json": "ea44af98255952da1833c9d6e5337e1286e5ed316190cc090e115836b6236ef7",
+      "research/community-family588-audit/pr569/global/ASSEMBLY.json": "d4ee7d39f64d141328d4aed2dc43ce38938d52b30638d43b93a81882dbe5deeb",
+      "research/community-family588-audit/pr569/global/PLAN.json": "5df108f4416e466b5496fec8b90825828a14c0818bcbbfc3259dee73a8eadb94",
+      "research/community-family588-audit/pr569/global/BINDING.json": "5aa6104bafdb1ca05c7817f85adccc36476c81d7951612a9873dbee5a4778883",
+      "research/community-family588-audit/pr569/global/PHASE-TIMING-CONTROLS.json": "6c63cc8e44490a82c00b63d784ad85146936b7c99783807484ae5f14d11021bd",
+      "research/community-family588-audit/pr569/global/ASSEMBLY-CONTROLS.json": "9c1aeedc69b5b9c72d3b2e5a4e64487d244374815a52ce5c03be2cb0ec10bbcb",
+      "research/community-family588-audit/pr569/replay.log.txt": "19b5a4d9df1c805426be2d7376dd69d0deac860a1a9af71f05fbb8b4ec13a7cd",
+      "research/community-family588-audit/pr569/providers-RECEIPT.json": "81663e43b849c110c2f7d1c26009fa91a402d97deda2011b41f76bd2a86cdc3b"
+    }
+  }
+]

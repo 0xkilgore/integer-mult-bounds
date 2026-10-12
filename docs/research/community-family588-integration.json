@@ -53,10 +53,11 @@
     "selected_integrated": "Changed documentation-only source pin passed clean archive pin check and fresh global admission with hash-bound unchanged phase outputs",
     "batch1": "Twelve standalone package replay commands passed and their stage/summary/control evidence is archived",
     "bit_alternatives": "PR545 and PR555 finite changed-construction replays passed, including exact hosting portability and stock controls",
-    "research": "Scoped proof reviews, exact dual controls, bounded joint-basis searches and source-complement normal forms retained"
+    "research": "Scoped proof reviews, exact dual controls, bounded joint-basis searches and source-complement normal forms retained",
+    "batch2_started": "PR561, PR562, full PR564 foundation and PR569 six-provider/global construction passed; remaining batch jobs continue."
   },
   "remaining": [
-    "Finish queue2, PR569/571 and PR587 tooling/PR582 witness coverage.",
+    "Finish remaining queue2, PR571 frontier and PR587 tooling/PR582 witness coverage.",
     "Collect integrated public cold command result.",
     "Finalize dispositions, publication documents and prepublication heads.",
     "Publish to main, resolve fully covered unchanged PRs and record unrelated arrivals."
@@ -73,7 +74,8 @@
     "research/community-family588-audit/CONTENT-COVERAGE.json": "6ed03e185e0845b202b9476b5e1e01c031e7e145395ee78936b7c84317d7902a",
     "research/community-family588-audit/PIN-VARIANTS.json": "878d6b18b176a8e68f5b612b5b0111d650106df22ce49b88a6a85469f77b48d2",
     "research/community-family588-audit/HISTORICAL-PIN-REPRODUCTION.json": "4c3e0a14ff18828d48a6addbb64a51bb4c32d6351648e5a7206e067447a2a046",
-    "research/community-family588-audit/PRIOR-PACKAGING-REPAIR.json": "86f26979e345c4e8c9bc5be073f8e06f1e28efed81cbc8a9013111818ec8ec2d"
+    "research/community-family588-audit/PRIOR-PACKAGING-REPAIR.json": "86f26979e345c4e8c9bc5be073f8e06f1e28efed81cbc8a9013111818ec8ec2d",
+    "research/community-family588-audit/BATCH2-EVIDENCE.json": "9b6a66f7941fda9d9d785d2b898b38e142ac1faac10d15feb2e4bed069af034e"
   },
   "toolchain": {
     "platform": "macOS arm64",
