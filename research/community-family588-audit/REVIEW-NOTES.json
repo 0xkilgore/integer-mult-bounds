@@ -38,7 +38,9 @@
     },
     "588": {
       "review": "Gate moves pass pairwise transvection commutation; raising frames follows moves, cleanup regenerated and responses invariant. Must still validate native frames/phases/owner contracts and full bill. Full fresh replay underway with all provider chains.",
-      "source_variant": "PR569 pinned old commit has identical executable/data files to frozen current head; only README,NOTICE,MANIFEST differ. Replay uses old variant; publication must make clean-checkout pin resolution explicit."
+      "source_variant": "Canonical PR569 head adds seven historical logs and changes NOTICE/README/MANIFEST only; all shared executable/recipe/input bytes match. See complete PIN-VARIANTS.json comparison.",
+      "execution": "Full cold 43-stage replay passed at original source pins; exact binding to freshly replayed PR543 passed, with four independent binding mutations rejected. Documentation-only pin update plus seven restored historical logs passed independent rebuild/global re-admission reusing hash-bound unchanged phase artifacts. Clean Git archive passes default source pin check.",
+      "kappa": "400569730495803/250000000000000000"
     },
     "555": {
       "review": "Combines puncture with delayed block-node skeleton by adding phase-A mini-nodes and carriers, rather than assuming removed targets can read future phase-B values. H1-H5 includes phase-B helper writes as z updates; exact decoder and COPY rank63 checked. Pooled-cell/all-size contracts retained.",

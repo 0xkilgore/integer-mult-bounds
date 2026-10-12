@@ -88,5 +88,35 @@
     "exit_code": 0,
     "seconds": 457.199,
     "completed_utc": "2026-10-12T13:40:09.247917+00:00"
+  },
+  {
+    "pr": 550,
+    "package": "complex-trace-rank5",
+    "command": [
+      "/tmp/integer-mult-review-venv/bin/python",
+      "-B",
+      "research/complex-trace-rank5/verify.py",
+      "--work",
+      "/tmp/im550-review"
+    ],
+    "log": "/tmp/im550-review.log",
+    "exit_code": 0,
+    "seconds": 350.454,
+    "completed_utc": "2026-10-12T13:44:58.451946+00:00"
+  },
+  {
+    "pr": 552,
+    "package": "filtration-wavefront",
+    "command": [
+      "/tmp/integer-mult-review-venv/bin/python",
+      "-B",
+      "research/filtration-wavefront/verify.py",
+      "--work",
+      "/tmp/im552-review"
+    ],
+    "log": "/tmp/im552-review.log",
+    "exit_code": 0,
+    "seconds": 53.5,
+    "completed_utc": "2026-10-12T13:45:51.953395+00:00"
   }
 ]
