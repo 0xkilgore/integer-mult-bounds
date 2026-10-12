@@ -39,7 +39,7 @@
     "research/community-family588-audit/DISPOSITIONS.json": "70f66f8c223b0929904ff88e27713b5bdbdb0d6b92f4d55cf518565135d678b5",
     "research/community-hyperplane599-audit/DISPOSITIONS.json": "00763b888859d15618eda871a42a9c0e6912ea33b932a29c02bc6e2df984efc1",
     "research/community-cold617-audit/DISPOSITIONS.json": "d74bcfc9ae5219ecfe57e74466ae327c7e0d2524c87f52c143e74c6187db0984",
-    "research/community-k492-audit/DISPOSITIONS.json": "b3a88aae194fb905e56e680fdd0bd8d2abc01545f4c9a4df956d464c0d34a00d"
+    "research/community-k492-audit/DISPOSITIONS.json": "3f80fcee52c2d0abf1f428e9bf2ab9fab54985032535ae81495da759ee78d903"
   },
   "scope": "Reconciliation index, not blanket mathematical verification. Partial includes triage or scoped checks; mentions alone are not review. Integrated archives are distinguished from active implementations. No automatic closures.",
   "pull_requests": [
@@ -16798,8 +16798,14 @@
         "research/complex-571-cold14-consolidated618",
         "research/complex-571-cold14-repacking-audit"
       ],
-      "github_state": "OPEN",
-      "closure": null,
+      "github_state": "MERGED",
+      "closure": {
+        "reviewed_head": "a0d472c7459952f5e55fd9d829adb0484cc0f648",
+        "github_state": "MERGED",
+        "merged_at": "2026-10-12T22:36:46Z",
+        "integration_commit": "ed49217ad6244f1d3bfe4588f122fa861849739c",
+        "explanation_url": "https://github.com/CrocSwap/integer-mult-bounds/blob/ed49217ad6244f1d3bfe4588f122fa861849739c/docs/research/community-k492-review.md"
+      },
       "reviewed_head": "a0d472c7459952f5e55fd9d829adb0484cc0f648",
       "disposition": "incorporated",
       "unresolved_question": "",
@@ -16847,8 +16853,14 @@
         "research/complex-pr615-ceiling",
         "research/complex-pr615-ceiling-validation"
       ],
-      "github_state": "OPEN",
-      "closure": null,
+      "github_state": "MERGED",
+      "closure": {
+        "reviewed_head": "9879380b4e9fd922842a35cb3edefd712debfdac",
+        "github_state": "MERGED",
+        "merged_at": "2026-10-12T22:36:46Z",
+        "integration_commit": "ed49217ad6244f1d3bfe4588f122fa861849739c",
+        "explanation_url": "https://github.com/CrocSwap/integer-mult-bounds/blob/ed49217ad6244f1d3bfe4588f122fa861849739c/docs/research/community-k492-review.md"
+      },
       "reviewed_head": "9879380b4e9fd922842a35cb3edefd712debfdac",
       "disposition": "incorporated",
       "unresolved_question": "",
@@ -16942,8 +16954,14 @@
         ".github/workflows",
         "research/prime-power-cyclic-inverse"
       ],
-      "github_state": "OPEN",
-      "closure": null,
+      "github_state": "MERGED",
+      "closure": {
+        "reviewed_head": "520774462b19b29af41554b74def31f9d01e997e",
+        "github_state": "MERGED",
+        "merged_at": "2026-10-12T22:36:46Z",
+        "integration_commit": "ed49217ad6244f1d3bfe4588f122fa861849739c",
+        "explanation_url": "https://github.com/CrocSwap/integer-mult-bounds/blob/ed49217ad6244f1d3bfe4588f122fa861849739c/docs/research/community-k492-review.md"
+      },
       "reviewed_head": "520774462b19b29af41554b74def31f9d01e997e",
       "disposition": "incorporated",
       "unresolved_question": "",
@@ -16989,8 +17007,14 @@
       "integration_location": [
         "research/complex-571-cold14-k492"
       ],
-      "github_state": "OPEN",
-      "closure": null,
+      "github_state": "MERGED",
+      "closure": {
+        "reviewed_head": "f69477f4f6d3c7eb1f740b166881bffed4ffa9f6",
+        "github_state": "MERGED",
+        "merged_at": "2026-10-12T22:36:46Z",
+        "integration_commit": "ed49217ad6244f1d3bfe4588f122fa861849739c",
+        "explanation_url": "https://github.com/CrocSwap/integer-mult-bounds/blob/ed49217ad6244f1d3bfe4588f122fa861849739c/docs/research/community-k492-review.md"
+      },
       "reviewed_head": "f69477f4f6d3c7eb1f740b166881bffed4ffa9f6",
       "disposition": "incorporated",
       "unresolved_question": "",
@@ -17036,8 +17060,14 @@
       "integration_location": [
         "research/complex-571-cold14-k492b"
       ],
-      "github_state": "OPEN",
-      "closure": null,
+      "github_state": "MERGED",
+      "closure": {
+        "reviewed_head": "e39a615ca601ce5d62abeb24f3fcdb8644ca1005",
+        "github_state": "MERGED",
+        "merged_at": "2026-10-12T22:36:46Z",
+        "integration_commit": "ed49217ad6244f1d3bfe4588f122fa861849739c",
+        "explanation_url": "https://github.com/CrocSwap/integer-mult-bounds/blob/ed49217ad6244f1d3bfe4588f122fa861849739c/docs/research/community-k492-review.md"
+      },
       "reviewed_head": "e39a615ca601ce5d62abeb24f3fcdb8644ca1005",
       "disposition": "incorporated",
       "unresolved_question": "",
@@ -17084,8 +17114,14 @@
         "research/complex-571-cold14-k492-repacked624",
         "research/complex-571-cold14-k492-repacking-audit"
       ],
-      "github_state": "OPEN",
-      "closure": null,
+      "github_state": "MERGED",
+      "closure": {
+        "reviewed_head": "036753ed33d4e620932262646e3d02a1927256a6",
+        "github_state": "MERGED",
+        "merged_at": "2026-10-12T22:36:46Z",
+        "integration_commit": "ed49217ad6244f1d3bfe4588f122fa861849739c",
+        "explanation_url": "https://github.com/CrocSwap/integer-mult-bounds/blob/ed49217ad6244f1d3bfe4588f122fa861849739c/docs/research/community-k492-review.md"
+      },
       "reviewed_head": "036753ed33d4e620932262646e3d02a1927256a6",
       "disposition": "incorporated",
       "unresolved_question": "",
@@ -17131,8 +17167,14 @@
       "integration_location": [
         "research/complex-571-cold14-k492c"
       ],
-      "github_state": "OPEN",
-      "closure": null,
+      "github_state": "MERGED",
+      "closure": {
+        "reviewed_head": "386712d06fe4b163596370af4646fec390bd7eb3",
+        "github_state": "MERGED",
+        "merged_at": "2026-10-12T22:36:46Z",
+        "integration_commit": "ed49217ad6244f1d3bfe4588f122fa861849739c",
+        "explanation_url": "https://github.com/CrocSwap/integer-mult-bounds/blob/ed49217ad6244f1d3bfe4588f122fa861849739c/docs/research/community-k492-review.md"
+      },
       "reviewed_head": "386712d06fe4b163596370af4646fec390bd7eb3",
       "disposition": "incorporated",
       "unresolved_question": "",
@@ -17180,8 +17222,14 @@
         "research/complex-k492-owner-repair",
         "research/complex-k492-owner-repair-validation"
       ],
-      "github_state": "OPEN",
-      "closure": null,
+      "github_state": "MERGED",
+      "closure": {
+        "reviewed_head": "660de893d27bb7abd1d5b01b1640207528a5c851",
+        "github_state": "MERGED",
+        "merged_at": "2026-10-12T22:36:46Z",
+        "integration_commit": "ed49217ad6244f1d3bfe4588f122fa861849739c",
+        "explanation_url": "https://github.com/CrocSwap/integer-mult-bounds/blob/ed49217ad6244f1d3bfe4588f122fa861849739c/docs/research/community-k492-review.md"
+      },
       "reviewed_head": "660de893d27bb7abd1d5b01b1640207528a5c851",
       "disposition": "incorporated",
       "unresolved_question": "",
@@ -17210,7 +17258,7 @@
   ],
   "github_dispositions": {
     "CLOSED": 3,
-    "MERGED": 80,
-    "OPEN": 445
+    "MERGED": 88,
+    "OPEN": 437
   }
 }

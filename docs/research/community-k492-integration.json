@@ -1,5 +1,5 @@
 {
-  "status": "LOCAL_REVIEW_COMPLETE_PUBLICATION_PENDING",
+  "status": "PUBLISHED_EIGHT_MERGED_ONE_PARTIAL_LINUX_PENDING",
   "selected_kappa": "51110230636731/31250000000000000",
   "selected_decimal": "0.001635527380375392",
   "reviewed_heads": {
@@ -14,8 +14,11 @@
     "626": "660de893d27bb7abd1d5b01b1640207528a5c851"
   },
   "linux_ci": {
-    "status": "not_started",
-    "conclusion": null
+    "conclusion": "",
+    "databaseId": 38317651752,
+    "headSha": "ed49217ad6244f1d3bfe4588f122fa861849739c",
+    "status": "queued",
+    "url": "https://github.com/CrocSwap/integer-mult-bounds/actions/runs/38317651752"
   },
   "remaining": [
     "#620 portable research reproduction and independent solver/barrier validation.",
@@ -24,7 +27,7 @@
   ],
   "scope": "Scoped finite scalar/frame/phase/owner/invoice/exact-assembly checks and analytic research review; inherited all-size/compiler/common-label/mutable-basis/hosting/residual/precision/tape/analytic assumptions remain. Not a full Lean multiplication theorem.",
   "receipts": {
-    "research/community-k492-audit/DISPOSITIONS.json": "b3a88aae194fb905e56e680fdd0bd8d2abc01545f4c9a4df956d464c0d34a00d",
+    "research/community-k492-audit/DISPOSITIONS.json": "3f80fcee52c2d0abf1f428e9bf2ab9fab54985032535ae81495da759ee78d903",
     "research/community-k492-audit/NOMINATION-REPLAY.json": "aef806fafe750e5c475bc22e85dedfbd52eaa4ebd45b961fd797fd64ee96cbb4",
     "research/community-k492-audit/VERIFIED.json": "af1180645299a867c92a7eae40d84a5be0490fa8aa48b4c12754d57f8d46406d",
     "research/community-k492-audit/PREPUBLICATION-HEADS.json": "47566ab45fbe072f4a8248d203231eeab448b02711c88e7ad3c4977fb9c87237",
@@ -47,10 +50,13 @@
     "research/community-k492-audit/pr618-metadata.json": "344bd7f3d8f52727b6456a597a8fd7fff290ee928bd131493e327adbee44941a",
     "research/community-k492-audit/SELECTED-SOURCE.json": "36e9e421230c4cb7b6a537d76a4bdfb6f667730d383e56062d4e45957484ab9e",
     "research/community-k492-audit/pr625-metadata.json": "6e0f3efa59343c28ab7bd8d23c5eb0f143e78b6fee3dc1d5424faa6ca3451251",
+    "research/community-k492-audit/CI-STATUS.json": "a0b34be4f4ae6c0dfaed1c888ea50f9661e1cba846570aff282f7afd8b155e99",
+    "research/community-k492-audit/PUBLICATION.json": "20735a65a9f31cddbffd53c80348cf24ade5a368f8c948ade53f15d970d9f032",
     "research/community-k492-audit/OLDER-SUPPLIERS.json": "85fa4cb5e522a34831cb57c96b8b9ac42f5e46f21d64b81cbf4e1cdb644051a9",
     "research/community-k492-audit/RESEARCH620.json": "2c8d9dd51254158dfeb50ae73e33df44a25b3d9a9ef458ce25c1596bc4875080",
     "research/community-k492-audit/BIT-REUSE.json": "2b59f6b9c9c25c480e1b5430f1ceb2ce1fdce5e45f95aaaf6dba8972b43696e0",
     "scripts/verify_frontier626.py": "2207bd0ef04a19ef276869085afdedad80a0938fa75db5e1aa7ab73fd3429444",
     "scripts/verify_frontier626_bindings.py": "cda63ff41c6d6e2e352c7bf75b84e690c0ce57e4ec6c0355573bb5d9b1f98280"
-  }
+  },
+  "publication_commit": "ed49217ad6244f1d3bfe4588f122fa861849739c"
 }
