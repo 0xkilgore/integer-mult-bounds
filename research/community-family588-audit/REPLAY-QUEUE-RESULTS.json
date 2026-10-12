@@ -44,5 +44,49 @@
     "exit_code": 0,
     "seconds": 212.293,
     "completed_utc": "2026-10-12T13:34:46.810420+00:00"
+  },
+  {
+    "pr": 546,
+    "package": "static44-r480-composition",
+    "command": [
+      "/tmp/integer-mult-review-venv/bin/python",
+      "-B",
+      "research/static44-r480-composition/verify.py",
+      "/tmp/im546-review"
+    ],
+    "log": "/tmp/im546-review.log",
+    "exit_code": 0,
+    "seconds": 35.838,
+    "completed_utc": "2026-10-12T13:35:22.648582+00:00"
+  },
+  {
+    "pr": 548,
+    "package": "pruned-trace-response",
+    "command": [
+      "/tmp/integer-mult-review-venv/bin/python",
+      "-B",
+      "research/pruned-trace-response/verify.py",
+      "--work",
+      "/tmp/im548-review"
+    ],
+    "log": "/tmp/im548-review.log",
+    "exit_code": 0,
+    "seconds": 225.348,
+    "completed_utc": "2026-10-12T13:39:07.997690+00:00"
+  },
+  {
+    "pr": 544,
+    "package": "static44-selective",
+    "command": [
+      "/tmp/integer-mult-review-venv/bin/python",
+      "-B",
+      "research/static44-selective/verify.py",
+      "--work",
+      "/tmp/im544-review"
+    ],
+    "log": "/tmp/im544-review.log",
+    "exit_code": 0,
+    "seconds": 457.199,
+    "completed_utc": "2026-10-12T13:40:09.247917+00:00"
   }
 ]

@@ -5,7 +5,7 @@ Four verified provider types are offered to every call: PR571's prefix word with
 Pinned external sources (unchanged; `verify.py` checks their manifests and every file it uses):
 - PR568 (`research/complex-multicold`, commit `71c99ac935a33bb7b59a1b4a7af8725a939b0b90`).
 - PR571 (`research/structural-gain`, commit `b7bdc5a8de18fcf418cfb9c7d83a2b1097a5e4a3`).
-- PR569 (`research/larger-gain`, commit `897213a855b7fb8a1b8b0e552a2f5c42e6c1b326`).
+- PR569 (`research/larger-gain`, commit `1424da81263a5305b35e4cf74ef686c275f03f3f`).
 - PR575 (`research/complex-joint-prefix`, commit `eac6f7e378ab622dac50a2fd4b7ef6eab014de44`).
 - PR583 (`research/kernel-frame-coalescing`, commit `89be768f0157f5a3d8e4db69cf1748768605eac9`).
 
@@ -14,3 +14,12 @@ Provider construction is described as typed steps in `data/SPEC.json` (`build`);
 The owner map was nominated by a HiGHS window MILP (adapted from PR569's `global/nominate_width7.py`) with lazy cross-time Hall cuts; it is not an admission dependency.
 
 Prepared by Claude Code (Anthropic) research agents. Apache-2.0 applies; LICENSE is included. All notices, licenses, source pins and AI disclosures of the pinned sources and their ancestry are retained in those packages and are not replaced by this notice. All inherited conditional assumptions remain conditional.
+
+Maintainer integration, 2026-10-12: the PR569 source pin advances from
+897213a855b7fb8a1b8b0e552a2f5c42e6c1b326 to its frozen reviewed head
+1424da81263a5305b35e4cf74ef686c275f03f3f. All executable, recipe and input
+files are byte-identical. NOTICE, README.md and MANIFEST.json differ, and
+seven previously omitted replay logs are added. The original pin, cold
+replay and complete file comparison are retained in
+research/community-family588-audit. A clean integrated checkout can resolve
+the dependency directly without a historical external checkout.

@@ -27,10 +27,10 @@ def check(bit, complex_dir):
     cited_path = ROOT / 'research/complex-multicold/inputs/PR543-EXPECTED.json'
     cited = read(cited_path)['nine']
     fields = {'bit_lower': 'bit_lower', 'bit_lower_decimal': 'bit_lower_decimal',
-              'bit_profile': 'profile', 'bit': 'bit', 'stages': 'stages',
-              'replicas': 'replicas'}
+              'bit_profile': 'profile', 'bit': 'bit'}
     for name, key in fields.items():
         require(actual[name] == cited[key], 'Bit input differs: ' + name)
+    require(actual['stages'] == 9 and actual['replicas'] == 32, 'Bit layout')
     interface = read(bit / 'xcheck.json')
     require(len(interface['hypotheses']) == 5 and
             all(v is True for v in interface['hypotheses'].values()), 'Bit H1-H5')
