@@ -10,7 +10,7 @@ The complex side binds:
 
 | quantity | value |
 |---|---|
-| native complex lower bound | 0.001628011347227810261262 |
+| native complex lower bound | 0.001628011347227810262234 |
 | bit supplier value (PR543) | 0.0016538 (`bit_lower` 0.001653826988146798944268) |
 | κ with the bit cap | 0.00162536523418317 |
 | κ without the bit cap | 0.00162536523418317 |
@@ -19,7 +19,7 @@ The bit value is above the complex bound, so it does not bind, and κ is the sam
 
 ## What this package changes relative to PR604
 
-PR604 (this directory at commit 1b795c5) dispatches ck ×44, atm3 ×22, jp8 ×6, each with the cold-ended word described in the next section. This package keeps every provider word, every verifier script and every build step of PR604 unchanged. Only the dispatch and the literal owner map change (`data/PLAN.json`, `data/OWNERS.json.gz`), together with the expected values recorded in `data/SPEC.json`.
+PR604 (this directory at commit 1b795c5) dispatches ck ×44, atm3 ×22, jp8 ×6, each with the cold-ended word described in the next section. This package keeps the ck and jp8 provider words, every verifier script and every remaining build step of PR604 unchanged; the atm3 chain is removed because it is no longer dispatched. Only the dispatch and the literal owner map change (`data/PLAN.json`, `data/OWNERS.json.gz`), together with the expected values recorded in `data/SPEC.json`.
 
 1. **Dispatch moves to jp8.** 71 of the 72 calls use the cold jp8 word; one call (stage 2, replica 5) uses the cold ck word. jp8's widths are better matched to the idle children: per call jp8 has 114 helpers of width 8 and 274 of width 9, against 94 and 262 for ck, and 46 of width 7 against 78. Width 8 fills a rank-8 child exactly, and 9 + 7, 8 + 8 and 5 + 9 + 9 + 9 fill rank 16 and rank 32 exactly. Its local cost per call lies between atm3's and ck's, but the hosting remainder is much lower: in the all-jp8 solution every idle child of rank 8, 16 and 32 is filled exactly, and the only idle remainders are whole rank-48 children.
 2. **Exact integer owner map.** The map is the optimum of a per-owner-group integer model (CP-SAT). Each owner group chooses how many ports have each width pattern (a multiset of helper widths summing to at most the rank). Each port hosts at most one helper per call, so for every pattern class and call the number of hosted helpers is at most the class size, and each pattern's width counts are spread over distinct calls within the group's window. Any feasible integer solution expands literally by bipartite edge colouring (Kőnig); the package's verifier re-admits the resulting map independently. For the all-jp8 dispatch the model is solved to optimality in seconds and equals its LP bound (objective Σ r·ln(73/r) = 1567516.8, against 1567517.6 for the LP, the difference being the solver's integer rounding of objective coefficients), so the integer map loses nothing against the LP. The one ck call is then added by a warm-started repair model (patterns of the all-jp8 solution plus single-item exchanges), which gives objective 1567825.3; this is a feasible solution, not proved optimal.
@@ -115,6 +115,8 @@ All LP figures below are first-order bounds. They come from the aggregate hostin
 | this package (jp8 71 / ck 1) | 1567825.3 | +0.692% (exact κ) |
 | all-jp8 dispatch, integer optimum (= LP bound) | 1567516.8 | ≈ +0.71% |
 | LP ceiling, free dispatch over {ck, atm3, jp8} cold | 1567420.3 | ≈ +0.72% |
+
+The objective values in this table are CP-SAT objectives with rounded coefficients; the exact sums Σ r·ln(73/r) are about 0.5–0.8 higher (for the all-jp8 map, 1567517.62).
 
 - **Remaining gap to the free-dispatch ceiling: about 0.026 pt of b (405 units of G).** About 0.020 pt (308 units) is the single ck call: a one-provider dispatch is rejected by the audit's substitution controls, and the repair model for that call was not run to optimality. About 0.006 pt (97 units) is the LP's preference for about 2.4 atm3 calls, which needs a third provider word and a dispatch that the integer model can absorb.
 - **Time-refinability did not bind.** Adding per-pattern, one-helper-per-port-per-call constraints leaves the LP optimum unchanged: the LP vertex (113 non-zero pattern entries over the 72 classes of owner groups with equal rank and window) is already refinable. The gap that the annealed maps showed against the jp8-heavy ceiling was search, not structure. A free-dispatch integer model (dispatch as binary variables) did not converge in the time tried; the fixed-dispatch model with a repair step did.
