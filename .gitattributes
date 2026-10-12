@@ -43,3 +43,6 @@ research/e8-complex-gauge-kernel/** -text -whitespace
 research/e8-lemma-a-lean/** -text -whitespace
 research/e8-lemma-g-lean/** -text -whitespace
 research/community-formal-20261012-audit/** -text -whitespace
+
+research/subspace16-r420/** -text
+research/subspace16-r420-validation/** -text
