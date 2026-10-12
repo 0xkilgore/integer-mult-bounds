@@ -1,7 +1,7 @@
 {
   "status": "PASS_FINAL_CLEAN_ARCHIVE_AND_INDEPENDENT_CORRECTED_ADMISSION",
   "python_versions": [
-    "3.14.7",
+    "3.11.5",
     "3.12.13"
   ],
   "source_manifest_sha256": "0b065a05c8e553278591a7de38137c7f03550b36c6144923ba89ca091d39de1a",
