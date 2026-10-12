@@ -12,3 +12,17 @@ import HyperplaneEnd
 #print axioms HyperplaneEnd.hpe_streams
 #print axioms HyperplaneEnd.hpe_word
 #print axioms HyperplaneEnd.hyperplane_width
+#print axioms HyperplaneEnd.labRun_climb
+#print axioms HyperplaneEnd.wellLabelled_climb
+#print axioms HyperplaneEnd.labRun_block
+#print axioms HyperplaneEnd.wellLabelled_block
+#print axioms HyperplaneEnd.mtail_wellLabelled
+#print axioms HyperplaneEnd.labRun_mtail
+#print axioms HyperplaneEnd.labRun_mtail_last
+#print axioms HyperplaneEnd.posts_spec
+#print axioms HyperplaneEnd.hpe_labels_multi
+#print axioms HyperplaneEnd.tail_eq_mtail
+#print axioms HyperplaneEnd.hpe_labels_tail
+#print axioms HyperplaneEnd.hpe_word_multi
+#print axioms HyperplaneEnd.exact_cold
+#print axioms HyperplaneEnd.cold_hyperplane_width

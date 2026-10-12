@@ -132,7 +132,7 @@ FULL cleanup; a pair missing from the exact check; width 8 reported. Results on 
 
 ## 5. Trust base
 
-* Lean 4.21.0, Mathlib v4.21.0 (rev `308445d`), and the axioms `propext`, `Classical.choice`, `Quot.sound`. All 13
+* Lean 4.21.0, Mathlib v4.21.0 (rev `308445d`), and the axioms `propext`, `Classical.choice`, `Quot.sound`. All 27
   named results depend on a subset of these (`PrintAxioms.lean`).
 * The Lemma A and Lemma G packages, built here from source.
 * The HPE tools' exact checks of the hypotheses in §4.
@@ -146,3 +146,27 @@ python3 research/hyperplane-end-lean/verify.py --instances RUN_DIR…  # plus co
 
 `lake build` also builds `../e8-lemma-a-lean` and `../e8-lemma-g-lean` (Lake path dependencies, same Lean and Mathlib
 pin).
+
+## 7. Addendum: multi-gate tails and cold helpers (`HyperplaneEnd/Multi.lean`)
+
+`Tail.lean` treats one helper with one cleanup gate `h -= p`. `Multi.lean` models a general `cleanup_tail`. Each tail gate `t += q • s` (or `t *= q`) runs at its own frame `F`, after every operand not already at
+`F` climbs to it (one relabel).
+
+- **Hypotheses.** The last tail gate touching a helper `j` runs at `term j`. The remaining cleanup `b` never relabels a
+  hyperplane-ended helper. The entrance frame of `j` is arbitrary.
+- `mtail_wellLabelled`, `labRun_mtail`: the tail is well labelled for any gate list, and afterwards each register sits at
+  the frame of the last gate touching it.
+- `hpe_labels_multi`: the word `a ++ mtail ++ b ++ posts` is well labelled, and every helper in the list ends at
+  `(done, j)`. Helpers may be targets or partners of any number of tail gates and may be interleaved.
+- `hpe_labels_tail`: the single-gate word of `Tail.lean` is the one-gate instance when both operands start away
+  from `U`. The shipped hyperplane-ended helpers of #591/#592 are one-gate; multi-gate and `scale` tails are not
+  checked here against emitted words.
+- `hpe_word_multi`: Lemma A on streams for every such helper, given the per-helper (N) as in §3.
+- `exact_cold`, `cold_hyperplane_width`: the cold specialisation. Given `T_E = id` (true of the canonical frame of
+  `E = ⊥`), (N) reads `T_U = L (C ⊗ id) R`, and `⊥ ≤ U` with `dim U = 8` gives width 8 (rank arithmetic). #593's
+  `hpe_word` already takes an arbitrary entrance frame, so the Lean content specific to `E = ⊥` is this
+  specialisation.
+
+As in §4, (N) for each pair (E, U) used, the unit row hS, hrec, and (O′)/(W) are hypotheses checked outside Lean. For
+E = ⊥, (N) was checked locally on all 511 hyperplanes of F₂⁹ with `clifford_exact` from main's
+`direct-delivery504-global/vendor` (tableau and global phase); that script is not shipped in this package.
