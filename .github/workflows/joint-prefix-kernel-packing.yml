@@ -1,0 +1,27 @@
+name: Joint-prefix kernel packing witness
+on:
+  pull_request:
+    paths:
+      - 'research/joint-prefix-kernel-packing/**'
+      - '.github/workflows/joint-prefix-kernel-packing.yml'
+  push:
+    paths:
+      - 'research/joint-prefix-kernel-packing/**'
+      - '.github/workflows/joint-prefix-kernel-packing.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  replay:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    strategy:
+      fail-fast: false
+      matrix:
+        python: ['3.11', '3.14']
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '${{ matrix.python }}'
+      - run: python -B research/joint-prefix-kernel-packing/verify.py --work "${{ runner.temp }}/joint-prefix-kernel-packing"
