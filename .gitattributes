@@ -33,3 +33,6 @@ research/direct-delivery504-global/** -text -whitespace
 research/punctured112-global/** -text -whitespace
 # Maintainer execution receipts preserve exact reviewed bytes.
 research/community-pr531-audit/** -text -whitespace
+
+# Preserve the byte-pinned direct504 frame-lift composition and its sources.
+research/direct504-kernel92-lifts/** -text -whitespace
