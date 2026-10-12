@@ -13,13 +13,14 @@ import hashlib
 import importlib.util
 import json
 import math
+import os
 from pathlib import Path
 import sys
 
 
 ROOT = Path(__file__).resolve().parents[3]
 PROVIDERS = ROOT / "research/larger-gain/providers/words"
-ENGINE_ROOT = ROOT / "research/complex-allcold/engines"
+ENGINE_ROOT = Path(os.environ.get('GAIN_PR564_SOURCE', ROOT / 'research/complex-allcold')).resolve() / 'engines'
 WIDTHS = (4, 5, 8, 9)
 
 

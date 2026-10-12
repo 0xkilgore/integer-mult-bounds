@@ -12,11 +12,12 @@ from fractions import Fraction as Q
 import hashlib
 import importlib.util
 import json
+import os
 from pathlib import Path
 import sys
 
 ROOT = Path(__file__).resolve().parents[3]
-SOURCE = ROOT / 'research/complex-allcold'
+SOURCE = Path(os.environ.get('GAIN_PR564_SOURCE', ROOT / 'research/complex-allcold')).resolve()
 
 
 def load_engine(name):

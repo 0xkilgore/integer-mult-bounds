@@ -7,14 +7,14 @@ route, prefix, row, or Gaussian compiler admission is claimed.
 from pathlib import Path
 from collections import Counter
 from fractions import Fraction
-import json,math,time,argparse,hashlib
+import json,math,time,argparse,hashlib,os
 import numpy as np
 from scipy.optimize import milp,LinearConstraint,Bounds,brentq
 from scipy.sparse import lil_matrix
 
 ap=argparse.ArgumentParser();ap.add_argument('--extra-cold',type=int,default=0);ap.add_argument('--out',type=Path,required=True);a=ap.parse_args()
 O=a.out;O.mkdir(parents=True,exist_ok=False)
-source=Path(__file__).resolve().parents[3]/'research/complex-allcold/data/PLAN.json'
+source=Path(os.environ.get('GAIN_PR564_SOURCE',Path(__file__).resolve().parents[3]/'research/complex-allcold'))/'data/PLAN.json'
 D=json.loads(source.read_text());providers={}
 for pid,desc in D['provider_registry'].items():
  local={int(r):n for r,n in desc['actual_paid_profile'].items()};wc=Counter(desc['widths'])

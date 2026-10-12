@@ -71,10 +71,13 @@ checkable dual exclusion at the pinned PR564 endpoint.
 ## Reproduction
 
 Verification needs only Python's standard library and the unchanged
-rational engines in this checkout:
+rational engines from pinned PR564. In a standalone publication checkout,
+set `GAIN_PR564_SOURCE` to that external `research/complex-allcold` directory:
 
 ```sh
-python3 -B research/larger-gain/patterns/capacity_ceiling.py --verify research/larger-gain/patterns/CURRENT-ALPHABET-EXACT-CEILING.json
+GAIN_PR564_SOURCE=/path/to/pinned-PR564/research/complex-allcold \
+  python3 -B research/larger-gain/patterns/capacity_ceiling.py \
+  --verify research/larger-gain/patterns/CURRENT-ALPHABET-EXACT-CEILING.json
 ```
 
 Nominating a new receipt requires NumPy and SciPy. They nominate a basis;

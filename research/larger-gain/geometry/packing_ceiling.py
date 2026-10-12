@@ -8,12 +8,13 @@ This is an upper bound for that family, not a realizable construction.
 
 import importlib.util
 import json
+import os
 from fractions import Fraction
 from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[3]
-ENGINES = ROOT / "research/complex-allcold/engines"
+ENGINES = Path(os.environ.get('GAIN_PR564_SOURCE', ROOT / 'research/complex-allcold')).resolve() / 'engines'
 
 
 def load(name):

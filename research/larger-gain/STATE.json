@@ -26,8 +26,21 @@
       "commit": "86d39f3247a5a1df4f040ed71d8251bed77b91ec",
       "pr": 566,
       "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/566"
+    },
+    {
+      "ref": "origin/pr-567",
+      "commit": "7f452897d67282a76ada6df0162d34a751d5f3e6",
+      "pr": 567,
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/567"
+    },
+    {
+      "ref": "origin/pr-568",
+      "commit": "71c99ac935a33bb7b59a1b4a7af8725a939b0b90",
+      "pr": 568,
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/568"
     }
   ],
-  "scope": "Latest PR check through566. PR565 and566 advance linear-time formal counting/preparation, not numerical kappa or worst-case constant-time indexing. PR564 supplies the numerical baseline; current upstream main remains separately pinned.",
-  "original_checkout_preserved": true
+  "scope": "Baseline PR564 freshly reproduced. Latest additional PR567 and568 fetched during publication; their new cold-kernel constructions were not replayed or composed. PR565/566 advance formal counting/preparation, not general constant-time indexing.",
+  "original_checkout_preserved": true,
+  "publication_pr": "https://github.com/CrocSwap/integer-mult-bounds/pull/569"
 }

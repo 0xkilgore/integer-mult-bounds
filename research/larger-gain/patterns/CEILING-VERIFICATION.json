@@ -1,12 +1,18 @@
 {
   "status": "PASS_CAPACITY_DUAL_REPLAYS_AND_NEGATIVE_CONTROLS",
-  "verifier_sha256": "6f8fae4bc73573a9619e8f112a52f8a662a0d7c98c11a72b43f59e32333b10d1",
+  "verifier_sha256": "a0fcf1c407cdfb00001cb7d724c7bb0ae5bf1d489fa4c25752bc989f22537988",
   "verified": [
     {
       "path": "ALL-PROMOTIONS-MIXTURE-CEILING.json",
       "sha256": "6836b8984abd70e55b1209f5dfb4ceb5bdfdc9ab8f734fd695c24e81626b18e1",
       "status": "PASS_EXACT_CAPACITY_PATTERN_UPPER_BOUND",
       "columns": 1169
+    },
+    {
+      "path": "ALL-VERIFIED-PROMOTIONS-CEILING.json",
+      "sha256": "a42d3d3f952a4dacb784518b3e46c806fd957ccf6b742f2d2bcd5de6ee01943b",
+      "status": "PASS_EXACT_CAPACITY_PATTERN_UPPER_BOUND",
+      "columns": 1172
     },
     {
       "path": "ALL32WIDTH7-CEILING.json",

@@ -145,10 +145,21 @@ direction beyond the affine local promotions tried here.
 
 ## Verification and attribution
 
-The exact capacity exclusions can be replayed without SciPy:
+The full provider and global reproduction uses an explicit immutable PR564
+source package. The output directory must be new:
 
 ```sh
-python3 -B research/larger-gain/patterns/verify_ceiling_controls.py
+python3 -B research/larger-gain/global/reproduce.py \
+  --source /path/to/pinned-PR564/research/complex-allcold \
+  --work /tmp/width7-reproduction
+```
+
+The exact capacity exclusions can be replayed without SciPy. Set the same
+source package for the supplementary model screens:
+
+```sh
+GAIN_PR564_SOURCE=/path/to/pinned-PR564/research/complex-allcold \
+  python3 -B research/larger-gain/patterns/verify_ceiling_controls.py
 ```
 
 This checks every retained capacity dual and rejects deliberately corrupted
@@ -159,5 +170,6 @@ exact rational checks establish the stated exclusions.
 The new providers preserve their source credits and immutable input hashes.
 Modified global adapters retain the complete invoice and all inherited
 guards; the patch and source/adapted hashes are included. See [NOTICE](NOTICE).
-Prepared with substantial OpenAI Codex assistance. The publication adds only this research package; its PR564 dependency is
-external and pinned. No upstream scientific package was modified.
+Prepared with substantial OpenAI Codex assistance. The publication adds only
+this research package; its PR564 dependency is external and pinned. No
+upstream scientific package was modified.
