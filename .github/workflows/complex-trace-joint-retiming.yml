@@ -1,0 +1,19 @@
+name: Verify jointly retimed complex trace
+on:
+  pull_request:
+    paths:
+      - 'research/complex-trace-joint-retiming/**'
+      - '.github/workflows/complex-trace-joint-retiming.yml'
+  workflow_dispatch:
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python: ['3.11', '3.14']
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+      - run: python -B research/complex-trace-joint-retiming/verify.py --work "$RUNNER_TEMP/trace-retiming"

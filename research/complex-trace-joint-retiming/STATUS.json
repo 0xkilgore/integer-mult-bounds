@@ -1,7 +1,13 @@
 {
-  "status": "DRAFT_EXACT_PROFILE_NOMINATION_PHYSICAL_PENDING",
+  "status": "PASS_FULL_FINITE_ADMISSION_CROSS_VERSION_ASSEMBLY",
   "kappa": "0.001591209947088545",
   "complex_b": "0.001593745931467828731002",
   "baseline_pr": 550,
-  "baseline_head": "c7337040822978f1611ce9d9d44e7bb96d887e23"
+  "higher_reported_prs": [
+    551,
+    552
+  ],
+  "higher_reported_kappa": "0.001591968902833346",
+  "ci": "Not claimed green",
+  "scope": "All-size compiler, common-label/mutable-source realization, whole-call hosting, precision/tape and analytic-transfer premises remain conditional."
 }
