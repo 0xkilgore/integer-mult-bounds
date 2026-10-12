@@ -1,3 +1,15 @@
+# PR622 owner repacking: conditional κ 0.001635425470780892
+
+A coordinated repacking of PR622's literal owners raises its conditional bound from **0.00163542231500688** to **0.001635425470780892** (about **0.000193%**). Exact κ is `408856367695223/250000000000000000`; the conservative value is `0.001635425467912872`.
+
+The 492-helper words, jp8 ×65 / ck ×7 dispatch, all construction recipes, source pins and admission scripts are unchanged from PR622 at `f69477f4f6d3c7eb1f740b166881bffed4ffa9f6`. There are 5,027 changed placements and 3,146 additional packed-offset changes. Spare rank changes from `{1:127,3:19,7:1,21:1,48:2213}` to `{1:128,3:17,4:1,7:1,22:1,48:2213}`, with the same total rank.
+
+`data/REPACKING.json` and the standard-library `tools/replay_repacking.py` reproduce the frozen nomination from pinned PR622 data. See [OWNER-REPACKING.md](OWNER-REPACKING.md) for the exact delta and verification commands, and the sibling `research/complex-571-cold14-k492-repacking-audit/` for source review, search provenance and contributor validation. The code-generalization review and K-triangle atom belong to PR622; this change only repacks its owners.
+
+The older narrative and search inputs below are retained as **PR622 history**. They describe the inherited map and bound, not the new recorded-move nomination. All conditional assumptions remain; no optimal packing, unconditional theorem or full Lean certification is claimed.
+
+---
+
 # complex-571-cold14-k492: conditional κ 0.00163542231500688
 
 ## Definition

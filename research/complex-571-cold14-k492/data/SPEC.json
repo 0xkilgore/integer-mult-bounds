@@ -2,8 +2,8 @@
  "schema": "witness-spec/1",
  "name": "cold14",
  "data": {
-  "plan_sha256": "442d71a0a41e42503c645892f9fddd5b4d8fa722659974cedc27ae41b60319ac",
-  "owners_sha256": "2453696ff8c79da009bfdf148747562eafc21f1e164fbee2920cf1b347805bc8"
+  "plan_sha256": "fd0d0272aa1add2843e0e2e36e9610309ddc08fc448eb0accd768032d5f725d8",
+  "owners_sha256": "cb84807fd1ad5ced769e6847866e691078c84d87265033052fc962a739268641"
  },
  "providers": {
   "ck": {
@@ -1917,39 +1917,40 @@
    "jp8": 65
   },
   "global_profile": {
-   "1": 181579,
+   "1": 181580,
    "2": 29864,
-   "3": 31267,
-   "4": 11520,
+   "3": 31265,
+   "4": 11521,
    "5": 5040,
    "6": 576,
    "7": 1,
    "8": 576,
-   "21": 1,
+   "22": 1,
    "48": 2213
   },
   "owners_per_call": 716,
   "hosted_residuals": 35424,
   "rank_mass": 520704,
-  "actual_73column_sigmas": 6426,
-  "cross_replica_helper_roles": 26466,
+  "actual_73column_sigmas": 6702,
+  "cross_replica_helper_roles": 26498,
   "idle_remainders": 2361,
   "live": 7168,
   "physical": 7670,
   "deficit": 2560,
   "entering_helper_roles": 16356,
   "idle_remainder_profile": {
-   "1": 127,
-   "3": 19,
+   "1": 128,
+   "3": 17,
+   "4": 1,
    "7": 1,
-   "21": 1,
+   "22": 1,
    "48": 2213
   },
-  "complex_lower": "409525325607779437083/250000000000000000000000",
-  "conservative_complex_lower": "1638101299553699627189/1000000000000000000000000",
-  "kappa": "10221389468793/6250000000000000",
-  "kappa_decimal": "0.00163542231500688",
-  "conservative_kappa_decimal": "0.001635422312138865",
+  "complex_lower": "1638104468552563164027/1000000000000000000000000",
+  "conservative_complex_lower": "327620893135027892143/200000000000000000000000",
+  "kappa": "408856367695223/250000000000000000",
+  "kappa_decimal": "0.001635425470780892",
+  "conservative_kappa_decimal": "0.001635425467912872",
   "gain_baseline_kappa": "0.001601260169988325",
   "mutations_rejected": 23,
   "assembly_controls_rejected": 114

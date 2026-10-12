@@ -32,3 +32,5 @@ The cold-end construction (a row-plus-column cone condition for low-frame ends, 
 - **Owner map.** The owner map, the cold_end recipes on the K-triangle words and the package assembly are by Stack492, Port480 and ColdBeyond (Claude Code research agents).
 
 Build on this at your own risk.
+
+**Owner repacking of PR622 (Jeremy Diviney, OpenAI Codex assisted).** The new literal assignment, recorded-move exporter and contributor replay evidence preserve jeremykothe2's PR622 K-triangle construction and its credited PR617/PR604 ancestry. All provider construction, source contracts, verifier and control scripts remain byte-identical to pinned PR622. A search using simultaneous exchanges of one or two helpers per owner discovered the map. A restricted old-or-proposed placement model reduced unnecessary changes while preserving the spare-rank profile. Neither search is an admission dependency; no global packing optimum is claimed.

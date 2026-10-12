@@ -1,6 +1,6 @@
 {
   "status": "LITERAL_OWNER_NOMINATION_PENDING_ADMISSION",
-  "mode": "frozen-saturation-pattern-time-matching",
+  "mode": "recorded-coordinated-owner-swaps",
   "K": 4,
   "T": 8,
   "M": 73,
@@ -8,15 +8,15 @@
   "live": 7168,
   "deficit": 2560,
   "profile": {
-    "1": 181579,
+    "1": 181580,
     "2": 29864,
-    "3": 31267,
-    "4": 11520,
+    "3": 31265,
+    "4": 11521,
     "5": 5040,
     "6": 576,
     "7": 1,
     "8": 576,
-    "21": 1,
+    "22": 1,
     "48": 2213
   },
   "order": [
@@ -4029,7 +4029,7 @@
     "16": 2,
     "17": 2
   },
-  "solver_status": "relocate_swap_chain_flip_annealing_of_pr601_literal_map",
+  "solver_status": "FEASIBLE_NOT_OPTIMAL",
   "gap": null,
   "provider_calls": [
     {
@@ -41773,7 +41773,7 @@
       }
     }
   },
-  "source_plan_sha256": "1879679a44b373006907cbca8261a9cd187c7b868472afab04e002bf95331d9e",
-  "assignment_sha256": "2453696ff8c79da009bfdf148747562eafc21f1e164fbee2920cf1b347805bc8",
-  "source_owners_sha256": null
+  "source_plan_sha256": "442d71a0a41e42503c645892f9fddd5b4d8fa722659974cedc27ae41b60319ac",
+  "assignment_sha256": "31aab6b106e23111681ba8cf7f3e331106e1fb6536614814df6a134a0e1c3cc0",
+  "source_owners_sha256": "2453696ff8c79da009bfdf148747562eafc21f1e164fbee2920cf1b347805bc8"
 }
