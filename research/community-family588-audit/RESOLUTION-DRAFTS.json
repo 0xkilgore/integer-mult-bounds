@@ -245,7 +245,7 @@
     {
       "number": 586,
       "reviewed_head": "4846fee5b06af770e9b3a10c36200f673d656725",
-      "required_execution_complete": false,
+      "required_execution_complete": true,
       "body_template": "Thank you @chafreaky. This contribution at `4846fee5b06af770e9b3a10c36200f673d656725` is incorporated in the reviewed family through #588, published in PUBLICATION_COMMIT.\n\nProvides portable decompressed-content identities and rebound semantic/reference mutation controls for promoted coalescences. It does not add a further numerical gain to #584. Its sources are bundled, so the historical dependency remains reproducible.\n\nPreserved implementation and research:\n\n- [research/promoted-kernel-coalescing](https://github.com/CrocSwap/integer-mult-bounds/tree/PUBLICATION_COMMIT/research/promoted-kernel-coalescing)\n- [research/promoted-kernel-coalescing-validation](https://github.com/CrocSwap/integer-mult-bounds/tree/PUBLICATION_COMMIT/research/promoted-kernel-coalescing-validation)\n\nThe [family review](https://github.com/CrocSwap/integer-mult-bounds/blob/PUBLICATION_COMMIT/docs/research/community-family588-review.md) and [individual disposition](https://github.com/CrocSwap/integer-mult-bounds/blob/main/research/community-family588-audit/DISPOSITIONS.json) record the scope, evidence and attribution. Parallel and intermediate contributions remain credited even where a later composition has a stronger bound. The published multiplication bound remains conditional on the documented compiler, realization, hosting and analytic assumptions; these finite checks are not a full Lean multiplication proof."
     },
     {

@@ -329,5 +329,31 @@
       "research/community-family588-audit/pr584/RECEIPT.json": "ef105aea62ffaf913964ce37deeece9edc8dea9fb8433a7c3a6efc0bd2e5c0ca",
       "research/community-family588-audit/pr584/replay.log.txt": "2d08bcd58ec380423847689ec1a8c40c7543ff0646f7e550e7078e9203e00986"
     }
+  },
+  {
+    "pr": 586,
+    "status": "PASS_FRESH_FINITE_REPLAY",
+    "command": [
+      "/tmp/integer-mult-review-venv/bin/python",
+      "-B",
+      "research/promoted-kernel-coalescing/verify.py",
+      "--work",
+      "/tmp/im586-review",
+      "--jobs",
+      "2"
+    ],
+    "seconds": 598.981,
+    "output": "/tmp/im586-review",
+    "files": {
+      "research/community-family588-audit/pr586/ASSEMBLY.json": "3cbb9591497139ac5071f49e9ff12a08438102b4cd6c6d56c99565a34d2e6d81",
+      "research/community-family588-audit/pr586/RESULT.json": "160b3b8aeac72efd14a0a20aca2ffcc6089a37a492c54be3b99c1b9f1ff570b1",
+      "research/community-family588-audit/pr586/LOCALS.json": "83a8c2e559b20038f3d146da7dece6107063b1c9fb0a5bd659b33c9044a29720",
+      "research/community-family588-audit/pr586/PHASE-TIMING-CONTROLS.json": "17895dabfb777258b88f7226884a675cdc2e3ce2354b30c9925d9ee347dd1aeb",
+      "research/community-family588-audit/pr586/STAGES.json": "491771daa09191cf5c3c2ff8d2d8f86dbf623adebc8ccf6f0c5b25a555e45451",
+      "research/community-family588-audit/pr586/ASSEMBLY-CONTROLS.json": "9fa754d718b54fb7215bf5fc95dee5b450f760c97084a2facaba4405fcb5f0e7",
+      "research/community-family588-audit/pr586/GENERATED-IDENTITY-CONTROLS.json": "4f7e9122d641a20de490754074ad0184b8ec1e96cb1f2c510e8d9feddf92aa85",
+      "research/community-family588-audit/pr586/RECEIPT.json": "39062ed5de4b472703fa638f04a01331f49f0ca932a0b98e1dfc7c076728e00b",
+      "research/community-family588-audit/pr586/replay.log.txt": "b390b8bb35fd1c49479cf4fbcb4279d6db55356bd2e9958ae5ac4febd5a42d49"
+    }
   }
 ]

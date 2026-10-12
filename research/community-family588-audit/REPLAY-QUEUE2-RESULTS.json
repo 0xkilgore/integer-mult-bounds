@@ -197,5 +197,22 @@
     "exit_code": 0,
     "seconds": 699.947,
     "completed_utc": "2026-10-12T15:35:03.018555+00:00"
+  },
+  {
+    "pr": 586,
+    "package": "promoted-kernel-coalescing",
+    "command": [
+      "/tmp/integer-mult-review-venv/bin/python",
+      "-B",
+      "research/promoted-kernel-coalescing/verify.py",
+      "--work",
+      "/tmp/im586-review",
+      "--jobs",
+      "2"
+    ],
+    "log": "/tmp/im586-review.log",
+    "exit_code": 0,
+    "seconds": 598.981,
+    "completed_utc": "2026-10-12T15:42:52.514978+00:00"
   }
 ]

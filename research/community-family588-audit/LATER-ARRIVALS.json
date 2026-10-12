@@ -1,8 +1,38 @@
 {
-  "checked_utc": "2026-10-12T15:00:07.226955+00:00",
+  "checked_utc": "2026-10-12T15:37:21.766087+00:00",
   "source": "Complete current open snapshot in CURRENT-OPEN.json",
   "frozen_family_size": 43,
   "later_arrivals": [
+    {
+      "number": 597,
+      "title": "[Lean] Verify current R480 scalar boundaries",
+      "headRefOid": "a87e6cce090c6bdc4f0687fe80719411835b94eb",
+      "author": {
+        "login": "jamesyc"
+      },
+      "isDraft": true,
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/597"
+    },
+    {
+      "number": 596,
+      "title": "Conditional \u03ba = 0.0016127213726553: improved owner map for the PR592 hyperplane-ended witness",
+      "headRefOid": "fc37892e146c495c2f967bf09d7b58071f9fdd07",
+      "author": {
+        "login": "jeremykothe2"
+      },
+      "isDraft": false,
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/596"
+    },
+    {
+      "number": 595,
+      "title": "Format limits (no \u03ba claim): certified ceiling \u03ba \u2264 5.1595e-3, spec census, structural lemmas, helper bounds and open problems",
+      "headRefOid": "39112c2577452fa278489fb9fd77a9aecb2cdc24",
+      "author": {
+        "login": "DreamingOfClouds"
+      },
+      "isDraft": false,
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/595"
+    },
     {
       "number": 594,
       "title": "Conditional \u03ba = 0.001609915765452068: independent PR591 replay",

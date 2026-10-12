@@ -1362,16 +1362,17 @@
       ],
       "closure": null,
       "scope": "Provides portable decompressed-content identities and rebound semantic/reference mutation controls for promoted coalescences. It does not add a further numerical gain to #584. Its sources are bundled, so the historical dependency remains reproducible.",
-      "unresolved_question": "Finish queued physical/tooling replay, then complete publication checks, integration and fresh-head check.",
+      "unresolved_question": "Complete publication checks, integrate, and recheck head before closure.",
       "review_completion": {
         "changed_file_coverage": true,
         "scoped_mechanism_review": true,
-        "required_execution_complete": false,
+        "required_execution_complete": true,
         "published": false
       },
       "verification_evidence": [
         "research/community-family588-audit/REVIEW-NOTES.json",
-        "research/community-family588-audit/CONTENT-COVERAGE.json"
+        "research/community-family588-audit/CONTENT-COVERAGE.json",
+        "research/community-family588-audit/pr586"
       ]
     },
     {
