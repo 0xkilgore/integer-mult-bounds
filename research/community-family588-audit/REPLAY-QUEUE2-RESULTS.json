@@ -163,5 +163,20 @@
     "exit_code": 0,
     "seconds": 809.356,
     "completed_utc": "2026-10-12T15:23:23.070870+00:00"
+  },
+  {
+    "pr": 583,
+    "package": "kernel-frame-coalescing",
+    "command": [
+      "/tmp/integer-mult-review-venv/bin/python",
+      "-B",
+      "research/kernel-frame-coalescing/verify.py",
+      "--work",
+      "/tmp/im583-review"
+    ],
+    "log": "/tmp/im583-review.log",
+    "exit_code": 0,
+    "seconds": 1028.459,
+    "completed_utc": "2026-10-12T15:32:53.533044+00:00"
   }
 ]

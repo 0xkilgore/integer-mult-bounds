@@ -283,5 +283,24 @@
       "research/community-family588-audit/pr579/RECEIPT.json": "11436bd7308d685cf2581a7fdb11b8867680ea798fd8db31a4d6a0f60d671735",
       "research/community-family588-audit/pr579/replay.log.txt": "14ed4de520ed3e494235383ec22f5afc1f83f34a8bfcba95d7a47d894115de52"
     }
+  },
+  {
+    "pr": 583,
+    "status": "PASS_FRESH_FINITE_REPLAY",
+    "command": [
+      "/tmp/integer-mult-review-venv/bin/python",
+      "-B",
+      "research/kernel-frame-coalescing/verify.py",
+      "--work",
+      "/tmp/im583-review"
+    ],
+    "seconds": 1028.459,
+    "output": "/tmp/im583-review",
+    "files": {
+      "research/community-family588-audit/pr583/RESULT.json": "26d2f81c3afa060458143606b95ea06bf37303d9f85831f3e3a1a0d72863d3b3",
+      "research/community-family588-audit/pr583/STAGES.json": "c94b83f7637351deb1e9e04dea55ef287562593b96986210ffa065c99f8367a7",
+      "research/community-family588-audit/pr583/RECEIPT.json": "2375c9d7fcb8afab238f66a59b298736d503b4a24ae1d8e9888470780939e319",
+      "research/community-family588-audit/pr583/replay.log.txt": "874d2a46d13f9df6af4100d8c7f115ef27167bc701d1fdd9d21204322218b98e"
+    }
   }
 ]

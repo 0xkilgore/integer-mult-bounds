@@ -1295,16 +1295,17 @@
       ],
       "closure": null,
       "scope": "Six raised gate frames preserve scalar incidences and coefficients, turning pairs of rank-one climbs into rank-two climbs without changing helper endpoints. Every changed native transport and phase is still rebuilt and paid.",
-      "unresolved_question": "Finish queued physical/tooling replay, then complete publication checks, integration and fresh-head check.",
+      "unresolved_question": "Complete publication checks, integrate, and recheck head before closure.",
       "review_completion": {
         "changed_file_coverage": true,
         "scoped_mechanism_review": true,
-        "required_execution_complete": false,
+        "required_execution_complete": true,
         "published": false
       },
       "verification_evidence": [
         "research/community-family588-audit/REVIEW-NOTES.json",
-        "research/community-family588-audit/CONTENT-COVERAGE.json"
+        "research/community-family588-audit/CONTENT-COVERAGE.json",
+        "research/community-family588-audit/pr583"
       ]
     },
     {

@@ -33,7 +33,7 @@
     "research/pr-reconciliation-20261012/decisions.json": "b710c0a7e7599a929120a4d4dfb067335964d9b0c8fd66818ff3fd5a3856e11f",
     "research/pr-reconciliation-20261012/ending-snapshot.json": "629522d6a438733f5316ee362979c35fb9f703ac801c3d30b6fc390ea62d2322",
     "research/community-family533-audit/DISPOSITIONS.json": "e0e51f92dc715525b8ff5e4987551336c292b0a466f1f3fb87221fb96d54544d",
-    "research/community-family588-audit/DISPOSITIONS.json": "03374204d0bdb714038bf4cf9b0b6fe65d395233b6ea526b4f8d08ed1abd84a9"
+    "research/community-family588-audit/DISPOSITIONS.json": "64e8683c9f517e883591c970b34e24f61f2790015b54cfa4f1145485d53eb02b"
   },
   "scope": "Reconciliation index, not blanket mathematical verification. Partial includes triage or scoped checks; mentions alone are not review. Integrated archives are distinguished from active implementations. No automatic closures.",
   "pull_requests": [
@@ -14700,16 +14700,17 @@
       "closure": null,
       "reviewed_head": "89be768f0157f5a3d8e4db69cf1748768605eac9",
       "disposition": "partially_reviewed",
-      "unresolved_question": "Finish queued physical/tooling replay, then complete publication checks, integration and fresh-head check.",
+      "unresolved_question": "Complete publication checks, integrate, and recheck head before closure.",
       "review_completion": {
         "changed_file_coverage": true,
         "scoped_mechanism_review": true,
-        "required_execution_complete": false,
+        "required_execution_complete": true,
         "published": false
       },
       "verification_evidence": [
         "research/community-family588-audit/REVIEW-NOTES.json",
-        "research/community-family588-audit/CONTENT-COVERAGE.json"
+        "research/community-family588-audit/CONTENT-COVERAGE.json",
+        "research/community-family588-audit/pr583"
       ],
       "current_head_observed_in": "research/community-family588-audit/DISPOSITIONS.json",
       "reconciliation_evidence": [
