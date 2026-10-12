@@ -36,6 +36,7 @@ preserved; their inclusion does not promote every ancillary claim to a theorem.
 [Selected record](certificates/selected-result.json) ·
 [Exact assembly](research/community-pr531-audit/direct-ASSEMBLY.json) ·
 [Integration receipts](docs/research/community-pr531-integration.json) ·
+[PR review ledger](docs/research/pr-ledger.md) ·
 [Contributor record](CONTRIBUTORS.md)
 
 ```sh
