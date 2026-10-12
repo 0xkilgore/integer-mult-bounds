@@ -6,9 +6,9 @@ The exact binary-Clifford complex cover has a complete recursive-child histogram
 
 Complex b becomes0.001595058050537679100938. Cited PR543 c stays0.001653826988146798944268. Both rational discovery engines pass the new endpoint and reject the next10^-24 tick; seven bootstrap levels and47 strict outer inequalities give the displayed kappa.
 
-## Draft verification
+## Verification
 
-PR552 regression packaged checks passed on Python3.11/3.14. PR558's published full admission receipts are pinned; our independent full PR558 replay and the updated packaged checks are running after the draft update. CI is not claimed green. This arithmetic-only verifier cites unchanged physical operators rather than rebuilding them.
+The full independent PR558 replay passed in 126.92 seconds, including fresh phase, owner, invoice and assembly checks. The updated packaged checks passed on Python 3.11 and 3.14 with identical mathematical outputs, and the PR552 regression passed. Receipts are in `evidence/`. CI status must be read separately from GitHub; local success is not a green CI claim. This arithmetic-only verifier cites unchanged physical operators rather than rebuilding them.
 
     python -B verify.py --work /absolute/new/output
     python -B verify.py --provider 552 --work /absolute/new/regression-output
