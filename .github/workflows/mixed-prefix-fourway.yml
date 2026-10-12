@@ -1,0 +1,27 @@
+name: Four-provider mixed-prefix witness
+on:
+  pull_request:
+    paths:
+      - 'research/mixed-prefix-fourway/**'
+      - '.github/workflows/mixed-prefix-fourway.yml'
+  push:
+    paths:
+      - 'research/mixed-prefix-fourway/**'
+      - '.github/workflows/mixed-prefix-fourway.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  replay:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    strategy:
+      fail-fast: false
+      matrix:
+        python: ['3.11', '3.14']
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '${{ matrix.python }}'
+      - run: python -B research/mixed-prefix-fourway/verify.py --work "${{ runner.temp }}/mixed-prefix-fourway"
