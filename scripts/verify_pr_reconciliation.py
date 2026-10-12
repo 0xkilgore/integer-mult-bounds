@@ -54,7 +54,8 @@ def main():
     expected = {p['number']: p for p in snapshot['pull_requests']}
     for family_path in (ROOT / 'research/community-family533-audit/DISPOSITIONS.json',
                         ROOT / 'research/community-family588-audit/DISPOSITIONS.json',
-                        ROOT / 'research/community-hyperplane599-audit/DISPOSITIONS.json'):
+                        ROOT / 'research/community-hyperplane599-audit/DISPOSITIONS.json',
+                        ROOT / 'research/community-cold617-audit/DISPOSITIONS.json'):
         if not family_path.exists():
             continue
         family = json.loads(family_path.read_text())
@@ -177,44 +178,45 @@ def main():
                 require(row['reviewed_head'] == item['current_head'] and row['comment_url'],
                         'Family588 closure lacks current-head check or explanation')
         print('PASS family588: complete changed-file coverage, source bytes, receipts and supported closures')
-    receipt_path = ROOT / 'docs/research/community-hyperplane599-integration.json'
-    if receipt_path.exists():
-        receipt = json.loads(receipt_path.read_text())
-        for name, digest in receipt['receipts'].items():
-            require(hashlib.sha256((ROOT / name).read_bytes()).hexdigest() == digest,
-                    'Changed hyperplane review receipt: ' + name)
-        folder = ROOT / 'research/community-hyperplane599-audit'
-        source = json.loads((folder / 'SOURCE.json').read_text())
-        for name, digest in source['source_files'].items():
-            require(hashlib.sha256((ROOT / name).read_bytes()).hexdigest() == digest,
-                    'Changed hyperplane reviewed source: ' + name)
-        check_archived_files(ROOT, json.loads((folder / 'COMPLETED-EVIDENCE.json').read_text()))
-        coverage = json.loads((folder / 'CONTENT-COVERAGE.json').read_text())['pull_requests']
-        decisions = json.loads((folder / 'DISPOSITIONS.json').read_text())['pull_requests']
-        require({str(d['number']) for d in decisions} == set(receipt['reviewed_heads']) == set(coverage),
-                'Hyperplane review scope differs')
-        for decision in decisions:
-            n = decision['number']
-            require(decision['reviewed_head'] == receipt['reviewed_heads'][str(n)], 'Hyperplane reviewed head')
-            check_review_completion(actual[n], decision)
-            c = coverage[str(n)]
-            require(c['head'] == decision['reviewed_head'] and len(c['files']) == c['changed_files'],
-                    'Incomplete hyperplane changed-file inventory')
-            require(len({f['source_path'] for f in c['files']}) == c['changed_files'], 'Duplicate covered path')
-            for f in c['files']:
-                if f['integrated_path'] is None:
-                    require(not decision['review_completion']['changed_file_coverage'] and f['remaining'],
-                            'Uncovered file in completed PR')
-                else:
-                    require(hashlib.sha256((ROOT / f['integrated_path']).read_bytes()).hexdigest() == f['sha256'],
-                            'Changed hyperplane integrated file: ' + f['integrated_path'])
-            if decision.get('closure'):
-                closure = decision['closure']
-                require(closure['reviewed_head'] == decision['current_head'] and closure['explanation_url'],
-                        'Hyperplane closure lacks exact-head explanation')
-                require(decision['disposition'] == 'incorporated' and
-                        decision['github_state'] == closure['github_state'], 'Unsupported hyperplane closure')
-        print('PASS hyperplane family: source coverage, scoped evidence, partial-history distinction and resolutions')
+    for family in ('hyperplane599', 'cold617'):
+        receipt_path = ROOT / f'docs/research/community-{family}-integration.json'
+        if receipt_path.exists():
+            receipt = json.loads(receipt_path.read_text())
+            for name, digest in receipt['receipts'].items():
+                require(hashlib.sha256((ROOT / name).read_bytes()).hexdigest() == digest,
+                        'Changed hyperplane review receipt: ' + name)
+            folder = ROOT / f'research/community-{family}-audit'
+            source = json.loads((folder / 'SOURCE.json').read_text())
+            for name, digest in source['source_files'].items():
+                require(hashlib.sha256((ROOT / name).read_bytes()).hexdigest() == digest,
+                        'Changed hyperplane reviewed source: ' + name)
+            check_archived_files(ROOT, json.loads((folder / 'COMPLETED-EVIDENCE.json').read_text()))
+            coverage = json.loads((folder / 'CONTENT-COVERAGE.json').read_text())['pull_requests']
+            decisions = json.loads((folder / 'DISPOSITIONS.json').read_text())['pull_requests']
+            require({str(d['number']) for d in decisions} == set(receipt['reviewed_heads']) == set(coverage),
+                    'Hyperplane review scope differs')
+            for decision in decisions:
+                n = decision['number']
+                require(decision['reviewed_head'] == receipt['reviewed_heads'][str(n)], 'Hyperplane reviewed head')
+                check_review_completion(actual[n], decision)
+                c = coverage[str(n)]
+                require(c['head'] == decision['reviewed_head'] and len(c['files']) == c['changed_files'],
+                        'Incomplete hyperplane changed-file inventory')
+                require(len({f['source_path'] for f in c['files']}) == c['changed_files'], 'Duplicate covered path')
+                for f in c['files']:
+                    if f['integrated_path'] is None:
+                        require(not decision['review_completion']['changed_file_coverage'] and f['remaining'],
+                                'Uncovered file in completed PR')
+                    else:
+                        require(hashlib.sha256((ROOT / f['integrated_path']).read_bytes()).hexdigest() == f['sha256'],
+                                'Changed hyperplane integrated file: ' + f['integrated_path'])
+                if decision.get('closure'):
+                    closure = decision['closure']
+                    require(closure['reviewed_head'] == decision['current_head'] and closure['explanation_url'],
+                            'Hyperplane closure lacks exact-head explanation')
+                    require(decision['disposition'] == 'incorporated' and
+                            decision['github_state'] == closure['github_state'], 'Unsupported hyperplane closure')
+            print('PASS hyperplane family: source coverage, scoped evidence, partial-history distinction and resolutions')
     print(f'PASS immutable snapshot plus explicit family rounds: {len(actual)} PRs, attributed heads, evidence pins and unresolved questions')
 
 

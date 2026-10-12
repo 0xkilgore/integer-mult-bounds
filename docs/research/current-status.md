@@ -1,5 +1,19 @@
 # Current reviewed status
 
+The selected conditional saving is **κ=0.001635183729255778**, #617 with #543,
+building on #601/#604/#615. See the [review](community-cold617-review.md),
+[integration receipt](community-cold617-integration.json),
+[selected record](../../certificates/selected-result.json) and [PR ledger](pr-ledger.md).
+The public replay is `make frontier617-verify`.
+
+The frozen round covers #600–#617. Parallel allocations, replay reports,
+formalization and research retain attribution. #611's older branch diff and
+#605/#612 Linux harness and precursor reviews remain open. Scoped finite and
+Lean checks do not discharge the inherited uniform and analytic assumptions.
+Remote Linux CI is reported separately from local execution.
+
+# Superseded status through #599
+
 The selected conditional saving is **κ=0.0016127213726553**, Jeremy Kothe's
 #596 on #591/#592 with eumemic's #543 bit supplier. See the
 [review](community-hyperplane599-review.md),

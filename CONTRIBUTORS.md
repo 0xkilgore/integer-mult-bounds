@@ -1,6 +1,25 @@
 # Community contribution record
 
-**Current reviewed composition: #596 with #543, κ=0.0016127213726553.**
+**Current reviewed composition: #617 with #543, κ=0.001635183729255778.**
+See the [review](docs/research/community-cold617-review.md) for scope and replay provenance.
+
+| Contributor | Work in this round |
+|---|---|
+| [Jeremy Kothe](https://github.com/jeremykothe2) | #601 commuting cleanup, #615 entering pair and #617 second cold endpoint; #600/#603/#607/#609/#614 dispatch and allocation. |
+| [DreamingOfClouds](https://github.com/DreamingOfClouds) | #604 cold helper endpoints and #610 dispatch; inherited #599 Lean interfaces. |
+| [Chafik Boukhalfa](https://github.com/chafreaky) | #616 owner repairs, portable dependencies and independent allocation checks. |
+| [higherbeing](https://github.com/higherbeing) | #608 independent 46-helper construction and allocation tools. |
+| [eumemic](https://github.com/eumemic) | #611/#613 independent replay reports; retained #543 selected bit supplier. Historical branch reconciliation in #611 remains open. |
+| [Dominik Scholz](https://github.com/DominikScholz) | #606 Niemeier construction and compensation research; cumulative supplier lineage. |
+| [artuskg](https://github.com/artuskg) | #602 ceiling rounding and interval-comparison corrections. |
+| [James Chang](https://github.com/jamesyc) | #605 historical real-moment and #612 current bit-boundary Lean formalization; source builds checked, Linux harness and precursor review remain open. |
+
+Rohan Arun’s #559 native-complex recurrence correction and all preceding
+construction contributions remain part of the cumulative selected result.
+
+## Historical helper family through #599
+
+**Historical reviewed composition: #596 with #543, κ=0.0016127213726553.**
 The [review](docs/research/community-hyperplane599-review.md) and
 [dispositions](research/community-hyperplane599-audit/DISPOSITIONS.json)
 distinguish selected improvements, verification, parallel research and open scope.
