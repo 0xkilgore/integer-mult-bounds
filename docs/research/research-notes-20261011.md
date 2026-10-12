@@ -1,5 +1,10 @@
 # Research and verification integration, 2026-10-11
 
+A subsequent [frontier integration](community-pr531-review.md) adds the research
+packages and proofs from #531, #523 and #493, with fresh finite dependency
+replays and a new selected conditional witness. The batch below remains the
+historical research-only integration.
+
 **No change to the selected κ.** Research notes, negative results, experiment
 records and verification improvements are integrated on their own merits.
 The [selected conditional construction](community-pr279-review.md) remains

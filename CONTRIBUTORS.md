@@ -1,6 +1,28 @@
 # Community contribution record
 
-**Current reviewed construction: #279 on #276, κ=0.000723571590007464.**
+**Current reviewed construction: #531 on #523 with #493,
+κ=0.001517760977820331.** The [review](docs/research/community-pr531-review.md)
+records fresh finite replays, dependency checks and retained interface assumptions.
+
+| Contributor | Contribution to this checkpoint |
+|---|---|
+| [icekylinx](https://github.com/icekylinx) | #531 direct delivery, 504-helper construction, frame coalescing and physical allocation; #523 exact port restriction; earlier source-basis and split-center work. |
+| [eumemic](https://github.com/eumemic) | #493 source-carrier bit supplier and full replay; #507 partial-own factory and #496 integration ancestry. |
+| [Dugongue](https://github.com/Dugongue) | #514 coordinated entrance/kernel construction; #505 asynchronous whole-owner scheduling; #522 related rank-sector idea. |
+| [DreamingOfClouds](https://github.com/DreamingOfClouds) | #484 shared-donor kernels, gauges and normalized wrappers; exact moment and assembly machinery. |
+| [Chafik Boukhalfa](https://github.com/chafreaky) | #472/#445 eleven-stage geometry, emitters, physical checks and invoice; #458 spectator wrappers. |
+| [DaysSky](https://github.com/DaysSky) | #442 idle-axis hosting and #381 bridged column checks. |
+| [Zhihao Chen](https://github.com/jacklightChen) | #425 mutable-basis interface and Hamming/scalar ancestry; #386 geometry. |
+| Dylan Crow and [Jacob Sussman](https://github.com/jacobalansussman) | #370 bit-format/checker and E8 geometry contributions recorded by the supplier notices. |
+| [higherbeing](https://github.com/higherbeing) | #520 related delivery geometry and allocation framing; idea credit, not an imported implementation. |
+
+Original commits, notices, licenses and AI-assistance disclosures are retained.
+Earlier, parallel and superseded contributions remain credited below and in the
+full source lineage; these are not independently additive numerical gains.
+
+## Historical gen4 checkpoint
+
+**Historical reviewed construction: #279 on #276, κ=0.000723571590007464.**
 The [review](docs/research/community-pr279-review.md) records the exact heads,
 finite checks, corrected prime coverage and retained all-size assumptions.
 

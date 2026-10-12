@@ -1,15 +1,19 @@
 # Current selected record
 
-The selected maintainer-reviewed conditional witness remains
-**κ=90446448750933/125000000000000000=0.000723571590007464** from #279 on #276.
-Use the [selected record](../../certificates/selected-result.json) and
-[its review](community-pr279-review.md) for the current construction and scope.
-The [2026-10-11 research integration](research-notes-20261011.md) adds research
-and verification contributions without changing that selection. Larger numbers
-in pending PRs are submitted claims until their dependencies are reviewed.
+The selected maintainer-reviewed conditional witness is
+**κ=1517760977820331/10^18=0.001517760977820331**, from #531 on #523
+with #493's bit supplier. See the [selected record](../../certificates/selected-result.json),
+[review and assumptions](community-pr531-review.md), and
+[fresh integration receipts](community-pr531-integration.json).
+All three finite packages were replayed, including the complex predecessor
+and full bit physical audit; all-size and analytic interfaces remain conditional.
 
-The earlier “selected” or “current” statements below are preserved historical
-snapshots; they do not supersede the record above.
+The [research integration index](research-notes-20261011.md) also records
+accepted research and verification work that does not change κ. Larger pending
+PR claims remain proposals until reviewed. The gen4 result is preserved in
+[its checkpoint](../../certificates/checkpoints/gen4-pr279.json).
+
+Earlier “selected” statements below are historical snapshots.
 
 ---
 

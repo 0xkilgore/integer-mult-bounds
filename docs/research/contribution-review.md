@@ -1,6 +1,6 @@
 # Contribution review: release update and historical triage
 
-For the current checkpoint, see the [gen4 review](community-pr279-review.md),
+For the current checkpoint, see the [direct-delivery review](community-pr531-review.md),
 [selected record](../../certificates/selected-result.json) and
 [contributor ledger](../../CONTRIBUTORS.md). The
 [2026-10-11 research integration](research-notes-20261011.md) records the latest
