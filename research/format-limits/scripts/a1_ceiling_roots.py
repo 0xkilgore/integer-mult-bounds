@@ -33,8 +33,9 @@ EXPECTED = {
     'cx-120/72': {3: 3.5307429201300307e-3, 5: 4.535607180902823e-3, 7: 4.059761375276634e-3,
                   9: 3.6334780884322328e-3, 11: 3.2929429181725836e-3, 13: 3.0181922014469375e-3},
 }
-KAPPA_CEILING = 5.1595e-3          # rev. 2, complex binds
-KAPPA_BIT_ONLY = 5.9647e-3          # bit-only corollary c/(1+c)
+KAPPA_CEILING = Fr('0.0051595')       # rev. 2 headline, complex binds
+KAPPA_FINE = Fr('0.0051594939')       # outward display of the complex ceiling
+KAPPA_BIT_ONLY = Fr('0.005964704')    # outward display of the bit-only corollary c/(1+c)
 KAPPA_REV1 = 4.5151e-3              # superseded rev. 1 value (x = 3/5)
 FRONTIER = {'bit': 1.733052823330162e-3, 'cx': 0.00159868506668458107128}   # #555 c (s = 9), #568 b (s = 9)
 HEADROOM_S9 = {'bit': 2.658, 'cx': 2.499}
@@ -56,9 +57,9 @@ for name, (h, cst, v) in UNITS.items():
 xb, xc = tab['bit-111/63'][5]['hi'], tab['cx-112/64'][5]['hi']
 Xmin = min(xb, xc)
 kap = Xmin / (1 + Xmin)
-check('A1.kappa-ceiling', xc < xb and near(kap, KAPPA_CEILING, 7),
-      'X_bit* %.5e, X_cx* %.5e (complex binds); kappa <= X/(1+X) = %.7e' % (xb, xc, float(kap)))
-check('A1.kappa-bit-only', near(xb / (1 + xb), KAPPA_BIT_ONLY, 7), 'c/(1+c) <= %.7e' % float(xb / (1 + xb)))
+check('A1.kappa-ceiling', xc < xb and kap <= KAPPA_FINE < KAPPA_CEILING,
+      'X_bit* %.5e, X_cx* %.5e (complex binds); kappa <= %s' % (xb, xc, KAPPA_FINE))
+check('A1.kappa-bit-only', xb / (1 + xb) <= KAPPA_BIT_ONLY, 'c/(1+c) <= %s' % KAPPA_BIT_ONLY)
 x1 = min(tab['bit-120/72'][5]['hi'], tab['cx-120/72'][5]['hi'])
 check('A1.rev1-superseded', near(x1 / (1 + x1), KAPPA_REV1, 7),
       'the x = 3/5 scope gives %.7e; the punctured units have x = 63/111, 64/112 < 3/5' % float(x1 / (1 + x1)))

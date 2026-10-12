@@ -117,7 +117,7 @@ is increasing with fixed point s0, so κ ≤ X/(1 + X) with X = min(X_bit*, X_cx
 
 Roots are rational-interval brackets of width < 10⁻¹⁵; the upper end is the certified value.
 
-- **κ ≤ 5.1594938·10⁻³ < 5.1595·10⁻³**; the complex side binds. The bit-only corollary is c/(1 + c) ≤ 5.9647·10⁻³.
+- **κ ≤ 5.1594939·10⁻³ < 5.1595·10⁻³**; the complex side binds. The bit-only corollary is c/(1 + c) ≤ 5.964704·10⁻³.
 - **The supremum over s is at s = 5** on both units. For odd s = 7..401, the certified D_s/Cost_s stays below X(5);
   the largest values are 5.2311·10⁻³ (bit) and 4.5292·10⁻³ (complex), both at s = 7. For s ≥ 403 a tail bound applies:
   Cost_s/v ≥ 2Σ_{p<K} 2pa·ln(m/(2pa)) ≥ 4a·Σ_{p<K} p ln(K/p) (using m > 2Ka), and

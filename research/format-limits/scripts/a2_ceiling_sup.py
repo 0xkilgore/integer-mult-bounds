@@ -20,13 +20,15 @@ EXPECTED_TAIL = {'bit-111/63': 6.270e-4, 'cx-112/64': 5.438e-4}                 
 
 for name, (h, cst, v) in UNITS.items():
     x = Fr(cst, v)
-    x5 = X(5, h, 1, x)['hi']
+    x5_box = X(5, h, 1, x)
+    x5 = x5_box['hi']
+    x5_lo = x5_box['lo']
     worst, sworst, allbelow = Fr(0), None, True
     for s in range(7, 402, 2):
         prof, m, D = profile(s, h, 1, x)
         clo, _ = cost_iv(prof, m)
         ub = D / clo
-        allbelow &= ub < x5
+        allbelow &= ub < x5_lo
         if ub > worst:
             worst, sworst = ub, s
     ew, es = EXPECTED_WORST[name]
@@ -36,7 +38,7 @@ for name, (h, cst, v) in UNITS.items():
     K = 201
     s = 2 * K + 1
     tail = float(1 - x) * s / (4 * a * (K * K / 4 - K / math.e - K / 2))
-    check('A2.tail.' + name, tail < float(x5) and near(tail, EXPECTED_TAIL[name], 7),
+    check('A2.tail.' + name, tail < float(x5_lo) and near(tail, EXPECTED_TAIL[name], 7),
           'analytic tail bound at s = 403: %.3e (decreasing in s)' % tail)
 bad = [K for K in range(2, 5001) if sum(p * math.log(K / p) for p in range(1, K)) < K * K / 4 - K / math.e - K / 2]
 check('A2.tail-inequality', not bad, 'sum_{p<K} p ln(K/p) >= K^2/4 - K/e - K/2 for K = 2..5000')
