@@ -24,6 +24,7 @@
  "data/PLAN.json": "b86089af66d3bc230a6eb8dfc54b8ecc3c72e61de79e48f64d28a4e5a4f41e6d",
  "data/SPEC.json": "813e5ad4201bafd0fceea4a5fdc0589040d4f9ece3afb845a02bccc39fa5a9a1",
  "data/WITNESS.json": "996798e97898e3d7e37c24de98317ee4f49bb7361c52f10b32ab752020c66ddc",
+ "data/cand.json": "be60cae3ea878c5aad3f40fe39cdf93be2a7b823b9c27dcfe324627934b8a97d",
  "data/recipes/atm3-step0-promote.json": "9a7cafdf9b600ba43985c83969b75151f665b98f454afc1494b9f9ef3dd3916f",
  "data/recipes/atm3-step1-greedy_kernels.json": "c4bc67f329fc22e226f26bbbf7e67018a639823d99fccfc5a1e798a7a82db43f",
  "data/recipes/atm3-step2-frame_coalesce.json": "e6d7ea259a542f2b43a857998f677db4d68f8f36335e98a030bc91ab38ce758c",
