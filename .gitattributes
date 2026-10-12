@@ -22,3 +22,6 @@ research/community-round9-audit/** -text -whitespace
 # Preserve exact graded-convolution source and evidence bytes.
 research/graded-box-convolution/** -text
 research/graded-box-convolution-validation/** -text
+
+# Preserve archived experiment bytes; whitespace is part of their source manifests.
+research/experiment-log/** -whitespace

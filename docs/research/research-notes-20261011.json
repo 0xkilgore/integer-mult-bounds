@@ -140,5 +140,23 @@
     "No stronger selected multiplication bound",
     "No new Linux or complete Lean reproduction",
     "Research inclusion does not certify every historical experiment claim"
-  ]
+  ],
+  "publication": {
+    "main_first_publish": "16fc034",
+    "directly_merged_prs": [
+      468,
+      477,
+      524
+    ],
+    "cherry_picked_prs_closed_after_head_check": [
+      190,
+      209,
+      218,
+      220,
+      222,
+      231,
+      239
+    ],
+    "note": "Source heads matched the review snapshot; closure records incorporation, not rejection."
+  }
 }

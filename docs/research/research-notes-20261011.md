@@ -44,8 +44,9 @@ the implementation already uses the correct plus sign.
 | [#209](https://github.com/CrocSwap/integer-mult-bounds/pull/209) | Jacob Sussman | Parallel Fourier-side Lean development reference and attribution. This entry is not a newly rebuilt formalization. |
 
 The source pins for these seven still matched the open PR heads at the queue
-snapshot. Since their original commits were cherry-picked, publishing this
-batch alone need not make GitHub automatically mark each PR merged.
+snapshot. Their changes were incorporated by cherry-pick, and the seven PRs
+were closed after publication and a fresh head check. That closure records
+integration, not rejection. #468, #477 and #524 are marked merged by GitHub.
 
 ## Verification and remaining queue
 
