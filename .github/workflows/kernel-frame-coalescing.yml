@@ -1,0 +1,27 @@
+name: Six kernel frame coalescences witness
+on:
+  pull_request:
+    paths:
+      - 'research/kernel-frame-coalescing/**'
+      - '.github/workflows/kernel-frame-coalescing.yml'
+  push:
+    paths:
+      - 'research/kernel-frame-coalescing/**'
+      - '.github/workflows/kernel-frame-coalescing.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  replay:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    strategy:
+      fail-fast: false
+      matrix:
+        python: ['3.11', '3.14']
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '${{ matrix.python }}'
+      - run: python -B research/kernel-frame-coalescing/verify.py --work "${{ runner.temp }}/kernel-frame-coalescing"
