@@ -1,0 +1,48 @@
+[
+  {
+    "pr": 541,
+    "package": "trace-curvature-preload",
+    "command": [
+      "/tmp/integer-mult-review-venv/bin/python",
+      "-B",
+      "research/trace-curvature-preload/verify.py",
+      "--work",
+      "/tmp/im541-review"
+    ],
+    "log": "/tmp/im541-review.log",
+    "exit_code": 0,
+    "seconds": 225.558,
+    "completed_utc": "2026-10-12T13:31:14.516987+00:00"
+  },
+  {
+    "pr": 538,
+    "package": "direct504-kernel92-lifts",
+    "command": [
+      "/tmp/integer-mult-review-venv/bin/python",
+      "-B",
+      "research/direct504-kernel92-lifts/verify.py",
+      "/tmp/im538-review"
+    ],
+    "log": "/tmp/im538-review.log",
+    "exit_code": 0,
+    "seconds": 303.092,
+    "completed_utc": "2026-10-12T13:32:32.048193+00:00"
+  },
+  {
+    "pr": 542,
+    "package": "r480-sliced-minimal-frames",
+    "command": [
+      "/tmp/integer-mult-review-venv/bin/python",
+      "-B",
+      "research/r480-sliced-minimal-frames/verify.py",
+      "/tmp/im542-review",
+      "--physical",
+      "--boost-include",
+      "/tmp/coordinated-crossover-v2.PSyYno/deps/include"
+    ],
+    "log": "/tmp/im542-review.log",
+    "exit_code": 0,
+    "seconds": 212.293,
+    "completed_utc": "2026-10-12T13:34:46.810420+00:00"
+  }
+]

@@ -1,0 +1,49 @@
+{
+  "updated_utc": "2026-10-12T13:29:49.730579+00:00",
+  "status": "in_progress_not_publication_admission",
+  "notes": {
+    "543": {
+      "review": "Interleaved scalar-interface lemma is valid by block triangular induction: no target feeds z; z update U depends only on z; V=I; D precedes raw map; reverse z gates restore U. Common-frame pullback commutes with XOR irrespective of role names. Whole-call correlated-helper hosting and all-size realization remain assumptions.",
+      "execution": "Full native replay exited zero; genuine Boost headers; nine and eleven layouts, independent columns, frame checks, mutation controls, stock controls.",
+      "bit_nine": "0.001653826988146798944268"
+    },
+    "545": {
+      "review": "Puncture removes nine ports and retains nine rank-seven totals. Finite word and decoder receive actual column/frame audits. Pooled cell hosting is NOT the one-helper-per-family hypothesis of PR458. Stricter price458 is a numerical auxiliary proposal, not a completed emitted witness.",
+      "portability": "Original suite passed new construction then failed R480 solver tie equality. Two rediscovered allocations pass exact integral feasibility and frozen histogram comparison. Patched regression retains frozen allocation and byte-identical stock/adapted physical checks; final controls still running.",
+      "execution": "Changed construction, controls and stock/adapted regression passed after portability correction. Subsequent strict-price exact integer guards passed targeted replay at unchanged 0.001651282591289915996071."
+    },
+    "549": {
+      "review": "Dual lower bound for a relaxation of fixed local profile/inventory/stage and fallback model. Relaxation removes chronology/ownership/integrality; exact dual feasible inequalities imply exclusion. Not applicable after topology/frame inventory or surcharge changes.",
+      "execution": "verify.py passed fresh exact rational checks"
+    },
+    "556": {
+      "review": "Projection P=id+v*lambda is idempotent with rank-one kernel over F2. Mixed inclusions give hard cut arcs; losses (1,1) cost f(r+1)-f(r) and losses (0,1) source arc f(r)-f(r-1). Summed objective equals cut minus constant. Valid for nondecreasing f. Compiler admission remains separate.",
+      "execution": "Fresh 16 subspaces,28 projections,3948 edge assignments,1008 graphs,67600 labelings passed"
+    },
+    "557": {
+      "review": "Complete interval-domain enumeration plus rational local-polytope duals excludes endpoint for fixed PR551 word/owners/charge. At most 3 quotient dimensions permits exhaustive enumeration. Do not extend to later reordered words/native moments.",
+      "execution": "Fresh exact verifier and four rejection controls passed"
+    },
+    "559": {
+      "review": "Original complex-cover recurrence is pure moment; bit recurrence separately carries exceptional-selector fallback. Exact complex Clifford/orthogonal-cover compiler has no corresponding selector exception. Remove complex surcharge only under retained realization assumptions, leave bit surcharge and finite router invoice.",
+      "execution": "Fresh two-engine/outer check passed at native complex rate 0.001595058050537679100938; baseline physical replay underway in #588"
+    },
+    "580": {
+      "review": "Projector coefficient Gu/2 and rank h-r follow from V^T U=I. Adjacent-exterior deletion argument concerns column-a invariants, not false unit-row assertion; all-height induction separate from finite normal-form replay. Integrate as scoped research only, no physical provider or Lean claim.",
+      "execution": "Stress replay completed; retain full stdout and final counts"
+    },
+    "587": {
+      "review": "Inputs and expected outputs separated. pin() returns recomputed got; expected values only compare. Cold runs do full physical admission. Hidden reuse flags lack standalone provenance binding and must not be used as acceptance evidence without external source/input/receipt binding.",
+      "execution": "Source inspection only so far; fixture/mutation suite pending"
+    },
+    "588": {
+      "review": "Gate moves pass pairwise transvection commutation; raising frames follows moves, cleanup regenerated and responses invariant. Must still validate native frames/phases/owner contracts and full bill. Full fresh replay underway with all provider chains.",
+      "source_variant": "PR569 pinned old commit has identical executable/data files to frozen current head; only README,NOTICE,MANIFEST differ. Replay uses old variant; publication must make clean-checkout pin resolution explicit."
+    },
+    "555": {
+      "review": "Combines puncture with delayed block-node skeleton by adding phase-A mini-nodes and carriers, rather than assuming removed targets can read future phase-B values. H1-H5 includes phase-B helper writes as z updates; exact decoder and COPY rank63 checked. Pooled-cell/all-size contracts retained.",
+      "execution": "Full suite passed including 661 local columns, 1327/1549 stage columns, 18/24 bridge controls, stock R480 and punctured R489 regressions.",
+      "bit_nine": "0.001733052823330162099157"
+    }
+  }
+}
