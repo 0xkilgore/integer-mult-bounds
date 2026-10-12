@@ -2,652 +2,10 @@
  "schema": "witness-spec/1",
  "name": "cold14",
  "data": {
-  "plan_sha256": "1879679a44b373006907cbca8261a9cd187c7b868472afab04e002bf95331d9e",
-  "owners_sha256": "944695b855d3224809d71f43b33fa2290f7fde4934eaf3a6ea87ac1631f59688"
+  "plan_sha256": "b582ceb0c95b5bf30685519f0c1c6ec48a9ecc7ad8818ea2839c964e3e9f77c0",
+  "owners_sha256": "2d3c5691e3f62cb0c98efcb998a25ac947936404a53e33755b82aaa795da1314"
  },
  "providers": {
-  "atm3": {
-   "semantic_phase_sha256": "028e83334c34e8c4d01cefca50ea535147fa946cdc90df22c4b798d25982772b",
-   "width_digest": "d8f672f88571c6d783df116271639de33cf174409208896e5cc8aa441e438a3b",
-   "program_hashes": {
-    "backward": "23644276741be78fd8f01cca29aef971cd9302b65783adb2c78778c4db7631f9",
-    "forward": "67770bfcf864a49a40271216592c3f749811deb187425a17dd4995422830cc7f"
-   },
-   "artifacts": {
-    "CLIFFORD-RECIPES.json": "fdba9216d5956c84b77ab87cc2ef0a4470404122b698ead4691edb163ef49849",
-    "LOCAL-CHECKS.json": "8a8ac44c79691aed3008e1bd4211cd6479ee7e6bca27c822591aee49a3c9d4a2",
-    "RESIDUAL-ADAPTERS.json": "6c0dc81ae31583c9c099bf74eaa5d607bc6fa108c10edb4a1cf8dfa26dfeee9e"
-   },
-   "artifact_semantic_sha256": {
-    "CANONICAL-WORD.json.gz": "4cf4d53d45d1fde82bdf85406792520763bd9b99b0633476246f02ae3b6f9ae6",
-    "LOCAL-PROGRAMS.json.gz": "c655828c0a8d9ee3a14dfdb19242c8c6ad72d607fcf0525a722fa32c86151415",
-    "LOCAL-CHECKS.json": "07f579b92abc50137b8fc16a82282e0a028f27c0568a9ea040117b90424d9285",
-    "INDEPENDENT-LOCAL-REPLAY.json": "88231119cad46ad52cee9abf4267d8234b300f6b6945d401f61efe899e3c4f82",
-    "CLIFFORD-RECIPES.json": "fdba9216d5956c84b77ab87cc2ef0a4470404122b698ead4691edb163ef49849",
-    "CLIFFORD-REVIEW.json": "028e83334c34e8c4d01cefca50ea535147fa946cdc90df22c4b798d25982772b",
-    "RESIDUAL-ADAPTERS.json": "deefee1fae99a31c49bd55b37a3452e6c3a95b804fec7b1e7e8d82064954777a"
-   },
-   "complete_contract": {
-    "local": {
-     "backward": {
-      "events": 26883,
-      "macros": 21567,
-      "real_component_primitives": 210190,
-      "prefix_l1": "114367887736825/2",
-      "prefix_bits": 46,
-      "coefficient_work_primitive_count": 104091,
-      "all_exact_columns": 728,
-      "dirty_helper_columns": 504,
-      "all_dirty_helper_columns_restored": true,
-      "private_centres_and_coefficient_work_cleared": true,
-      "pre_wrappers": 242,
-      "post_wrappers": 242,
-      "endpoint_evidence": "Hash-bound fresh INDEPENDENT-LOCAL-REPLAY.json"
-     },
-     "forward": {
-      "events": 26883,
-      "macros": 21567,
-      "real_component_primitives": 210142,
-      "prefix_l1": "4045182541641/2",
-      "prefix_bits": 41,
-      "coefficient_work_primitive_count": 104059,
-      "all_exact_columns": 728,
-      "dirty_helper_columns": 504,
-      "all_dirty_helper_columns_restored": true,
-      "private_centres_and_coefficient_work_cleared": true,
-      "pre_wrappers": 242,
-      "post_wrappers": 242,
-      "endpoint_evidence": "Hash-bound fresh INDEPENDENT-LOCAL-REPLAY.json"
-     }
-    },
-    "helpers": 504,
-    "centres": 8,
-    "v": 112,
-    "h": 9,
-    "n": 728,
-    "entering_helpers": 228,
-    "entrance_rank": 476,
-    "terminal_codimension": 116,
-    "hyperplane_ended_helpers": 60,
-    "cold_hyperplane_ended_helpers": 14,
-    "width_inventory": {
-     "4": 62,
-     "5": 8,
-     "7": 78,
-     "8": 94,
-     "9": 262
-    },
-    "widths": [
-     9,
-     9,
-     9,
-     9,
-     9,
-     9,
-     9,
-     9,
-     9,
-     9,
-     4,
-     9,
-     9,
-     9,
-     9,
-     9,
-     9,
-     9,
-     9,
-     9,
-     9,
-     9,
-     9,
-     9,
-     9,
-     9,
-     4,
-     9,
-     9,
-     9,
-     9,
-     9,
-     9,
-     9,
-     9,
-     9,
-     9,
-     9,
-     9,
-     9,
-     9,
-     9,
-     4,
-     9,
-     9,
-     9,
-     9,
-     9,
-     9,
-     9,
-     9,
-     9,
-     9,
-     9,
-     9,
-     9,
-     9,
-     9,
-     4,
-     9,
-     9,
-     9,
-     9,
-     9,
-     9,
-     9,
-     9,
-     9,
-     9,
-     9,
-     9,
-     9,
-     9,
-     9,
-     4,
-     9,
-     9,
-     9,
-     9,
-     9,
-     9,
-     9,
-     9,
-     9,
-     9,
-     9,
-     9,
-     9,
-     9,
-     9,
-     4,
-     9,
-     9,
-     9,
-     9,
-     9,
-     9,
-     9,
-     9,
-     9,
-     9,
-     9,
-     9,
-     9,
-     9,
-     9,
-     4,
-     9,
-     9,
-     9,
-     9,
-     9,
-     9,
-     9,
-     9,
-     9,
-     9,
-     9,
-     9,
-     9,
-     9,
-     9,
-     4,
-     9,
-     9,
-     9,
-     9,
-     9,
-     9,
-     9,
-     9,
-     9,
-     9,
-     9,
-     9,
-     9,
-     9,
-     9,
-     4,
-     9,
-     9,
-     9,
-     9,
-     9,
-     9,
-     9,
-     9,
-     9,
-     9,
-     9,
-     9,
-     9,
-     9,
-     9,
-     4,
-     9,
-     9,
-     9,
-     9,
-     9,
-     9,
-     9,
-     9,
-     9,
-     9,
-     9,
-     9,
-     9,
-     9,
-     9,
-     4,
-     9,
-     9,
-     9,
-     9,
-     9,
-     9,
-     9,
-     9,
-     9,
-     9,
-     9,
-     9,
-     9,
-     9,
-     9,
-     4,
-     9,
-     9,
-     9,
-     9,
-     9,
-     9,
-     9,
-     9,
-     9,
-     9,
-     9,
-     9,
-     9,
-     9,
-     9,
-     4,
-     9,
-     9,
-     9,
-     9,
-     9,
-     9,
-     9,
-     9,
-     9,
-     9,
-     9,
-     9,
-     9,
-     9,
-     9,
-     4,
-     9,
-     9,
-     9,
-     9,
-     9,
-     7,
-     7,
-     7,
-     7,
-     7,
-     7,
-     7,
-     7,
-     7,
-     7,
-     7,
-     7,
-     7,
-     7,
-     8,
-     9,
-     8,
-     9,
-     8,
-     9,
-     8,
-     9,
-     7,
-     7,
-     7,
-     7,
-     9,
-     9,
-     9,
-     9,
-     9,
-     9,
-     9,
-     9,
-     7,
-     7,
-     8,
-     8,
-     7,
-     7,
-     7,
-     7,
-     8,
-     9,
-     8,
-     9,
-     8,
-     8,
-     7,
-     7,
-     7,
-     7,
-     7,
-     7,
-     9,
-     9,
-     9,
-     9,
-     8,
-     8,
-     8,
-     8,
-     8,
-     9,
-     8,
-     9,
-     8,
-     9,
-     8,
-     9,
-     8,
-     8,
-     7,
-     7,
-     9,
-     9,
-     9,
-     9,
-     9,
-     9,
-     9,
-     9,
-     8,
-     8,
-     8,
-     8,
-     7,
-     7,
-     7,
-     7,
-     7,
-     7,
-     7,
-     7,
-     9,
-     9,
-     7,
-     7,
-     7,
-     7,
-     7,
-     7,
-     7,
-     7,
-     7,
-     7,
-     9,
-     9,
-     8,
-     8,
-     9,
-     9,
-     9,
-     9,
-     7,
-     7,
-     7,
-     7,
-     9,
-     9,
-     7,
-     7,
-     9,
-     8,
-     9,
-     8,
-     7,
-     7,
-     7,
-     7,
-     9,
-     9,
-     7,
-     7,
-     9,
-     8,
-     9,
-     8,
-     8,
-     9,
-     8,
-     9,
-     7,
-     7,
-     7,
-     7,
-     8,
-     8,
-     8,
-     8,
-     9,
-     9,
-     9,
-     9,
-     7,
-     7,
-     7,
-     7,
-     7,
-     7,
-     8,
-     7,
-     8,
-     7,
-     7,
-     7,
-     7,
-     7,
-     8,
-     8,
-     8,
-     5,
-     8,
-     5,
-     5,
-     5,
-     8,
-     8,
-     8,
-     4,
-     8,
-     4,
-     4,
-     4,
-     8,
-     8,
-     8,
-     4,
-     8,
-     4,
-     4,
-     4,
-     8,
-     8,
-     8,
-     4,
-     8,
-     4,
-     4,
-     4,
-     8,
-     8,
-     8,
-     4,
-     8,
-     4,
-     4,
-     4,
-     8,
-     8,
-     8,
-     4,
-     8,
-     4,
-     4,
-     4,
-     8,
-     8,
-     8,
-     4,
-     8,
-     4,
-     4,
-     4,
-     8,
-     8,
-     8,
-     4,
-     8,
-     4,
-     4,
-     4,
-     8,
-     8,
-     8,
-     4,
-     8,
-     4,
-     4,
-     4,
-     8,
-     8,
-     8,
-     4,
-     8,
-     4,
-     4,
-     4,
-     8,
-     8,
-     8,
-     4,
-     8,
-     4,
-     4,
-     4,
-     8,
-     8,
-     8,
-     4,
-     8,
-     4,
-     4,
-     4,
-     8,
-     8,
-     8,
-     4,
-     8,
-     4,
-     4,
-     4,
-     8,
-     8,
-     8,
-     5,
-     8,
-     5,
-     5,
-     5
-    ],
-    "local_adapters": 420208,
-    "local_primitive_bound": 10897815672078,
-    "compiler": 25934336,
-    "children": 3668,
-    "paid_profile": {
-     "1": 2642,
-     "2": 408,
-     "3": 288,
-     "4": 224,
-     "5": 70,
-     "6": 28,
-     "8": 8
-    },
-    "program_hashes": {
-     "backward": "23644276741be78fd8f01cca29aef971cd9302b65783adb2c78778c4db7631f9",
-     "forward": "67770bfcf864a49a40271216592c3f749811deb187425a17dd4995422830cc7f"
-    },
-    "semantic_artifact_sha256": {
-     "CANONICAL-WORD.json.gz": "4cf4d53d45d1fde82bdf85406792520763bd9b99b0633476246f02ae3b6f9ae6",
-     "LOCAL-PROGRAMS.json.gz": "c655828c0a8d9ee3a14dfdb19242c8c6ad72d607fcf0525a722fa32c86151415",
-     "LOCAL-CHECKS.json": "07f579b92abc50137b8fc16a82282e0a028f27c0568a9ea040117b90424d9285",
-     "INDEPENDENT-LOCAL-REPLAY.json": "88231119cad46ad52cee9abf4267d8234b300f6b6945d401f61efe899e3c4f82",
-     "CLIFFORD-RECIPES.json": "fdba9216d5956c84b77ab87cc2ef0a4470404122b698ead4691edb163ef49849",
-     "CLIFFORD-REVIEW.json": "028e83334c34e8c4d01cefca50ea535147fa946cdc90df22c4b798d25982772b",
-     "RESIDUAL-ADAPTERS.json": "deefee1fae99a31c49bd55b37a3452e6c3a95b804fec7b1e7e8d82064954777a"
-    }
-   },
-   "expected_profile": {
-    "1": 2642,
-    "2": 408,
-    "3": 288,
-    "4": 224,
-    "5": 70,
-    "6": 28,
-    "8": 8
-   },
-   "expected_local": {
-    "backward": {
-     "events": 26883,
-     "macros": 21567,
-     "real_component_primitives": 210190,
-     "prefix_l1": "114367887736825/2",
-     "coefficient_work_primitive_count": 104091
-    },
-    "forward": {
-     "events": 26883,
-     "macros": 21567,
-     "real_component_primitives": 210142,
-     "prefix_l1": "4045182541641/2",
-     "coefficient_work_primitive_count": 104059
-    }
-   },
-   "entering": 228,
-   "entrance": 476,
-   "inventory": {
-    "4": 62,
-    "5": 8,
-    "7": 78,
-    "8": 94,
-    "9": 262
-   },
-   "wrappers": 242,
-   "phase_edges": 3040,
-   "native_negative_controls": 25
-  },
   "ck": {
    "semantic_phase_sha256": "a0613c6639752dbf92246b9e3f3062b0f32af4ed6c7d76d42bd5081c23f3a450",
    "width_digest": "14aced4c069fd0bb6beef61e440fb553ae2830626a981c3939212526e6d1cfa1",
@@ -1937,47 +1295,47 @@
   [
    0,
    0,
-   "ck"
+   "jp8"
   ],
   [
    0,
    1,
-   "ck"
+   "jp8"
   ],
   [
    1,
    0,
-   "ck"
+   "jp8"
   ],
   [
    0,
    2,
-   "atm3"
+   "jp8"
   ],
   [
    1,
    1,
-   "ck"
+   "jp8"
   ],
   [
    2,
    0,
-   "ck"
+   "jp8"
   ],
   [
    0,
    3,
-   "ck"
+   "jp8"
   ],
   [
    1,
    2,
-   "ck"
+   "jp8"
   ],
   [
    2,
    1,
-   "ck"
+   "jp8"
   ],
   [
    3,
@@ -1987,102 +1345,102 @@
   [
    0,
    4,
-   "ck"
+   "jp8"
   ],
   [
    1,
    3,
-   "ck"
+   "jp8"
   ],
   [
    2,
    2,
-   "ck"
+   "jp8"
   ],
   [
    3,
    1,
-   "ck"
+   "jp8"
   ],
   [
    4,
    0,
-   "ck"
+   "jp8"
   ],
   [
    0,
    5,
-   "ck"
+   "jp8"
   ],
   [
    1,
    4,
-   "ck"
+   "jp8"
   ],
   [
    2,
    3,
-   "ck"
+   "jp8"
   ],
   [
    3,
    2,
-   "ck"
+   "jp8"
   ],
   [
    4,
    1,
-   "atm3"
+   "jp8"
   ],
   [
    5,
    0,
-   "atm3"
+   "jp8"
   ],
   [
    0,
    6,
-   "ck"
+   "jp8"
   ],
   [
    1,
    5,
-   "ck"
+   "jp8"
   ],
   [
    2,
    4,
-   "ck"
+   "jp8"
   ],
   [
    3,
    3,
-   "ck"
+   "jp8"
   ],
   [
    4,
    2,
-   "atm3"
+   "jp8"
   ],
   [
    5,
    1,
-   "atm3"
+   "jp8"
   ],
   [
    0,
    7,
-   "atm3"
+   "jp8"
   ],
   [
    6,
    0,
-   "atm3"
+   "jp8"
   ],
   [
    1,
    6,
-   "atm3"
+   "jp8"
   ],
   [
    2,
@@ -2092,7 +1450,7 @@
   [
    3,
    4,
-   "atm3"
+   "jp8"
   ],
   [
    4,
@@ -2102,7 +1460,7 @@
   [
    5,
    2,
-   "atm3"
+   "jp8"
   ],
   [
    6,
@@ -2117,32 +1475,32 @@
   [
    7,
    0,
-   "atm3"
+   "jp8"
   ],
   [
    2,
    6,
-   "atm3"
+   "jp8"
   ],
   [
    3,
    5,
-   "atm3"
+   "jp8"
   ],
   [
    4,
    4,
-   "atm3"
+   "jp8"
   ],
   [
    5,
    3,
-   "atm3"
+   "jp8"
   ],
   [
    6,
    2,
-   "ck"
+   "jp8"
   ],
   [
    7,
@@ -2152,52 +1510,52 @@
   [
    2,
    7,
-   "ck"
+   "jp8"
   ],
   [
    8,
    0,
-   "atm3"
+   "jp8"
   ],
   [
    3,
    6,
-   "ck"
+   "jp8"
   ],
   [
    4,
    5,
-   "ck"
+   "jp8"
   ],
   [
    5,
    4,
-   "ck"
+   "jp8"
   ],
   [
    6,
    3,
-   "ck"
+   "jp8"
   ],
   [
    7,
    2,
-   "atm3"
+   "jp8"
   ],
   [
    8,
    1,
-   "ck"
+   "jp8"
   ],
   [
    3,
    7,
-   "ck"
+   "jp8"
   ],
   [
    4,
    6,
-   "ck"
+   "jp8"
   ],
   [
    5,
@@ -2207,92 +1565,92 @@
   [
    6,
    4,
-   "ck"
+   "jp8"
   ],
   [
    7,
    3,
-   "ck"
+   "jp8"
   ],
   [
    8,
    2,
-   "atm3"
+   "jp8"
   ],
   [
    4,
    7,
-   "atm3"
+   "jp8"
   ],
   [
    5,
    6,
-   "ck"
+   "jp8"
   ],
   [
    6,
    5,
-   "atm3"
+   "jp8"
   ],
   [
    7,
    4,
-   "ck"
+   "jp8"
   ],
   [
    8,
    3,
-   "ck"
+   "jp8"
   ],
   [
    5,
    7,
-   "atm3"
+   "jp8"
   ],
   [
    6,
    6,
-   "ck"
+   "jp8"
   ],
   [
    7,
    5,
-   "ck"
+   "jp8"
   ],
   [
    8,
    4,
-   "ck"
+   "jp8"
   ],
   [
    6,
    7,
-   "ck"
+   "jp8"
   ],
   [
    7,
    6,
-   "atm3"
+   "jp8"
   ],
   [
    8,
    5,
-   "ck"
+   "jp8"
   ],
   [
    7,
    7,
-   "ck"
+   "jp8"
   ],
   [
    8,
    6,
-   "ck"
+   "jp8"
   ],
   [
    8,
    7,
-   "ck"
+   "jp8"
   ]
  ],
  "call_order": [
@@ -2587,45 +1945,51 @@
  ],
  "expected": {
   "provider_counts": {
-   "ck": 44,
-   "atm3": 22,
-   "jp8": 6
+   "jp8": 71,
+   "ck": 1
   },
   "global_profile": {
-   "1": 185792,
-   "2": 32576,
-   "3": 23600,
-   "4": 14128,
+   "1": 178526,
+   "2": 24344,
+   "3": 33840,
+   "4": 13248,
    "5": 5040,
    "6": 2016,
    "8": 576,
    "32": 1,
-   "48": 2094
+   "39": 3,
+   "41": 10,
+   "43": 1,
+   "44": 2,
+   "48": 2008
   },
   "owners_per_call": 728,
   "hosted_residuals": 36288,
   "rank_mass": 520704,
-  "actual_73column_sigmas": 8346,
-  "cross_replica_helper_roles": 28760,
-  "idle_remainders": 2279,
+  "actual_73column_sigmas": 7735,
+  "cross_replica_helper_roles": 28243,
+  "idle_remainders": 2051,
   "live": 7168,
   "physical": 7682,
   "deficit": 2560,
   "entering_helper_roles": 16344,
   "idle_remainder_profile": {
-   "1": 72,
-   "2": 112,
+   "1": 26,
    "32": 1,
-   "48": 2094
+   "39": 3,
+   "41": 10,
+   "43": 1,
+   "44": 2,
+   "48": 2008
   },
-  "complex_lower": "405979480841370757873/250000000000000000000000",
-  "conservative_complex_lower": "405979480119620719519/250000000000000000000000",
-  "kappa": "20266063618123/12500000000000000",
-  "kappa_decimal": "0.00162128508944984",
-  "conservative_kappa_decimal": "0.001621285086572193",
+  "complex_lower": "814005673613905131117/500000000000000000000000",
+  "conservative_complex_lower": "814005672200512079087/500000000000000000000000",
+  "kappa": "162536523418317/100000000000000000",
+  "kappa_decimal": "0.00162536523418317",
+  "conservative_kappa_decimal": "0.001625365231365566",
   "gain_baseline_kappa": "0.001601260169988325",
-  "mutations_rejected": 31,
-  "assembly_controls_rejected": 155
+  "mutations_rejected": 23,
+  "assembly_controls_rejected": 114
  },
  "build": {
   "status": "PASS_COLD14_NATIVE_COMPLEX_AND_CITED_BIT",
@@ -2689,64 +2053,6 @@
    }
   },
   "providers": {
-   "atm3": {
-    "base": {
-     "kind": "source_file",
-     "file": "structural_gain:frontier-composition/combined-prefix-word/FULL-WORD.json.gz",
-     "content_sha256": "500f005d9cec374f15e086d374578cc8f2c252f9c30444a62d46f2969370a2c6"
-    },
-    "steps": [
-     {
-      "type": "promote",
-      "recipe": "pkg:data/recipes/atm3-step0-promote.json",
-      "input_content_sha256": "500f005d9cec374f15e086d374578cc8f2c252f9c30444a62d46f2969370a2c6",
-      "recipe_sha256": "9a7cafdf9b600ba43985c83969b75151f665b98f454afc1494b9f9ef3dd3916f",
-      "omission_controls": 4,
-      "output_content_sha256": "b672a8f4151a23fd420c7622fc127fb6c7f14564bb6cf93edfbd7aecbc38e1f9"
-     },
-     {
-      "type": "greedy_kernels",
-      "recipe": "pkg:data/recipes/atm3-step1-greedy_kernels.json",
-      "input_content_sha256": "b672a8f4151a23fd420c7622fc127fb6c7f14564bb6cf93edfbd7aecbc38e1f9",
-      "recipe_sha256": "c4bc67f329fc22e226f26bbbf7e67018a639823d99fccfc5a1e798a7a82db43f",
-      "omission_controls": 48,
-      "output_content_sha256": "8de156284cde6d475f9ef679d43ef52e9aa57a62fc3a2f554655131396c64236"
-     },
-     {
-      "type": "frame_coalesce",
-      "recipe": "pkg:data/recipes/atm3-step2-frame_coalesce.json",
-      "input_content_sha256": "8de156284cde6d475f9ef679d43ef52e9aa57a62fc3a2f554655131396c64236",
-      "recipe_sha256": "e6d7ea259a542f2b43a857998f677db4d68f8f36335e98a030bc91ab38ce758c",
-      "negative_controls": 12,
-      "output_content_sha256": "dffa3c643b522b524a79220c71aa15be9ee10134b3d597c293c643f6a543d472"
-     },
-     {
-      "type": "gate_move_coalesce",
-      "recipe": "pkg:data/recipes/atm3-step3-gate_move_coalesce.json",
-      "input_content_sha256": "dffa3c643b522b524a79220c71aa15be9ee10134b3d597c293c643f6a543d472",
-      "recipe_sha256": "3a6b8fec6c8b56a45bf8fae683083636fa295a8914ffa68d11b1f78ba3a2eb9d",
-      "negative_controls": 6,
-      "output_content_sha256": "f3f56a044177e0d4e3c0a8d47ce8d7ae90ad3332935d0c7dfb6b8cf28e290df4"
-     },
-     {
-      "type": "hyperplane_end",
-      "recipe": "pkg:data/recipes/atm3-step4-hyperplane_end.json",
-      "input_content_sha256": "f3f56a044177e0d4e3c0a8d47ce8d7ae90ad3332935d0c7dfb6b8cf28e290df4",
-      "recipe_sha256": "aaf94d63a3756211f08d73ebe30bcba5554bf543b77311294aaff3ab3bfb5d13",
-      "negative_controls": 21,
-      "output_content_sha256": "b228d41a906042f10b0d5169c9fd011d175e6a4fee41156d24ffc253cfe4aee6"
-     },
-     {
-      "type": "cold_end",
-      "recipe": "pkg:data/recipes/atm3-step5-cold_end.json.gz",
-      "input_content_sha256": "b228d41a906042f10b0d5169c9fd011d175e6a4fee41156d24ffc253cfe4aee6",
-      "recipe_sha256": "a1669e97de185a9eb054f95dcf54f0c99b11fd51a71fb4b7d8b161fa2ad8a8b0",
-      "negative_controls": 14,
-      "output_content_sha256": "c808d7e69b2ffeec967381845fd4f0fc9c5fff5674d7eaa43339ca1c940c8a2c"
-     }
-    ],
-    "word_content_sha256": "c808d7e69b2ffeec967381845fd4f0fc9c5fff5674d7eaa43339ca1c940c8a2c"
-   },
    "ck": {
     "base": {
      "kind": "source_file",
