@@ -833,14 +833,14 @@
     "9": 3
   },
   "profile": {
-    "1": 146592,
-    "2": 55584,
-    "3": 12464,
-    "4": 28224,
-    "48": 912,
-    "5": 7616,
+    "1": 156528,
+    "2": 35712,
+    "3": 28376,
+    "4": 16272,
+    "5": 13592,
     "6": 4032,
-    "7": 944
+    "7": 944,
+    "48": 912
   },
   "scope": "Exact explicit role map and frozen controller windows. Independently verified during reconstruction; no solver optimality is assumed.",
   "sides": {
