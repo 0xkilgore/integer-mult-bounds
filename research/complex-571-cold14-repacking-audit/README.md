@@ -26,3 +26,5 @@ Follow the package's OWNER-CONSOLIDATION.md to reproduce. The predecessor source
 licenses, AI disclosures, cited bit supplier and all-size/compiler/hosting/precision/
 analytic assumptions remain as described in its NOTICE.md. This is not an
 unconditional multiplication theorem, optimality proof or full Lean certification.
+
+The full repository `make verify` subsequently passed on submitted PR618 commit `c0874b2491382210546a592df0aba8223fee4f9f`, including all 84 isolated test modules, the gen4 checkpoint and historical patch checks. That checkout remained clean. `MAKE-VERIFY.log.gz` retains the complete log; its decompressed SHA-256 is in VALIDATION.json.

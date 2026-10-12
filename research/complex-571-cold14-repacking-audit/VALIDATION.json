@@ -354,6 +354,14 @@
     "python": "3.12.3",
     "platform": "Linux-5.15.167.4-microsoft-standard-WSL2-x86_64-with-glibc2.39"
   },
-  "test_scope": "Fresh complete package verification and make gen4-bank-verify; repository-wide make verify was not rerun for this standalone package change.",
-  "scope": "Conditional native exact-complex witness after complete conservative admission, moment and outer checks; PR559 exact-cover recurrence correction only, bit bad-residue surcharge and H1-H5 retained. The frozen PR582 plain-joint-prefix, added-kernel and entrance-promoted provider dispatch with the new frame coalescences composed with cited unchanged PR543 bit supplier. All-size compiler, common-label/mutable-source realization, whole-call hosting, precision/tape and analytic transfer remain assumptions. No unconditional theorem or full Lean certification."
+  "test_scope": "Fresh complete package replay, make gen4-bank-verify and full repository make verify all pass. The full suite ran on the original PR618 head c0874b2 and left that checkout clean.",
+  "scope": "Conditional native exact-complex witness after complete conservative admission, moment and outer checks; PR559 exact-cover recurrence correction only, bit bad-residue surcharge and H1-H5 retained. The frozen PR582 plain-joint-prefix, added-kernel and entrance-promoted provider dispatch with the new frame coalescences composed with cited unchanged PR543 bit supplier. All-size compiler, common-label/mutable-source realization, whole-call hosting, precision/tape and analytic transfer remain assumptions. No unconditional theorem or full Lean certification.",
+  "repository_make_verify": {
+    "status": "PASS",
+    "checked_commit": "c0874b2491382210546a592df0aba8223fee4f9f",
+    "isolated_test_modules": 84,
+    "checkout_clean_after": true,
+    "log_sha256": "2691e4d5d6cf2e502de79c0600631332539232d44f34a287ae510efc3d16c41a",
+    "retained_log": "MAKE-VERIFY.log.gz"
+  }
 }
