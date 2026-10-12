@@ -143,6 +143,30 @@ In particular, a joint packet refactorization, a sparse mixed output basis,
 or joint reselection of entrance kernel/gauge bases remains a substantive
 direction beyond the affine local promotions tried here.
 
+## Attribution and new contribution
+
+This contribution is submitted by [Dominik Scholz](https://github.com/DominikScholz),
+with substantial OpenAI Codex (GPT-6 Astra) assistance in mathematical
+exploration, implementation, verification and documentation. The new work is
+the additional checked suffix relations, coupled width-seven entrance
+promotions, their literal whole-owner assignment, exact model exclusions and
+portable replay. It builds on the following contributions.
+
+| Contributor | Retained or cited contribution |
+| --- | --- |
+| [eumemic](https://github.com/eumemic) | [PR564](https://github.com/CrocSwap/integer-mult-bounds/pull/564) and PR561/562/558: cold-kernel and zero/four/eight providers and admission; PR550: hardened assembly ancestry; [PR543](https://github.com/CrocSwap/integer-mult-bounds/pull/543): cited unchanged bit supplier, not freshly rebuilt here. |
+| [Rohan Arun / rohanarun](https://github.com/rohanarun) | [PR559](https://github.com/CrocSwap/integer-mult-bounds/pull/559): native exact-complex moment argument; retained complex501 follow-up: stage-search base. |
+| [Dugongue](https://github.com/Dugongue) | [PR552](https://github.com/CrocSwap/integer-mult-bounds/pull/552): collective waves and weighted response; PR505: asynchronous whole-owner ancestry; PR563: earlier capacity-pattern LP. |
+| [Chafik Boukhalfa / chafreaky](https://github.com/chafreaky) | [PR551](https://github.com/CrocSwap/integer-mult-bounds/pull/551): full phase replay driver and earlier geometry/audit/invoice lineage. |
+| [icekylinx](https://github.com/icekylinx) | [PR531](https://github.com/CrocSwap/integer-mult-bounds/pull/531): 504-helper direct delivery, frame coalescing and compiler/controller ancestry; PR535: post-center rank-four kernels. |
+| [DreamingOfClouds](https://github.com/DreamingOfClouds) | [PR484](https://github.com/CrocSwap/integer-mult-bounds/pull/484) and successors: shared-donor kernels, gauges, normalized wrappers and word/frame machinery. |
+| [DaysSky](https://github.com/DaysSky) and [Zhihao Chen / jacklightChen](https://github.com/jacklightChen) | Inherited PR442/381 hosting and bridged-column checks, and PR425/386 mutable-source interface and geometry work. |
+
+All earlier contributors and source-specific AI disclosures remain credited
+in [NOTICE](NOTICE), the repository contributor record and the unchanged
+external dependency. These contributions are not independently additive
+numerical gains.
+
 ## Verification and attribution
 
 The full provider and global reproduction uses an explicit immutable PR564
