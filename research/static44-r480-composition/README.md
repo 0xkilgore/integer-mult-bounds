@@ -16,7 +16,7 @@ Python 3.14 local and complete changed-complex finite replay pass. The independe
 
 Fresh global prefix is 225 bits; the finite row coefficient is 16467 below the retained 20161 allowance, and the required constant exponent 200012 is below 210000. Two independent rational moment engines bracket both supplier savings on a 10^-24 grid; six explicit bootstrap cutoffs and 47 outer inequalities pass, with four invalid-parameter/grid controls.
 
-The PR542 bit physical operator is cited from its completed cross-version finite receipts and repriced exactly, not rebuilt by this package. All source pins and original notices are retained. Packaged replay and GitHub CI are separate checks; do not infer their completion from these direct local receipts.
+The PR542 bit physical operator is cited from its completed cross-version finite receipts and repriced exactly, not rebuilt by this package. All source pins and original notices are retained. Packaged offline replay passes independently on Python 3.11.15 and 3.14.8, with identical mathematical pricing receipts. GitHub CI is separate and is not claimed passed.
 
 ## Reproduce
 
@@ -26,10 +26,14 @@ Python 3.11+ with NumPy is required. No compiler, network, search or optimizer i
 python -B research/static44-r480-composition/verify.py /absolute/new/output
 ```
 
-The output must not exist and must be outside the package. Byte-pinned source dependencies are extracted there. The verifier reconstructs the appendix word, all changed complex finite evidence, actual owner profile, and exact two-supplier arithmetic. It compares the full exact pricing receipt against EXPECTED.json. Source acquisition hashes and all licenses/notices are included.
+The output must not exist and must be outside the package. Byte-pinned source dependencies are extracted there. The verifier reconstructs the appendix word, all changed complex finite evidence, actual owner profile, and exact two-supplier arithmetic. It compares every mathematical pricing field against EXPECTED.json. Generated template hashes are bound to each run by fresh audits; their values can differ across Python versions because inherited gzip encodings differ. Source acquisition hashes and all licenses/notices are included.
 
 ## Retained failure and scope
 
 The first owner audit correctly rejected the sigma-stream digest: helper reassignment left the serialized role list in old-helper order. The repair sorts actual roles by call time and new helper index, matching the independent traversal. No mathematical check was relaxed. The original driver and failure log remain under evidence/.
 
 All inherited all-size compiler, common-label/mutable-source realization, complete-call hosting, precision/tape and analytic-transfer assumptions remain conditional. Finite tests do not discharge those assumptions. No unconditional theorem, full Lean proof or practical speedup is claimed.
+
+The first packaged Python 3.11 run completed all mathematical stages but failed the final comparison on the generated template provenance hash alone. Every other receipt field agreed. The failure and exact difference are retained; the corrected comparison keeps all mathematical fields strict and relies on each run's own independently checked template binding.
+
+At publication, concurrent PR544 reports a higher conditional kappa of 0.001588602246663212. This result improves PR542 and is not a claim to lead PR544.
