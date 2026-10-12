@@ -11,3 +11,9 @@ Lemma A formalizes the realization part of Lemma A of PR #484 (DreamingOfClouds)
 PR #442's stream model (DaysSky). The event semantics are PR #425's conjugation lemma (jacklightChen / Zhihao Chen). The
 nested-children factorization `T_U T_E⁻¹ = L (C ⊗ I) R` is from `notes/general-clifford-frames.tex`. Lean conventions
 follow the `formal/lean` pin on main and #487/#488 (jamesyc).
+
+`HyperplaneEnd/Clifford.lean` and `HyperplaneEnd/Exact.lean` prove hypothesis (N) for the HPE words' `(E, U)` pairs. Their
+gate semantics, `canonical_frame` (`basis_extend`, `inv`, the quadratic form) and `parity`/`mv`/`qvalue` are ports of
+`clifford_exact.py` (as vendored in `research/split-centres-global`, icekylinx); `monomial_op` and the `"E:U"` recipe
+data are from the HPE wrapper tool `adapters_local.py` (DreamingOfClouds, following PR #458, chafreaky). The packed
+kernel check is new; the balanced-split/packed-`Nat` approach to kernel-only checking follows the LeanRoadmap probe.

@@ -4,7 +4,8 @@
 usage: python3 verify.py [--no-cache] [--instances RUN_DIR ...]
   1. the Lean sources (this package, ../e8-lemma-a-lean, ../e8-lemma-g-lean) contain no `sorry`, `admit`, `axiom`,
      `native_decide`, `implemented_by`, `extern`, `unsafe`, `opaque` and no `set_option` other than the heartbeat limits;
-  2. `lake exe cache get` (Mathlib's pinned build, skipped with --no-cache) and `lake build` (builds LemmaA and LemmaG);
+  2. `lake exe cache get` (Mathlib's pinned build, skipped with --no-cache) and `lake build` (builds LemmaA and LemmaG;
+     HyperplaneEnd.Exact runs the kernel checks of (N) with `decide +kernel`, several minutes and several GB);
   3. `lake env lean PrintAxioms.lean`: every named result depends only on propext, Classical.choice, Quot.sound;
   4. with --instances RUN_DIR ... (HPE local runs holding CANONICAL-WORD.json.gz and WRAPPER-CHECKS.json):
      code/check_hpe_pairs.py --mutants on each run.

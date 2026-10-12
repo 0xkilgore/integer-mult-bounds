@@ -4,7 +4,8 @@ A dirty entering helper may end at a hyperplane frame `U` (dim 8) instead of `FU
 `h -= p` runs right after part B, in a `cleanup_tail` phase, at the join `U` of the frames of `h` and its partner `p`.
 This package proves in Lean 4 that Lemma A's realization still applies. The wrapped residual of such a helper is exactly
 `C ⊗ id`, global phase included, whenever the exact factorization `T_U T_E⁻¹ = L (C ⊗ id) R` holds for its pair
-`(E, U)`. For the 38 helpers of the c8 words, `C = C_[7]` with `7 = |U| − |E|`.
+`(E, U)`. For the 38 helpers of the c8 words, `C = C_[7]` with `7 = |U| − |E|`. (N) itself is proved in Lean for the
+three `(E, U)` pairs those words use (§4a), so `hpe_word_exact` states the HPE word theorem without it.
 
 The package reuses Lemma A's and Lemma G's definitions (`Event`, `physRun`, `labRun`, `WellLabelled`, `RecipesExact`,
 `S`, `Hosting`, `realizeRun`, `streamOwner`, `Frame`) through Lake path dependencies. It restates none of them. Lean
@@ -98,16 +99,35 @@ The theorems take the following as hypotheses. They are checked on the emitted w
 
 | hypothesis | meaning | checked by |
 | --- | --- | --- |
-| (N) `hN` | `T_U T_E⁻¹ = L_{E,U} (C_[7] ⊗ I) R_{E,U}` exactly, global phase included, for every `(E, U)` pair of the word | `hpe/code/adapters_local.py` (recipes keyed `"E:U"`), wrapper check "L^-1 S_E R^-1 = C_[w] x I for 39 entrance frames, global phase included", 10 wrapper mutations rejected (`runs/v2/L_ck38.wrap.log`); review: 38/38 helpers, a width-8 claim rejected |
+| (N) `hN` | `T_U T_E⁻¹ = L_{E,U} (C_[7] ⊗ I) R_{E,U}` exactly, global phase included | **proved in Lean** for the three pairs of the HPE words (§4a, `Exact.exact_N`); `hpe_word_exact` has no (N) hypothesis |
 | `hrec` | every climb executes `T_B T_A⁻¹`; the wrappers execute `R_{E,U}⁻¹`, `L_{E,U}⁻¹` (by `pre_recipe`/`post_recipe`, exactly when the emitted wrapper is the `"E:U"` recipe) | independent emitted replay forward and backward; the 5th wrapper field `U` (review F1 fix); controls `hpe_pre_wrapper_resolved_to_full_recipe` etc. |
 | `hw`, tail shape, `hmv` | G0 in `cleanup_tail`; no later gate relabels `h` | `audit_local.py` (`cur[r] == f` for both operands; `cur[h] = U ≠ FULL`), `audit_and_transport.py` assert, controls `hpe_tail_gate_at_full_frame`, `hpe_tail_gate_moved_into_full_cleanup` |
 | `hS` | unit helper row (and zero column for `endpoint_indep`) | exact forward and inverse-transpose replay on all 728 columns (`audit_and_transport.py`) |
 | (O′), (W) | disjoint footprints; whole invocations | unchanged from Lemma A (`../e8-lemma-a-lean/code/`) |
 
-**No instance enumeration in Lean.** Like the Lemma A and Lemma G packages, this package uses no `decide` or
-`native_decide`. The exact factorization over `ℂ^{2⁹}` for each `(E, U)` pair is a numerical-exact check in the HPE
-tools. Lean proves that this hypothesis, together with the label discipline above, implies the realized endpoint
-`χ⁻¹ (C_[7] ⊗ I₂) χ`.
+## 4a. (N) in Lean (`HyperplaneEnd/Clifford.lean`, `HyperplaneEnd/Exact.lean`)
+
+The ck, atm3 and jp8 words have 3 `(E, U)` pairs each, and the nine pairs are the same three frame pairs with the same
+three `"E:U"` recipes (every `RESIDUAL-ADAPTERS.json` of the HPE runs carries exactly these three). (N) is proved
+for them, exactly over `ℂ`, global phase included.
+
+* **Operators.** `clifford_exact.py` builds every operator as a literal circuit of five gates on `ℂ^{2⁹}`:
+  `P G` (`v'(Gx) = v(x)`), `D Q α` (`i^{q(x)}`), `C q s` (`((1 + s i) v(x) + (1 − s i) v(x ⊕ q)) / 2`), `X b`,
+  and a global phase. [`Clifford.gC`, `gL`, `cL`] give them exact `ℂ`-linear semantics; [`gL_adj`, `cE`] prove that
+  `Op.adjoint`'s gate inverses invert them (side conditions `Gate.ok`, decided by the kernel). [`Exact.canon`] ports
+  `canonical_frame` (`basis_extend`, `inv`, the quadratic form), [`Mono.gates`] ports `monomial_op`, and
+  [`Exact.T`, `Lw`, `Rw`] are these operators on `A ⊗ B = ℂ^128 ⊗ ℂ^4` (qubits 0–6, spectators 7–8) via
+  [`eT`]; the residual is [`C7`] `= fourier(7)` and [`rTensor_C7`] shows `C7 ⊗ id` is `fourier(9, range 7)`.
+* **The packed check** [`Clifford.check`, `cL_eq_of_check`]. Dropping the `1/2` of each `C` gate gives integer
+  semantics over `ℤ[i]` [`gz`] with `gC (φ ∘ v) = (1/2)^{#C} φ ∘ gz v` [`cL_emb`]. `check c₁ c₂` runs both circuits once
+  on `u(x) = B^x`, `B = 4^{#C(c₁)+1}`; by linearity this is `Σ_y B^y M(e_y)`, every column at once. Entries are bounded
+  by `4^{#C}` [`runZ_bnd`], so base-`B` digits are unique [`digits_eq_zero`] and `check = true` gives
+  `M₁ = 2^{#C(c₁)−#C(c₂)} M₂` entrywise, hence `cL c₁ = cL c₂` on `ℂ^512`.
+* **Kernel facts** (`decide +kernel`; no `native_decide`): `canon`/`Mono.gates` evaluate to the gate literals
+  `fE1 … rhsLit3` [`lits1/2/3`], all gates satisfy `Gate.ok` [`ok1/2/3`], and [`check1/2/3`] pass.
+* **Results.** [`exact_N_pair1/2/3`], [`exact_N`] (any certified pair), [`exact_N_nine`] (the nine word/pair
+  instances), and [`hpe_word_exact`]: `hpe_word` for these operators with (N) discharged; its only extra hypothesis is
+  that `(ent h, term h)` is a certified pair, which `code/check_hpe_pairs.py` and the tools' frame data establish.
 
 **Instance check** (`code/check_hpe_pairs.py`, standard library, independent of the HPE tools). For every gate of the
 word's `tail` it checks the following over `F₂⁹`, using the word's frame bases:
@@ -132,10 +152,10 @@ FULL cleanup; a pair missing from the exact check; width 8 reported. Results on 
 
 ## 5. Trust base
 
-* Lean 4.21.0, Mathlib v4.21.0 (rev `308445d`), and the axioms `propext`, `Classical.choice`, `Quot.sound`. All 13
-  named results depend on a subset of these (`PrintAxioms.lean`).
+* Lean 4.21.0, Mathlib v4.21.0 (rev `308445d`), and the axioms `propext`, `Classical.choice`, `Quot.sound`. All
+  named results depend on a subset of these (`PrintAxioms.lean`); the kernel checks use `decide +kernel` only.
 * The Lemma A and Lemma G packages, built here from source.
-* The HPE tools' exact checks of the hypotheses in §4.
+* The HPE tools' exact checks of the remaining hypotheses in §4 (all but (N)).
 
 ## 6. Run
 

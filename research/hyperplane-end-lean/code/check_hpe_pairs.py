@@ -10,10 +10,17 @@ frames given as lists of 9-bit basis rows:
   * the shape of `tail`/`hpe_labels`: q = -1, h != p, each helper has one tail gate, final[h] = U (the post wrapper
     names U), and no gate of the remaining cleanup touches h;
   * (N) was checked exactly for the pair: WRAPPER-CHECKS.json has status PASS_RESIDUAL_WRAPPERS_ARE_EXACT, and its
-    hyperplane_end_pairs lists (start[h], U) with residual_width = dim U - dim E.
+    hyperplane_end_pairs lists (start[h], U) with residual_width = dim U - dim E;
+  * (N) is proved in Lean for the pair: its basis rows (frames[E], frames[U]) are one of LEAN_PAIRS, the pairs of
+    `HyperplaneEnd.Exact.pairs` (`exact_N`, `hpe_word_exact`).
 Python 3.9+, standard library only."""
 import copy, gzip, json, sys
 from pathlib import Path
+
+
+# (E rows, U rows) of HyperplaneEnd/Exact.lean `pair1`, `pair2`, `pair3`
+LEAN_PAIRS = {((45,), (256, 128, 64, 33, 16, 9, 5, 2)), ((51,), (256, 128, 64, 33, 17, 8, 4, 3)),
+              ((30,), (256, 128, 64, 32, 18, 10, 6, 1))}
 
 
 def rank(rows):
@@ -49,6 +56,7 @@ def check(word, wrap):
         c = checked.get((E, U))
         if c is None: viol.append(f'helper {h}: pair ({E},{U}) not checked exactly')
         elif c.get('residual_width') != dim(U) - dim(E): viol.append(f'helper {h}: width {c.get("residual_width")}')
+        if (tuple(frames[E]), tuple(frames[U])) not in LEAN_PAIRS: viol.append(f'helper {h}: pair ({E},{U}) not proved in Lean')
         pairs.setdefault((E, U), []).append(h)
     for g in word['cleanup']:
         if g[1] in helpers or g[2] in helpers: viol.append(f'cleanup gate {g} touches an HPE helper')
