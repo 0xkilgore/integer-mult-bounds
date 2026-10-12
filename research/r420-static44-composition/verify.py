@@ -11,8 +11,12 @@ def read(p):return json.loads(p.read_text())
 manifest=read(P/'MANIFEST.json');assert manifest=={f.relative_to(P).as_posix():hashlib.sha256(f.read_bytes()).hexdigest()for f in P.rglob('*')if f.is_file()and f!=P/'MANIFEST.json'and '__pycache__'not in f.parts}
 def load(n):
  s=importlib.util.spec_from_file_location(n,P/'engines'/(n+'.py'));m=importlib.util.module_from_spec(s);s.loader.exec_module(m);return m
-M,B,A=[load(n)for n in ['moment','base_two_moment','outer']];bit=read(P/'inputs/PR543-EXPECTED.json')['nine'];cp=read(P/'inputs/PR544-EXPECTED.json');c=Q(bit['bit_lower']);b=Q(cp['complex_lower']);receipts=[]
-for side,H,m,W,lower,deficit in [('bit',{int(r):n for r,n in bit['profile'].items()},64,bit['bit']['live'],c,9984),('complex',{int(r):n for r,n in cp['complex_global_profile'].items()},73,cp['complex_live'],b,cp['complex_deficit'])]:
+M,B,A=[load(n)for n in ['moment','base_two_moment','outer']];bit=read(P/'inputs/PR543-EXPECTED.json')['nine'];cp=read(P/'inputs/PR548-EXPECTED.json');c=Q(bit['bit_lower']);b=Q(cp['complex_lower']);receipts=[]
+owner=read(P/'inputs/PR548-OWNERS.json');invoice=read(P/'inputs/PR548-INVOICE.json')
+assert owner['paid_profile']==cp['complex_global_profile'] and owner['template_sha256']==invoice['template_sha256']==cp['complex_template_sha256']
+assert hashlib.sha256((P/'inputs/PR548-OWNERS.json').read_bytes()).hexdigest()==invoice['owner_audit_sha256']
+assert all(invoice['strict_checks'].values()) and invoice['finite']['physical_row_coefficient']<20161
+for side,H,m,W,lower,deficit in [('bit',{int(r):n for r,n in bit['profile'].items()},64,bit['bit']['live'],c,9984),('complex',{int(r):n for r,n in cp['complex_global_profile'].items()},73,owner['live'],b,owner['deficit'])]:
  assert m*W-sum(r*n for r,n in H.items())==deficit and m*m>2*max(H)**2
  for z,ok in [(lower,True),(lower+Q(1,10**24),False)]:
   l,u=M.moment(H,m,W,z,True);ll,uu=B.moment(m,W,list(H.items()),z);fl,fu=B.moment(m,W,[(1,32*m*m*sum(H.values()))],z);ll+=fl/10**16;uu+=fu/10**16
@@ -31,6 +35,6 @@ for name,kk,ee,bb in [('next_grid',k+Q(1,10**18),eta,beta),('zero_eta',k,Q(0),be
  else:raise AssertionError(name)
 def dec(a):
  with localcontext()as ctx:ctx.prec=60;return str(Decimal(a.numerator)/Decimal(a.denominator))
-r=dict(status='PASS_EXACT_CITED_R420_STATIC44_COMPOSITION',kappa=str(k),kappa_decimal=dec(k),complex_lower=str(b),complex_decimal=dec(b),bit_lower=str(c),bit_decimal=dec(c),binding='complex'if (1-beta)*b<c else'bit',gain_over544_percent=dec(100*(k/Q(cp['kappa'])-1)),moments=receipts,bootstrap=cuts,outer={n:str(v)for n,v in assembly['strict_constraints'].items()},controls=controls,scope='Exact arithmetic composition of pinned published finite supplier receipts. This verifier does not rebuild either physical operator. Inherited all-size compiler, common-label/mutable-source, hosting, precision/tape and analytic interfaces remain conditional. R420 interleaved phase-B source writes rely on its stated H1-H5 interface argument.')
+r=dict(status='PASS_EXACT_CITED_R420_STATIC44_COMPOSITION',kappa=str(k),kappa_decimal=dec(k),complex_lower=str(b),complex_decimal=dec(b),bit_lower=str(c),bit_decimal=dec(c),binding='complex'if (1-beta)*b<c else'bit',gain_over_previous547_percent=dec(100*(k/Q(read(P/'history/PR547-initial-EXPECTED.json')['kappa'])-1)),gain_over548_percent=dec(100*(k/Q(cp['kappa'])-1)),moments=receipts,bootstrap=cuts,outer={n:str(v)for n,v in assembly['strict_constraints'].items()},controls=controls,scope='Exact arithmetic composition of PR543 bit and PR548 complex, with completed independent finite replays retained separately. This verifier does not rebuild either physical operator. Inherited all-size compiler, common-label/mutable-source, hosting, precision/tape and analytic interfaces remain conditional. R420 interleaved phase-B source writes rely on its stated H1-H5 interface argument.')
 if(P/'EXPECTED.json').exists():assert r==read(P/'EXPECTED.json')
-out.write_text(json.dumps(r,indent=2)+'\n');print({n:r[n]for n in ['status','kappa_decimal','binding','gain_over544_percent']})
+out.write_text(json.dumps(r,indent=2)+'\n');print({n:r[n]for n in ['status','kappa_decimal','binding','gain_over_previous547_percent']})
