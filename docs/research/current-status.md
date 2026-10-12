@@ -1,5 +1,18 @@
 # Current reviewed status
 
+Selected conditional κ: **0.001635527380375392**, #626 on #622/#623 with #543.
+See the [review](community-k492-review.md), [integration receipt](community-k492-integration.json),
+[selected record](../../certificates/selected-result.json) and [PR ledger](pr-ledger.md).
+Public cold replay: `make frontier626-verify`.
+
+The frozen round covers #618–#626. Eight scoped reviews complete; #620 remains
+partial pending portable research replays and validation of its solver/barrier
+claims. Earlier open reviews retain their ledger status. Inherited uniform,
+physical and analytic assumptions remain; no full Lean multiplication proof.
+Local replay and remote Linux CI statuses are recorded separately.
+
+# Superseded status through #617
+
 The selected conditional saving is **κ=0.001635183729255778**, #617 with #543,
 building on #601/#604/#615. See the [review](community-cold617-review.md),
 [integration receipt](community-cold617-integration.json),

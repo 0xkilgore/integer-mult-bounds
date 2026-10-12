@@ -1,6 +1,24 @@
 # Community contribution record
 
-**Current reviewed composition: #617 with #543, κ=0.001635183729255778.**
+**Current reviewed composition: #626 with #543, κ=0.001635527380375392.**
+See the [review](docs/research/community-k492-review.md) for scope and provenance.
+
+| Contributor | Work in this round |
+|---|---|
+| [Jeremy Kothe](https://github.com/jeremykothe2) | #622 K-triangle construction with 492 helpers; #623 dispatch and #625 parallel LNS allocation. |
+| [Chafik Boukhalfa](https://github.com/chafreaky) | #626 selected coordinated owner repair, portable sources and independent checks; #619 exact ceiling for the older #615 supplier family. |
+| [Jeremy Diviney](https://github.com/jeremydiviney) | #618 owner consolidation and #624 parallel owner repacking; deterministic nomination tools and retained replay evidence. |
+| [Ali Romman](https://github.com/aliromman) | #621 uniform prime-power cyclic inverse theorem and two exact arithmetic engines; no paid multiplication bound claimed. |
+| [Joel Pulikkan / GamingPuzzled](https://github.com/GamingPuzzled) | #620 owner-headroom lead credited by subsequent allocations; E8 decoder/extension-ring research archived, broader solver claims partially reviewed. |
+
+DreamingOfClouds' cold-helper construction, eumemic's selected #543 bit supplier,
+Rohan Arun's #559 native recurrence correction and all preceding contributors
+remain part of the cumulative result. Parallel work retains credit even when
+it is not a dependency of the selected allocation.
+
+## Historical cold-helper round through #617
+
+**Historical reviewed composition: #617 with #543, κ=0.001635183729255778.**
 See the [review](docs/research/community-cold617-review.md) for scope and replay provenance.
 
 | Contributor | Work in this round |

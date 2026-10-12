@@ -3,18 +3,19 @@
   "snapshot": "research/pr-reconciliation-20261012/starting-snapshot.json",
   "starting_main": "f19cb621be2caf3a7291a37c343c1c55afe935e0",
   "starting_open_count": 446,
-  "inventory_count": 519,
-  "family_round": "research/community-cold617-audit/DISPOSITIONS.json",
+  "inventory_count": 528,
+  "family_round": "research/community-k492-audit/DISPOSITIONS.json",
   "family_rounds": [
     "research/community-family533-audit/DISPOSITIONS.json",
     "research/community-family588-audit/DISPOSITIONS.json",
     "research/community-hyperplane599-audit/DISPOSITIONS.json",
-    "research/community-cold617-audit/DISPOSITIONS.json"
+    "research/community-cold617-audit/DISPOSITIONS.json",
+    "research/community-k492-audit/DISPOSITIONS.json"
   ],
   "counts": {
     "changed_since_review": 6,
-    "incorporated": 83,
-    "partially_reviewed": 148,
+    "incorporated": 91,
+    "partially_reviewed": 149,
     "unreviewed": 282
   },
   "source_sha256": {
@@ -37,7 +38,8 @@
     "research/community-family533-audit/DISPOSITIONS.json": "e0e51f92dc715525b8ff5e4987551336c292b0a466f1f3fb87221fb96d54544d",
     "research/community-family588-audit/DISPOSITIONS.json": "70f66f8c223b0929904ff88e27713b5bdbdb0d6b92f4d55cf518565135d678b5",
     "research/community-hyperplane599-audit/DISPOSITIONS.json": "00763b888859d15618eda871a42a9c0e6912ea33b932a29c02bc6e2df984efc1",
-    "research/community-cold617-audit/DISPOSITIONS.json": "d74bcfc9ae5219ecfe57e74466ae327c7e0d2524c87f52c143e74c6187db0984"
+    "research/community-cold617-audit/DISPOSITIONS.json": "d74bcfc9ae5219ecfe57e74466ae327c7e0d2524c87f52c143e74c6187db0984",
+    "research/community-k492-audit/DISPOSITIONS.json": "b3a88aae194fb905e56e680fdd0bd8d2abc01545f4c9a4df956d464c0d34a00d"
   },
   "scope": "Reconciliation index, not blanket mathematical verification. Partial includes triage or scoped checks; mentions alone are not review. Integrated archives are distinguished from active implementations. No automatic closures.",
   "pull_requests": [
@@ -16767,6 +16769,436 @@
       "reconciliation_evidence": [
         "research/community-cold617-audit/DISPOSITIONS.json"
       ]
+    },
+    {
+      "number": 618,
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/618",
+      "title": "Owner consolidation on PR610: conditional κ = 0.001625434703655052",
+      "contributor": {
+        "id": "MDQ6VXNlcjUwMDk2NjQ=",
+        "is_bot": false,
+        "login": "jeremydiviney",
+        "name": ""
+      },
+      "draft": false,
+      "starting_head": "a0d472c7459952f5e55fd9d829adb0484cc0f648",
+      "current_head": "a0d472c7459952f5e55fd9d829adb0484cc0f648",
+      "previously_reviewed_heads": [],
+      "historical_assessment_heads": [],
+      "evidence": [
+        {
+          "head": "a0d472c7459952f5e55fd9d829adb0484cc0f648",
+          "evidence": "research/community-k492-audit/DISPOSITIONS.json",
+          "scope": "Parallel PR610 owner consolidation and deterministic nomination tool.",
+          "kind": "integration_or_partial_review"
+        }
+      ],
+      "historical_mentions": [],
+      "integration_location": [
+        "research/complex-571-cold14-consolidated618",
+        "research/complex-571-cold14-repacking-audit"
+      ],
+      "github_state": "OPEN",
+      "closure": null,
+      "reviewed_head": "a0d472c7459952f5e55fd9d829adb0484cc0f648",
+      "disposition": "incorporated",
+      "unresolved_question": "",
+      "review_completion": {
+        "changed_file_coverage": true,
+        "scoped_mechanism_review": true,
+        "required_execution_complete": true,
+        "published": true
+      },
+      "verification_evidence": [
+        "research/community-k492-audit/COMPLETED-EVIDENCE.json",
+        "docs/research/community-k492-review.md"
+      ],
+      "current_head_observed_in": "research/community-k492-audit/DISPOSITIONS.json",
+      "reconciliation_evidence": [
+        "research/community-k492-audit/DISPOSITIONS.json"
+      ]
+    },
+    {
+      "number": 619,
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/619",
+      "title": "Exact packing ceiling for the PR615 supplier family",
+      "contributor": {
+        "id": "MDQ6VXNlcjQ0MDA1Mjc=",
+        "is_bot": false,
+        "login": "chafreaky",
+        "name": "chafreaky"
+      },
+      "draft": false,
+      "starting_head": "9879380b4e9fd922842a35cb3edefd712debfdac",
+      "current_head": "9879380b4e9fd922842a35cb3edefd712debfdac",
+      "previously_reviewed_heads": [],
+      "historical_assessment_heads": [],
+      "evidence": [
+        {
+          "head": "9879380b4e9fd922842a35cb3edefd712debfdac",
+          "evidence": "research/community-k492-audit/DISPOSITIONS.json",
+          "scope": "Exact fixed-615-family ceiling and fine-grid assembly refinement; independent patterns and controls.",
+          "kind": "integration_or_partial_review"
+        }
+      ],
+      "historical_mentions": [],
+      "integration_location": [
+        ".github/workflows",
+        "research/complex-pr615-ceiling",
+        "research/complex-pr615-ceiling-validation"
+      ],
+      "github_state": "OPEN",
+      "closure": null,
+      "reviewed_head": "9879380b4e9fd922842a35cb3edefd712debfdac",
+      "disposition": "incorporated",
+      "unresolved_question": "",
+      "review_completion": {
+        "changed_file_coverage": true,
+        "scoped_mechanism_review": true,
+        "required_execution_complete": true,
+        "published": true
+      },
+      "verification_evidence": [
+        "research/community-k492-audit/COMPLETED-EVIDENCE.json",
+        "docs/research/community-k492-review.md"
+      ],
+      "current_head_observed_in": "research/community-k492-audit/DISPOSITIONS.json",
+      "reconciliation_evidence": [
+        "research/community-k492-audit/DISPOSITIONS.json"
+      ]
+    },
+    {
+      "number": 620,
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/620",
+      "title": "Research notes (no κ claim): E8 decoder floors are tight; #615 levers exhausted; +1.1e-7 κ owner-map headroom on #617",
+      "contributor": {
+        "id": "U_kgDOCiU1ug",
+        "is_bot": false,
+        "login": "GamingPuzzled",
+        "name": "Joel Pulikkan"
+      },
+      "draft": true,
+      "starting_head": "419c7374c3bf5f2eee28f08b1e50c1d57934081c",
+      "current_head": "419c7374c3bf5f2eee28f08b1e50c1d57934081c",
+      "previously_reviewed_heads": [],
+      "historical_assessment_heads": [],
+      "evidence": [
+        {
+          "head": "419c7374c3bf5f2eee28f08b1e50c1d57934081c",
+          "evidence": "research/community-k492-audit/DISPOSITIONS.json",
+          "scope": "Preliminary E8 decoder, extension-ring and cold-end research; credited owner-headroom lead, unverified solver/barrier claims.",
+          "kind": "integration_or_partial_review"
+        }
+      ],
+      "historical_mentions": [],
+      "integration_location": [
+        "research/e8-decoder-floors-and-cold14-notes"
+      ],
+      "github_state": "OPEN",
+      "closure": null,
+      "reviewed_head": "419c7374c3bf5f2eee28f08b1e50c1d57934081c",
+      "disposition": "partially_reviewed",
+      "unresolved_question": "Provide portable research replays and independently check scoped infeasibility/barrier claims.",
+      "review_completion": {
+        "changed_file_coverage": true,
+        "scoped_mechanism_review": true,
+        "required_execution_complete": false,
+        "published": true
+      },
+      "verification_evidence": [
+        "research/community-k492-audit/COMPLETED-EVIDENCE.json",
+        "docs/research/community-k492-review.md"
+      ],
+      "current_head_observed_in": "research/community-k492-audit/DISPOSITIONS.json",
+      "reconciliation_evidence": [
+        "research/community-k492-audit/DISPOSITIONS.json"
+      ]
+    },
+    {
+      "number": 621,
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/621",
+      "title": "Prove uniform prime-power cyclic inverse bounds (no κ claim)",
+      "contributor": {
+        "id": "U_kgDODYXfmQ",
+        "is_bot": false,
+        "login": "aliromman",
+        "name": "Ali Romman"
+      },
+      "draft": false,
+      "starting_head": "520774462b19b29af41554b74def31f9d01e997e",
+      "current_head": "520774462b19b29af41554b74def31f9d01e997e",
+      "previously_reviewed_heads": [],
+      "historical_assessment_heads": [],
+      "evidence": [
+        {
+          "head": "520774462b19b29af41554b74def31f9d01e997e",
+          "evidence": "research/community-k492-audit/DISPOSITIONS.json",
+          "scope": "Uniform prime-power cyclic inverse analytic proof and two exact arithmetic engines; no paid algorithm or kappa claim.",
+          "kind": "integration_or_partial_review"
+        }
+      ],
+      "historical_mentions": [],
+      "integration_location": [
+        ".github/workflows",
+        "research/prime-power-cyclic-inverse"
+      ],
+      "github_state": "OPEN",
+      "closure": null,
+      "reviewed_head": "520774462b19b29af41554b74def31f9d01e997e",
+      "disposition": "incorporated",
+      "unresolved_question": "",
+      "review_completion": {
+        "changed_file_coverage": true,
+        "scoped_mechanism_review": true,
+        "required_execution_complete": true,
+        "published": true
+      },
+      "verification_evidence": [
+        "research/community-k492-audit/COMPLETED-EVIDENCE.json",
+        "docs/research/community-k492-review.md"
+      ],
+      "current_head_observed_in": "research/community-k492-audit/DISPOSITIONS.json",
+      "reconciliation_evidence": [
+        "research/community-k492-audit/DISPOSITIONS.json"
+      ]
+    },
+    {
+      "number": 622,
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/622",
+      "title": "Conditional κ = 0.00163542231500688: K-triangle skeleton atom (492 helpers per call) on the PR617 cold-ended witness",
+      "contributor": {
+        "id": "U_kgDOEKXqaA",
+        "is_bot": false,
+        "login": "jeremykothe2",
+        "name": ""
+      },
+      "draft": false,
+      "starting_head": "f69477f4f6d3c7eb1f740b166881bffed4ffa9f6",
+      "current_head": "f69477f4f6d3c7eb1f740b166881bffed4ffa9f6",
+      "previously_reviewed_heads": [],
+      "historical_assessment_heads": [],
+      "evidence": [
+        {
+          "head": "f69477f4f6d3c7eb1f740b166881bffed4ffa9f6",
+          "evidence": "research/community-k492-audit/DISPOSITIONS.json",
+          "scope": "K-triangle 492-helper construction, generalized R accounting, fresh complete finite replay and retained 504 compatibility.",
+          "kind": "integration_or_partial_review"
+        }
+      ],
+      "historical_mentions": [],
+      "integration_location": [
+        "research/complex-571-cold14-k492"
+      ],
+      "github_state": "OPEN",
+      "closure": null,
+      "reviewed_head": "f69477f4f6d3c7eb1f740b166881bffed4ffa9f6",
+      "disposition": "incorporated",
+      "unresolved_question": "",
+      "review_completion": {
+        "changed_file_coverage": true,
+        "scoped_mechanism_review": true,
+        "required_execution_complete": true,
+        "published": true
+      },
+      "verification_evidence": [
+        "research/community-k492-audit/COMPLETED-EVIDENCE.json",
+        "docs/research/community-k492-review.md"
+      ],
+      "current_head_observed_in": "research/community-k492-audit/DISPOSITIONS.json",
+      "reconciliation_evidence": [
+        "research/community-k492-audit/DISPOSITIONS.json"
+      ]
+    },
+    {
+      "number": 623,
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/623",
+      "title": "Conditional κ = 0.001635490664920455: improved owner map (ck 8 / jp8 64) for the PR622 K-triangle witness",
+      "contributor": {
+        "id": "U_kgDOEKXqaA",
+        "is_bot": false,
+        "login": "jeremykothe2",
+        "name": ""
+      },
+      "draft": false,
+      "starting_head": "e39a615ca601ce5d62abeb24f3fcdb8644ca1005",
+      "current_head": "e39a615ca601ce5d62abeb24f3fcdb8644ca1005",
+      "previously_reviewed_heads": [],
+      "historical_assessment_heads": [],
+      "evidence": [
+        {
+          "head": "e39a615ca601ce5d62abeb24f3fcdb8644ca1005",
+          "evidence": "research/community-k492-audit/DISPOSITIONS.json",
+          "scope": "Parallel dispatch and allocation on the 492-helper construction.",
+          "kind": "integration_or_partial_review"
+        }
+      ],
+      "historical_mentions": [],
+      "integration_location": [
+        "research/complex-571-cold14-k492b"
+      ],
+      "github_state": "OPEN",
+      "closure": null,
+      "reviewed_head": "e39a615ca601ce5d62abeb24f3fcdb8644ca1005",
+      "disposition": "incorporated",
+      "unresolved_question": "",
+      "review_completion": {
+        "changed_file_coverage": true,
+        "scoped_mechanism_review": true,
+        "required_execution_complete": true,
+        "published": true
+      },
+      "verification_evidence": [
+        "research/community-k492-audit/COMPLETED-EVIDENCE.json",
+        "docs/research/community-k492-review.md"
+      ],
+      "current_head_observed_in": "research/community-k492-audit/DISPOSITIONS.json",
+      "reconciliation_evidence": [
+        "research/community-k492-audit/DISPOSITIONS.json"
+      ]
+    },
+    {
+      "number": 624,
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/624",
+      "title": "Owner repacking on PR622: conditional κ = 0.001635425470780892",
+      "contributor": {
+        "id": "MDQ6VXNlcjUwMDk2NjQ=",
+        "is_bot": false,
+        "login": "jeremydiviney",
+        "name": ""
+      },
+      "draft": false,
+      "starting_head": "036753ed33d4e620932262646e3d02a1927256a6",
+      "current_head": "036753ed33d4e620932262646e3d02a1927256a6",
+      "previously_reviewed_heads": [],
+      "historical_assessment_heads": [],
+      "evidence": [
+        {
+          "head": "036753ed33d4e620932262646e3d02a1927256a6",
+          "evidence": "research/community-k492-audit/DISPOSITIONS.json",
+          "scope": "Parallel recorded simultaneous owner repacking with deterministic reconstruction.",
+          "kind": "integration_or_partial_review"
+        }
+      ],
+      "historical_mentions": [],
+      "integration_location": [
+        "research/complex-571-cold14-k492-repacked624",
+        "research/complex-571-cold14-k492-repacking-audit"
+      ],
+      "github_state": "OPEN",
+      "closure": null,
+      "reviewed_head": "036753ed33d4e620932262646e3d02a1927256a6",
+      "disposition": "incorporated",
+      "unresolved_question": "",
+      "review_completion": {
+        "changed_file_coverage": true,
+        "scoped_mechanism_review": true,
+        "required_execution_complete": true,
+        "published": true
+      },
+      "verification_evidence": [
+        "research/community-k492-audit/COMPLETED-EVIDENCE.json",
+        "docs/research/community-k492-review.md"
+      ],
+      "current_head_observed_in": "research/community-k492-audit/DISPOSITIONS.json",
+      "reconciliation_evidence": [
+        "research/community-k492-audit/DISPOSITIONS.json"
+      ]
+    },
+    {
+      "number": 625,
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/625",
+      "title": "Conditional κ = 0.001635502740907482: owner map with one LNS improvement for the PR622 K-triangle witness",
+      "contributor": {
+        "id": "U_kgDOEKXqaA",
+        "is_bot": false,
+        "login": "jeremykothe2",
+        "name": ""
+      },
+      "draft": false,
+      "starting_head": "386712d06fe4b163596370af4646fec390bd7eb3",
+      "current_head": "386712d06fe4b163596370af4646fec390bd7eb3",
+      "previously_reviewed_heads": [],
+      "historical_assessment_heads": [],
+      "evidence": [
+        {
+          "head": "386712d06fe4b163596370af4646fec390bd7eb3",
+          "evidence": "research/community-k492-audit/DISPOSITIONS.json",
+          "scope": "Parallel LNS owner allocation on the 623 dispatch.",
+          "kind": "integration_or_partial_review"
+        }
+      ],
+      "historical_mentions": [],
+      "integration_location": [
+        "research/complex-571-cold14-k492c"
+      ],
+      "github_state": "OPEN",
+      "closure": null,
+      "reviewed_head": "386712d06fe4b163596370af4646fec390bd7eb3",
+      "disposition": "incorporated",
+      "unresolved_question": "",
+      "review_completion": {
+        "changed_file_coverage": true,
+        "scoped_mechanism_review": true,
+        "required_execution_complete": true,
+        "published": true
+      },
+      "verification_evidence": [
+        "research/community-k492-audit/COMPLETED-EVIDENCE.json",
+        "docs/research/community-k492-review.md"
+      ],
+      "current_head_observed_in": "research/community-k492-audit/DISPOSITIONS.json",
+      "reconciliation_evidence": [
+        "research/community-k492-audit/DISPOSITIONS.json"
+      ]
+    },
+    {
+      "number": 626,
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/626",
+      "title": "Conditional κ = 0.001635527380375392: coordinated owner repair on PR623",
+      "contributor": {
+        "id": "MDQ6VXNlcjQ0MDA1Mjc=",
+        "is_bot": false,
+        "login": "chafreaky",
+        "name": "chafreaky"
+      },
+      "draft": false,
+      "starting_head": "660de893d27bb7abd1d5b01b1640207528a5c851",
+      "current_head": "660de893d27bb7abd1d5b01b1640207528a5c851",
+      "previously_reviewed_heads": [],
+      "historical_assessment_heads": [],
+      "evidence": [
+        {
+          "head": "660de893d27bb7abd1d5b01b1640207528a5c851",
+          "evidence": "research/community-k492-audit/DISPOSITIONS.json",
+          "scope": "Coordinated owner repair on 623 with exact independent profile/moment/declaration checks and portable sources.",
+          "kind": "integration_or_partial_review"
+        }
+      ],
+      "historical_mentions": [],
+      "integration_location": [
+        ".github/workflows",
+        "research/complex-k492-owner-repair",
+        "research/complex-k492-owner-repair-validation"
+      ],
+      "github_state": "OPEN",
+      "closure": null,
+      "reviewed_head": "660de893d27bb7abd1d5b01b1640207528a5c851",
+      "disposition": "incorporated",
+      "unresolved_question": "",
+      "review_completion": {
+        "changed_file_coverage": true,
+        "scoped_mechanism_review": true,
+        "required_execution_complete": true,
+        "published": true
+      },
+      "verification_evidence": [
+        "research/community-k492-audit/COMPLETED-EVIDENCE.json",
+        "docs/research/community-k492-review.md"
+      ],
+      "current_head_observed_in": "research/community-k492-audit/DISPOSITIONS.json",
+      "reconciliation_evidence": [
+        "research/community-k492-audit/DISPOSITIONS.json"
+      ]
     }
   ],
   "ending_snapshot": "research/pr-reconciliation-20261012/ending-snapshot.json",
@@ -16779,6 +17211,6 @@
   "github_dispositions": {
     "CLOSED": 3,
     "MERGED": 80,
-    "OPEN": 436
+    "OPEN": 445
   }
 }

@@ -55,7 +55,8 @@ def main():
     for family_path in (ROOT / 'research/community-family533-audit/DISPOSITIONS.json',
                         ROOT / 'research/community-family588-audit/DISPOSITIONS.json',
                         ROOT / 'research/community-hyperplane599-audit/DISPOSITIONS.json',
-                        ROOT / 'research/community-cold617-audit/DISPOSITIONS.json'):
+                        ROOT / 'research/community-cold617-audit/DISPOSITIONS.json',
+                        ROOT / 'research/community-k492-audit/DISPOSITIONS.json'):
         if not family_path.exists():
             continue
         family = json.loads(family_path.read_text())
@@ -178,7 +179,7 @@ def main():
                 require(row['reviewed_head'] == item['current_head'] and row['comment_url'],
                         'Family588 closure lacks current-head check or explanation')
         print('PASS family588: complete changed-file coverage, source bytes, receipts and supported closures')
-    for family in ('hyperplane599', 'cold617'):
+    for family in ('hyperplane599', 'cold617', 'k492'):
         receipt_path = ROOT / f'docs/research/community-{family}-integration.json'
         if receipt_path.exists():
             receipt = json.loads(receipt_path.read_text())

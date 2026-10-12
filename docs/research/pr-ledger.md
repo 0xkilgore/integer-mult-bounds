@@ -1,6 +1,6 @@
 # PR review and integration ledger
 
-The immutable starting snapshot contains **446 PRs**. Explicit later family rounds extend the current inventory to **519**; unrelated arrivals remain outside the round.
+The immutable starting snapshot contains **446 PRs**. Explicit later family rounds extend the current inventory to **528**; unrelated arrivals remain outside the round.
 
 [Machine-readable ledger](pr-ledger.json) · [Starting snapshot](../../research/pr-reconciliation-20261012/starting-snapshot.json)
 
@@ -9,8 +9,8 @@ The ledger separates historical review from integration. A prior snapshot or a m
 | Disposition | Count |
 |---|---:|
 | changed since review | 6 |
-| incorporated | 83 |
-| partially reviewed | 148 |
+| incorporated | 91 |
+| partially reviewed | 149 |
 | unreviewed | 282 |
 
 The earlier reconciliation closing snapshot had 438 starting PRs still open and 441 total open. These are historical counts, not a live queue measurement. Later dispositions are recorded below.
@@ -556,3 +556,12 @@ Each evidence link leads to the original scoped assessment. The JSON records exa
 | [#615](https://github.com/CrocSwap/integer-mult-bounds/pull/615) | jeremykothe2 | incorporated | [record 1](../../research/community-cold617-audit/DISPOSITIONS.json) |
 | [#616](https://github.com/CrocSwap/integer-mult-bounds/pull/616) | chafreaky | incorporated | [record 1](../../research/community-cold617-audit/DISPOSITIONS.json) |
 | [#617](https://github.com/CrocSwap/integer-mult-bounds/pull/617) | jeremykothe2 | incorporated | [record 1](../../research/community-cold617-audit/DISPOSITIONS.json) |
+| [#618](https://github.com/CrocSwap/integer-mult-bounds/pull/618) | jeremydiviney | incorporated | [record 1](../../research/community-k492-audit/DISPOSITIONS.json) |
+| [#619](https://github.com/CrocSwap/integer-mult-bounds/pull/619) | chafreaky | incorporated | [record 1](../../research/community-k492-audit/DISPOSITIONS.json) |
+| [#620](https://github.com/CrocSwap/integer-mult-bounds/pull/620) | GamingPuzzled | partially reviewed | [record 1](../../research/community-k492-audit/DISPOSITIONS.json) |
+| [#621](https://github.com/CrocSwap/integer-mult-bounds/pull/621) | aliromman | incorporated | [record 1](../../research/community-k492-audit/DISPOSITIONS.json) |
+| [#622](https://github.com/CrocSwap/integer-mult-bounds/pull/622) | jeremykothe2 | incorporated | [record 1](../../research/community-k492-audit/DISPOSITIONS.json) |
+| [#623](https://github.com/CrocSwap/integer-mult-bounds/pull/623) | jeremykothe2 | incorporated | [record 1](../../research/community-k492-audit/DISPOSITIONS.json) |
+| [#624](https://github.com/CrocSwap/integer-mult-bounds/pull/624) | jeremydiviney | incorporated | [record 1](../../research/community-k492-audit/DISPOSITIONS.json) |
+| [#625](https://github.com/CrocSwap/integer-mult-bounds/pull/625) | jeremykothe2 | incorporated | [record 1](../../research/community-k492-audit/DISPOSITIONS.json) |
+| [#626](https://github.com/CrocSwap/integer-mult-bounds/pull/626) | chafreaky | incorporated | [record 1](../../research/community-k492-audit/DISPOSITIONS.json) |
