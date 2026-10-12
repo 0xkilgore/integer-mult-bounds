@@ -1,6 +1,6 @@
 {
-  "updated_utc": "2026-10-12T15:44:13.683423+00:00",
-  "goal_status": "All 43 scoped reviews and required execution checks passed. Publication and GitHub resolution remain.",
+  "updated_utc": "2026-10-12T15:50:33.541855+00:00",
+  "goal_status": "Frozen family reviewed, published and resolved; verify final metadata push before marking the goal complete. Linux CI remains pending.",
   "branch": "integration/family588-20261012",
   "worktree": "/tmp/integer-mult-family588",
   "finite_or_scoped_replays_passed": [
@@ -51,15 +51,17 @@
   "not_a_full_disposition": "Replay success alone does not establish all changed-file coverage, unique research review or closure readiness.",
   "running": [],
   "next": [
-    "Commit publication metadata, preserve all reviewed contributor heads in ancestry, and verify unchanged content tree.",
-    "Push reviewed integration to main, verify remote contents and record exact publication commit.",
-    "Resolve unchanged fully reviewed PRs with individual attribution and record GitHub evidence.",
-    "Update central ledger and final receipt, record Linux CI and later arrivals, then audit goal completion."
+    "Verify the final metadata commit on origin/main, then complete this frozen-family goal."
   ],
   "source_pins": "Selected #588 uses canonical integrated #569. Historical #582/#584/#587 can use exact bundled subset research/promoted-kernel-coalescing/vendor/larger_gain; verified pins and source equality in HISTORICAL-PIN-REPRODUCTION.json.",
   "preserve": "Root worktree and its seven unrelated untracked research dirs remain untouched.",
   "checkpoint_commit": "d2fa39e984ac1a020bad0c3501432290fcfb6474",
   "scope_caveat_571": "Research and complete frontier admission both passed.",
   "public_cold_command": "PASS complete bit543 + complex588 + exact binding; evidence in PUBLIC-COLD-EVIDENCE.json",
-  "publication_edit_helper": "/tmp/im588-finalize-publication.py refuses changes until all 43 source/coverage/execution gates pass; prepares documentation only, without push or publication flags."
+  "publication_edit_helper": "/tmp/im588-finalize-publication.py refuses changes until all 43 source/coverage/execution gates pass; prepares documentation only, without push or publication flags.",
+  "publication_commit": "9594b61042164a27a31e44d8c3197f231470eda0",
+  "deferred_followups": [
+    "Dedicated Linux CI is queued; no Linux pass claimed.",
+    "Review separate Lean queue and later arrivals #589\u2013#597 in a new bounded round."
+  ]
 }
