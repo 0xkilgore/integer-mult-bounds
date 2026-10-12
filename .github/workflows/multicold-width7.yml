@@ -1,0 +1,27 @@
+name: Composed multicold width-seven witness
+on:
+  pull_request:
+    paths:
+      - 'research/multicold-width7/**'
+      - '.github/workflows/multicold-width7.yml'
+  push:
+    paths:
+      - 'research/multicold-width7/**'
+      - '.github/workflows/multicold-width7.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  replay:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    strategy:
+      fail-fast: false
+      matrix:
+        python: ['3.11', '3.14']
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '${{ matrix.python }}'
+      - run: python -B research/multicold-width7/verify.py --work "${{ runner.temp }}/multicold-width7"
