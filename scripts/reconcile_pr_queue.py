@@ -98,6 +98,9 @@ def build():
             mentions[int(number)].append(str(p.relative_to(ROOT)))
 
     decisions = load('research/pr-reconciliation-20261012/decisions.json')['decisions']
+    ending_path = 'research/pr-reconciliation-20261012/ending-snapshot.json'
+    ending = load(ending_path) if (ROOT / ending_path).exists() else None
+    live = {p['number']: p for p in ending['open_pull_requests']} if ending else {}
     active = {442, 484, 509, 516, 520}
     result = []
     for pr in sorted(snapshot['pull_requests'], key=lambda x: x['number']):
@@ -128,6 +131,18 @@ def build():
             if decision.get('starting_head') != pr['headRefOid']:
                 raise ValueError(f'#{n}: decision belongs to a different starting head')
             item.update(decision)
+        if n in live:
+            item['current_head'] = live[n]['headRefOid']
+            item['github_state'] = 'OPEN'
+            item['current_head_observed_in'] = ending_path
+            if item['current_head'] != item['starting_head']:
+                item['changed_during_round'] = True
+                item['unresolved_question'] = ('The head changed during reconciliation. Review current head '
+                    + item['current_head'] + '; earlier metadata/source inspection does not establish coverage of this update.')
+                if history:
+                    item['disposition'] = 'changed_since_review'
+        elif item.get('closure'):
+            item['current_head_observed_in'] = 'research/pr-reconciliation-20261012/closure-receipts.json'
         result.append(item)
     if len(result) != len({p['number'] for p in result}):
         raise ValueError('Duplicate PR in starting snapshot')
@@ -139,6 +154,11 @@ def build():
                   counts=counts, source_sha256=sources,
                   scope='Reconciliation index, not blanket mathematical verification. Partial includes triage or scoped checks; mentions alone are not review. Integrated archives are distinguished from active implementations. No automatic closures.',
                   pull_requests=result)
+    if ending:
+        output['ending_snapshot'] = ending_path
+        output['remaining_from_start'] = ending['remaining_from_start']
+        output['new_arrivals_outside_round'] = [p['number'] for p in ending['new_arrivals']]
+        output['github_dispositions'] = dict(sorted(collections.Counter(p['github_state'] for p in result).items()))
     dest = ROOT / 'docs/research/pr-ledger.json'
     dest.write_text(json.dumps(output, indent=2, ensure_ascii=False) + '\n')
     lines = ['# PR review and integration ledger', '',
@@ -149,9 +169,15 @@ def build():
              'Archived incorporation preserves a historical implementation and attribution without making it the selected result.', '',
              '| Disposition | Count |', '|---|---:|']
     lines += [f'| {k.replace("_", " ")} | {v} |' for k, v in counts.items()]
+    if ending:
+        states = collections.Counter(p['github_state'] for p in result)
+        lines += ['', f'At the closing snapshot: **{states["MERGED"]} merged, {states["CLOSED"]} closed as already incorporated, '
+                  f'{ending["remaining_from_start"]} starting PRs still open**. '
+                  f'{len(ending["new_arrivals"])} new arrivals bring the live open count to {ending["open_count"]}.', '',
+                  'New arrivals outside this round: ' + ', '.join(f'[#{p["number"]}]({p["url"]})' for p in ending['new_arrivals']) + '. Their claims remain unreviewed.']
     lines += ['', '## Remaining priorities', '',
-              '1. Confirm publication/closure of the #442/#484/#509/#516/#520 dependency, Lean and tooling batch; its scoped review is recorded separately.',
-              '2. Review #533’s newer supplier against the published #531 baseline; its title remains an unverified claim.',
+              '1. Follow the new Linux CI for the published #442/#484/#509/#516/#520 batch; the [scoped review](community-formal-20261012-review.md) records completed local checks.',
+              '2. Review #533’s updated supplier against the published #531 baseline and triage the newer #535/#536/#537 followups together; their titles remain unverified claims.',
               '3. Review #525’s checkpoint/ceiling and #529/#532’s distinct construction mechanisms; retain parallel credit.',
               '4. Reconcile #210/#279 updates with their earlier incorporated heads; audit #236’s source-package integration separately from its already published review receipts.',
               '5. Continue the formal-interface queue, including draft #528, after its prerequisites are published. Review drafts as proposals, not ready-to-merge submissions.', '',

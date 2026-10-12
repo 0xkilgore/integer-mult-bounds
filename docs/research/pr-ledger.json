@@ -24,7 +24,8 @@
     "docs/research/research-notes-20261011.json": "43d846bbed3b3dc6db097a3f5ca7179ea7a048e064f535e72e116da1f69ca5bb",
     "docs/research/community-pr531-integration.json": "3010ec433f84c56fa0add43641f708abde0fdecb7790553673beaf9bd8fe4282",
     "docs/research/community-formal-20261012-integration.json": "fc171f4e3dbad9c870b13e141460facaffde957e15c6bb8f984d97686007b7d1",
-    "research/pr-reconciliation-20261012/decisions.json": "3aaaca4ca320ef6635d641bfc0b05468874f9512de95c14702913140b1a06f07"
+    "research/pr-reconciliation-20261012/decisions.json": "b710c0a7e7599a929120a4d4dfb067335964d9b0c8fd66818ff3fd5a3856e11f",
+    "research/pr-reconciliation-20261012/ending-snapshot.json": "629522d6a438733f5316ee362979c35fb9f703ac801c3d30b6fc390ea62d2322"
   },
   "scope": "Reconciliation index, not blanket mathematical verification. Partial includes triage or scoped checks; mentions alone are not review. Integrated archives are distinguished from active implementations. No automatic closures.",
   "pull_requests": [
@@ -61,7 +62,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "Historical scoped review exists; establish full current-content coverage and disposition before closure.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 2,
@@ -97,7 +99,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "Historical scoped review exists; establish full current-content coverage and disposition before closure.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 3,
@@ -133,7 +136,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "Historical scoped review exists; establish full current-content coverage and disposition before closure.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 4,
@@ -168,7 +172,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "Historical scoped review exists; establish full current-content coverage and disposition before closure.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 5,
@@ -203,7 +208,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "Historical scoped review exists; establish full current-content coverage and disposition before closure.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 6,
@@ -237,7 +243,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "Historical scoped review exists; establish full current-content coverage and disposition before closure.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 7,
@@ -277,7 +284,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "Historical scoped review exists; establish full current-content coverage and disposition before closure.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 8,
@@ -311,7 +319,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "Historical scoped review exists; establish full current-content coverage and disposition before closure.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 9,
@@ -345,7 +354,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "Historical scoped review exists; establish full current-content coverage and disposition before closure.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 12,
@@ -379,7 +389,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "Historical scoped review exists; establish full current-content coverage and disposition before closure.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 13,
@@ -414,7 +425,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "Historical scoped review exists; establish full current-content coverage and disposition before closure.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 14,
@@ -450,7 +462,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "Historical scoped review exists; establish full current-content coverage and disposition before closure.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 15,
@@ -485,7 +498,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "Historical scoped review exists; establish full current-content coverage and disposition before closure.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 16,
@@ -520,7 +534,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "Historical scoped review exists; establish full current-content coverage and disposition before closure.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 17,
@@ -555,7 +570,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "Historical scoped review exists; establish full current-content coverage and disposition before closure.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 19,
@@ -589,7 +605,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "Historical scoped review exists; establish full current-content coverage and disposition before closure.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 20,
@@ -624,7 +641,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "Historical scoped review exists; establish full current-content coverage and disposition before closure.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 21,
@@ -659,7 +677,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "Historical scoped review exists; establish full current-content coverage and disposition before closure.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 22,
@@ -694,7 +713,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "Historical scoped review exists; establish full current-content coverage and disposition before closure.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 23,
@@ -730,7 +750,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "Historical scoped review exists; establish full current-content coverage and disposition before closure.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 25,
@@ -764,7 +785,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "Historical scoped review exists; establish full current-content coverage and disposition before closure.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 27,
@@ -799,7 +821,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "Historical scoped review exists; establish full current-content coverage and disposition before closure.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 28,
@@ -833,7 +856,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "Historical scoped review exists; establish full current-content coverage and disposition before closure.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 29,
@@ -868,7 +892,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "Historical scoped review exists; establish full current-content coverage and disposition before closure.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 31,
@@ -903,7 +928,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "Historical scoped review exists; establish full current-content coverage and disposition before closure.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 33,
@@ -938,7 +964,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "Historical scoped review exists; establish full current-content coverage and disposition before closure.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 34,
@@ -974,7 +1001,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "Historical scoped review exists; establish full current-content coverage and disposition before closure.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 35,
@@ -1009,7 +1037,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "Historical scoped review exists; establish full current-content coverage and disposition before closure.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 38,
@@ -1044,7 +1073,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "Historical scoped review exists; establish full current-content coverage and disposition before closure.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 40,
@@ -1081,7 +1111,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "Historical scoped review exists; establish full current-content coverage and disposition before closure.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 41,
@@ -1116,7 +1147,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "Historical scoped review exists; establish full current-content coverage and disposition before closure.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 42,
@@ -1151,7 +1183,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "Historical scoped review exists; establish full current-content coverage and disposition before closure.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 44,
@@ -1186,7 +1219,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "Historical scoped review exists; establish full current-content coverage and disposition before closure.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 47,
@@ -1221,7 +1255,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "Historical scoped review exists; establish full current-content coverage and disposition before closure.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 63,
@@ -1255,7 +1290,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "Historical scoped review exists; establish full current-content coverage and disposition before closure.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 65,
@@ -1289,7 +1325,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "Historical scoped review exists; establish full current-content coverage and disposition before closure.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 66,
@@ -1321,7 +1358,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "Historical scoped review exists; establish full current-content coverage and disposition before closure.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 67,
@@ -1355,7 +1393,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "Historical scoped review exists; establish full current-content coverage and disposition before closure.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 68,
@@ -1389,7 +1428,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "Historical scoped review exists; establish full current-content coverage and disposition before closure.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 69,
@@ -1423,7 +1463,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "Historical scoped review exists; establish full current-content coverage and disposition before closure.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 70,
@@ -1457,7 +1498,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "Historical scoped review exists; establish full current-content coverage and disposition before closure.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 71,
@@ -1500,7 +1542,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "Historical scoped review exists; establish full current-content coverage and disposition before closure.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 74,
@@ -1545,7 +1588,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "Historical scoped review exists; establish full current-content coverage and disposition before closure.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 75,
@@ -1577,7 +1621,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "Historical scoped review exists; establish full current-content coverage and disposition before closure.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 76,
@@ -1611,7 +1656,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "Historical scoped review exists; establish full current-content coverage and disposition before closure.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 77,
@@ -1643,7 +1689,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "Historical scoped review exists; establish full current-content coverage and disposition before closure.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 78,
@@ -1677,7 +1724,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "Historical scoped review exists; establish full current-content coverage and disposition before closure.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 79,
@@ -1711,7 +1759,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "Historical scoped review exists; establish full current-content coverage and disposition before closure.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 80,
@@ -1754,7 +1803,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "Historical scoped review exists; establish full current-content coverage and disposition before closure.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 81,
@@ -1798,7 +1848,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "Historical scoped review exists; establish full current-content coverage and disposition before closure.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 82,
@@ -1843,7 +1894,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "Historical scoped review exists; establish full current-content coverage and disposition before closure.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 83,
@@ -1888,7 +1940,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "Historical scoped review exists; establish full current-content coverage and disposition before closure.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 84,
@@ -1920,7 +1973,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "Historical scoped review exists; establish full current-content coverage and disposition before closure.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 85,
@@ -1952,7 +2006,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "Historical scoped review exists; establish full current-content coverage and disposition before closure.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 86,
@@ -1984,7 +2039,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "Historical scoped review exists; establish full current-content coverage and disposition before closure.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 87,
@@ -2016,7 +2072,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "Historical scoped review exists; establish full current-content coverage and disposition before closure.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 88,
@@ -2048,7 +2105,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "Historical scoped review exists; establish full current-content coverage and disposition before closure.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 89,
@@ -2080,7 +2138,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "Historical scoped review exists; establish full current-content coverage and disposition before closure.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 90,
@@ -2123,7 +2182,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "Historical scoped review exists; establish full current-content coverage and disposition before closure.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 91,
@@ -2155,7 +2215,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "Historical scoped review exists; establish full current-content coverage and disposition before closure.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 92,
@@ -2187,7 +2248,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "Historical scoped review exists; establish full current-content coverage and disposition before closure.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 93,
@@ -2219,7 +2281,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "Historical scoped review exists; establish full current-content coverage and disposition before closure.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 94,
@@ -2251,7 +2314,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "Historical scoped review exists; establish full current-content coverage and disposition before closure.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 95,
@@ -2283,7 +2347,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "Historical scoped review exists; establish full current-content coverage and disposition before closure.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 97,
@@ -2334,7 +2399,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "Historical scoped review exists; establish full current-content coverage and disposition before closure.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 98,
@@ -2366,7 +2432,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "Historical scoped review exists; establish full current-content coverage and disposition before closure.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 99,
@@ -2398,7 +2465,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "Historical scoped review exists; establish full current-content coverage and disposition before closure.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 100,
@@ -2430,7 +2498,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "Historical scoped review exists; establish full current-content coverage and disposition before closure.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 102,
@@ -2462,7 +2531,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "Historical scoped review exists; establish full current-content coverage and disposition before closure.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 103,
@@ -2494,7 +2564,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "Historical scoped review exists; establish full current-content coverage and disposition before closure.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 106,
@@ -2526,7 +2597,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "Historical scoped review exists; establish full current-content coverage and disposition before closure.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 107,
@@ -2558,7 +2630,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "Historical scoped review exists; establish full current-content coverage and disposition before closure.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 108,
@@ -2590,7 +2663,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "Historical scoped review exists; establish full current-content coverage and disposition before closure.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 109,
@@ -2629,7 +2703,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "Historical scoped review exists; establish full current-content coverage and disposition before closure.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 110,
@@ -2661,7 +2736,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "Historical scoped review exists; establish full current-content coverage and disposition before closure.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 111,
@@ -2693,7 +2769,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "Historical scoped review exists; establish full current-content coverage and disposition before closure.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 113,
@@ -2725,7 +2802,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "Historical scoped review exists; establish full current-content coverage and disposition before closure.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 114,
@@ -2757,7 +2835,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "Historical scoped review exists; establish full current-content coverage and disposition before closure.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 116,
@@ -2791,7 +2870,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "Review the changes between the recorded historical head(s) and the current head; old evidence does not approve those changes.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 117,
@@ -2828,7 +2908,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "Historical scoped review exists; establish full current-content coverage and disposition before closure.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 118,
@@ -2862,7 +2943,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "Review the changes between the recorded historical head(s) and the current head; old evidence does not approve those changes.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 121,
@@ -2894,7 +2976,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "Historical scoped review exists; establish full current-content coverage and disposition before closure.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 122,
@@ -2929,7 +3012,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "Historical scoped review exists; establish full current-content coverage and disposition before closure.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 123,
@@ -2963,7 +3047,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "Review the changes between the recorded historical head(s) and the current head; old evidence does not approve those changes.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 124,
@@ -2998,7 +3083,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "Historical scoped review exists; establish full current-content coverage and disposition before closure.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 125,
@@ -3033,7 +3119,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "Historical scoped review exists; establish full current-content coverage and disposition before closure.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 126,
@@ -3065,7 +3152,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "Historical scoped review exists; establish full current-content coverage and disposition before closure.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 127,
@@ -3097,7 +3185,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "Historical scoped review exists; establish full current-content coverage and disposition before closure.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 128,
@@ -3133,7 +3222,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "Historical scoped review exists; establish full current-content coverage and disposition before closure.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 129,
@@ -3165,7 +3255,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "Historical scoped review exists; establish full current-content coverage and disposition before closure.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 131,
@@ -3199,7 +3290,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "Historical scoped review exists; establish full current-content coverage and disposition before closure.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 133,
@@ -3234,7 +3326,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "Historical scoped review exists; establish full current-content coverage and disposition before closure.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 135,
@@ -3269,7 +3362,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "Historical scoped review exists; establish full current-content coverage and disposition before closure.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 137,
@@ -3303,7 +3397,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "Historical scoped review exists; establish full current-content coverage and disposition before closure.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 138,
@@ -3337,7 +3432,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "Historical scoped review exists; establish full current-content coverage and disposition before closure.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 141,
@@ -3369,7 +3465,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "Historical scoped review exists; establish full current-content coverage and disposition before closure.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 142,
@@ -3403,7 +3500,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "Historical scoped review exists; establish full current-content coverage and disposition before closure.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 143,
@@ -3439,7 +3537,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "Historical scoped review exists; establish full current-content coverage and disposition before closure.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 145,
@@ -3474,7 +3573,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "Historical scoped review exists; establish full current-content coverage and disposition before closure.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 146,
@@ -3512,7 +3612,8 @@
       "closure": null,
       "reconciliation_evidence": [
         "research/pr-reconciliation-20261012/content-comparison.json"
-      ]
+      ],
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 148,
@@ -3550,7 +3651,8 @@
       "closure": null,
       "reconciliation_evidence": [
         "research/pr-reconciliation-20261012/content-comparison.json"
-      ]
+      ],
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 153,
@@ -3573,7 +3675,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 154,
@@ -3609,7 +3712,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "Historical scoped review exists; establish full current-content coverage and disposition before closure.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 158,
@@ -3632,7 +3736,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 160,
@@ -3655,7 +3760,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 162,
@@ -3689,7 +3795,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "Historical scoped review exists; establish full current-content coverage and disposition before closure.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 163,
@@ -3712,7 +3819,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 164,
@@ -3735,7 +3843,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 165,
@@ -3758,7 +3867,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 166,
@@ -3781,7 +3891,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 167,
@@ -3804,7 +3915,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 168,
@@ -3855,7 +3967,8 @@
       },
       "reconciliation_evidence": [
         "research/pr-reconciliation-20261012/incorporation-checks.json"
-      ]
+      ],
+      "current_head_observed_in": "research/pr-reconciliation-20261012/closure-receipts.json"
     },
     {
       "number": 169,
@@ -3878,7 +3991,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 170,
@@ -3901,7 +4015,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 171,
@@ -3924,7 +4039,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 172,
@@ -3947,7 +4063,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 173,
@@ -3970,7 +4087,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 174,
@@ -3993,7 +4111,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 175,
@@ -4042,7 +4161,8 @@
       },
       "reconciliation_evidence": [
         "research/pr-reconciliation-20261012/incorporation-checks.json"
-      ]
+      ],
+      "current_head_observed_in": "research/pr-reconciliation-20261012/closure-receipts.json"
     },
     {
       "number": 177,
@@ -4065,7 +4185,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 178,
@@ -4099,7 +4220,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "Historical scoped review exists; establish full current-content coverage and disposition before closure.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 179,
@@ -4122,7 +4244,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 180,
@@ -4156,7 +4279,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "Historical scoped review exists; establish full current-content coverage and disposition before closure.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 181,
@@ -4207,7 +4331,8 @@
       },
       "reconciliation_evidence": [
         "research/pr-reconciliation-20261012/incorporation-checks.json"
-      ]
+      ],
+      "current_head_observed_in": "research/pr-reconciliation-20261012/closure-receipts.json"
     },
     {
       "number": 182,
@@ -4246,7 +4371,8 @@
       "closure": null,
       "reconciliation_evidence": [
         "research/pr-reconciliation-20261012/content-comparison.json"
-      ]
+      ],
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 183,
@@ -4275,7 +4401,8 @@
       "closure": null,
       "reconciliation_evidence": [
         "research/pr-reconciliation-20261012/content-comparison.json"
-      ]
+      ],
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 185,
@@ -4315,7 +4442,8 @@
       "closure": null,
       "reconciliation_evidence": [
         "research/pr-reconciliation-20261012/content-comparison.json"
-      ]
+      ],
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 187,
@@ -4349,7 +4477,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "Historical scoped review exists; establish full current-content coverage and disposition before closure.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 188,
@@ -4383,7 +4512,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "Historical scoped review exists; establish full current-content coverage and disposition before closure.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 189,
@@ -4417,7 +4547,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "Historical scoped review exists; establish full current-content coverage and disposition before closure.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 191,
@@ -4451,7 +4582,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "Historical scoped review exists; establish full current-content coverage and disposition before closure.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 192,
@@ -4485,7 +4617,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "Historical scoped review exists; establish full current-content coverage and disposition before closure.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 193,
@@ -4521,7 +4654,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "Historical scoped review exists; establish full current-content coverage and disposition before closure.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 194,
@@ -4555,7 +4689,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "Historical scoped review exists; establish full current-content coverage and disposition before closure.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 195,
@@ -4589,7 +4724,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "Historical scoped review exists; establish full current-content coverage and disposition before closure.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 196,
@@ -4623,7 +4759,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "Historical scoped review exists; establish full current-content coverage and disposition before closure.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 197,
@@ -4659,7 +4796,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "Historical scoped review exists; establish full current-content coverage and disposition before closure.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 199,
@@ -4693,7 +4831,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "Historical scoped review exists; establish full current-content coverage and disposition before closure.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 200,
@@ -4729,7 +4868,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "Historical scoped review exists; establish full current-content coverage and disposition before closure.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 201,
@@ -4763,7 +4903,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "Historical scoped review exists; establish full current-content coverage and disposition before closure.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 202,
@@ -4797,7 +4938,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "Historical scoped review exists; establish full current-content coverage and disposition before closure.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 203,
@@ -4831,7 +4973,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "Historical scoped review exists; establish full current-content coverage and disposition before closure.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 204,
@@ -4865,7 +5008,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "Historical scoped review exists; establish full current-content coverage and disposition before closure.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 205,
@@ -4899,7 +5043,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "Historical scoped review exists; establish full current-content coverage and disposition before closure.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 207,
@@ -4933,7 +5078,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "Historical scoped review exists; establish full current-content coverage and disposition before closure.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 208,
@@ -4967,7 +5113,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "Historical scoped review exists; establish full current-content coverage and disposition before closure.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 210,
@@ -5015,7 +5162,8 @@
       "closure": null,
       "reconciliation_evidence": [
         "research/pr-reconciliation-20261012/content-comparison.json"
-      ]
+      ],
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 211,
@@ -5049,7 +5197,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "Historical scoped review exists; establish full current-content coverage and disposition before closure.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 212,
@@ -5083,7 +5232,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "Historical scoped review exists; establish full current-content coverage and disposition before closure.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 214,
@@ -5117,7 +5267,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "Historical scoped review exists; establish full current-content coverage and disposition before closure.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 215,
@@ -5151,7 +5302,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "Historical scoped review exists; establish full current-content coverage and disposition before closure.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 216,
@@ -5185,7 +5337,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "Historical scoped review exists; establish full current-content coverage and disposition before closure.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 217,
@@ -5219,7 +5372,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "Historical scoped review exists; establish full current-content coverage and disposition before closure.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 221,
@@ -5253,7 +5407,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "Historical scoped review exists; establish full current-content coverage and disposition before closure.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 223,
@@ -5287,7 +5442,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "Historical scoped review exists; establish full current-content coverage and disposition before closure.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 224,
@@ -5321,7 +5477,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "Historical scoped review exists; establish full current-content coverage and disposition before closure.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 225,
@@ -5355,7 +5512,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "Review the changes between the recorded historical head(s) and the current head; old evidence does not approve those changes.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 226,
@@ -5389,7 +5547,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "Historical scoped review exists; establish full current-content coverage and disposition before closure.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 227,
@@ -5423,7 +5582,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "Historical scoped review exists; establish full current-content coverage and disposition before closure.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 228,
@@ -5457,7 +5617,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "Historical scoped review exists; establish full current-content coverage and disposition before closure.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 229,
@@ -5491,7 +5652,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "Historical scoped review exists; establish full current-content coverage and disposition before closure.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 233,
@@ -5525,7 +5687,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "Historical scoped review exists; establish full current-content coverage and disposition before closure.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 234,
@@ -5561,7 +5724,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "Historical scoped review exists; establish full current-content coverage and disposition before closure.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 235,
@@ -5595,7 +5759,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "Historical scoped review exists; establish full current-content coverage and disposition before closure.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 236,
@@ -5631,7 +5796,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "Historical scoped review exists; establish full current-content coverage and disposition before closure.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 237,
@@ -5667,7 +5833,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "Historical scoped review exists; establish full current-content coverage and disposition before closure.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 240,
@@ -5701,7 +5868,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "Historical scoped review exists; establish full current-content coverage and disposition before closure.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 241,
@@ -5724,7 +5892,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 242,
@@ -5747,7 +5916,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 243,
@@ -5770,7 +5940,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 244,
@@ -5795,7 +5966,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 245,
@@ -5818,7 +5990,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 248,
@@ -5841,7 +6014,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 249,
@@ -5864,7 +6038,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 250,
@@ -5887,7 +6062,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 251,
@@ -5910,7 +6086,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 252,
@@ -5933,7 +6110,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 254,
@@ -5956,7 +6134,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 255,
@@ -5979,7 +6158,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 256,
@@ -6002,7 +6182,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 258,
@@ -6025,7 +6206,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 259,
@@ -6048,7 +6230,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 260,
@@ -6071,7 +6254,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 261,
@@ -6094,7 +6278,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 262,
@@ -6117,7 +6302,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 263,
@@ -6140,7 +6326,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 264,
@@ -6163,7 +6350,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 265,
@@ -6186,7 +6374,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 266,
@@ -6209,7 +6398,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 267,
@@ -6232,7 +6422,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 268,
@@ -6255,7 +6446,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 269,
@@ -6278,7 +6470,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 270,
@@ -6301,7 +6494,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 271,
@@ -6324,7 +6518,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 272,
@@ -6347,7 +6542,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 273,
@@ -6370,7 +6566,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 274,
@@ -6393,7 +6590,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 275,
@@ -6416,7 +6614,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 277,
@@ -6439,7 +6638,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 278,
@@ -6462,7 +6662,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 279,
@@ -6504,7 +6705,8 @@
       "closure": null,
       "reconciliation_evidence": [
         "research/pr-reconciliation-20261012/content-comparison.json"
-      ]
+      ],
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 280,
@@ -6527,7 +6729,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 281,
@@ -6550,7 +6753,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 282,
@@ -6573,7 +6777,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 283,
@@ -6596,7 +6801,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 284,
@@ -6619,7 +6825,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 285,
@@ -6642,7 +6849,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 286,
@@ -6665,7 +6873,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 287,
@@ -6688,7 +6897,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 288,
@@ -6713,7 +6923,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 289,
@@ -6736,7 +6947,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 290,
@@ -6759,7 +6971,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 291,
@@ -6782,7 +6995,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 292,
@@ -6805,7 +7019,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 293,
@@ -6828,7 +7043,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 294,
@@ -6851,7 +7067,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 295,
@@ -6874,7 +7091,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 296,
@@ -6897,7 +7115,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 297,
@@ -6920,7 +7139,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 298,
@@ -6943,7 +7163,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 299,
@@ -6966,7 +7187,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 300,
@@ -6989,7 +7211,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 301,
@@ -7012,7 +7235,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 302,
@@ -7035,7 +7259,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 303,
@@ -7058,7 +7283,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 304,
@@ -7081,7 +7307,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 305,
@@ -7104,7 +7331,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 306,
@@ -7127,7 +7355,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 307,
@@ -7150,7 +7379,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 308,
@@ -7173,7 +7403,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 309,
@@ -7196,7 +7427,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 310,
@@ -7219,7 +7451,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 311,
@@ -7242,7 +7475,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 312,
@@ -7265,7 +7499,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 313,
@@ -7288,7 +7523,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 314,
@@ -7311,7 +7547,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 315,
@@ -7336,7 +7573,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 316,
@@ -7359,7 +7597,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 317,
@@ -7382,7 +7621,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 318,
@@ -7405,7 +7645,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 319,
@@ -7428,7 +7669,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 320,
@@ -7451,7 +7693,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 321,
@@ -7474,7 +7717,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 322,
@@ -7497,7 +7741,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 323,
@@ -7520,7 +7765,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 324,
@@ -7543,7 +7789,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 325,
@@ -7566,7 +7813,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 327,
@@ -7589,7 +7837,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 328,
@@ -7612,7 +7861,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 329,
@@ -7635,7 +7885,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 330,
@@ -7658,7 +7909,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 331,
@@ -7681,7 +7933,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 332,
@@ -7704,7 +7957,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 333,
@@ -7727,7 +7981,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 334,
@@ -7750,7 +8005,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 335,
@@ -7773,7 +8029,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 336,
@@ -7796,7 +8053,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 337,
@@ -7819,7 +8077,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 338,
@@ -7842,7 +8101,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 339,
@@ -7865,7 +8125,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 340,
@@ -7888,7 +8149,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 341,
@@ -7911,7 +8173,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 342,
@@ -7934,7 +8197,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 343,
@@ -7957,7 +8221,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 344,
@@ -7980,7 +8245,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 345,
@@ -8003,7 +8269,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 346,
@@ -8026,7 +8293,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 347,
@@ -8049,7 +8317,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 348,
@@ -8072,7 +8341,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 349,
@@ -8095,7 +8365,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 350,
@@ -8118,7 +8389,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 351,
@@ -8141,7 +8413,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 352,
@@ -8164,7 +8437,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 353,
@@ -8187,7 +8461,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 354,
@@ -8210,7 +8485,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 355,
@@ -8233,7 +8509,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 356,
@@ -8256,7 +8533,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 357,
@@ -8279,7 +8557,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 358,
@@ -8302,7 +8581,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 359,
@@ -8325,7 +8605,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 360,
@@ -8348,7 +8629,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 361,
@@ -8371,7 +8653,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 362,
@@ -8394,7 +8677,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 363,
@@ -8417,7 +8701,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 364,
@@ -8440,7 +8725,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 365,
@@ -8463,7 +8749,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 366,
@@ -8486,7 +8773,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 367,
@@ -8509,7 +8797,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 368,
@@ -8532,7 +8821,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 369,
@@ -8555,7 +8845,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 370,
@@ -8580,7 +8871,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 371,
@@ -8603,7 +8895,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 372,
@@ -8626,7 +8919,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 373,
@@ -8649,7 +8943,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 374,
@@ -8672,7 +8967,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 375,
@@ -8695,7 +8991,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 376,
@@ -8718,7 +9015,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 377,
@@ -8741,7 +9039,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 378,
@@ -8764,7 +9063,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 379,
@@ -8787,7 +9087,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 380,
@@ -8810,7 +9111,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 381,
@@ -8835,7 +9137,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 382,
@@ -8858,7 +9161,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 383,
@@ -8881,7 +9185,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 384,
@@ -8904,7 +9209,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 385,
@@ -8927,7 +9233,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 386,
@@ -8952,7 +9259,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 387,
@@ -8975,7 +9283,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 388,
@@ -8998,7 +9307,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 389,
@@ -9021,7 +9331,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 390,
@@ -9044,7 +9355,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 391,
@@ -9067,7 +9379,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 392,
@@ -9090,7 +9403,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 394,
@@ -9113,7 +9427,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 395,
@@ -9136,7 +9451,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 396,
@@ -9159,7 +9475,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 397,
@@ -9182,7 +9499,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 398,
@@ -9205,7 +9523,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 399,
@@ -9228,7 +9547,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 400,
@@ -9251,7 +9571,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 401,
@@ -9274,7 +9595,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 402,
@@ -9297,7 +9619,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 403,
@@ -9320,7 +9643,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 404,
@@ -9343,7 +9667,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 405,
@@ -9366,7 +9691,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 406,
@@ -9389,7 +9715,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 407,
@@ -9412,7 +9739,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 408,
@@ -9435,7 +9763,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 409,
@@ -9458,7 +9787,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 410,
@@ -9481,7 +9811,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 411,
@@ -9504,7 +9835,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 412,
@@ -9527,7 +9859,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 413,
@@ -9550,7 +9883,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 414,
@@ -9573,7 +9907,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 415,
@@ -9596,7 +9931,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 416,
@@ -9619,7 +9955,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 417,
@@ -9642,7 +9979,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 418,
@@ -9665,7 +10003,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 419,
@@ -9688,7 +10027,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 420,
@@ -9711,7 +10051,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 421,
@@ -9734,7 +10075,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 422,
@@ -9757,7 +10099,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 423,
@@ -9780,7 +10123,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 424,
@@ -9803,7 +10147,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 425,
@@ -9829,7 +10174,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 426,
@@ -9852,7 +10198,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 427,
@@ -9875,7 +10222,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 428,
@@ -9898,7 +10246,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 429,
@@ -9921,7 +10270,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 430,
@@ -9944,7 +10294,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 431,
@@ -9967,7 +10318,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 432,
@@ -9990,7 +10342,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 433,
@@ -10016,7 +10369,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 434,
@@ -10039,7 +10393,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 435,
@@ -10062,7 +10417,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 436,
@@ -10085,7 +10441,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 437,
@@ -10108,7 +10465,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 438,
@@ -10131,7 +10489,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 439,
@@ -10154,7 +10513,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 440,
@@ -10177,7 +10537,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 441,
@@ -10200,7 +10561,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 442,
@@ -10237,13 +10599,24 @@
       "integration_location": [
         "research/idle-axis-hosting"
       ],
-      "github_state": "OPEN",
+      "github_state": "MERGED",
       "unresolved_question": null,
-      "closure": null,
+      "closure": {
+        "closedAt": "2026-10-12T02:24:41Z",
+        "headRefOid": "4e16d001d505d4f21dd2bcfc44591f9be4c279bd",
+        "mergedAt": "2026-10-12T02:24:41Z",
+        "number": 442,
+        "state": "MERGED",
+        "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/442",
+        "comment_url": "https://github.com/CrocSwap/integer-mult-bounds/pull/442#issuecomment-6116646190",
+        "integration_commit": "681e8923a0f23a19f93c7105c3a9c96149aa8362",
+        "reason": "Reviewed original head integrated by merge; scoped execution receipts and attribution published."
+      },
       "reconciliation_evidence": [
         "docs/research/community-formal-20261012-review.md",
         "docs/research/community-formal-20261012-integration.json"
-      ]
+      ],
+      "current_head_observed_in": "research/pr-reconciliation-20261012/closure-receipts.json"
     },
     {
       "number": 443,
@@ -10266,7 +10639,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 444,
@@ -10289,7 +10663,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 445,
@@ -10314,7 +10689,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 446,
@@ -10339,7 +10715,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 447,
@@ -10362,7 +10739,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 448,
@@ -10385,7 +10763,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 450,
@@ -10408,7 +10787,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 451,
@@ -10431,7 +10811,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 452,
@@ -10454,7 +10835,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 453,
@@ -10477,7 +10859,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 454,
@@ -10500,7 +10883,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 455,
@@ -10523,7 +10907,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 456,
@@ -10546,7 +10931,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 457,
@@ -10569,7 +10955,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 458,
@@ -10594,7 +10981,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 459,
@@ -10617,7 +11005,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 460,
@@ -10640,7 +11029,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 461,
@@ -10663,7 +11053,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 462,
@@ -10686,7 +11077,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 463,
@@ -10709,7 +11101,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 464,
@@ -10732,7 +11125,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 465,
@@ -10755,7 +11149,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 466,
@@ -10778,7 +11173,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 467,
@@ -10801,7 +11197,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 469,
@@ -10824,7 +11221,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 470,
@@ -10847,7 +11245,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 471,
@@ -10870,7 +11269,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 472,
@@ -10895,7 +11295,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 473,
@@ -10918,7 +11319,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 474,
@@ -10941,7 +11343,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 475,
@@ -10964,7 +11367,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 476,
@@ -10987,7 +11391,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 478,
@@ -11010,7 +11415,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 479,
@@ -11033,7 +11439,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 480,
@@ -11056,7 +11463,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 481,
@@ -11079,7 +11487,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 482,
@@ -11102,7 +11511,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 483,
@@ -11125,7 +11535,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 484,
@@ -11162,13 +11573,24 @@
       "integration_location": [
         "research/e8-complex-gauge-kernel"
       ],
-      "github_state": "OPEN",
+      "github_state": "MERGED",
       "unresolved_question": null,
-      "closure": null,
+      "closure": {
+        "closedAt": "2026-10-12T02:24:41Z",
+        "headRefOid": "d30a05f90190dff6435e62ebed95aff9a0ddb610",
+        "mergedAt": "2026-10-12T02:24:40Z",
+        "number": 484,
+        "state": "MERGED",
+        "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/484",
+        "comment_url": "https://github.com/CrocSwap/integer-mult-bounds/pull/484#issuecomment-6116646337",
+        "integration_commit": "681e8923a0f23a19f93c7105c3a9c96149aa8362",
+        "reason": "Reviewed original head integrated by merge; scoped execution receipts and attribution published."
+      },
       "reconciliation_evidence": [
         "docs/research/community-formal-20261012-review.md",
         "docs/research/community-formal-20261012-integration.json"
-      ]
+      ],
+      "current_head_observed_in": "research/pr-reconciliation-20261012/closure-receipts.json"
     },
     {
       "number": 485,
@@ -11191,7 +11613,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 486,
@@ -11214,7 +11637,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 487,
@@ -11237,7 +11661,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 488,
@@ -11260,7 +11685,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 489,
@@ -11283,7 +11709,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 490,
@@ -11306,7 +11733,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 491,
@@ -11329,7 +11757,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 492,
@@ -11352,7 +11781,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 494,
@@ -11375,7 +11805,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 495,
@@ -11398,7 +11829,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 496,
@@ -11423,7 +11855,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 497,
@@ -11446,7 +11879,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 498,
@@ -11469,7 +11903,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 499,
@@ -11492,7 +11927,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 500,
@@ -11515,7 +11951,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 501,
@@ -11538,7 +11975,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 502,
@@ -11561,7 +11999,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 503,
@@ -11584,7 +12023,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 504,
@@ -11607,7 +12047,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 505,
@@ -11633,7 +12074,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 506,
@@ -11656,7 +12098,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 507,
@@ -11682,7 +12125,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 508,
@@ -11705,7 +12149,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 509,
@@ -11741,13 +12186,24 @@
       "integration_location": [
         "research/e8-lemma-g-lean"
       ],
-      "github_state": "OPEN",
+      "github_state": "MERGED",
       "unresolved_question": null,
-      "closure": null,
+      "closure": {
+        "closedAt": "2026-10-12T02:24:41Z",
+        "headRefOid": "7b9c720ecc9f483c383e7cd9c2ab81f06ee5df59",
+        "mergedAt": "2026-10-12T02:24:40Z",
+        "number": 509,
+        "state": "MERGED",
+        "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/509",
+        "comment_url": "https://github.com/CrocSwap/integer-mult-bounds/pull/509#issuecomment-6116646529",
+        "integration_commit": "681e8923a0f23a19f93c7105c3a9c96149aa8362",
+        "reason": "Reviewed original head integrated by merge; scoped execution receipts and attribution published."
+      },
       "reconciliation_evidence": [
         "docs/research/community-formal-20261012-review.md",
         "docs/research/community-formal-20261012-integration.json"
-      ]
+      ],
+      "current_head_observed_in": "research/pr-reconciliation-20261012/closure-receipts.json"
     },
     {
       "number": 510,
@@ -11770,7 +12226,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 511,
@@ -11793,7 +12250,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 512,
@@ -11818,7 +12276,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 513,
@@ -11841,7 +12300,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 515,
@@ -11864,7 +12324,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 516,
@@ -11900,13 +12361,24 @@
       "integration_location": [
         "research/e8-lemma-a-lean"
       ],
-      "github_state": "OPEN",
+      "github_state": "MERGED",
       "unresolved_question": null,
-      "closure": null,
+      "closure": {
+        "closedAt": "2026-10-12T02:24:41Z",
+        "headRefOid": "1c6b6ff9366a94e1f86a6c5d661a7df75c6ff814",
+        "mergedAt": "2026-10-12T02:24:41Z",
+        "number": 516,
+        "state": "MERGED",
+        "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/516",
+        "comment_url": "https://github.com/CrocSwap/integer-mult-bounds/pull/516#issuecomment-6116646680",
+        "integration_commit": "681e8923a0f23a19f93c7105c3a9c96149aa8362",
+        "reason": "Reviewed original head integrated by merge; scoped execution receipts and attribution published."
+      },
       "reconciliation_evidence": [
         "docs/research/community-formal-20261012-review.md",
         "docs/research/community-formal-20261012-integration.json"
-      ]
+      ],
+      "current_head_observed_in": "research/pr-reconciliation-20261012/closure-receipts.json"
     },
     {
       "number": 517,
@@ -11929,7 +12401,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 518,
@@ -11952,7 +12425,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 519,
@@ -11975,7 +12449,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 520,
@@ -12012,13 +12487,24 @@
       "integration_location": [
         "research/complex-delivery-map-open-allocator"
       ],
-      "github_state": "OPEN",
+      "github_state": "MERGED",
       "unresolved_question": null,
-      "closure": null,
+      "closure": {
+        "closedAt": "2026-10-12T02:24:40Z",
+        "headRefOid": "6077fa76950facbce11ec2f04dfbc93493114a44",
+        "mergedAt": "2026-10-12T02:24:40Z",
+        "number": 520,
+        "state": "MERGED",
+        "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/520",
+        "comment_url": "https://github.com/CrocSwap/integer-mult-bounds/pull/520#issuecomment-6116646898",
+        "integration_commit": "681e8923a0f23a19f93c7105c3a9c96149aa8362",
+        "reason": "Reviewed original head integrated by merge; scoped execution receipts and attribution published."
+      },
       "reconciliation_evidence": [
         "docs/research/community-formal-20261012-review.md",
         "docs/research/community-formal-20261012-integration.json"
-      ]
+      ],
+      "current_head_observed_in": "research/pr-reconciliation-20261012/closure-receipts.json"
     },
     {
       "number": 521,
@@ -12041,7 +12527,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 522,
@@ -12066,7 +12553,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 525,
@@ -12089,7 +12577,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 526,
@@ -12112,7 +12601,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 527,
@@ -12135,7 +12625,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 528,
@@ -12158,7 +12649,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 529,
@@ -12181,7 +12673,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 530,
@@ -12204,7 +12697,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 532,
@@ -12227,7 +12721,8 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     },
     {
       "number": 533,
@@ -12241,7 +12736,7 @@
       },
       "draft": false,
       "starting_head": "ae63ec50f99862efeda351e7687b087744423521",
-      "current_head": "ae63ec50f99862efeda351e7687b087744423521",
+      "current_head": "66b00aeaabb6b4b0545b65685c1ea78f157a8d5e",
       "previously_reviewed_heads": [],
       "historical_assessment_heads": [],
       "evidence": [],
@@ -12249,8 +12744,10 @@
       "disposition": "unreviewed",
       "integration_location": [],
       "github_state": "OPEN",
-      "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "unresolved_question": "The head changed during reconciliation. Review current head 66b00aeaabb6b4b0545b65685c1ea78f157a8d5e; earlier metadata/source inspection does not establish coverage of this update.",
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json",
+      "changed_during_round": true
     },
     {
       "number": 534,
@@ -12273,7 +12770,20 @@
       "integration_location": [],
       "github_state": "OPEN",
       "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
-      "closure": null
+      "closure": null,
+      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
     }
-  ]
+  ],
+  "ending_snapshot": "research/pr-reconciliation-20261012/ending-snapshot.json",
+  "remaining_from_start": 438,
+  "new_arrivals_outside_round": [
+    537,
+    536,
+    535
+  ],
+  "github_dispositions": {
+    "CLOSED": 3,
+    "MERGED": 5,
+    "OPEN": 438
+  }
 }

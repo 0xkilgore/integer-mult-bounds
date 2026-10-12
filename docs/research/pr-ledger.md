@@ -13,10 +13,14 @@ The ledger separates historical review from integration. A prior snapshot or a m
 | partially reviewed | 143 |
 | unreviewed | 289 |
 
+At the closing snapshot: **5 merged, 3 closed as already incorporated, 438 starting PRs still open**. 3 new arrivals bring the live open count to 441.
+
+New arrivals outside this round: [#537](https://github.com/CrocSwap/integer-mult-bounds/pull/537), [#536](https://github.com/CrocSwap/integer-mult-bounds/pull/536), [#535](https://github.com/CrocSwap/integer-mult-bounds/pull/535). Their claims remain unreviewed.
+
 ## Remaining priorities
 
-1. Confirm publication/closure of the #442/#484/#509/#516/#520 dependency, Lean and tooling batch; its scoped review is recorded separately.
-2. Review #533’s newer supplier against the published #531 baseline; its title remains an unverified claim.
+1. Follow the new Linux CI for the published #442/#484/#509/#516/#520 batch; the [scoped review](community-formal-20261012-review.md) records completed local checks.
+2. Review #533’s updated supplier against the published #531 baseline and triage the newer #535/#536/#537 followups together; their titles remain unverified claims.
 3. Review #525’s checkpoint/ceiling and #529/#532’s distinct construction mechanisms; retain parallel credit.
 4. Reconcile #210/#279 updates with their earlier incorporated heads; audit #236’s source-package integration separately from its already published review receipts.
 5. Continue the formal-interface queue, including draft #528, after its prerequisites are published. Review drafts as proposals, not ready-to-merge submissions.
