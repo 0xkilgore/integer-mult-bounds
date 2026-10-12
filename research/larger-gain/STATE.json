@@ -1,0 +1,33 @@
+{
+  "recorded_utc": "2026-10-12T08:08:13.481822+00:00",
+  "base": "origin/pr-564",
+  "remote": "origin",
+  "pins": [
+    {
+      "ref": "origin/main",
+      "commit": "db0e57bc7f36b5ac0fc844ad7ce1396165ee6647",
+      "pr": null,
+      "url": "https://github.com/CrocSwap/integer-mult-bounds"
+    },
+    {
+      "ref": "origin/pr-564",
+      "commit": "c18417b02b80594b2ca1c8c21185d28befafc935",
+      "pr": 564,
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/564"
+    },
+    {
+      "ref": "origin/pr-565",
+      "commit": "890b2906ebb76b3c9392a08d64e933630c06b1ac",
+      "pr": 565,
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/565"
+    },
+    {
+      "ref": "origin/pr-566",
+      "commit": "86d39f3247a5a1df4f040ed71d8251bed77b91ec",
+      "pr": 566,
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/566"
+    }
+  ],
+  "scope": "Latest PR check through566. PR565 and566 advance linear-time formal counting/preparation, not numerical kappa or worst-case constant-time indexing. PR564 supplies the numerical baseline; current upstream main remains separately pinned.",
+  "original_checkout_preserved": true
+}
