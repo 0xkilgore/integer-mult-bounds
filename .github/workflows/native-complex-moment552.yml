@@ -1,0 +1,21 @@
+name: Verify native complex moment on PR552
+on:
+  pull_request:
+    paths:
+      - 'research/native-complex-moment552/**'
+      - '.github/workflows/native-complex-moment552.yml'
+  workflow_dispatch:
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python: ['3.11', '3.14']
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+      - run: python -B research/native-complex-moment552/verify.py --work "$RUNNER_TEMP/native-complex-moment552"
+        env:
+          PYTHONDONTWRITEBYTECODE: '1'

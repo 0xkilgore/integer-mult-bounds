@@ -1,0 +1,5 @@
+{
+  "status": "INDEPENDENT_SOURCE_SCOPE_REVIEW_ACCEPTED",
+  "packaged_verification": "Pending after draft publication",
+  "initial_preflight_failure": "Published source invoice was accidentally paired with independently replayed owner receipt; hash guard rejected it. Fixed by pairing both receipts from the same completed independent replay. Original published invoice retained in evidence. No mathematical result accepted from mismatched receipts."
+}
