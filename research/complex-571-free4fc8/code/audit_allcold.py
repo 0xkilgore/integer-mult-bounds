@@ -11,13 +11,14 @@ from pathlib import Path
 from collections import Counter,defaultdict
 import sys as _s,pathlib as _p;_s.path.insert(0,str(_p.Path(__file__).resolve().parent))
 from witness import *
+from generated_identity import artifact_identities
 BASE,OUT,REPORT=map(lambda p:Path(p).resolve(),sys.argv[1:4]);read=lambda p:json.loads(gzip.decompress(p.read_bytes())if p.suffix=='.gz'else p.read_bytes())
 parent=read(BASE/'split-centres/GLOBAL-TEMPLATE.json.gz')
 ph=read(BASE/'work/complex-nine-native/DATA-PHASES.json')
 ct=read(OUT/'GLOBAL-TEMPLATE.json.gz');summary=read(OUT/'HOSTED.json')
 sha=lambda p:hashlib.sha256(p.read_bytes()).hexdigest()
 provider_ids=PIDS
-providers={};registry={};phase_semantic_hashes={}
+providers={};registry={};phase_semantic_hashes={};artifact_semantic_hashes={}
 required_artifacts={'work/complex-nine-native/DATA-PHASES.json'}
 provider_files=('CANONICAL-WORD.json.gz','LOCAL-PROGRAMS.json.gz','LOCAL-CHECKS.json',
  'INDEPENDENT-LOCAL-REPLAY.json','RESIDUAL-ADAPTERS.json','CLIFFORD-RECIPES.json','CLIFFORD-REVIEW.json')
@@ -44,7 +45,9 @@ for pid in provider_ids:
   assert ck['paid_profile']==replay['paid_profiles'][orientation]
  assert phase['canonical_word_sha256']==canonical_sha and phase['recipe_sha256']==sha(p/'CLIFFORD-RECIPES.json')
  assert phase['all_child_equalities_include_global_phase']
- phase_semantic_hashes[pid]=hashlib.sha256(json.dumps({k:v for k,v in phase.items()if k!='seconds'},sort_keys=True,separators=(',',':')).encode()).hexdigest()
+ artifact_semantic_hashes[pid]=artifact_identities(p)
+ pin('providers.%s.artifact_semantic_sha256'%pid,artifact_semantic_hashes[pid])
+ phase_semantic_hashes[pid]=artifact_semantic_hashes[pid]['CLIFFORD-REVIEW.json']
  for h,w in enumerate(widths):
   assert 0<w<=c['h']
   if w<c['h']:
@@ -196,11 +199,11 @@ for P in provider_ids:
  reject(P+': wrong per-call residual width',lambda q,at_p=at_p,h=narrow:at_p(q)['owners'][2*V+h][1].__setitem__(3,at_p(q)['owners'][2*V+h][1][3]-1))
  reject(P+': wrong sweep provider',lambda q,P=P,Qp=Qp:next(e for e in q['execution_schedule']if e['kind']=='local_cover_sweep'and DISPATCH[e['stage'],e['replica']]==P).__setitem__('provider_id',Qp))
  reject(P+': entering helper width silently restored to nine',lambda q,P=P,h=narrow:q['local_providers'][P]['widths'].__setitem__(h,9))
-report=dict(status='PASS_INDEPENDENT_ASYNC_WHOLE_OWNER_CONTROLLER_PHASES_AND_SPECTATORS',template_sha256=summary['template_sha256'],complex_template_sha256=summary['template_sha256'],complex_live=DATA,complex_profile=r['profile'],complex_hosted_residuals=HOSTED,physical=PHYSICAL,rank_mass=r['mass'],deficit=2560,entering_helper_roles=r['entering'],cross_replica_helper_roles=r['cross_replica'],one_owner_per_complete_invocation=True,helper_busy_family_window_checks=r['busy_family_checks'],complete_invocations=r['invocations'],actual_orthogonal_73column_maps=len(r['sigmas']),actual_sigma_stream_sha256=r['sigma_digest'],all_actual_residual_and_spectator_charts=True,idle_remainders=r['idle_remainders'],mutations_rejected=controls,mutation_controls_run='--mutation-controls' in sys.argv[4:],provider_phase_semantic_sha256=phase_semantic_hashes,widths_by_provider={pid:dict(sorted(Counter(providers[pid]['widths']).items()))for pid in provider_ids},provider_counts=dict(Counter(c['provider_id']for c in ct['calls'])),all_provider_program_phase_and_wrapper_bindings=True,scope='Independent exact asynchronous chronology, per-replica phase projection, owner/chart/paid-profile audit. Uses per-invocation local providers bound by exact scalar, phase and residual-wrapper receipts; all-size compilation and complete coefficient invoice are separate inherited obligations.')
+report=dict(status='PASS_INDEPENDENT_ASYNC_WHOLE_OWNER_CONTROLLER_PHASES_AND_SPECTATORS',template_sha256=summary['template_sha256'],complex_template_sha256=summary['template_sha256'],complex_live=DATA,complex_profile=r['profile'],complex_hosted_residuals=HOSTED,physical=PHYSICAL,rank_mass=r['mass'],deficit=2560,entering_helper_roles=r['entering'],cross_replica_helper_roles=r['cross_replica'],one_owner_per_complete_invocation=True,helper_busy_family_window_checks=r['busy_family_checks'],complete_invocations=r['invocations'],actual_orthogonal_73column_maps=len(r['sigmas']),actual_sigma_stream_sha256=r['sigma_digest'],all_actual_residual_and_spectator_charts=True,idle_remainders=r['idle_remainders'],mutations_rejected=controls,mutation_controls_run='--mutation-controls' in sys.argv[4:],provider_phase_semantic_sha256=phase_semantic_hashes,provider_artifact_semantic_sha256=artifact_semantic_hashes,widths_by_provider={pid:dict(sorted(Counter(providers[pid]['widths']).items()))for pid in provider_ids},provider_counts=dict(Counter(c['provider_id']for c in ct['calls'])),all_provider_program_phase_and_wrapper_bindings=True,scope='Independent exact asynchronous chronology, per-replica phase projection, owner/chart/paid-profile audit. Uses per-invocation local providers bound by exact scalar, phase and residual-wrapper receipts; all-size compilation and complete coefficient invoice are separate inherited obligations.')
 REPORT.parent.mkdir(parents=True,exist_ok=True)
 REPORT.write_text(json.dumps(report,indent=2)+'\n');print(json.dumps(report,indent=2))
 
-owners=dict(status='PASS_INDEPENDENT_ASYNC_OWNERS_AND_PROFILE',template_sha256=summary['template_sha256'],paid_profile=r['profile'],live=DATA,physical=PHYSICAL,rank_mass=r['mass'],deficit=2560,hosted_residuals=HOSTED,banked_residuals=0,all_live_owners_per_call_distinct=True,owners_per_call=N,actual_helper_owner_charts=HOSTED,actual_73column_sigmas=len(r['sigmas']),cross_replica_helper_roles=r['cross_replica'],explicit_idle_remainder_children=r['idle_remainders'],source_idle_children_charged=sum(x['replicas']for x in parent['idle_children']),source_artifacts=summary['source_artifacts'],provider_phase_semantic_sha256=phase_semantic_hashes,controller_audit_sha256=hashlib.sha256(REPORT.read_bytes()).hexdigest())
+owners=dict(status='PASS_INDEPENDENT_ASYNC_OWNERS_AND_PROFILE',template_sha256=summary['template_sha256'],paid_profile=r['profile'],live=DATA,physical=PHYSICAL,rank_mass=r['mass'],deficit=2560,hosted_residuals=HOSTED,banked_residuals=0,all_live_owners_per_call_distinct=True,owners_per_call=N,actual_helper_owner_charts=HOSTED,actual_73column_sigmas=len(r['sigmas']),cross_replica_helper_roles=r['cross_replica'],explicit_idle_remainder_children=r['idle_remainders'],source_idle_children_charged=sum(x['replicas']for x in parent['idle_children']),source_artifacts=summary['source_artifacts'],provider_phase_semantic_sha256=phase_semantic_hashes,provider_artifact_semantic_sha256=artifact_semantic_hashes,controller_audit_sha256=hashlib.sha256(REPORT.read_bytes()).hexdigest())
 (REPORT.parent/'OWNERS-AND-PROFILE.json').write_text(json.dumps(owners,indent=2)+'\n')
 
 # Literal residual frames are a compact export of the already checked offsets,

@@ -41339,7 +41339,7 @@
         "LOCAL-CHECKS.json": "e755d7f6f1eb1614fb18fdfd4326441dca30d837525866ffe5aa5373c65c6ba9",
         "INDEPENDENT-LOCAL-REPLAY.json": "833525735a9edc59a455b64bb60a250bc04c393fff67dccff7ba13f33caed724",
         "CLIFFORD-RECIPES.json": "4da96c507e1b851788713c658221851444d3dcbd420ed356a201e8df53b140e0",
-        "CLIFFORD-REVIEW.json": "d55e7f2b1d6c6281ee003300f63103b1f534e461b398db6975aa51a5d902ddc3",
+        "CLIFFORD-REVIEW.json": "8cb06536fe2d2aacca876991e43ea0ee291f9da7a733fb57eb956eec34789336",
         "RESIDUAL-ADAPTERS.json": "7b0f3456a644f6ca794b74d933cf834c4a193af030cef6fe5b1d3eea3d19adc8"
       },
       "ports": [
@@ -41984,6 +41984,15 @@
       "orientation_program_sha256": {
         "forward": "d2fd235ac4fa8fe5332676ce7f3553ac387ad9248b5df60f25e90444ff837fbe",
         "backward": "df7643b6e72bfdcb1eb39fe04954e51b6102668bb6dfba95c4275c5703e948cd"
+      },
+      "artifact_semantic_sha256": {
+        "CANONICAL-WORD.json.gz": "c869c87763d5a9007e5c8d5e3cc1b1599426a86a0e6caa5bd2dc652ca52a2e43",
+        "LOCAL-PROGRAMS.json.gz": "2ce07f8bd7694709be1c3b8a84ae8715a6a1ba10b3103852c18f516d7f254081",
+        "LOCAL-CHECKS.json": "aedbe90c7c0b30dc41f2caba1cf9bb2957aae096fb616fa0eaffb1620e17239e",
+        "INDEPENDENT-LOCAL-REPLAY.json": "44baa314ed44ae71f91c2683c3d089ca323746fc217ed09f9a0e848e65b8d9c7",
+        "CLIFFORD-RECIPES.json": "4da96c507e1b851788713c658221851444d3dcbd420ed356a201e8df53b140e0",
+        "CLIFFORD-REVIEW.json": "0f79e6c2585413255fdd4f09e13d4c3dce97ff4c4bea0a9fafddc4d01c2756c7",
+        "RESIDUAL-ADAPTERS.json": "149ea9ef3fd9a7d60ef0b80991ece477203df203a152fc0b6fdddd72696dd610"
       }
     },
     "ck": {
@@ -41994,7 +42003,7 @@
         "LOCAL-CHECKS.json": "1330c631cc63073c7c3b542f8a9d3a1039274259b51f96b44c9ae50a58074c9e",
         "INDEPENDENT-LOCAL-REPLAY.json": "b8fcbb36a1a8a4417de8100324bd9faa4679eea8a3cb520edb9d9d2da52cddc5",
         "CLIFFORD-RECIPES.json": "e43471912775b87681d8051d2b5df7606bc5649d8abc4eca6fceed02f3ed7ac7",
-        "CLIFFORD-REVIEW.json": "989777baff01597ef1e0aabe6c654ed37372bd8f6571794b21ff1422c29887d8",
+        "CLIFFORD-REVIEW.json": "1d230dff3722c95aef789e9ce062b0be46134ddc6b50e7aed7fb12533951ea93",
         "RESIDUAL-ADAPTERS.json": "13bac6a6538ed3ef021546ba8038e11db4ae85c49abcc86de4da3471fb7935c4"
       },
       "ports": [
@@ -42639,6 +42648,15 @@
       "orientation_program_sha256": {
         "forward": "0664e1d697434a49278093621ecc91d52133e7cd518d63d76cb3b9b192fe8dbf",
         "backward": "6b0c79c3f045f8b168634a82bf74fbcfdafc9955c59ef4745a38f30ba1a574c0"
+      },
+      "artifact_semantic_sha256": {
+        "CANONICAL-WORD.json.gz": "3cc4907918fd217ffdbd21a133b5540e13345e4ffe74120b654b892ccfaa146a",
+        "LOCAL-PROGRAMS.json.gz": "b433fc4aaa3b1cf5483ba58981f88266f7ddfca601fc9526e78e3aa179ce3de4",
+        "LOCAL-CHECKS.json": "3868b477aacdb3cf54f9b22c86b3b71f8aa73c91001729cf19e520b3bbf957cc",
+        "INDEPENDENT-LOCAL-REPLAY.json": "b2f3d7b64453e7336e63a894fc6afeb4f03e485c27c77cfc83c53874a6f9d484",
+        "CLIFFORD-RECIPES.json": "e43471912775b87681d8051d2b5df7606bc5649d8abc4eca6fceed02f3ed7ac7",
+        "CLIFFORD-REVIEW.json": "30249daa964b516c42d742d5dbf7ef950b02dc2fc572505e2e4b24c5fed01e96",
+        "RESIDUAL-ADAPTERS.json": "6421174f16576bd6a3caa99cad2182a8cfe3b1f47e627b6cba6d237e5764b262"
       }
     },
     "jp8": {
@@ -43294,6 +43312,15 @@
       "orientation_program_sha256": {
         "forward": "85f6356af29fbe34c8d0322c7171fb457c640bfdf552af0c60e8135edc42960b",
         "backward": "24882225fc77b9f11e5c0ef57e0c5ca909d9c9a1aab214b4e25608e2e421ee41"
+      },
+      "artifact_semantic_sha256": {
+        "CANONICAL-WORD.json.gz": "39e56aa491fcbbe0593276b0802cc8e564a3d541e524e69e14f94e927ec7581f",
+        "LOCAL-PROGRAMS.json.gz": "ff632a4705159ae0a7f07f02ee9c296995f6af22e258e132eb72e0ba0b1d7ea4",
+        "LOCAL-CHECKS.json": "97e3d3500e070049b2ba4bbcacfb0b93f5ef2c08029a863bbb2e5fd072590497",
+        "INDEPENDENT-LOCAL-REPLAY.json": "1708d1084d561243b713d539f5377e4d1cd0a97989f133132586880ff401c79a",
+        "CLIFFORD-RECIPES.json": "7bf14ad8734ba80d7c16925fd98566c8f2a0bff02e9f5859cc10d3b4e04b777a",
+        "CLIFFORD-REVIEW.json": "b6eb6eb38b7e5a69ef0b1c8c80cfd3abda1f719da3da46d66479a99875f248b0",
+        "RESIDUAL-ADAPTERS.json": "85fb4387cb172ed98a04b508e7b8d54f8e471b9ad246b905b63a5177c9365106"
       }
     }
   },

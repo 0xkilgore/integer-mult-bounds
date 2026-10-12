@@ -9,6 +9,7 @@ inherited rule (the input word must already satisfy it), and the helper response
 """
 from pathlib import Path
 import argparse,copy,gzip,hashlib,json,sys
+from collections import Counter
 assert __debug__,'Assertions required'
 ap=argparse.ArgumentParser();ap.add_argument('--input',type=Path,required=True);ap.add_argument('--recipe',type=Path,required=True);ap.add_argument('--gk-dir',type=Path,required=True);ap.add_argument('--out',type=Path,required=True);a=ap.parse_args();assert not a.out.exists()
 sys.path.insert(0,str(a.gk_dir));import gk_word as G,gk_common as C
@@ -53,6 +54,8 @@ for m in reversed(recipe['moves']):
  try:ok=G.profile(z)==G.profile(w)
  except AssertionError:ok=False
  assert not ok,'unmoved coalescence accepted';rejected.append('unmoved-%s-%d'%(m['section'],m['from']))
-w['report'].update(local_profile=dict(G.profile(w)),local_rank_mass=sum(r*n for r,n in G.profile(w).items()),status='GATE_MOVE_FRAME_COALESCENCES_PENDING_NATIVE_PHASE_ADMISSION')
+w['report'].update(local_profile=dict(G.profile(w)),local_rank_mass=sum(r*n for r,n in G.profile(w).items()),status='GATE_MOVE_FRAME_COALESCENCES_PENDING_NATIVE_PHASE_ADMISSION',
+ # descriptive inventory fields recomputed from the actual widths (as PR586's adapted PR583 constructor does)
+ width_inventory={str(k):v for k,v in sorted(Counter(G.widths_of(w)).items())},entering_helpers=sum(v<9 for v in G.widths_of(w)),entrance_rank=sum(9-v for v in G.widths_of(w)))
 a.out.mkdir(parents=True);(a.out/'FULL-WORD.json.gz').write_bytes(G.dump(w));receipt=dict(status='PASS_EXACT_GATE_MOVE_FRAME_COALESCENCES',input_content_sha256=sha(enc(raw)),output_content_sha256=sha(enc(w)),profile_before=recipe['before'],profile_after=recipe['after'],moves=moved,changes=trace,negative_controls_rejected=rejected,all_scalar_responses_unchanged=True,all_entering_helper_responses_zero=True,helper_widths_unchanged=True,cleanup_rebuilt_by_inherited_rule=True,scope='Construction, commutation, frame/profile and scalar response checks only; native, phase and global admission are separate.')
 (a.out/'FRAME-CONSTRUCTION.json').write_text(json.dumps(receipt,indent=2,sort_keys=True)+'\n');print(json.dumps(receipt,indent=2))

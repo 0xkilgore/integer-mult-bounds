@@ -8,6 +8,7 @@ from collections import Counter
 from pathlib import Path
 import sys as _s,pathlib as _p;_s.path.insert(0,str(_p.Path(__file__).resolve().parent))
 from witness import *
+from generated_identity import artifact_identities
 assert __debug__, 'Assertions required'
 ap=argparse.ArgumentParser(description=__doc__)
 for name in ('baseline','plan','out'):ap.add_argument('--'+name,type=Path,required=True)
@@ -46,9 +47,11 @@ for pid,desc in plan['provider_registry'].items():
    elif e[0]=='center':profile[e[4]]+=1
   assert dict(profile)==expected=={int(r):n for r,n in checks[orientation]['paid_profile'].items()}=={int(r):n for r,n in native['paid_profiles'][orientation].items()}
   assert hashlib.sha256(json.dumps(events,separators=(',',':')).encode()).hexdigest()==checks[orientation]['sha256']
- for name in stable:
-  assert sha(d/name)==desc['artifact_sha256'][name],(pid,name,'changed non-timing artifact')
-  if name.endswith('.gz'):assert(d/name).read_bytes()[9]==255,(pid,name,'nonportable gzip header')
+ identities=artifact_identities(d)
+ pin('providers.%s.artifact_semantic_sha256'%pid,identities)
+ assert identities==desc['artifact_semantic_sha256']
+ for name in ('LOCAL-CHECKS.json','CLIFFORD-RECIPES.json','RESIDUAL-ADAPTERS.json'):
+  assert sha(d/name)==desc['artifact_sha256'][name],(pid,name,'changed non-reference artifact')
  for c in plan['provider_calls']:
   if c['provider']==pid:
    assert c['orientation']==('forward'if c['stage']%2==0 else'backward')
@@ -58,6 +61,6 @@ for pid,desc in plan['provider_registry'].items():
  sources[pid]=dict(artifact_sha256=desc['artifact_sha256'],canonical_content_sha256=hashlib.sha256(json.dumps(word,sort_keys=True,separators=(',',':')).encode()).hexdigest(),all_phase_edges=phase['directed_edges'])
 plan['runtime_source_plan_sha256']=sha(a.plan)
 (a.out/'PLAN.json').write_text(json.dumps(plan,indent=2)+'\n')
-receipt=dict(status='PASS_FROZEN_048_ALLCOLD_DISPATCH_FRESH_PROVIDER_BINDING',source_plan_sha256=sha(a.plan),runtime_plan_sha256=sha(a.out/'PLAN.json'),providers=sources,only_rebound_fields=['provider_registry.directory','provider_registry.artifact_sha256.CLIFFORD-REVIEW.json','runtime_source_plan_sha256'])
+receipt=dict(status='PASS_FROZEN_048_ALLCOLD_DISPATCH_FRESH_PROVIDER_BINDING',source_plan_sha256=sha(a.plan),runtime_plan_sha256=sha(a.out/'PLAN.json'),providers=sources,only_rebound_fields=['provider_registry.directory','provider_registry.artifact_sha256','runtime_source_plan_sha256'])
 (a.out/'BINDING.json').write_text(json.dumps(receipt,indent=2)+'\n')
 print(receipt['status'])

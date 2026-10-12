@@ -10,6 +10,7 @@ from actual selected provider/orientation records.
 import argparse, gzip, hashlib, json
 import sys as _s,pathlib as _p;_s.path.insert(0,str(_p.Path(__file__).resolve().parent))
 from witness import *
+from generated_identity import artifact_identities
 from collections import Counter
 from fractions import Fraction as Q
 from pathlib import Path
@@ -148,14 +149,13 @@ def recount_provider(local_dir, registry):
     assert widths==registry['widths']
     artifacts={f.name:filehash(f) for f in local_dir.iterdir() if f.is_file()}
     phase_review=read(local_dir/'CLIFFORD-REVIEW.json')
-    semantic_phase=hashlib.sha256(json.dumps({k:v for k,v in phase_review.items()if k!='seconds'},sort_keys=True,separators=(',',':')).encode()).hexdigest()
     return dict(local=local,helpers=helpers,centres=centres,v=v,h=h,n=n,
                 entering_helpers=entering,entrance_rank=sum(h-width for width in widths),
                 width_inventory=dict(sorted(Counter(widths).items())),widths=widths,
                 local_adapters=adapters,local_primitive_bound=primitive_bound,
                 compiler=compiler,children=children,artifacts=artifacts,
                 paid_profile=checks['forward']['paid_profile'],
-                program_hashes={o:programhash(events) for o,events in programs.items()},semantic_artifact_sha256={'CLIFFORD-REVIEW.json':semantic_phase})
+                program_hashes={o:programhash(events) for o,events in programs.items()},semantic_artifact_sha256=artifact_identities(local_dir))
 
 
 def run(base, hosted, audit, out, retained_invoice=None):

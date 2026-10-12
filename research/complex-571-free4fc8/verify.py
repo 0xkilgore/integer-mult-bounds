@@ -8,6 +8,7 @@ import argparse,gzip,hashlib,json,os,subprocess,sys,time,shutil,threading
 from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 from fractions import Fraction as Q
+from collections import Counter
 assert __debug__, 'Assertions required'
 P=Path(__file__).resolve().parent
 ap=argparse.ArgumentParser();ap.add_argument('--work',type=Path,required=True)
@@ -168,7 +169,9 @@ def gate_move_coalesce(word,s,out,tag):
    if z is None:assert u==v,'gate changed outside the recipe %s %d'%(part,i)
    else:assert u==z['before'] and v==z['after'] and u[:-1]==v[:-1],'wrong coalescence %s %d'%(part,i)
  assert not ch,'recipe change outside A/B'
- assert all(x['report'][k]==y['report'][k]for k in x['report']if k not in('local_profile','local_rank_mass','status'))
+ meta=('width_inventory','entering_helpers','entrance_rank');assert all(x['report'][k]==y['report'][k]for k in x['report']if k not in('local_profile','local_rank_mass','status')+meta)
+ sys.path.insert(0,str(GK));import gk_common as GC;GC.V=112;ws=GC.widths_of(y)
+ assert y['report']['width_inventory']=={str(k):v for k,v in sorted(Counter(ws).items())} and y['report']['entering_helpers']==sum(v<9 for v in ws) and y['report']['entrance_rank']==sum(9-v for v in ws),'descriptive width metadata not normalized'
 STEPS={'cold_kernel':cold_kernel,'multicut':multicut,'greedy_kernels':multicut,'promote':promote,'joint_prefix':joint_prefix,'frame_coalesce':frame_coalesce,'gate_move_coalesce':gate_move_coalesce}
 def build_word(pid,d):
  base=d['base'];assert base['kind']in('frozen558_promoted','source_file'),base['kind']
@@ -220,6 +223,7 @@ run('fresh-invoice',P/'code/invoice_allcold.py','--base',G/'base','--hosted',G/'
 run('conservative-and-native-exact-assembly',P/'code/assemble.py',S,G,O/'ASSEMBLY.json')
 run('admission-controls',P/'code/assembly_controls.py','--source-package',S,'--owner',G/'audit/OWNERS-AND-PROFILE.json','--invoice',G/'audit/PREFIX-AND-INVOICE.json','--out',O/'ASSEMBLY-CONTROLS.json')
 run('phase-timing-portability-controls',P/'code/phase_timing_controls.py',S,G/'base',G/'audit',O/'PHASE-TIMING-CONTROLS.json')
+run('actual-recompression-and-rebound-controls',P/'code/generated_identity_controls.py','--base',G/'base','--audit',G/'audit','--out',O/'GENERATED-IDENTITY-CONTROLS.json')
 X=SPEC['expected']
 for pid,local in locals_.items():
  r=read(local/'INDEPENDENT-LOCAL-REPLAY.json');ph=read(local/'CLIFFORD-REVIEW.json')
@@ -230,7 +234,7 @@ assert len(read(O/'ASSEMBLY-CONTROLS.json')['rejected_controls'])==X['assembly_c
 z=read(O/'ASSEMBLY.json');assert Q(z['kappa_decimal'])==Q(X['kappa_decimal']) and Q(z['conservative_kappa_decimal'])==Q(X['conservative_kappa_decimal'])
 assert {str(k):v for k,v in z['complex_profile'].items()}==X['global_profile'] and z['provider_counts']==X['provider_counts']
 r=dict(status=SPEC['build']['status'],kappa=z['kappa'],kappa_decimal=z['kappa_decimal'],complex_lower=z['complex_lower'],bit_lower=z['bit_lower'],conservative_kappa_decimal=z['conservative_kappa_decimal'],conservative_complex_lower=z['conservative_complex_lower'],global_profile=z['complex_profile'],provider_counts=z['provider_counts'],surcharge_model=z['surcharge_model'],seconds=time.monotonic()-start,reused=dict(baseline=bool(a.reuse_baseline),locals=sorted(reuse)),scope=z['scope']);dump(O/'RESULT.json',r)
-paths=['PHASE-TIMING-CONTROLS.json','mixed-global/audit/IDLE-REMAINDER-FRAMES.json','RESULT.json','ASSEMBLY.json','ASSEMBLY-CONTROLS.json','mixed-global/BINDING.json','mixed-global/audit/ASYNC-AUDIT.json','mixed-global/audit/OWNERS-AND-PROFILE.json','mixed-global/audit/PREFIX-AND-INVOICE.json']
+paths=['PHASE-TIMING-CONTROLS.json','GENERATED-IDENTITY-CONTROLS.json','mixed-global/audit/IDLE-REMAINDER-FRAMES.json','RESULT.json','ASSEMBLY.json','ASSEMBLY-CONTROLS.json','mixed-global/BINDING.json','mixed-global/audit/ASYNC-AUDIT.json','mixed-global/audit/OWNERS-AND-PROFILE.json','mixed-global/audit/PREFIX-AND-INVOICE.json']
 paths+=sorted(f.relative_to(O).as_posix()for f in O.glob('*-step*/*.json'))
 for pid in sorted(set(locals_)-set(reuse)):
  for fn in ('INDEPENDENT-LOCAL-REPLAY.json','CLIFFORD-REVIEW.json','WRAPPER-CHECKS.json'):paths.append(pid+'-local/'+fn)
