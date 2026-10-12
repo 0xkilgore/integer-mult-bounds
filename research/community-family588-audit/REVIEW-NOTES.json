@@ -109,7 +109,8 @@
       "execution": "Fresh complete package command passed; stage, result, receipt/control records and log archived in BATCH2-EVIDENCE.json."
     },
     "576": {
-      "review": "Adds twelve multi-cut kernels to the #571 prefix as a third real provider. The final spec supplies expected comparisons, not a replacement for reconstruction. Both changed providers and the mixed allocation must pass."
+      "review": "Adds twelve multi-cut kernels to the #571 prefix as a third real provider. The final spec supplies expected comparisons, not a replacement for reconstruction. Both changed providers and the mixed allocation must pass.",
+      "execution": "Fresh complete package command passed; stage, result, receipt/control records and log archived in BATCH2-EVIDENCE.json."
     },
     "577": {
       "review": "Four-provider packing changes dispatch and whole owners, while each chosen local word is independently rebuilt. The four predecessor improvements are alternatives, not quantities to add."

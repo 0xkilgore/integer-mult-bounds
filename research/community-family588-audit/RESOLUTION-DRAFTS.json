@@ -197,7 +197,7 @@
     {
       "number": 576,
       "reviewed_head": "f4e9f7e85e9211cf6ba6c5789da2aa0902d9121e",
-      "required_execution_complete": false,
+      "required_execution_complete": true,
       "body_template": "Thank you @jeremykothe2. This contribution at `f4e9f7e85e9211cf6ba6c5789da2aa0902d9121e` is incorporated in the reviewed family through #588, published in PUBLICATION_COMMIT.\n\nAdds twelve multi-cut kernels to the #571 prefix as a third real provider. The final spec supplies expected comparisons, not a replacement for reconstruction. Both changed providers and the mixed allocation must pass.\n\nPreserved implementation and research:\n\n- [research/complex-571-three-provider](https://github.com/CrocSwap/integer-mult-bounds/tree/PUBLICATION_COMMIT/research/complex-571-three-provider)\n\nThe [family review](https://github.com/CrocSwap/integer-mult-bounds/blob/PUBLICATION_COMMIT/docs/research/community-family588-review.md) and [individual disposition](https://github.com/CrocSwap/integer-mult-bounds/blob/PUBLICATION_COMMIT/research/community-family588-audit/DISPOSITIONS.json) record the scope, evidence and attribution. Parallel and intermediate contributions remain credited even where a later composition has a stronger bound. The published multiplication bound remains conditional on the documented compiler, realization, hosting and analytic assumptions; these finite checks are not a full Lean multiplication proof."
     },
     {
