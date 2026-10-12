@@ -1,0 +1,20 @@
+{
+  "EXPECTED.json": "da9ffbb0b44f66561d0875658e94c0751d70e9acf27b77f91c91a6e0ee583761",
+  "LICENSE": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+  "NOTICE.md": "e995f7911c54a73136e3c4677ceecf93e8208e5d3e0a726841f7cf2278fd216b",
+  "README.md": "57d9c0bf76dd217de3ca7269013f039de661a9840e72d028b6b48bc5941c646d",
+  "SOURCES.json": "1c6fa85951b0d2eb97755c4bde0c6c5a2984a7452133ba783a04a4245467cc77",
+  "dependencies/sources.tar.gz": "f6a59873c13e68c63d29051cee05d8151cac7faf55f3779b0e757e8e4e2e53f3",
+  "evidence/ADAPTERS314.json": "bc9d150517bae20490620f6d18b1af68a7d57ca5efe772613a9ee5ccd09107d8",
+  "evidence/GLOBAL314.json": "e47a3c665b97e65728548bc89bfb963605f6e727f24e3d1294e4058364740b18",
+  "evidence/INITIAL-FAILED-DRIVER.py": "8a7e75f81fde7fa13bffa10c1ddd584c672d5db600736a1189ca12eb3bd28608",
+  "evidence/INITIAL-ROLE-ORDER-FAILURE.log": "76908942792120e30ed1c0fae8798ab54cd4290f0d891ee0c5ed0107efcff54f",
+  "evidence/INVOICE314.json": "a5af7b1a0ed22c4c438dfa5dab9640326cb89838c2e83f8b64ae2b5ec942e8fc",
+  "evidence/LOCAL-SCALAR314.json": "9436f9b92196015e357e4974011cf1d0f960abb7f26b95eedac339a02c919624",
+  "evidence/OWNER-AUDIT314.json": "1c4217084cca05cb5c8cd14ab0c9b8fe98438066faba7daf5728241afb1ad0a2",
+  "evidence/OWNER-REPACK.json": "c9db2fc3320b0355aaade6700982f50c1f37659243e4df3ca2b839af4d6f9ee8",
+  "evidence/PHASES314.json": "4af996dbeedc7a67c34348330303e651ceef02785cc6b442789603de19a51d4b",
+  "scripts/price_static44_composition.py": "21a23a3b561e5097a86f834a921ddd8692f3b095435c816bb053925a3d44e961",
+  "scripts/verify_static44_global.py": "1cba7cf95c4ffe6d3399f8dfc69b2c23260fbfd52f3e1bb52db8afe29c5e897d",
+  "verify.py": "a4685e36a215f00ca5ce0f893eba2a1c4554a79a0bb910e3cb326ca40982b24d"
+}
