@@ -15,7 +15,7 @@ The standard-library verifier independently checks both supplier profiles with t
 python -B research/r420-static44-composition/verify.py /absolute/new/receipt.json
 ```
 
-The output file must not exist. The manifest pins every supplied input, engine and notice. This command performs arithmetic verification; it does not physically rebuild either supplier. Source package acquisition was checked against every Git blob (49 PR543 files and 244 PR544 files). Independent physical replays are in progress at initial draft publication; published supplier receipts remain cited conditional dependencies until those checks complete. GitHub CI is separate.
+The output file must not exist. The manifest pins every supplied input, engine and notice. This command performs arithmetic verification; it does not physically rebuild either supplier. Source package acquisition was checked against every Git blob (49 PR543 files and 244 PR544 files). Independent physical replays have now passed on Python 3.14: PR544 complete cold verification, and PR543 both stage counts, interface/mutation checks and baseline controls. The PR543 run required a missing SciPy installation and repair of relative symlinks introduced by our SSD path adaptation; no supplier mathematics or checker was changed. Failures, repair scripts, exact final summary and finite receipts are retained in evidence/. GitHub CI is separate and is not claimed passed.
 
 ## Interface caveat
 
