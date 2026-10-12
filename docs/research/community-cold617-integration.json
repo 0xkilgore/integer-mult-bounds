@@ -1,5 +1,5 @@
 {
-  "status": "LOCAL_REVIEW_COMPLETE_PUBLICATION_PENDING",
+  "status": "PUBLISHED_FIFTEEN_MERGED_THREE_PARTIAL_LINUX_PENDING",
   "selected_kappa": "817591864627889/500000000000000000",
   "selected_decimal": "0.001635183729255778",
   "reviewed_heads": {
@@ -27,7 +27,7 @@
     "research/community-cold617-audit/SOURCE.json": "1bd165cdfc2f34216162a6739d05abe0a0f46e4b34d0b6b6d5d045d3850c2b94",
     "research/community-cold617-audit/COMPLETED-EVIDENCE.json": "2db5cab2ed2592dd14de80e696fa022ec4899c44f06a9e11570cb1ac0706a80e",
     "research/community-cold617-audit/CONTENT-COVERAGE.json": "2ea79f5725919ad8e17861b3d521e495ec10b78f4c27094cbb63d070fd96ebee",
-    "research/community-cold617-audit/DISPOSITIONS.json": "dc5e78ebc771931c9313c63e8930b202211e7697eb2a385dc2d4c7e72b7f7b37",
+    "research/community-cold617-audit/DISPOSITIONS.json": "d74bcfc9ae5219ecfe57e74466ae327c7e0d2524c87f52c143e74c6187db0984",
     "research/community-cold617-audit/REVIEW-NOTES.json": "53b6921e9bda8e371467fd4085360d8f4cae8962a5adb8a60b06b021d646d0e3",
     "research/community-cold617-audit/INDEPENDENT-REPORTS.json": "3203a2a3fe43569325e03ea880a407884c37bf9be97ee1a49cf364bb56b0b6dc",
     "research/community-cold617-audit/CHAIN.json": "10aad7e39cd5501c4beda43e230d5407a19a16c1d95c4e0cc6e166007c6a8d67",
@@ -43,16 +43,22 @@
     "scripts/verify_frontier617.py": "f80f043ba299512763e43c8a37705b1cc6b445e56479c98fd63856856b422c5a",
     "scripts/verify_frontier617_bindings.py": "b4d996f671db2df651c19e3c297811f0e4752bb18492a6cf00c7122714c05086",
     "research/community-cold617-audit/SELECTED-SOURCE.json": "00e332296dad280098acb3f2e8c608ee660c024313a610ad0e58ad368c834a7d",
-    "research/community-cold617-audit/CLEAN-ARCHIVE.json": "85aae305bb6a69dbe8114700fd8fbc9a286dc03473ff0a5f2acc71ef2d5b2973"
+    "research/community-cold617-audit/CLEAN-ARCHIVE.json": "85aae305bb6a69dbe8114700fd8fbc9a286dc03473ff0a5f2acc71ef2d5b2973",
+    "research/community-cold617-audit/PUBLICATION.json": "cf8b3957dc3173d8cdda5eb77ad885022ccc0fe8cb3d95dcc3a0f3c2956b1fce",
+    "research/community-cold617-audit/CI-STATUS.json": "fe9ba60f6c979516d16d74161b60447467f24f460324e8f255bbb486efed4683"
   },
   "linux_ci": {
-    "status": "not_started",
-    "conclusion": null
+    "conclusion": "",
+    "databaseId": 38308027435,
+    "headSha": "b812a6b04f9ed0358e4a0e783ca117c2f9175b44",
+    "status": "queued",
+    "url": "https://github.com/CrocSwap/integer-mult-bounds/actions/runs/38308027435"
   },
   "remaining": [
     "#611 historical branch differences remain open.",
     "#605/#612 Linux harness and full precursor-package reviews remain open.",
     "Remote Linux replay has not completed."
   ],
-  "scope": "Scoped finite scalar, frame, phase, owner, invoice and exact assembly checks; all inherited all-size/compiler/common-label/mutable-basis/hosting/residual/precision/tape/analytic assumptions remain. Source Lean checks are not a full multiplication theorem."
+  "scope": "Scoped finite scalar, frame, phase, owner, invoice and exact assembly checks; all inherited all-size/compiler/common-label/mutable-basis/hosting/residual/precision/tape/analytic assumptions remain. Source Lean checks are not a full multiplication theorem.",
+  "publication_commit": "b812a6b04f9ed0358e4a0e783ca117c2f9175b44"
 }

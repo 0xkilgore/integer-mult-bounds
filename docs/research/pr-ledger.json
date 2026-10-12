@@ -37,7 +37,7 @@
     "research/community-family533-audit/DISPOSITIONS.json": "e0e51f92dc715525b8ff5e4987551336c292b0a466f1f3fb87221fb96d54544d",
     "research/community-family588-audit/DISPOSITIONS.json": "70f66f8c223b0929904ff88e27713b5bdbdb0d6b92f4d55cf518565135d678b5",
     "research/community-hyperplane599-audit/DISPOSITIONS.json": "00763b888859d15618eda871a42a9c0e6912ea33b932a29c02bc6e2df984efc1",
-    "research/community-cold617-audit/DISPOSITIONS.json": "dc5e78ebc771931c9313c63e8930b202211e7697eb2a385dc2d4c7e72b7f7b37"
+    "research/community-cold617-audit/DISPOSITIONS.json": "d74bcfc9ae5219ecfe57e74466ae327c7e0d2524c87f52c143e74c6187db0984"
   },
   "scope": "Reconciliation index, not blanket mathematical verification. Partial includes triage or scoped checks; mentions alone are not review. Integrated archives are distinguished from active implementations. No automatic closures.",
   "pull_requests": [
@@ -15835,8 +15835,14 @@
       "integration_location": [
         "research/complex-571-hpeq6"
       ],
-      "github_state": "OPEN",
-      "closure": null,
+      "github_state": "MERGED",
+      "closure": {
+        "reviewed_head": "dfb7b827990d7b586b3cd778e3d750c050dd4778",
+        "github_state": "MERGED",
+        "merged_at": "2026-10-12T21:01:43Z",
+        "integration_commit": "b812a6b04f9ed0358e4a0e783ca117c2f9175b44",
+        "explanation_url": "https://github.com/CrocSwap/integer-mult-bounds/blob/b812a6b04f9ed0358e4a0e783ca117c2f9175b44/docs/research/community-cold617-review.md"
+      },
       "reviewed_head": "dfb7b827990d7b586b3cd778e3d750c050dd4778",
       "disposition": "incorporated",
       "unresolved_question": "",
@@ -15882,8 +15888,14 @@
       "integration_location": [
         "research/complex-571-hpem46"
       ],
-      "github_state": "OPEN",
-      "closure": null,
+      "github_state": "MERGED",
+      "closure": {
+        "reviewed_head": "529ab7dcb59d5ea7a5798e9e06cf5b3aee8a1550",
+        "github_state": "MERGED",
+        "merged_at": "2026-10-12T21:01:44Z",
+        "integration_commit": "b812a6b04f9ed0358e4a0e783ca117c2f9175b44",
+        "explanation_url": "https://github.com/CrocSwap/integer-mult-bounds/blob/b812a6b04f9ed0358e4a0e783ca117c2f9175b44/docs/research/community-cold617-review.md"
+      },
       "reviewed_head": "529ab7dcb59d5ea7a5798e9e06cf5b3aee8a1550",
       "disposition": "incorporated",
       "unresolved_question": "",
@@ -15929,8 +15941,14 @@
       "integration_location": [
         "research/format-limits-corrected"
       ],
-      "github_state": "OPEN",
-      "closure": null,
+      "github_state": "MERGED",
+      "closure": {
+        "reviewed_head": "30236261fc156de8e174fbbcef3247f05c9dbb3d",
+        "github_state": "MERGED",
+        "merged_at": "2026-10-12T21:01:43Z",
+        "integration_commit": "b812a6b04f9ed0358e4a0e783ca117c2f9175b44",
+        "explanation_url": "https://github.com/CrocSwap/integer-mult-bounds/blob/b812a6b04f9ed0358e4a0e783ca117c2f9175b44/docs/research/community-cold617-review.md"
+      },
       "reviewed_head": "30236261fc156de8e174fbbcef3247f05c9dbb3d",
       "disposition": "incorporated",
       "unresolved_question": "",
@@ -15976,8 +15994,14 @@
       "integration_location": [
         "research/complex-571-hpem46c"
       ],
-      "github_state": "OPEN",
-      "closure": null,
+      "github_state": "MERGED",
+      "closure": {
+        "reviewed_head": "c64200242bedc5256dee992de0a0c500be0567d3",
+        "github_state": "MERGED",
+        "merged_at": "2026-10-12T21:01:43Z",
+        "integration_commit": "b812a6b04f9ed0358e4a0e783ca117c2f9175b44",
+        "explanation_url": "https://github.com/CrocSwap/integer-mult-bounds/blob/b812a6b04f9ed0358e4a0e783ca117c2f9175b44/docs/research/community-cold617-review.md"
+      },
       "reviewed_head": "c64200242bedc5256dee992de0a0c500be0567d3",
       "disposition": "incorporated",
       "unresolved_question": "",
@@ -16024,8 +16048,14 @@
         "research/complex-571-cold14",
         "research/complex-571-hpem46"
       ],
-      "github_state": "OPEN",
-      "closure": null,
+      "github_state": "MERGED",
+      "closure": {
+        "reviewed_head": "1b795c5d7dea746ba310572585c0ef067574b4a6",
+        "github_state": "MERGED",
+        "merged_at": "2026-10-12T21:01:43Z",
+        "integration_commit": "b812a6b04f9ed0358e4a0e783ca117c2f9175b44",
+        "explanation_url": "https://github.com/CrocSwap/integer-mult-bounds/blob/b812a6b04f9ed0358e4a0e783ca117c2f9175b44/docs/research/community-cold617-review.md"
+      },
       "reviewed_head": "1b795c5d7dea746ba310572585c0ef067574b4a6",
       "disposition": "incorporated",
       "unresolved_question": "",
@@ -16118,8 +16148,14 @@
       "integration_location": [
         "research/niemeier-lattices"
       ],
-      "github_state": "OPEN",
-      "closure": null,
+      "github_state": "MERGED",
+      "closure": {
+        "reviewed_head": "048f884ea9c222faad43e8bb01e2a6863f6925d4",
+        "github_state": "MERGED",
+        "merged_at": "2026-10-12T21:01:43Z",
+        "integration_commit": "b812a6b04f9ed0358e4a0e783ca117c2f9175b44",
+        "explanation_url": "https://github.com/CrocSwap/integer-mult-bounds/blob/b812a6b04f9ed0358e4a0e783ca117c2f9175b44/docs/research/community-cold617-review.md"
+      },
       "reviewed_head": "048f884ea9c222faad43e8bb01e2a6863f6925d4",
       "disposition": "incorporated",
       "unresolved_question": "",
@@ -16165,8 +16201,14 @@
       "integration_location": [
         "research/complex-571-cold14-j1"
       ],
-      "github_state": "OPEN",
-      "closure": null,
+      "github_state": "MERGED",
+      "closure": {
+        "reviewed_head": "ddd81bcc0be9c81ba253096a22d2da72dc9f9172",
+        "github_state": "MERGED",
+        "merged_at": "2026-10-12T21:01:43Z",
+        "integration_commit": "b812a6b04f9ed0358e4a0e783ca117c2f9175b44",
+        "explanation_url": "https://github.com/CrocSwap/integer-mult-bounds/blob/b812a6b04f9ed0358e4a0e783ca117c2f9175b44/docs/research/community-cold617-review.md"
+      },
       "reviewed_head": "ddd81bcc0be9c81ba253096a22d2da72dc9f9172",
       "disposition": "incorporated",
       "unresolved_question": "",
@@ -16213,8 +16255,14 @@
         "research/complex-571-hpe46",
         "research/complex-571-hpe46-validation"
       ],
-      "github_state": "OPEN",
-      "closure": null,
+      "github_state": "MERGED",
+      "closure": {
+        "reviewed_head": "702e397432df9233cdd02e43f1f6f32e195eba84",
+        "github_state": "MERGED",
+        "merged_at": "2026-10-12T21:01:43Z",
+        "integration_commit": "b812a6b04f9ed0358e4a0e783ca117c2f9175b44",
+        "explanation_url": "https://github.com/CrocSwap/integer-mult-bounds/blob/b812a6b04f9ed0358e4a0e783ca117c2f9175b44/docs/research/community-cold617-review.md"
+      },
       "reviewed_head": "702e397432df9233cdd02e43f1f6f32e195eba84",
       "disposition": "incorporated",
       "unresolved_question": "",
@@ -16260,8 +16308,14 @@
       "integration_location": [
         "research/complex-571-cold14-r1"
       ],
-      "github_state": "OPEN",
-      "closure": null,
+      "github_state": "MERGED",
+      "closure": {
+        "reviewed_head": "10255d48152ed9f159f7c51028b1fc34a4ccc982",
+        "github_state": "MERGED",
+        "merged_at": "2026-10-12T21:01:43Z",
+        "integration_commit": "b812a6b04f9ed0358e4a0e783ca117c2f9175b44",
+        "explanation_url": "https://github.com/CrocSwap/integer-mult-bounds/blob/b812a6b04f9ed0358e4a0e783ca117c2f9175b44/docs/research/community-cold617-review.md"
+      },
       "reviewed_head": "10255d48152ed9f159f7c51028b1fc34a4ccc982",
       "disposition": "incorporated",
       "unresolved_question": "",
@@ -16308,8 +16362,14 @@
         "research/complex-571-cold14-jp8",
         "research/complex-571-hpem46"
       ],
-      "github_state": "OPEN",
-      "closure": null,
+      "github_state": "MERGED",
+      "closure": {
+        "reviewed_head": "b7c680ea38b9a25a89fce189bb927b45842362d0",
+        "github_state": "MERGED",
+        "merged_at": "2026-10-12T21:01:43Z",
+        "integration_commit": "b812a6b04f9ed0358e4a0e783ca117c2f9175b44",
+        "explanation_url": "https://github.com/CrocSwap/integer-mult-bounds/blob/b812a6b04f9ed0358e4a0e783ca117c2f9175b44/docs/research/community-cold617-review.md"
+      },
       "reviewed_head": "b7c680ea38b9a25a89fce189bb927b45842362d0",
       "disposition": "incorporated",
       "unresolved_question": "",
@@ -16468,8 +16528,14 @@
       "integration_location": [
         "certificates/pr610-independent-replay"
       ],
-      "github_state": "OPEN",
-      "closure": null,
+      "github_state": "MERGED",
+      "closure": {
+        "reviewed_head": "be939d7014b6244ada9cf6a9697db31e3886b1d9",
+        "github_state": "MERGED",
+        "merged_at": "2026-10-12T21:01:43Z",
+        "integration_commit": "b812a6b04f9ed0358e4a0e783ca117c2f9175b44",
+        "explanation_url": "https://github.com/CrocSwap/integer-mult-bounds/blob/b812a6b04f9ed0358e4a0e783ca117c2f9175b44/docs/research/community-cold617-review.md"
+      },
       "reviewed_head": "be939d7014b6244ada9cf6a9697db31e3886b1d9",
       "disposition": "incorporated",
       "unresolved_question": "",
@@ -16515,8 +16581,14 @@
       "integration_location": [
         "research/complex-571-cold14-f6"
       ],
-      "github_state": "OPEN",
-      "closure": null,
+      "github_state": "MERGED",
+      "closure": {
+        "reviewed_head": "6cfd7e2039078f80a8a39dec5e958d8df304cb90",
+        "github_state": "MERGED",
+        "merged_at": "2026-10-12T21:01:43Z",
+        "integration_commit": "b812a6b04f9ed0358e4a0e783ca117c2f9175b44",
+        "explanation_url": "https://github.com/CrocSwap/integer-mult-bounds/blob/b812a6b04f9ed0358e4a0e783ca117c2f9175b44/docs/research/community-cold617-review.md"
+      },
       "reviewed_head": "6cfd7e2039078f80a8a39dec5e958d8df304cb90",
       "disposition": "incorporated",
       "unresolved_question": "",
@@ -16562,8 +16634,14 @@
       "integration_location": [
         "research/complex-571-cold14-e1"
       ],
-      "github_state": "OPEN",
-      "closure": null,
+      "github_state": "MERGED",
+      "closure": {
+        "reviewed_head": "bf8a49a34350599763cced8592db81dc62c2c1c0",
+        "github_state": "MERGED",
+        "merged_at": "2026-10-12T21:01:43Z",
+        "integration_commit": "b812a6b04f9ed0358e4a0e783ca117c2f9175b44",
+        "explanation_url": "https://github.com/CrocSwap/integer-mult-bounds/blob/b812a6b04f9ed0358e4a0e783ca117c2f9175b44/docs/research/community-cold617-review.md"
+      },
       "reviewed_head": "bf8a49a34350599763cced8592db81dc62c2c1c0",
       "disposition": "incorporated",
       "unresolved_question": "",
@@ -16611,8 +16689,14 @@
         "research/complex-cold-owner-repair",
         "research/complex-cold-owner-repair-validation"
       ],
-      "github_state": "OPEN",
-      "closure": null,
+      "github_state": "MERGED",
+      "closure": {
+        "reviewed_head": "5611a9048e4388bb2f330520796379926084c69e",
+        "github_state": "MERGED",
+        "merged_at": "2026-10-12T21:01:43Z",
+        "integration_commit": "b812a6b04f9ed0358e4a0e783ca117c2f9175b44",
+        "explanation_url": "https://github.com/CrocSwap/integer-mult-bounds/blob/b812a6b04f9ed0358e4a0e783ca117c2f9175b44/docs/research/community-cold617-review.md"
+      },
       "reviewed_head": "5611a9048e4388bb2f330520796379926084c69e",
       "disposition": "incorporated",
       "unresolved_question": "",
@@ -16658,8 +16742,14 @@
       "integration_location": [
         "research/complex-571-cold14-b3"
       ],
-      "github_state": "OPEN",
-      "closure": null,
+      "github_state": "MERGED",
+      "closure": {
+        "reviewed_head": "904d62855723c00f8acef9a287a10768598fdeb2",
+        "github_state": "MERGED",
+        "merged_at": "2026-10-12T21:01:43Z",
+        "integration_commit": "b812a6b04f9ed0358e4a0e783ca117c2f9175b44",
+        "explanation_url": "https://github.com/CrocSwap/integer-mult-bounds/blob/b812a6b04f9ed0358e4a0e783ca117c2f9175b44/docs/research/community-cold617-review.md"
+      },
       "reviewed_head": "904d62855723c00f8acef9a287a10768598fdeb2",
       "disposition": "incorporated",
       "unresolved_question": "",
@@ -16688,7 +16778,7 @@
   ],
   "github_dispositions": {
     "CLOSED": 3,
-    "MERGED": 65,
-    "OPEN": 451
+    "MERGED": 80,
+    "OPEN": 436
   }
 }

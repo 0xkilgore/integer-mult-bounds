@@ -1,5 +1,5 @@
 {
-  "status": "LOCAL_REVIEW_COMPLETED_PUBLICATION_PENDING",
+  "status": "PUBLISHED_FIFTEEN_MERGED_THREE_PARTIAL",
   "pull_requests": [
     {
       "number": 600,
@@ -18,12 +18,18 @@
       },
       "reviewed_head": "dfb7b827990d7b586b3cd778e3d750c050dd4778",
       "current_head": "dfb7b827990d7b586b3cd778e3d750c050dd4778",
-      "github_state": "OPEN",
+      "github_state": "MERGED",
       "disposition": "incorporated",
       "integration_location": [
         "research/complex-571-hpeq6"
       ],
-      "closure": null,
+      "closure": {
+        "reviewed_head": "dfb7b827990d7b586b3cd778e3d750c050dd4778",
+        "github_state": "MERGED",
+        "merged_at": "2026-10-12T21:01:43Z",
+        "integration_commit": "b812a6b04f9ed0358e4a0e783ca117c2f9175b44",
+        "explanation_url": "https://github.com/CrocSwap/integer-mult-bounds/blob/b812a6b04f9ed0358e4a0e783ca117c2f9175b44/docs/research/community-cold617-review.md"
+      },
       "scope": "Parallel owner-map improvement over 596.",
       "unresolved_question": "",
       "review_completion": {
@@ -54,12 +60,18 @@
       },
       "reviewed_head": "529ab7dcb59d5ea7a5798e9e06cf5b3aee8a1550",
       "current_head": "529ab7dcb59d5ea7a5798e9e06cf5b3aee8a1550",
-      "github_state": "OPEN",
+      "github_state": "MERGED",
       "disposition": "incorporated",
       "integration_location": [
         "research/complex-571-hpem46"
       ],
-      "closure": null,
+      "closure": {
+        "reviewed_head": "529ab7dcb59d5ea7a5798e9e06cf5b3aee8a1550",
+        "github_state": "MERGED",
+        "merged_at": "2026-10-12T21:01:44Z",
+        "integration_commit": "b812a6b04f9ed0358e4a0e783ca117c2f9175b44",
+        "explanation_url": "https://github.com/CrocSwap/integer-mult-bounds/blob/b812a6b04f9ed0358e4a0e783ca117c2f9175b44/docs/research/community-cold617-review.md"
+      },
       "scope": "Commuting-prefix helper cleanup; exact scalar, frame, phase and global replay.",
       "unresolved_question": "",
       "review_completion": {
@@ -90,12 +102,18 @@
       },
       "reviewed_head": "30236261fc156de8e174fbbcef3247f05c9dbb3d",
       "current_head": "30236261fc156de8e174fbbcef3247f05c9dbb3d",
-      "github_state": "OPEN",
+      "github_state": "MERGED",
       "disposition": "incorporated",
       "integration_location": [
         "research/format-limits-corrected"
       ],
-      "closure": null,
+      "closure": {
+        "reviewed_head": "30236261fc156de8e174fbbcef3247f05c9dbb3d",
+        "github_state": "MERGED",
+        "merged_at": "2026-10-12T21:01:43Z",
+        "integration_commit": "b812a6b04f9ed0358e4a0e783ca117c2f9175b44",
+        "explanation_url": "https://github.com/CrocSwap/integer-mult-bounds/blob/b812a6b04f9ed0358e4a0e783ca117c2f9175b44/docs/research/community-cold617-review.md"
+      },
       "scope": "Ceiling display rounding and strict interval comparison; corrected package retained separately; no new kappa.",
       "unresolved_question": "",
       "review_completion": {
@@ -126,12 +144,18 @@
       },
       "reviewed_head": "c64200242bedc5256dee992de0a0c500be0567d3",
       "current_head": "c64200242bedc5256dee992de0a0c500be0567d3",
-      "github_state": "OPEN",
+      "github_state": "MERGED",
       "disposition": "incorporated",
       "integration_location": [
         "research/complex-571-hpem46c"
       ],
-      "closure": null,
+      "closure": {
+        "reviewed_head": "c64200242bedc5256dee992de0a0c500be0567d3",
+        "github_state": "MERGED",
+        "merged_at": "2026-10-12T21:01:43Z",
+        "integration_commit": "b812a6b04f9ed0358e4a0e783ca117c2f9175b44",
+        "explanation_url": "https://github.com/CrocSwap/integer-mult-bounds/blob/b812a6b04f9ed0358e4a0e783ca117c2f9175b44/docs/research/community-cold617-review.md"
+      },
       "scope": "Parallel 46-helper allocation.",
       "unresolved_question": "",
       "review_completion": {
@@ -162,13 +186,19 @@
       },
       "reviewed_head": "1b795c5d7dea746ba310572585c0ef067574b4a6",
       "current_head": "1b795c5d7dea746ba310572585c0ef067574b4a6",
-      "github_state": "OPEN",
+      "github_state": "MERGED",
       "disposition": "incorporated",
       "integration_location": [
         "research/complex-571-cold14",
         "research/complex-571-hpem46"
       ],
-      "closure": null,
+      "closure": {
+        "reviewed_head": "1b795c5d7dea746ba310572585c0ef067574b4a6",
+        "github_state": "MERGED",
+        "merged_at": "2026-10-12T21:01:43Z",
+        "integration_commit": "b812a6b04f9ed0358e4a0e783ca117c2f9175b44",
+        "explanation_url": "https://github.com/CrocSwap/integer-mult-bounds/blob/b812a6b04f9ed0358e4a0e783ca117c2f9175b44/docs/research/community-cold617-review.md"
+      },
       "scope": "Cold scratch helpers with four-dimensional terminal frames and paid multi-gate restoration.",
       "unresolved_question": "",
       "review_completion": {
@@ -235,12 +265,18 @@
       },
       "reviewed_head": "048f884ea9c222faad43e8bb01e2a6863f6925d4",
       "current_head": "048f884ea9c222faad43e8bb01e2a6863f6925d4",
-      "github_state": "OPEN",
+      "github_state": "MERGED",
       "disposition": "incorporated",
       "integration_location": [
         "research/niemeier-lattices"
       ],
-      "closure": null,
+      "closure": {
+        "reviewed_head": "048f884ea9c222faad43e8bb01e2a6863f6925d4",
+        "github_state": "MERGED",
+        "merged_at": "2026-10-12T21:01:43Z",
+        "integration_commit": "b812a6b04f9ed0358e4a0e783ca117c2f9175b44",
+        "explanation_url": "https://github.com/CrocSwap/integer-mult-bounds/blob/b812a6b04f9ed0358e4a0e783ca117c2f9175b44/docs/research/community-cold617-review.md"
+      },
       "scope": "Niemeier geometry, finite scalar compensation and scoped research diagnostics; no completed supplier or kappa.",
       "unresolved_question": "",
       "review_completion": {
@@ -271,12 +307,18 @@
       },
       "reviewed_head": "ddd81bcc0be9c81ba253096a22d2da72dc9f9172",
       "current_head": "ddd81bcc0be9c81ba253096a22d2da72dc9f9172",
-      "github_state": "OPEN",
+      "github_state": "MERGED",
       "disposition": "incorporated",
       "integration_location": [
         "research/complex-571-cold14-j1"
       ],
-      "closure": null,
+      "closure": {
+        "reviewed_head": "ddd81bcc0be9c81ba253096a22d2da72dc9f9172",
+        "github_state": "MERGED",
+        "merged_at": "2026-10-12T21:01:43Z",
+        "integration_commit": "b812a6b04f9ed0358e4a0e783ca117c2f9175b44",
+        "explanation_url": "https://github.com/CrocSwap/integer-mult-bounds/blob/b812a6b04f9ed0358e4a0e783ca117c2f9175b44/docs/research/community-cold617-review.md"
+      },
       "scope": "Parallel cold-helper dispatch/allocation.",
       "unresolved_question": "",
       "review_completion": {
@@ -307,13 +349,19 @@
       },
       "reviewed_head": "702e397432df9233cdd02e43f1f6f32e195eba84",
       "current_head": "702e397432df9233cdd02e43f1f6f32e195eba84",
-      "github_state": "OPEN",
+      "github_state": "MERGED",
       "disposition": "incorporated",
       "integration_location": [
         "research/complex-571-hpe46",
         "research/complex-571-hpe46-validation"
       ],
-      "closure": null,
+      "closure": {
+        "reviewed_head": "702e397432df9233cdd02e43f1f6f32e195eba84",
+        "github_state": "MERGED",
+        "merged_at": "2026-10-12T21:01:43Z",
+        "integration_commit": "b812a6b04f9ed0358e4a0e783ca117c2f9175b44",
+        "explanation_url": "https://github.com/CrocSwap/integer-mult-bounds/blob/b812a6b04f9ed0358e4a0e783ca117c2f9175b44/docs/research/community-cold617-review.md"
+      },
       "scope": "Independent commuting-prefix 46-helper construction, full local and global checks.",
       "unresolved_question": "",
       "review_completion": {
@@ -344,12 +392,18 @@
       },
       "reviewed_head": "10255d48152ed9f159f7c51028b1fc34a4ccc982",
       "current_head": "10255d48152ed9f159f7c51028b1fc34a4ccc982",
-      "github_state": "OPEN",
+      "github_state": "MERGED",
       "disposition": "incorporated",
       "integration_location": [
         "research/complex-571-cold14-r1"
       ],
-      "closure": null,
+      "closure": {
+        "reviewed_head": "10255d48152ed9f159f7c51028b1fc34a4ccc982",
+        "github_state": "MERGED",
+        "merged_at": "2026-10-12T21:01:43Z",
+        "integration_commit": "b812a6b04f9ed0358e4a0e783ca117c2f9175b44",
+        "explanation_url": "https://github.com/CrocSwap/integer-mult-bounds/blob/b812a6b04f9ed0358e4a0e783ca117c2f9175b44/docs/research/community-cold617-review.md"
+      },
       "scope": "Parallel exact per-time Hall owner allocation.",
       "unresolved_question": "",
       "review_completion": {
@@ -380,13 +434,19 @@
       },
       "reviewed_head": "b7c680ea38b9a25a89fce189bb927b45842362d0",
       "current_head": "b7c680ea38b9a25a89fce189bb927b45842362d0",
-      "github_state": "OPEN",
+      "github_state": "MERGED",
       "disposition": "incorporated",
       "integration_location": [
         "research/complex-571-cold14-jp8",
         "research/complex-571-hpem46"
       ],
-      "closure": null,
+      "closure": {
+        "reviewed_head": "b7c680ea38b9a25a89fce189bb927b45842362d0",
+        "github_state": "MERGED",
+        "merged_at": "2026-10-12T21:01:43Z",
+        "integration_commit": "b812a6b04f9ed0358e4a0e783ca117c2f9175b44",
+        "explanation_url": "https://github.com/CrocSwap/integer-mult-bounds/blob/b812a6b04f9ed0358e4a0e783ca117c2f9175b44/docs/research/community-cold617-review.md"
+      },
       "scope": "DreamingOfClouds jp8-heavy dispatch with exact owner map; retained at a distinct path.",
       "unresolved_question": "",
       "review_completion": {
@@ -508,12 +568,18 @@
       },
       "reviewed_head": "be939d7014b6244ada9cf6a9697db31e3886b1d9",
       "current_head": "be939d7014b6244ada9cf6a9697db31e3886b1d9",
-      "github_state": "OPEN",
+      "github_state": "MERGED",
       "disposition": "incorporated",
       "integration_location": [
         "certificates/pr610-independent-replay"
       ],
-      "closure": null,
+      "closure": {
+        "reviewed_head": "be939d7014b6244ada9cf6a9697db31e3886b1d9",
+        "github_state": "MERGED",
+        "merged_at": "2026-10-12T21:01:43Z",
+        "integration_commit": "b812a6b04f9ed0358e4a0e783ca117c2f9175b44",
+        "explanation_url": "https://github.com/CrocSwap/integer-mult-bounds/blob/b812a6b04f9ed0358e4a0e783ca117c2f9175b44/docs/research/community-cold617-review.md"
+      },
       "scope": "Independent report for the previous PR610 head, related by documentation-only changes to the reviewed head; corroborated by our replay. Omitted original run logs are not authenticated.",
       "unresolved_question": "",
       "review_completion": {
@@ -544,12 +610,18 @@
       },
       "reviewed_head": "6cfd7e2039078f80a8a39dec5e958d8df304cb90",
       "current_head": "6cfd7e2039078f80a8a39dec5e958d8df304cb90",
-      "github_state": "OPEN",
+      "github_state": "MERGED",
       "disposition": "incorporated",
       "integration_location": [
         "research/complex-571-cold14-f6"
       ],
-      "closure": null,
+      "closure": {
+        "reviewed_head": "6cfd7e2039078f80a8a39dec5e958d8df304cb90",
+        "github_state": "MERGED",
+        "merged_at": "2026-10-12T21:01:43Z",
+        "integration_commit": "b812a6b04f9ed0358e4a0e783ca117c2f9175b44",
+        "explanation_url": "https://github.com/CrocSwap/integer-mult-bounds/blob/b812a6b04f9ed0358e4a0e783ca117c2f9175b44/docs/research/community-cold617-review.md"
+      },
       "scope": "Parallel jp8-heavy exact owner map.",
       "unresolved_question": "",
       "review_completion": {
@@ -580,12 +652,18 @@
       },
       "reviewed_head": "bf8a49a34350599763cced8592db81dc62c2c1c0",
       "current_head": "bf8a49a34350599763cced8592db81dc62c2c1c0",
-      "github_state": "OPEN",
+      "github_state": "MERGED",
       "disposition": "incorporated",
       "integration_location": [
         "research/complex-571-cold14-e1"
       ],
-      "closure": null,
+      "closure": {
+        "reviewed_head": "bf8a49a34350599763cced8592db81dc62c2c1c0",
+        "github_state": "MERGED",
+        "merged_at": "2026-10-12T21:01:43Z",
+        "integration_commit": "b812a6b04f9ed0358e4a0e783ca117c2f9175b44",
+        "explanation_url": "https://github.com/CrocSwap/integer-mult-bounds/blob/b812a6b04f9ed0358e4a0e783ca117c2f9175b44/docs/research/community-cold617-review.md"
+      },
       "scope": "Third entering-pair extension with exact Lean recipe binding.",
       "unresolved_question": "",
       "review_completion": {
@@ -616,14 +694,20 @@
       },
       "reviewed_head": "5611a9048e4388bb2f330520796379926084c69e",
       "current_head": "5611a9048e4388bb2f330520796379926084c69e",
-      "github_state": "OPEN",
+      "github_state": "MERGED",
       "disposition": "incorporated",
       "integration_location": [
         ".github/workflows",
         "research/complex-cold-owner-repair",
         "research/complex-cold-owner-repair-validation"
       ],
-      "closure": null,
+      "closure": {
+        "reviewed_head": "5611a9048e4388bb2f330520796379926084c69e",
+        "github_state": "MERGED",
+        "merged_at": "2026-10-12T21:01:43Z",
+        "integration_commit": "b812a6b04f9ed0358e4a0e783ca117c2f9175b44",
+        "explanation_url": "https://github.com/CrocSwap/integer-mult-bounds/blob/b812a6b04f9ed0358e4a0e783ca117c2f9175b44/docs/research/community-cold617-review.md"
+      },
       "scope": "Coordinated owner repairs; portable pinned dependencies and independent declaration/owner checks.",
       "unresolved_question": "",
       "review_completion": {
@@ -654,12 +738,18 @@
       },
       "reviewed_head": "904d62855723c00f8acef9a287a10768598fdeb2",
       "current_head": "904d62855723c00f8acef9a287a10768598fdeb2",
-      "github_state": "OPEN",
+      "github_state": "MERGED",
       "disposition": "incorporated",
       "integration_location": [
         "research/complex-571-cold14-b3"
       ],
-      "closure": null,
+      "closure": {
+        "reviewed_head": "904d62855723c00f8acef9a287a10768598fdeb2",
+        "github_state": "MERGED",
+        "merged_at": "2026-10-12T21:01:43Z",
+        "integration_commit": "b812a6b04f9ed0358e4a0e783ca117c2f9175b44",
+        "explanation_url": "https://github.com/CrocSwap/integer-mult-bounds/blob/b812a6b04f9ed0358e4a0e783ca117c2f9175b44/docs/research/community-cold617-review.md"
+      },
       "scope": "Second cold end per block with guarded post-wrapper compensation and exact full finite assembly.",
       "unresolved_question": "",
       "review_completion": {
