@@ -152,3 +152,17 @@ complex suppliers and their final binding. Individual package commands remain
 available for bounded delta review. Linux CI status is separate from completed
 local replay and is recorded at publication; queued runs are not reported as
 passing.
+
+## Queue checkpoint
+
+All nine fully covered PRs (#503/#510/#513/#528/#533/#534/#535/#536/#537)
+are merged. #463 remains open with its reviewed vendored subset documented.
+The live end snapshot contains 483 open PRs, including 51 not yet indexed in
+the older ledger. They are listed explicitly in
+[the queue checkpoint](../../research/community-family533-audit/QUEUE-END.json)
+for a later round. Their titles are claims, not reviewed results.
+
+The next review should map the newer bit-supplier family #543/#545/#555 and
+the dependent complex stack as a family, with shared checks and explicit
+composition. The #540/#553 finite-instance formalization proposals also merit
+review. The current round does not pre-approve any of those submissions.

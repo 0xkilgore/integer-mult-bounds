@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Check fixed-snapshot coverage and exact archived-source incorporation receipts.
+"""Check immutable snapshot, subsequent family rounds and incorporation receipts.
 
 Offline integrity check, not a mathematical verifier or a live GitHub-state check.
 """
@@ -81,6 +81,27 @@ def main():
         for number, head in receipt['reviewed_heads'].items():
             require(actual[int(number)]['starting_head'] == head, f'#{number}: batch head mismatch')
         print('PASS formal/tooling batch: reviewed heads, source inventory and execution receipt bindings')
+    receipt_path = ROOT / 'docs/research/community-family533-integration.json'
+    if receipt_path.exists():
+        receipt = json.loads(receipt_path.read_text())
+        for path, digest in receipt['receipts'].items():
+            require(hashlib.sha256((ROOT / path).read_bytes()).hexdigest() == digest,
+                    f'Changed construction-family receipt: {path}')
+        source = json.loads((ROOT / 'research/community-family533-audit/SOURCE.json').read_text())
+        for path, digest in source['source_files'].items():
+            require(hashlib.sha256((ROOT / path).read_bytes()).hexdigest() == digest,
+                    f'Changed construction-family source: {path}')
+        for number, head in receipt['reviewed_heads'].items():
+            require(actual[int(number)]['current_head'] == head, f'#{number}: family head mismatch')
+        closures = ROOT / 'research/community-family533-audit/CLOSURES.json'
+        if closures.exists():
+            for row in json.loads(closures.read_text())['closures']:
+                item = actual[row['number']]
+                require(item['disposition'] == 'incorporated' and item['github_state'] == row['github_state'],
+                        'Closure does not match disposition')
+                require(row['reviewed_head'] == item['current_head'] and row['comment_url'],
+                        'Closure lacks head or explanation')
+        print('PASS construction/formal family: complete source inventory, replay evidence and supported closures')
     print(f'PASS immutable snapshot plus explicit family rounds: {len(actual)} PRs, attributed heads, evidence pins and unresolved questions')
 
 

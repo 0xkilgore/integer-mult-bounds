@@ -28,7 +28,7 @@
     "docs/research/community-formal-20261012-integration.json": "fc171f4e3dbad9c870b13e141460facaffde957e15c6bb8f984d97686007b7d1",
     "research/pr-reconciliation-20261012/decisions.json": "b710c0a7e7599a929120a4d4dfb067335964d9b0c8fd66818ff3fd5a3856e11f",
     "research/pr-reconciliation-20261012/ending-snapshot.json": "629522d6a438733f5316ee362979c35fb9f703ac801c3d30b6fc390ea62d2322",
-    "research/community-family533-audit/DISPOSITIONS.json": "65812d06a5025e63a9dad7e6347dce196649960b847664aabcc72209f3f5ed63"
+    "research/community-family533-audit/DISPOSITIONS.json": "e0e51f92dc715525b8ff5e4987551336c292b0a466f1f3fb87221fb96d54544d"
   },
   "scope": "Reconciliation index, not blanket mathematical verification. Partial includes triage or scoped checks; mentions alone are not review. Integrated archives are distinguished from active implementations. No automatic closures.",
   "pull_requests": [
@@ -11106,7 +11106,9 @@
           "kind": "integration_or_partial_review"
         }
       ],
-      "historical_mentions": [],
+      "historical_mentions": [
+        "docs/research/community-family533-review.md"
+      ],
       "disposition": "partially_reviewed",
       "integration_location": [
         "research/e8-r480-nine-stage/vendor"
@@ -12047,9 +12049,13 @@
       "integration_location": [
         "research/e8-r480-dead-totals"
       ],
-      "github_state": "OPEN",
+      "github_state": "MERGED",
       "unresolved_question": "",
-      "closure": null,
+      "closure": {
+        "integration_commit": "9449300d19da876995e63d0022406cbe998ef4d3",
+        "comment_url": "https://github.com/CrocSwap/integer-mult-bounds/pull/503#issuecomment-6124977463",
+        "mergedAt": "2026-10-12T13:10:49Z"
+      },
       "current_head_observed_in": "research/community-family533-audit/DISPOSITIONS.json",
       "reconciliation_evidence": [
         "research/community-family533-audit/DISPOSITIONS.json"
@@ -12265,9 +12271,13 @@
       "integration_location": [
         "research/e8-r480-nine-stage"
       ],
-      "github_state": "OPEN",
+      "github_state": "MERGED",
       "unresolved_question": "",
-      "closure": null,
+      "closure": {
+        "integration_commit": "9449300d19da876995e63d0022406cbe998ef4d3",
+        "comment_url": "https://github.com/CrocSwap/integer-mult-bounds/pull/510#issuecomment-6124977988",
+        "mergedAt": "2026-10-12T13:10:49Z"
+      },
       "current_head_observed_in": "research/community-family533-audit/DISPOSITIONS.json",
       "reconciliation_evidence": [
         "research/community-family533-audit/DISPOSITIONS.json"
@@ -12353,9 +12363,13 @@
       "integration_location": [
         "research/lean-sequential-bank-bindings"
       ],
-      "github_state": "OPEN",
+      "github_state": "MERGED",
       "unresolved_question": "",
-      "closure": null,
+      "closure": {
+        "integration_commit": "9449300d19da876995e63d0022406cbe998ef4d3",
+        "comment_url": "https://github.com/CrocSwap/integer-mult-bounds/pull/513#issuecomment-6124978441",
+        "mergedAt": "2026-10-12T13:10:49Z"
+      },
       "current_head_observed_in": "research/community-family533-audit/DISPOSITIONS.json",
       "reconciliation_evidence": [
         "research/community-family533-audit/DISPOSITIONS.json"
@@ -12717,9 +12731,13 @@
       "integration_location": [
         "research/lean-complete-bank-endpoint"
       ],
-      "github_state": "OPEN",
+      "github_state": "MERGED",
       "unresolved_question": "",
-      "closure": null,
+      "closure": {
+        "integration_commit": "9449300d19da876995e63d0022406cbe998ef4d3",
+        "comment_url": "https://github.com/CrocSwap/integer-mult-bounds/pull/528#issuecomment-6124978872",
+        "mergedAt": "2026-10-12T13:10:49Z"
+      },
       "current_head_observed_in": "research/community-family533-audit/DISPOSITIONS.json",
       "reconciliation_evidence": [
         "research/community-family533-audit/DISPOSITIONS.json"
@@ -12828,9 +12846,13 @@
         "research/direct504-kernel92",
         "research/direct504-kernel92-validation"
       ],
-      "github_state": "OPEN",
+      "github_state": "MERGED",
       "unresolved_question": "",
-      "closure": null,
+      "closure": {
+        "integration_commit": "9449300d19da876995e63d0022406cbe998ef4d3",
+        "comment_url": "https://github.com/CrocSwap/integer-mult-bounds/pull/533#issuecomment-6124979412",
+        "mergedAt": "2026-10-12T13:10:49Z"
+      },
       "current_head_observed_in": "research/community-family533-audit/DISPOSITIONS.json",
       "changed_during_round": true,
       "reconciliation_evidence": [
@@ -12867,9 +12889,13 @@
       "integration_location": [
         "research/frame-sa504"
       ],
-      "github_state": "OPEN",
+      "github_state": "MERGED",
       "unresolved_question": "",
-      "closure": null,
+      "closure": {
+        "integration_commit": "9449300d19da876995e63d0022406cbe998ef4d3",
+        "comment_url": "https://github.com/CrocSwap/integer-mult-bounds/pull/534#issuecomment-6124979858",
+        "mergedAt": "2026-10-12T13:10:49Z"
+      },
       "current_head_observed_in": "research/community-family533-audit/DISPOSITIONS.json",
       "reconciliation_evidence": [
         "research/community-family533-audit/DISPOSITIONS.json"
@@ -12902,8 +12928,12 @@
       "integration_location": [
         "research/post-center-rank4-global"
       ],
-      "github_state": "OPEN",
-      "closure": null,
+      "github_state": "MERGED",
+      "closure": {
+        "integration_commit": "9449300d19da876995e63d0022406cbe998ef4d3",
+        "comment_url": "https://github.com/CrocSwap/integer-mult-bounds/pull/535#issuecomment-6124980406",
+        "mergedAt": "2026-10-12T13:10:49Z"
+      },
       "disposition": "incorporated",
       "unresolved_question": "",
       "current_head_observed_in": "research/community-family533-audit/DISPOSITIONS.json",
@@ -12938,8 +12968,12 @@
       "integration_location": [
         "research/kernel92-frame-composition"
       ],
-      "github_state": "OPEN",
-      "closure": null,
+      "github_state": "MERGED",
+      "closure": {
+        "integration_commit": "9449300d19da876995e63d0022406cbe998ef4d3",
+        "comment_url": "https://github.com/CrocSwap/integer-mult-bounds/pull/536#issuecomment-6124980909",
+        "mergedAt": "2026-10-12T13:10:49Z"
+      },
       "disposition": "incorporated",
       "unresolved_question": "",
       "current_head_observed_in": "research/community-family533-audit/DISPOSITIONS.json",
@@ -12974,8 +13008,12 @@
       "integration_location": [
         "research/filtered-supplier-registry"
       ],
-      "github_state": "OPEN",
-      "closure": null,
+      "github_state": "MERGED",
+      "closure": {
+        "integration_commit": "9449300d19da876995e63d0022406cbe998ef4d3",
+        "comment_url": "https://github.com/CrocSwap/integer-mult-bounds/pull/537#issuecomment-6124981326",
+        "mergedAt": "2026-10-12T13:10:49Z"
+      },
       "disposition": "incorporated",
       "unresolved_question": "",
       "current_head_observed_in": "research/community-family533-audit/DISPOSITIONS.json",
@@ -12993,7 +13031,7 @@
   ],
   "github_dispositions": {
     "CLOSED": 3,
-    "MERGED": 5,
-    "OPEN": 441
+    "MERGED": 14,
+    "OPEN": 432
   }
 }

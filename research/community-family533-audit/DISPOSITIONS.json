@@ -1,6 +1,6 @@
 {
   "round": "construction533-and-formal528-20261012",
-  "publication_status": "Reviewed; publication and supported closures pending",
+  "publication_status": "Published on main at 9449300d19da876995e63d0022406cbe998ef4d3; nine source-reviewed PRs merged with explanatory comments; PR463 remains partially reviewed and open.",
   "pull_requests": [
     {
       "number": 503,
@@ -621,13 +621,17 @@
       "reviewed_head": "3f27147013fdd4fa0aed825cb47bff3376c452eb",
       "current_head": "3f27147013fdd4fa0aed825cb47bff3376c452eb",
       "disposition": "incorporated",
-      "github_state": "OPEN",
+      "github_state": "MERGED",
       "integration_location": [
         "research/e8-r480-dead-totals"
       ],
       "scope": "R480 reconstruction, formal columns, finite checks and hosted eleven-stage audit; solver-tie portability fix preserves frozen physical witness.",
       "unresolved_question": "",
-      "closure": null
+      "closure": {
+        "integration_commit": "9449300d19da876995e63d0022406cbe998ef4d3",
+        "comment_url": "https://github.com/CrocSwap/integer-mult-bounds/pull/503#issuecomment-6124977463",
+        "mergedAt": "2026-10-12T13:10:49Z"
+      }
     },
     {
       "number": 510,
@@ -1379,13 +1383,17 @@
       "reviewed_head": "64edee18af02aab0c1696b677a0287dd0146381b",
       "current_head": "64edee18af02aab0c1696b677a0287dd0146381b",
       "disposition": "incorporated",
-      "github_state": "OPEN",
+      "github_state": "MERGED",
       "integration_location": [
         "research/e8-r480-nine-stage"
       ],
       "scope": "Complete changed R480 nine-stage bit pipeline, columns, physical hosting, both moments and finite invoice; unchanged PR493 replay reused with exact source binding.",
       "unresolved_question": "",
-      "closure": null
+      "closure": {
+        "integration_commit": "9449300d19da876995e63d0022406cbe998ef4d3",
+        "comment_url": "https://github.com/CrocSwap/integer-mult-bounds/pull/510#issuecomment-6124977988",
+        "mergedAt": "2026-10-12T13:10:49Z"
+      }
     },
     {
       "number": 513,
@@ -1597,13 +1605,17 @@
       "reviewed_head": "d558ca6cbc23957163db81e23071d336ab761a12",
       "current_head": "d558ca6cbc23957163db81e23071d336ab761a12",
       "disposition": "incorporated",
-      "github_state": "OPEN",
+      "github_state": "MERGED",
       "integration_location": [
         "research/lean-sequential-bank-bindings"
       ],
       "scope": "Eight exact Lean source modules, 77 complete axiom reports and historical source interface review. Actual current physical instance remains a caller obligation.",
       "unresolved_question": "",
-      "closure": null
+      "closure": {
+        "integration_commit": "9449300d19da876995e63d0022406cbe998ef4d3",
+        "comment_url": "https://github.com/CrocSwap/integer-mult-bounds/pull/513#issuecomment-6124978441",
+        "mergedAt": "2026-10-12T13:10:49Z"
+      }
     },
     {
       "number": 528,
@@ -1815,13 +1827,17 @@
       "reviewed_head": "df5bbdbf837df908ce2324ed880141918a19db5d",
       "current_head": "df5bbdbf837df908ce2324ed880141918a19db5d",
       "disposition": "incorporated",
-      "github_state": "OPEN",
+      "github_state": "MERGED",
       "integration_location": [
         "research/lean-complete-bank-endpoint"
       ],
       "scope": "Nine exact Lean modules, 70 complete axiom reports, precise full-state theorem hypotheses reviewed. No full multiplication theorem or 72-call instance inferred.",
       "unresolved_question": "",
-      "closure": null
+      "closure": {
+        "integration_commit": "9449300d19da876995e63d0022406cbe998ef4d3",
+        "comment_url": "https://github.com/CrocSwap/integer-mult-bounds/pull/528#issuecomment-6124978872",
+        "mergedAt": "2026-10-12T13:10:49Z"
+      }
     },
     {
       "number": 533,
@@ -2492,14 +2508,18 @@
       "reviewed_head": "6ad231bea07da57e94dbe4062bd045941db3287e",
       "current_head": "6ad231bea07da57e94dbe4062bd045941db3287e",
       "disposition": "incorporated",
-      "github_state": "OPEN",
+      "github_state": "MERGED",
       "integration_location": [
         "research/direct504-kernel92",
         "research/direct504-kernel92-validation"
       ],
       "scope": "Complete 92-pivot finite supplier replay including all local phases, owners, invoice and exact assembly; source and negative findings retained.",
       "unresolved_question": "",
-      "closure": null
+      "closure": {
+        "integration_commit": "9449300d19da876995e63d0022406cbe998ef4d3",
+        "comment_url": "https://github.com/CrocSwap/integer-mult-bounds/pull/533#issuecomment-6124979412",
+        "mergedAt": "2026-10-12T13:10:49Z"
+      }
     },
     {
       "number": 534,
@@ -3059,13 +3079,17 @@
       "reviewed_head": "3e148183cbf124fcaba4d3c2d609133ff2edd518",
       "current_head": "3e148183cbf124fcaba4d3c2d609133ff2edd518",
       "disposition": "incorporated",
-      "github_state": "OPEN",
+      "github_state": "MERGED",
       "integration_location": [
         "research/frame-sa504"
       ],
       "scope": "Frozen constructor/frame-lift replay, changed phases, physical owners and exact assembly; heuristic discovery retained without global-optimality claim.",
       "unresolved_question": "",
-      "closure": null
+      "closure": {
+        "integration_commit": "9449300d19da876995e63d0022406cbe998ef4d3",
+        "comment_url": "https://github.com/CrocSwap/integer-mult-bounds/pull/534#issuecomment-6124979858",
+        "mergedAt": "2026-10-12T13:10:49Z"
+      }
     },
     {
       "number": 535,
@@ -3436,13 +3460,17 @@
       "reviewed_head": "8b758a103915179322766bed5798f9b6e7198011",
       "current_head": "8b758a103915179322766bed5798f9b6e7198011",
       "disposition": "incorporated",
-      "github_state": "OPEN",
+      "github_state": "MERGED",
       "integration_location": [
         "research/post-center-rank4-global"
       ],
       "scope": "Selected post-center rank-four complex supplier plus rebuilt PR510 bit dependency, complete phases/wrappers, scalar and owner mutations, exact final assembly.",
       "unresolved_question": "",
-      "closure": null
+      "closure": {
+        "integration_commit": "9449300d19da876995e63d0022406cbe998ef4d3",
+        "comment_url": "https://github.com/CrocSwap/integer-mult-bounds/pull/535#issuecomment-6124980406",
+        "mergedAt": "2026-10-12T13:10:49Z"
+      }
     },
     {
       "number": 536,
@@ -4113,13 +4141,17 @@
       "reviewed_head": "71a7ed7a95776810fede6f583885b7faf5d5ff2a",
       "current_head": "71a7ed7a95776810fede6f583885b7faf5d5ff2a",
       "disposition": "incorporated",
-      "github_state": "OPEN",
+      "github_state": "MERGED",
       "integration_location": [
         "research/kernel92-frame-composition"
       ],
       "scope": "Complete 92-pivot/frame-lift composition replay; all local phases, owners and exact accounting.",
       "unresolved_question": "",
-      "closure": null
+      "closure": {
+        "integration_commit": "9449300d19da876995e63d0022406cbe998ef4d3",
+        "comment_url": "https://github.com/CrocSwap/integer-mult-bounds/pull/536#issuecomment-6124980909",
+        "mergedAt": "2026-10-12T13:10:49Z"
+      }
     },
     {
       "number": 537,
@@ -4805,13 +4837,17 @@
       "reviewed_head": "39958faec4fd7e7958ca81f6cffcf70ce74c5e89",
       "current_head": "39958faec4fd7e7958ca81f6cffcf70ce74c5e89",
       "disposition": "incorporated",
-      "github_state": "OPEN",
+      "github_state": "MERGED",
       "integration_location": [
         "research/filtered-supplier-registry"
       ],
       "scope": "Filtered construction and both observational variants rebuilt; registry, owner/resource/phase checks and exact assembly pass; scoped research arguments retained.",
       "unresolved_question": "",
-      "closure": null
+      "closure": {
+        "integration_commit": "9449300d19da876995e63d0022406cbe998ef4d3",
+        "comment_url": "https://github.com/CrocSwap/integer-mult-bounds/pull/537#issuecomment-6124981326",
+        "mergedAt": "2026-10-12T13:10:49Z"
+      }
     },
     {
       "number": 463,
