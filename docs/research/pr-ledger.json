@@ -23,7 +23,7 @@
     "docs/research/community-pr279-integration.json": "e790e42bbd0e57e3be92191309d3489ec91b738239622e69759604212b2d0f29",
     "docs/research/research-notes-20261011.json": "43d846bbed3b3dc6db097a3f5ca7179ea7a048e064f535e72e116da1f69ca5bb",
     "docs/research/community-pr531-integration.json": "3010ec433f84c56fa0add43641f708abde0fdecb7790553673beaf9bd8fe4282",
-    "research/pr-reconciliation-20261012/decisions.json": "2391c721a11f5ff112e7d1035f11bd85c4d2211c86bc821b179a447deb70502e"
+    "research/pr-reconciliation-20261012/decisions.json": "23cc947e92cea94f1fd45122de24d38e34101fb29590e94bc45847334538aeae"
   },
   "scope": "Reconciliation index, not blanket mathematical verification. Partial includes triage or scoped checks; mentions alone are not review. Integrated archives are distinguished from active implementations. No automatic closures.",
   "pull_requests": [
@@ -3841,9 +3841,17 @@
       "integration_location": [
         "research/coordinated-frames-and-entrance-banks/BASELINE.json"
       ],
-      "github_state": "OPEN",
+      "github_state": "CLOSED",
       "unresolved_question": null,
-      "closure": null,
+      "closure": {
+        "closedAt": "2026-10-12T02:18:20Z",
+        "headRefOid": "4a3c769e5c5430e7114c4d3e099ff34664677f17",
+        "number": 168,
+        "state": "CLOSED",
+        "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/168",
+        "comment_url": "https://github.com/CrocSwap/integer-mult-bounds/pull/168#issuecomment-6116575269",
+        "reason": "All current changed files incorporated in published historical archive; attribution retained."
+      },
       "reconciliation_evidence": [
         "research/pr-reconciliation-20261012/incorporation-checks.json"
       ]
@@ -4020,9 +4028,17 @@
       "integration_location": [
         "research/coordinated-frames-and-entrance-banks/BASELINE.json"
       ],
-      "github_state": "OPEN",
+      "github_state": "CLOSED",
       "unresolved_question": null,
-      "closure": null,
+      "closure": {
+        "closedAt": "2026-10-12T02:18:24Z",
+        "headRefOid": "f1081fabbfadaaaaf7292a40d428dbbb865ce920",
+        "number": 175,
+        "state": "CLOSED",
+        "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/175",
+        "comment_url": "https://github.com/CrocSwap/integer-mult-bounds/pull/175#issuecomment-6116575748",
+        "reason": "All current changed files incorporated in published historical archive; attribution retained."
+      },
       "reconciliation_evidence": [
         "research/pr-reconciliation-20261012/incorporation-checks.json"
       ]
@@ -4177,9 +4193,17 @@
       "integration_location": [
         "research/coordinated-frames-and-entrance-banks/BASELINE.json"
       ],
-      "github_state": "OPEN",
+      "github_state": "CLOSED",
       "unresolved_question": null,
-      "closure": null,
+      "closure": {
+        "closedAt": "2026-10-12T02:18:27Z",
+        "headRefOid": "7fb2194801e3a10f54772c7f0d5505035a4fc0ad",
+        "number": 181,
+        "state": "CLOSED",
+        "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/181",
+        "comment_url": "https://github.com/CrocSwap/integer-mult-bounds/pull/181#issuecomment-6116576276",
+        "reason": "All current changed files incorporated in published historical archive; attribution retained."
+      },
       "reconciliation_evidence": [
         "research/pr-reconciliation-20261012/incorporation-checks.json"
       ]

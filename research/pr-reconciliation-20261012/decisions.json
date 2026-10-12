@@ -11,7 +11,16 @@
         "research/pr-reconciliation-20261012/incorporation-checks.json"
       ],
       "unresolved_question": null,
-      "closure": null
+      "closure": {
+        "closedAt": "2026-10-12T02:18:20Z",
+        "headRefOid": "4a3c769e5c5430e7114c4d3e099ff34664677f17",
+        "number": 168,
+        "state": "CLOSED",
+        "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/168",
+        "comment_url": "https://github.com/CrocSwap/integer-mult-bounds/pull/168#issuecomment-6116575269",
+        "reason": "All current changed files incorporated in published historical archive; attribution retained."
+      },
+      "github_state": "CLOSED"
     },
     "175": {
       "starting_head": "f1081fabbfadaaaaf7292a40d428dbbb865ce920",
@@ -23,7 +32,16 @@
         "research/pr-reconciliation-20261012/incorporation-checks.json"
       ],
       "unresolved_question": null,
-      "closure": null
+      "closure": {
+        "closedAt": "2026-10-12T02:18:24Z",
+        "headRefOid": "f1081fabbfadaaaaf7292a40d428dbbb865ce920",
+        "number": 175,
+        "state": "CLOSED",
+        "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/175",
+        "comment_url": "https://github.com/CrocSwap/integer-mult-bounds/pull/175#issuecomment-6116575748",
+        "reason": "All current changed files incorporated in published historical archive; attribution retained."
+      },
+      "github_state": "CLOSED"
     },
     "181": {
       "starting_head": "7fb2194801e3a10f54772c7f0d5505035a4fc0ad",
@@ -35,7 +53,16 @@
         "research/pr-reconciliation-20261012/incorporation-checks.json"
       ],
       "unresolved_question": null,
-      "closure": null
+      "closure": {
+        "closedAt": "2026-10-12T02:18:27Z",
+        "headRefOid": "7fb2194801e3a10f54772c7f0d5505035a4fc0ad",
+        "number": 181,
+        "state": "CLOSED",
+        "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/181",
+        "comment_url": "https://github.com/CrocSwap/integer-mult-bounds/pull/181#issuecomment-6116576276",
+        "reason": "All current changed files incorporated in published historical archive; attribution retained."
+      },
+      "github_state": "CLOSED"
     },
     "146": {
       "starting_head": "70355a3192028852598e96624ae29b389e664451",
