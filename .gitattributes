@@ -34,5 +34,14 @@ research/punctured112-global/** -text -whitespace
 # Maintainer execution receipts preserve exact reviewed bytes.
 research/community-pr531-audit/** -text -whitespace
 
+# Frozen formalization packages and their historical supplier lineage.
+research/e8-early-reset-reuse/** -text -whitespace
+research/e8-early-reset-kernel/** -text -whitespace
+research/idle-axis-hosting/** -text -whitespace
+research/split-centres-global/** -text -whitespace
+research/e8-complex-gauge-kernel/** -text -whitespace
+research/e8-lemma-a-lean/** -text -whitespace
+research/e8-lemma-g-lean/** -text -whitespace
+research/community-formal-20261012-audit/** -text -whitespace
 # Preserve the byte-pinned direct504 frame-lift composition and its sources.
 research/direct504-kernel92-lifts/** -text -whitespace

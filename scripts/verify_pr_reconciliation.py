@@ -62,6 +62,17 @@ def main():
             require(f['status'] in ('added', 'modified'), 'Deletion/rename requires separate semantic review')
             require(archive.get(f['filename']) == f['sha'], f'#{number}: absent/different archive file {f["filename"]}')
         print(f'PASS #{number}: all {len(files)} changed files match the published historical archive')
+    receipt_path = ROOT / 'docs/research/community-formal-20261012-integration.json'
+    if receipt_path.exists():
+        receipt = json.loads(receipt_path.read_text())
+        for path, digest in receipt['receipts'].items():
+            require(hashlib.sha256((ROOT / path).read_bytes()).hexdigest() == digest, f'Changed batch receipt: {path}')
+        source = json.loads((ROOT / 'research/community-formal-20261012-audit/SOURCE.json').read_text())
+        for path, digest in source['source_files'].items():
+            require(hashlib.sha256((ROOT / path).read_bytes()).hexdigest() == digest, f'Changed reviewed source: {path}')
+        for number, head in receipt['reviewed_heads'].items():
+            require(actual[int(number)]['starting_head'] == head, f'#{number}: batch head mismatch')
+        print('PASS formal/tooling batch: reviewed heads, source inventory and execution receipt bindings')
     print(f'PASS fixed snapshot: {len(actual)} PRs, attributed heads, evidence pins and unresolved questions')
 
 
