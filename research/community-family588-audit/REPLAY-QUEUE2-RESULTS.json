@@ -133,5 +133,20 @@
     "exit_code": 0,
     "seconds": 580.791,
     "completed_utc": "2026-10-12T15:09:53.714373+00:00"
+  },
+  {
+    "pr": 577,
+    "package": "mixed-prefix-fourway",
+    "command": [
+      "/tmp/integer-mult-review-venv/bin/python",
+      "-B",
+      "research/mixed-prefix-fourway/verify.py",
+      "--work",
+      "/tmp/im577-review"
+    ],
+    "log": "/tmp/im577-review.log",
+    "exit_code": 0,
+    "seconds": 1149.912,
+    "completed_utc": "2026-10-12T15:15:45.073558+00:00"
   }
 ]

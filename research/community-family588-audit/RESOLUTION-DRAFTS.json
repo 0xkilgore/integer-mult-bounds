@@ -203,7 +203,7 @@
     {
       "number": 577,
       "reviewed_head": "086bd33ff5c1ce46f3ff23298b8dc756a54414db",
-      "required_execution_complete": false,
+      "required_execution_complete": true,
       "body_template": "Thank you @chafreaky. This contribution at `086bd33ff5c1ce46f3ff23298b8dc756a54414db` is incorporated in the reviewed family through #588, published in PUBLICATION_COMMIT.\n\nFour-provider packing changes dispatch and whole owners, while each chosen local word is independently rebuilt. The four predecessor improvements are alternatives, not quantities to add.\n\nPreserved implementation and research:\n\n- [research/mixed-prefix-fourway](https://github.com/CrocSwap/integer-mult-bounds/tree/PUBLICATION_COMMIT/research/mixed-prefix-fourway)\n- [research/mixed-prefix-fourway-validation](https://github.com/CrocSwap/integer-mult-bounds/tree/PUBLICATION_COMMIT/research/mixed-prefix-fourway-validation)\n\nThe [family review](https://github.com/CrocSwap/integer-mult-bounds/blob/PUBLICATION_COMMIT/docs/research/community-family588-review.md) and [individual disposition](https://github.com/CrocSwap/integer-mult-bounds/blob/PUBLICATION_COMMIT/research/community-family588-audit/DISPOSITIONS.json) record the scope, evidence and attribution. Parallel and intermediate contributions remain credited even where a later composition has a stronger bound. The published multiplication bound remains conditional on the documented compiler, realization, hosting and analytic assumptions; these finite checks are not a full Lean multiplication proof."
     },
     {
