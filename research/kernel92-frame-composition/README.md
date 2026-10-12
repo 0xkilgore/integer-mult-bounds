@@ -19,9 +19,13 @@ The local profile changes to `{1:2174,2:496,3:357,4:226,5:139,6:56,7:8}`. The sc
 
 Changed frames are then independently transported and checked on all arbitrary input columns in both orientations. The actual emitted local program, all local phases and endpoint adapters, residual wrappers, whole-owner program, physical controller, finite invoice, two exact moment engines and all 47 outer inequalities are replayed.
 
-## Verification status at draft publication
+## Completed finite verification
 
-Exact provisional pricing, monotone lifts, scalar transport, independent local replay and wrappers passed. Full local phase and downstream owner/invoice replay are running; their receipts will be added after completion. This draft does not claim a completed package replay or green CI.
+The complete packaged verifier passed on Python 3.14.8 in 121.11 seconds: factory reconstruction, 92 pivot omission controls, both 728-column orientations, independent emitted-local replay, all 2924 local phase edges and 224 endpoint adapters, normalized wrappers, literal whole owners, physical/controller mutation controls, finite invoice, both exact moment engines and 47 strict outer inequalities. See `evidence/composition/RESULT.json` and `RECEIPT.json`.
+
+The initial integration run caught an unchanged PR533 `PLAN.json` profile assertion. The nominated profile was updated to the composed word while retaining the physical owner assignment. Both the failed log and corrected replay are retained; a subsequent complete packaged run passed from a fresh output directory. Two direct frame-search trials (120 and 180 seconds) found no improvement; the positive result uses the frozen PR534 delivery frames instead.
+
+This improves on PR533 by about 0.4015%. Concurrent PR535 reports kappa 0.001584931111785787, above this result; this package does not claim the current overall lead. CI status is separate from the local receipts.
 
 Run on Python 3.11+ with assertions enabled:
 
