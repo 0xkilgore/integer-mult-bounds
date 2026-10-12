@@ -22,8 +22,10 @@ def main():
     ledger = json.loads((ROOT / 'docs/research/pr-ledger.json').read_text())
     snapshot = json.loads((AUDIT / 'starting-snapshot.json').read_text())
     expected = {p['number']: p for p in snapshot['pull_requests']}
-    family_path = ROOT / 'research/community-family533-audit/DISPOSITIONS.json'
-    if family_path.exists():
+    for family_path in (ROOT / 'research/community-family533-audit/DISPOSITIONS.json',
+                        ROOT / 'research/community-family588-audit/DISPOSITIONS.json'):
+        if not family_path.exists():
+            continue
         family = json.loads(family_path.read_text())
         numbers = [p['number'] for p in family['pull_requests']]
         require(len(numbers) == len(set(numbers)), 'Duplicate family PR')
@@ -102,6 +104,40 @@ def main():
                 require(row['reviewed_head'] == item['current_head'] and row['comment_url'],
                         'Closure lacks head or explanation')
         print('PASS construction/formal family: complete source inventory, replay evidence and supported closures')
+    receipt_path = ROOT / 'docs/research/community-family588-integration.json'
+    if receipt_path.exists():
+        receipt = json.loads(receipt_path.read_text())
+        for name, digest in receipt['receipts'].items():
+            require(hashlib.sha256((ROOT / name).read_bytes()).hexdigest() == digest,
+                    f'Changed family588 receipt: {name}')
+        source = json.loads((ROOT / 'research/community-family588-audit/SOURCE.json').read_text())
+        for name, digest in source['source_files'].items():
+            require(hashlib.sha256((ROOT / name).read_bytes()).hexdigest() == digest,
+                    f'Changed family588 source: {name}')
+        coverage = json.loads((ROOT / 'research/community-family588-audit/CONTENT-COVERAGE.json').read_text())
+        require(set(coverage['pull_requests']) == set(receipt['reviewed_heads']),
+                'Family588 changed-file coverage differs from reviewed PR set')
+        for number, head in receipt['reviewed_heads'].items():
+            item = actual[int(number)]
+            require(item['reviewed_head'] == head, f'#{number}: family588 reviewed head mismatch')
+            covered = coverage['pull_requests'][number]
+            require(covered['head'] == head and len(covered['files']) == covered['changed_files'],
+                    f'#{number}: incomplete family588 coverage')
+            require(len({f['path'] for f in covered['files']}) == covered['changed_files'],
+                    f'#{number}: repeated changed file')
+            for f in covered['files']:
+                data = (ROOT / f['path']).read_bytes()
+                blob = hashlib.sha1(b'blob ' + str(len(data)).encode() + b'\0' + data).hexdigest()
+                require(blob == f['integrated_blob'], f'#{number}: covered bytes changed: {f["path"]}')
+        closures = ROOT / 'research/community-family588-audit/CLOSURES.json'
+        if closures.exists():
+            for row in json.loads(closures.read_text())['closures']:
+                item = actual[row['number']]
+                require(item['disposition'] == 'incorporated' and item['github_state'] == row['github_state'],
+                        'Family588 closure does not match disposition')
+                require(row['reviewed_head'] == item['current_head'] and row['comment_url'],
+                        'Family588 closure lacks current-head check or explanation')
+        print('PASS family588: complete changed-file coverage, source bytes, receipts and supported closures')
     print(f'PASS immutable snapshot plus explicit family rounds: {len(actual)} PRs, attributed heads, evidence pins and unresolved questions')
 
 

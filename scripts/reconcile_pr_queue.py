@@ -150,9 +150,13 @@ def build():
         raise ValueError('Decision outside the fixed snapshot')
     # Later family rounds extend the inventory without rewriting the original
     # 446-PR snapshot or changing an original row's starting head/attribution.
-    family_path = 'research/community-family533-audit/DISPOSITIONS.json'
-    family = load(family_path) if (ROOT / family_path).exists() else None
-    if family:
+    family_paths = [p for p in (
+        'research/community-family533-audit/DISPOSITIONS.json',
+        'research/community-family588-audit/DISPOSITIONS.json',
+    ) if (ROOT / p).exists()]
+    family_path = family_paths[-1] if family_paths else None
+    for family_path in family_paths:
+        family = load(family_path)
         indexed = {p['number']: p for p in result}
         for decision in family['pull_requests']:
             n = decision['number']
@@ -166,7 +170,7 @@ def build():
                 result.append(item)
                 indexed[n] = item
             item = indexed[n]
-            for key in ('current_head', 'disposition', 'integration_location', 'github_state',
+            for key in ('reviewed_head', 'current_head', 'disposition', 'integration_location', 'github_state',
                         'unresolved_question', 'closure'):
                 if key in decision:
                     item[key] = decision[key]
@@ -178,7 +182,8 @@ def build():
     counts = dict(sorted(collections.Counter(p['disposition'] for p in result).items()))
     output = dict(schema_version=1, snapshot='research/pr-reconciliation-20261012/starting-snapshot.json',
                   starting_main=snapshot['published_main'], starting_open_count=len(snapshot['pull_requests']),
-                  inventory_count=len(result), family_round=family_path if family else None,
+                  inventory_count=len(result), family_round=family_path,
+                  family_rounds=family_paths,
                   counts=counts, source_sha256=sources,
                   scope='Reconciliation index, not blanket mathematical verification. Partial includes triage or scoped checks; mentions alone are not review. Integrated archives are distinguished from active implementations. No automatic closures.',
                   pull_requests=result)
@@ -201,11 +206,17 @@ def build():
         states = collections.Counter(p['github_state'] for p in result)
         lines += ['', f'The earlier reconciliation closing snapshot had {ending["remaining_from_start"]} starting PRs still open and {ending["open_count"]} total open. '
                   'These are historical counts, not a live queue measurement. Later dispositions are recorded below.']
-    if family:
-        lines += ['', '[Current family review](community-family533-review.md) · '
-                  '[Family dispositions](../../research/community-family533-audit/DISPOSITIONS.json)', '',
-                  'The construction family #533–#537 and formal connections #513/#528 are covered in that review, '
+    if family_paths:
+        lines += ['', '[Earlier family review](community-family533-review.md) · '
+                  '[Earlier dispositions](../../research/community-family533-audit/DISPOSITIONS.json)', '',
+                  'The earlier construction family #533–#537 and formal connections #513/#528 are covered there, '
                   'including the #503/#510 bit dependency. #463 has only its vendored pipeline subset reviewed.']
+    if 'research/community-family588-audit/DISPOSITIONS.json' in family_paths:
+        lines += ['', '[Family through #588](community-family588-review.md) · '
+                  '[Exact-head dispositions](../../research/community-family588-audit/DISPOSITIONS.json)', '',
+                  'This frozen round covers #543/#545/#555 and related construction, research and tooling packages '
+                  'through #588. Each disposition distinguishes completed checks, publication and remaining obligations. '
+                  'The separate formalization PRs and later arrivals are not approved by this round.']
     lines += ['', '## Remaining priorities', '',
               '1. Follow the new Linux CI for the published #442/#484/#509/#516/#520 batch; the [scoped review](community-formal-20261012-review.md) records completed local checks.',
               '2. Follow the explicit construction-family dispositions and remaining obligations; do not repeat completed foundation replays without a source/input change.',

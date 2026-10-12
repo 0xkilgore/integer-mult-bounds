@@ -1,6 +1,6 @@
 # PR review and integration ledger
 
-The immutable starting snapshot contains **446 PRs**. Explicit later family rounds extend the current inventory to **449**; unrelated arrivals remain outside the round.
+The immutable starting snapshot contains **446 PRs**. Explicit later family rounds extend the current inventory to **492**; unrelated arrivals remain outside the round.
 
 [Machine-readable ledger](pr-ledger.json) · [Starting snapshot](../../research/pr-reconciliation-20261012/starting-snapshot.json)
 
@@ -10,14 +10,18 @@ The ledger separates historical review from integration. A prior snapshot or a m
 |---|---:|
 | changed since review | 6 |
 | incorporated | 17 |
-| partially reviewed | 144 |
+| partially reviewed | 187 |
 | unreviewed | 282 |
 
 The earlier reconciliation closing snapshot had 438 starting PRs still open and 441 total open. These are historical counts, not a live queue measurement. Later dispositions are recorded below.
 
-[Current family review](community-family533-review.md) · [Family dispositions](../../research/community-family533-audit/DISPOSITIONS.json)
+[Earlier family review](community-family533-review.md) · [Earlier dispositions](../../research/community-family533-audit/DISPOSITIONS.json)
 
-The construction family #533–#537 and formal connections #513/#528 are covered in that review, including the #503/#510 bit dependency. #463 has only its vendored pipeline subset reviewed.
+The earlier construction family #533–#537 and formal connections #513/#528 are covered there, including the #503/#510 bit dependency. #463 has only its vendored pipeline subset reviewed.
+
+[Family through #588](community-family588-review.md) · [Exact-head dispositions](../../research/community-family588-audit/DISPOSITIONS.json)
+
+This frozen round covers #543/#545/#555 and related construction, research and tooling packages through #588. Each disposition distinguishes completed checks, publication and remaining obligations. The separate formalization PRs and later arrivals are not approved by this round.
 
 ## Remaining priorities
 
@@ -482,3 +486,46 @@ Each evidence link leads to the original scoped assessment. The JSON records exa
 | [#535](https://github.com/CrocSwap/integer-mult-bounds/pull/535) | icekylinx | incorporated | [record 1](../../research/community-family533-audit/DISPOSITIONS.json) |
 | [#536](https://github.com/CrocSwap/integer-mult-bounds/pull/536) | rohanarun | incorporated | [record 1](../../research/community-family533-audit/DISPOSITIONS.json) |
 | [#537](https://github.com/CrocSwap/integer-mult-bounds/pull/537) | Dugongue | incorporated | [record 1](../../research/community-family533-audit/DISPOSITIONS.json) |
+| [#538](https://github.com/CrocSwap/integer-mult-bounds/pull/538) | chafreaky | partially reviewed | [record 1](../../research/community-family588-audit/DISPOSITIONS.json) |
+| [#539](https://github.com/CrocSwap/integer-mult-bounds/pull/539) | rohanarun | partially reviewed | [record 1](../../research/community-family588-audit/DISPOSITIONS.json) |
+| [#541](https://github.com/CrocSwap/integer-mult-bounds/pull/541) | Dugongue | partially reviewed | [record 1](../../research/community-family588-audit/DISPOSITIONS.json) |
+| [#542](https://github.com/CrocSwap/integer-mult-bounds/pull/542) | rohanarun | partially reviewed | [record 1](../../research/community-family588-audit/DISPOSITIONS.json) |
+| [#543](https://github.com/CrocSwap/integer-mult-bounds/pull/543) | eumemic | partially reviewed | [record 1](../../research/community-family588-audit/DISPOSITIONS.json) |
+| [#544](https://github.com/CrocSwap/integer-mult-bounds/pull/544) | chafreaky | partially reviewed | [record 1](../../research/community-family588-audit/DISPOSITIONS.json) |
+| [#545](https://github.com/CrocSwap/integer-mult-bounds/pull/545) | DreamingOfClouds | partially reviewed | [record 1](../../research/community-family588-audit/DISPOSITIONS.json) |
+| [#546](https://github.com/CrocSwap/integer-mult-bounds/pull/546) | rohanarun | partially reviewed | [record 1](../../research/community-family588-audit/DISPOSITIONS.json) |
+| [#547](https://github.com/CrocSwap/integer-mult-bounds/pull/547) | rohanarun | partially reviewed | [record 1](../../research/community-family588-audit/DISPOSITIONS.json) |
+| [#548](https://github.com/CrocSwap/integer-mult-bounds/pull/548) | Dugongue | partially reviewed | [record 1](../../research/community-family588-audit/DISPOSITIONS.json) |
+| [#549](https://github.com/CrocSwap/integer-mult-bounds/pull/549) | chafreaky | partially reviewed | [record 1](../../research/community-family588-audit/DISPOSITIONS.json) |
+| [#550](https://github.com/CrocSwap/integer-mult-bounds/pull/550) | eumemic | partially reviewed | [record 1](../../research/community-family588-audit/DISPOSITIONS.json) |
+| [#551](https://github.com/CrocSwap/integer-mult-bounds/pull/551) | chafreaky | partially reviewed | [record 1](../../research/community-family588-audit/DISPOSITIONS.json) |
+| [#552](https://github.com/CrocSwap/integer-mult-bounds/pull/552) | Dugongue | partially reviewed | [record 1](../../research/community-family588-audit/DISPOSITIONS.json) |
+| [#554](https://github.com/CrocSwap/integer-mult-bounds/pull/554) | rohanarun | partially reviewed | [record 1](../../research/community-family588-audit/DISPOSITIONS.json) |
+| [#555](https://github.com/CrocSwap/integer-mult-bounds/pull/555) | eumemic | partially reviewed | [record 1](../../research/community-family588-audit/DISPOSITIONS.json) |
+| [#556](https://github.com/CrocSwap/integer-mult-bounds/pull/556) | Dugongue | partially reviewed | [record 1](../../research/community-family588-audit/DISPOSITIONS.json) |
+| [#557](https://github.com/CrocSwap/integer-mult-bounds/pull/557) | chafreaky | partially reviewed | [record 1](../../research/community-family588-audit/DISPOSITIONS.json) |
+| [#558](https://github.com/CrocSwap/integer-mult-bounds/pull/558) | eumemic | partially reviewed | [record 1](../../research/community-family588-audit/DISPOSITIONS.json) |
+| [#559](https://github.com/CrocSwap/integer-mult-bounds/pull/559) | rohanarun | partially reviewed | [record 1](../../research/community-family588-audit/DISPOSITIONS.json) |
+| [#560](https://github.com/CrocSwap/integer-mult-bounds/pull/560) | Dugongue | partially reviewed | [record 1](../../research/community-family588-audit/DISPOSITIONS.json) |
+| [#561](https://github.com/CrocSwap/integer-mult-bounds/pull/561) | eumemic | partially reviewed | [record 1](../../research/community-family588-audit/DISPOSITIONS.json) |
+| [#562](https://github.com/CrocSwap/integer-mult-bounds/pull/562) | eumemic | partially reviewed | [record 1](../../research/community-family588-audit/DISPOSITIONS.json) |
+| [#563](https://github.com/CrocSwap/integer-mult-bounds/pull/563) | Dugongue | partially reviewed | [record 1](../../research/community-family588-audit/DISPOSITIONS.json) |
+| [#564](https://github.com/CrocSwap/integer-mult-bounds/pull/564) | eumemic | partially reviewed | [record 1](../../research/community-family588-audit/DISPOSITIONS.json) |
+| [#567](https://github.com/CrocSwap/integer-mult-bounds/pull/567) | jon314159 | partially reviewed | [record 1](../../research/community-family588-audit/DISPOSITIONS.json) |
+| [#568](https://github.com/CrocSwap/integer-mult-bounds/pull/568) | jeremykothe2 | partially reviewed | [record 1](../../research/community-family588-audit/DISPOSITIONS.json) |
+| [#569](https://github.com/CrocSwap/integer-mult-bounds/pull/569) | DominikScholz | partially reviewed | [record 1](../../research/community-family588-audit/DISPOSITIONS.json) |
+| [#571](https://github.com/CrocSwap/integer-mult-bounds/pull/571) | DominikScholz | partially reviewed | [record 1](../../research/community-family588-audit/DISPOSITIONS.json) |
+| [#572](https://github.com/CrocSwap/integer-mult-bounds/pull/572) | chafreaky | partially reviewed | [record 1](../../research/community-family588-audit/DISPOSITIONS.json) |
+| [#574](https://github.com/CrocSwap/integer-mult-bounds/pull/574) | jeremykothe2 | partially reviewed | [record 1](../../research/community-family588-audit/DISPOSITIONS.json) |
+| [#575](https://github.com/CrocSwap/integer-mult-bounds/pull/575) | jon314159 | partially reviewed | [record 1](../../research/community-family588-audit/DISPOSITIONS.json) |
+| [#576](https://github.com/CrocSwap/integer-mult-bounds/pull/576) | jeremykothe2 | partially reviewed | [record 1](../../research/community-family588-audit/DISPOSITIONS.json) |
+| [#577](https://github.com/CrocSwap/integer-mult-bounds/pull/577) | chafreaky | partially reviewed | [record 1](../../research/community-family588-audit/DISPOSITIONS.json) |
+| [#578](https://github.com/CrocSwap/integer-mult-bounds/pull/578) | jeremykothe2 | partially reviewed | [record 1](../../research/community-family588-audit/DISPOSITIONS.json) |
+| [#579](https://github.com/CrocSwap/integer-mult-bounds/pull/579) | chafreaky | partially reviewed | [record 1](../../research/community-family588-audit/DISPOSITIONS.json) |
+| [#580](https://github.com/CrocSwap/integer-mult-bounds/pull/580) | artuskg | partially reviewed | [record 1](../../research/community-family588-audit/DISPOSITIONS.json) |
+| [#582](https://github.com/CrocSwap/integer-mult-bounds/pull/582) | jeremykothe2 | partially reviewed | [record 1](../../research/community-family588-audit/DISPOSITIONS.json) |
+| [#583](https://github.com/CrocSwap/integer-mult-bounds/pull/583) | chafreaky | partially reviewed | [record 1](../../research/community-family588-audit/DISPOSITIONS.json) |
+| [#584](https://github.com/CrocSwap/integer-mult-bounds/pull/584) | jeremykothe2 | partially reviewed | [record 1](../../research/community-family588-audit/DISPOSITIONS.json) |
+| [#586](https://github.com/CrocSwap/integer-mult-bounds/pull/586) | chafreaky | partially reviewed | [record 1](../../research/community-family588-audit/DISPOSITIONS.json) |
+| [#587](https://github.com/CrocSwap/integer-mult-bounds/pull/587) | jeremykothe2 | partially reviewed | [record 1](../../research/community-family588-audit/DISPOSITIONS.json) |
+| [#588](https://github.com/CrocSwap/integer-mult-bounds/pull/588) | jeremykothe2 | partially reviewed | [record 1](../../research/community-family588-audit/DISPOSITIONS.json) |

@@ -1,6 +1,35 @@
 # Community contribution record
 
-**Current reviewed construction: #535 with #510, κ=0.001584931111785787.**
+**Latest locally reviewed composition: #588 with #543, κ=0.001602278921983212.**
+Family integration is in progress; the [selected record](certificates/selected-result.json)
+identifies the published checkpoint until the final publication update.
+The [family review](docs/research/community-family588-review.md) and
+[per-PR dispositions](research/community-family588-audit/DISPOSITIONS.json)
+record verification scope and remaining work.
+
+| Contributor | Work in the frozen family through #588 |
+|---|---|
+| [Jeremy Kothe](https://github.com/jeremykothe2) | #568 multi-cut cold kernels; #574/#576/#578/#582/#584 provider compositions; #587 declarative verification tools; #588 commuting gate moves and frame coalescences. |
+| [eumemic](https://github.com/eumemic) | #543 R420 bit word with interleaved source updates; #555 combination with punctured ports; #550/#558 rank-five complex variants and #561/#562/#564 cold-kernel and mixed-provider constructions. |
+| [Dominik Scholz](https://github.com/DominikScholz) | #569 width-seven promotions, provider reconstruction and exact capacity diagnostics; #571 shared prefixes and bounded joint-basis research. |
+| [Chafik Boukhalfa](https://github.com/chafreaky) | #538/#544/#551 constructions; #549/#557 scoped ceilings; #572/#577/#579 provider packing; #583/#586 frame coalescences and portable proof-content controls. |
+| [Dugongue](https://github.com/Dugongue) | #541 trace/curvature work; #548 response pruning; #552 collective frame and response changes; #556 projection-cut optimization; #560/#563 pooling and provider-interface research. |
+| [DreamingOfClouds](https://github.com/DreamingOfClouds) | #545 punctured bit ports and rank-seven totals, building on the R480 and nine-stage pipeline; retained moment and assembly machinery. |
+| [Rohan Arun](https://github.com/rohanarun) | #539 literal bit charge; #542/#546/#547/#554 frame and composition work; #559 source-scoped removal of the generic complex exceptional-residue surcharge. |
+| [Jonathan Capalbo](https://github.com/jon314159) | #567 paired cold kernels and portable generated-content identities; #575 shared joint-prefix construction. |
+| [artuskg](https://github.com/artuskg) | #580 source-complement lookup proof and exact rational normal-form diagnostic; research contribution without a new physical supplier or exponent claim. |
+
+Parallel constructions and superseded witnesses keep their attribution. Their
+gains are not added to one another. Earlier notices and credits, including
+icekylinx's direct-delivery/post-center lineage, the mutable-source and E8
+geometry contributors, and formalization contributors, remain in the source
+packages and the historical record below. Original licenses and AI-assistance
+disclosures are retained. Douglas Colkitt performs maintainer review and
+integration with OpenAI Codex assistance.
+
+## Historical post-center checkpoint
+
+**Historical reviewed construction: #535 with #510, κ=0.001584931111785787.**
 The [family review](docs/research/community-family533-review.md) separates the
 selected gain, parallel mechanisms, formalization and inherited assumptions.
 

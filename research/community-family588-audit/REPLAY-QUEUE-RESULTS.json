@@ -118,5 +118,65 @@
     "exit_code": 0,
     "seconds": 53.5,
     "completed_utc": "2026-10-12T13:45:51.953395+00:00"
+  },
+  {
+    "pr": 551,
+    "package": "subspace16-r420",
+    "command": [
+      "/tmp/integer-mult-review-venv/bin/python",
+      "-B",
+      "research/subspace16-r420/verify.py",
+      "--work",
+      "/tmp/im551-review"
+    ],
+    "log": "/tmp/im551-review.log",
+    "exit_code": 0,
+    "seconds": 707.139,
+    "completed_utc": "2026-10-12T13:51:56.387760+00:00"
+  },
+  {
+    "pr": 554,
+    "package": "complex-trace-joint-retiming",
+    "command": [
+      "/tmp/integer-mult-review-venv/bin/python",
+      "-B",
+      "research/complex-trace-joint-retiming/verify.py",
+      "--work",
+      "/tmp/im554-review"
+    ],
+    "log": "/tmp/im554-review.log",
+    "exit_code": 0,
+    "seconds": 418.905,
+    "completed_utc": "2026-10-12T13:52:50.858493+00:00"
+  },
+  {
+    "pr": 560,
+    "package": "pooled-clone-epochs",
+    "command": [
+      "/tmp/integer-mult-review-venv/bin/python",
+      "-B",
+      "research/pooled-clone-epochs/verify.py",
+      "--work",
+      "/tmp/im560-review"
+    ],
+    "log": "/tmp/im560-review.log",
+    "exit_code": 0,
+    "seconds": 169.231,
+    "completed_utc": "2026-10-12T13:54:45.619153+00:00"
+  },
+  {
+    "pr": 563,
+    "package": "contextual-provider-pooling",
+    "command": [
+      "/tmp/integer-mult-review-venv/bin/python",
+      "-B",
+      "research/contextual-provider-pooling/verify.py",
+      "--work",
+      "/tmp/im563-review"
+    ],
+    "log": "/tmp/im563-review.log",
+    "exit_code": 0,
+    "seconds": 261.136,
+    "completed_utc": "2026-10-12T13:57:11.995332+00:00"
   }
 ]

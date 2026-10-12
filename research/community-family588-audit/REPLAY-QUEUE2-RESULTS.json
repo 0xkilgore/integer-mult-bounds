@@ -1,0 +1,32 @@
+[
+  {
+    "pr": 561,
+    "package": "complex-mixed-coldkernel",
+    "command": [
+      "/tmp/integer-mult-review-venv/bin/python",
+      "-B",
+      "research/complex-mixed-coldkernel/verify.py",
+      "--work",
+      "/tmp/im561-review"
+    ],
+    "log": "/tmp/im561-review.log",
+    "exit_code": 0,
+    "seconds": 1026.736,
+    "completed_utc": "2026-10-12T14:14:27.520479+00:00"
+  },
+  {
+    "pr": 562,
+    "package": "complex-mixed-048",
+    "command": [
+      "/tmp/integer-mult-review-venv/bin/python",
+      "-B",
+      "research/complex-mixed-048/verify.py",
+      "--work",
+      "/tmp/im562-review"
+    ],
+    "log": "/tmp/im562-review.log",
+    "exit_code": 0,
+    "seconds": 1040.021,
+    "completed_utc": "2026-10-12T14:14:40.805301+00:00"
+  }
+]

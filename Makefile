@@ -21,7 +21,7 @@ verify:
 	$(MAKE) verify-recycled-bit
 	$(MAKE) verify-entrance-banks
 	$(MAKE) gen4-bank-verify
-	$(MAKE) frontier535-verify
+	$(MAKE) frontier588-verify
 	$(MAKE) verify-certificates
 	$(MAKE) verify-ternary
 	$(MAKE) verify-research
@@ -56,6 +56,11 @@ frontier531-verify: selected-record-check
 frontier535-verify: selected-record-check
 	@work=$$(mktemp -d "$${TMPDIR:-/tmp}/integer-mult-frontier535.XXXXXX"); \
 	python3 -B scripts/verify_frontier535.py --work "$$work/replay"
+
+.PHONY: frontier588-verify
+frontier588-verify: selected-record-check
+	@work=$$(mktemp -d "$${TMPDIR:-/tmp}/integer-mult-frontier588.XXXXXX"); \
+	python3 -B scripts/verify_frontier588.py --work "$$work/replay"
 
 .PHONY: source527-record-check source527-verify
 source527-record-check:
