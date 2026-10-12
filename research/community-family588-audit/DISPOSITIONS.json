@@ -1159,16 +1159,17 @@
       ],
       "closure": null,
       "scope": "Retains the three-provider scalar mechanism while changing the literal assignment. Assess the resulting reconstructed idle profile, not solver-reported objective alone.",
-      "unresolved_question": "Finish queued physical/tooling replay, then complete publication checks, integration and fresh-head check.",
+      "unresolved_question": "Complete publication checks, integrate, and recheck head before closure.",
       "review_completion": {
         "changed_file_coverage": true,
         "scoped_mechanism_review": true,
-        "required_execution_complete": false,
+        "required_execution_complete": true,
         "published": false
       },
       "verification_evidence": [
         "research/community-family588-audit/REVIEW-NOTES.json",
-        "research/community-family588-audit/CONTENT-COVERAGE.json"
+        "research/community-family588-audit/CONTENT-COVERAGE.json",
+        "research/community-family588-audit/pr578"
       ]
     },
     {

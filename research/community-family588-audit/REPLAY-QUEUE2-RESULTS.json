@@ -118,5 +118,20 @@
     "exit_code": 0,
     "seconds": 552.827,
     "completed_utc": "2026-10-12T15:00:12.922615+00:00"
+  },
+  {
+    "pr": 578,
+    "package": "complex-571-three-provider-f1",
+    "command": [
+      "/tmp/integer-mult-review-venv/bin/python",
+      "-B",
+      "research/complex-571-three-provider-f1/verify.py",
+      "--work",
+      "/tmp/im578-review"
+    ],
+    "log": "/tmp/im578-review.log",
+    "exit_code": 0,
+    "seconds": 580.791,
+    "completed_utc": "2026-10-12T15:09:53.714373+00:00"
   }
 ]

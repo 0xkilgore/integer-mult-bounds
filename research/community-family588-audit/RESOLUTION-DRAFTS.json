@@ -209,7 +209,7 @@
     {
       "number": 578,
       "reviewed_head": "2aacc1f2edae76fc963699be5cfaf31bcf3ef56b",
-      "required_execution_complete": false,
+      "required_execution_complete": true,
       "body_template": "Thank you @jeremykothe2. This contribution at `2aacc1f2edae76fc963699be5cfaf31bcf3ef56b` is incorporated in the reviewed family through #588, published in PUBLICATION_COMMIT.\n\nRetains the three-provider scalar mechanism while changing the literal assignment. Assess the resulting reconstructed idle profile, not solver-reported objective alone.\n\nPreserved implementation and research:\n\n- [research/complex-571-three-provider-f1](https://github.com/CrocSwap/integer-mult-bounds/tree/PUBLICATION_COMMIT/research/complex-571-three-provider-f1)\n\nThe [family review](https://github.com/CrocSwap/integer-mult-bounds/blob/PUBLICATION_COMMIT/docs/research/community-family588-review.md) and [individual disposition](https://github.com/CrocSwap/integer-mult-bounds/blob/PUBLICATION_COMMIT/research/community-family588-audit/DISPOSITIONS.json) record the scope, evidence and attribution. Parallel and intermediate contributions remain credited even where a later composition has a stronger bound. The published multiplication bound remains conditional on the documented compiler, realization, hosting and analytic assumptions; these finite checks are not a full Lean multiplication proof."
     },
     {
