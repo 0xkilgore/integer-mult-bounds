@@ -1,20 +1,22 @@
 # Community contribution record
 
-**Current reviewed construction: #531 on #523 with #493,
-κ=0.001517760977820331.** The [review](docs/research/community-pr531-review.md)
-records fresh finite replays, dependency checks and retained interface assumptions.
+**Current reviewed construction: #535 with #510, κ=0.001584931111785787.**
+The [family review](docs/research/community-family533-review.md) separates the
+selected gain, parallel mechanisms, formalization and inherited assumptions.
 
-| Contributor | Contribution to this checkpoint |
+| Contributor | Contribution to this checkpoint and review round |
 |---|---|
-| [icekylinx](https://github.com/icekylinx) | #531 direct delivery, 504-helper construction, frame coalescing and physical allocation; #523 exact port restriction; earlier source-basis and split-center work. |
-| [eumemic](https://github.com/eumemic) | #493 source-carrier bit supplier and full replay; #507 partial-own factory and #496 integration ancestry. |
-| [Dugongue](https://github.com/Dugongue) | #514 coordinated entrance/kernel construction; #505 asynchronous whole-owner scheduling; #522 related rank-sector idea. |
-| [DreamingOfClouds](https://github.com/DreamingOfClouds) | #484 shared-donor kernels, gauges and normalized wrappers; #509/#516 general Lean proofs of labeled-stream conjugation, physical realization, spectators and commuting windows; exact moment and assembly machinery. |
-| [Chafik Boukhalfa](https://github.com/chafreaky) | #472/#445 eleven-stage geometry, emitters, physical checks and invoice; #458 spectator wrappers. |
-| [DaysSky](https://github.com/DaysSky) | #442 idle-axis hosting and #381 bridged column checks. |
-| [Zhihao Chen](https://github.com/jacklightChen) | #425 mutable-basis interface and Hamming/scalar ancestry; #386 geometry. |
-| Dylan Crow and [Jacob Sussman](https://github.com/jacobalansussman) | #370 bit-format/checker and E8 geometry contributions recorded by the supplier notices. |
-| [higherbeing](https://github.com/higherbeing) | #520 open whole-owner allocation tools, exact delivery-layer diagnostics and the plane-cover correction; imported with scoped validation and maintainer solver-status fixes. |
+| [icekylinx](https://github.com/icekylinx) | #535 post-center gauge/kernel ordering, rank-four entrances and exact mixed-width allocation; #531 direct delivery and #523 port restriction. |
+| [DreamingOfClouds](https://github.com/DreamingOfClouds) | #503 R480 totals on dead registers and #510 nine-stage bit supplier; #484 kernels/gauges, #509/#516 Lean interfaces, exact moment and assembly machinery. |
+| [eumemic](https://github.com/eumemic) | #493 mutable source-carrier bit supplier; #507 factory and #496 integration ancestry. |
+| [Chafik Boukhalfa](https://github.com/chafreaky) | #533 92-pivot supplier and complete replay; #443/#444/#445/#472 geometry, physical emitters/checkers and invoices; #458 wrappers. |
+| [Rohan Arun](https://github.com/rohanarun) | #534 monotone delivery-frame search and #536 certified composition with #533; both alternative witnesses retained. |
+| [Dugongue](https://github.com/Dugongue) | #537 support-saturated response calculus, width-five packing, exact observational rewrite and finite supplier registry; #514/#505/#522 construction ancestry. |
+| [James Chang](https://github.com/jamesyc) | #513 sequential completed-bank Lean interface/source bindings and #528 full-state endpoint adapter to #516. |
+| [DaysSky](https://github.com/DaysSky) | #442 idle-axis hosting and #381 bridged formal-column checks. |
+| [Zhihao Chen](https://github.com/jacklightChen) | #425 mutable-basis interface, #386 geometry and Hamming/scalar ancestry. |
+| Dylan Crow and [Jacob Sussman](https://github.com/jacobalansussman) | #370 bit-format/checker and E8 geometry lineage retained in supplier notices. |
+| [higherbeing](https://github.com/higherbeing) | #520 whole-owner allocation and exact delivery-layer diagnostics. |
 
 Original commits, notices, licenses and AI-assistance disclosures are retained.
 Earlier, parallel and superseded contributions remain credited below and in the

@@ -22,6 +22,14 @@ def main():
     ledger = json.loads((ROOT / 'docs/research/pr-ledger.json').read_text())
     snapshot = json.loads((AUDIT / 'starting-snapshot.json').read_text())
     expected = {p['number']: p for p in snapshot['pull_requests']}
+    family_path = ROOT / 'research/community-family533-audit/DISPOSITIONS.json'
+    if family_path.exists():
+        family = json.loads(family_path.read_text())
+        numbers = [p['number'] for p in family['pull_requests']]
+        require(len(numbers) == len(set(numbers)), 'Duplicate family PR')
+        for row in family['pull_requests']:
+            if row['number'] not in expected:
+                expected[row['number']] = row['metadata']
     actual = {p['number']: p for p in ledger['pull_requests']}
     require(len(actual) == len(ledger['pull_requests']) == len(expected), 'Duplicate or missing PR')
     require(actual.keys() == expected.keys(), 'Starting PR set changed')
@@ -73,7 +81,7 @@ def main():
         for number, head in receipt['reviewed_heads'].items():
             require(actual[int(number)]['starting_head'] == head, f'#{number}: batch head mismatch')
         print('PASS formal/tooling batch: reviewed heads, source inventory and execution receipt bindings')
-    print(f'PASS fixed snapshot: {len(actual)} PRs, attributed heads, evidence pins and unresolved questions')
+    print(f'PASS immutable snapshot plus explicit family rounds: {len(actual)} PRs, attributed heads, evidence pins and unresolved questions')
 
 
 if __name__ == '__main__':

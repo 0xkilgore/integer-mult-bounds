@@ -3,11 +3,13 @@
   "snapshot": "research/pr-reconciliation-20261012/starting-snapshot.json",
   "starting_main": "f19cb621be2caf3a7291a37c343c1c55afe935e0",
   "starting_open_count": 446,
+  "inventory_count": 449,
+  "family_round": "research/community-family533-audit/DISPOSITIONS.json",
   "counts": {
     "changed_since_review": 6,
-    "incorporated": 8,
-    "partially_reviewed": 143,
-    "unreviewed": 289
+    "incorporated": 17,
+    "partially_reviewed": 144,
+    "unreviewed": 282
   },
   "source_sha256": {
     "docs/research/community-followup-validation.json": "81155f9cf9e5b91e3f1a587e3ba8eb83d25099cc937e603ef235b0a8b73dd732",
@@ -25,7 +27,8 @@
     "docs/research/community-pr531-integration.json": "3010ec433f84c56fa0add43641f708abde0fdecb7790553673beaf9bd8fe4282",
     "docs/research/community-formal-20261012-integration.json": "fc171f4e3dbad9c870b13e141460facaffde957e15c6bb8f984d97686007b7d1",
     "research/pr-reconciliation-20261012/decisions.json": "b710c0a7e7599a929120a4d4dfb067335964d9b0c8fd66818ff3fd5a3856e11f",
-    "research/pr-reconciliation-20261012/ending-snapshot.json": "629522d6a438733f5316ee362979c35fb9f703ac801c3d30b6fc390ea62d2322"
+    "research/pr-reconciliation-20261012/ending-snapshot.json": "629522d6a438733f5316ee362979c35fb9f703ac801c3d30b6fc390ea62d2322",
+    "research/community-family533-audit/DISPOSITIONS.json": "65812d06a5025e63a9dad7e6347dce196649960b847664aabcc72209f3f5ed63"
   },
   "scope": "Reconciliation index, not blanket mathematical verification. Partial includes triage or scoped checks; mentions alone are not review. Integrated archives are distinguished from active implementations. No automatic closures.",
   "pull_requests": [
@@ -11095,14 +11098,26 @@
       "current_head": "cdf0c1c6540df987467988fd771340670f4136f3",
       "previously_reviewed_heads": [],
       "historical_assessment_heads": [],
-      "evidence": [],
+      "evidence": [
+        {
+          "head": "cdf0c1c6540df987467988fd771340670f4136f3",
+          "evidence": "research/community-family533-audit/DISPOSITIONS.json",
+          "scope": "Only fourteen source-pinned vendored pipeline files used by PR510 reviewed and replayed; this does not cover the entire PR.",
+          "kind": "integration_or_partial_review"
+        }
+      ],
       "historical_mentions": [],
-      "disposition": "unreviewed",
-      "integration_location": [],
+      "disposition": "partially_reviewed",
+      "integration_location": [
+        "research/e8-r480-nine-stage/vendor"
+      ],
       "github_state": "OPEN",
-      "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
+      "unresolved_question": "Review the rest of the current PR463 construction/research content before full incorporation or closure.",
       "closure": null,
-      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
+      "current_head_observed_in": "research/community-family533-audit/DISPOSITIONS.json",
+      "reconciliation_evidence": [
+        "research/community-family533-audit/DISPOSITIONS.json"
+      ]
     },
     {
       "number": 464,
@@ -12017,14 +12032,28 @@
       "current_head": "3f27147013fdd4fa0aed825cb47bff3376c452eb",
       "previously_reviewed_heads": [],
       "historical_assessment_heads": [],
-      "evidence": [],
-      "historical_mentions": [],
-      "disposition": "unreviewed",
-      "integration_location": [],
+      "evidence": [
+        {
+          "head": "3f27147013fdd4fa0aed825cb47bff3376c452eb",
+          "evidence": "research/community-family533-audit/DISPOSITIONS.json",
+          "scope": "R480 reconstruction, formal columns, finite checks and hosted eleven-stage audit; solver-tie portability fix preserves frozen physical witness.",
+          "kind": "integration_or_partial_review"
+        }
+      ],
+      "historical_mentions": [
+        "docs/research/community-family533-review.md"
+      ],
+      "disposition": "incorporated",
+      "integration_location": [
+        "research/e8-r480-dead-totals"
+      ],
       "github_state": "OPEN",
-      "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
+      "unresolved_question": "",
       "closure": null,
-      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
+      "current_head_observed_in": "research/community-family533-audit/DISPOSITIONS.json",
+      "reconciliation_evidence": [
+        "research/community-family533-audit/DISPOSITIONS.json"
+      ]
     },
     {
       "number": 504,
@@ -12180,6 +12209,7 @@
         }
       ],
       "historical_mentions": [
+        "docs/research/community-family533-review.md",
         "docs/research/community-formal-20261012-review.md"
       ],
       "disposition": "incorporated",
@@ -12220,14 +12250,28 @@
       "current_head": "64edee18af02aab0c1696b677a0287dd0146381b",
       "previously_reviewed_heads": [],
       "historical_assessment_heads": [],
-      "evidence": [],
-      "historical_mentions": [],
-      "disposition": "unreviewed",
-      "integration_location": [],
+      "evidence": [
+        {
+          "head": "64edee18af02aab0c1696b677a0287dd0146381b",
+          "evidence": "research/community-family533-audit/DISPOSITIONS.json",
+          "scope": "Complete changed R480 nine-stage bit pipeline, columns, physical hosting, both moments and finite invoice; unchanged PR493 replay reused with exact source binding.",
+          "kind": "integration_or_partial_review"
+        }
+      ],
+      "historical_mentions": [
+        "docs/research/community-family533-review.md"
+      ],
+      "disposition": "incorporated",
+      "integration_location": [
+        "research/e8-r480-nine-stage"
+      ],
       "github_state": "OPEN",
-      "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
+      "unresolved_question": "",
       "closure": null,
-      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
+      "current_head_observed_in": "research/community-family533-audit/DISPOSITIONS.json",
+      "reconciliation_evidence": [
+        "research/community-family533-audit/DISPOSITIONS.json"
+      ]
     },
     {
       "number": 511,
@@ -12294,14 +12338,28 @@
       "current_head": "d558ca6cbc23957163db81e23071d336ab761a12",
       "previously_reviewed_heads": [],
       "historical_assessment_heads": [],
-      "evidence": [],
-      "historical_mentions": [],
-      "disposition": "unreviewed",
-      "integration_location": [],
+      "evidence": [
+        {
+          "head": "d558ca6cbc23957163db81e23071d336ab761a12",
+          "evidence": "research/community-family533-audit/DISPOSITIONS.json",
+          "scope": "Eight exact Lean source modules, 77 complete axiom reports and historical source interface review. Actual current physical instance remains a caller obligation.",
+          "kind": "integration_or_partial_review"
+        }
+      ],
+      "historical_mentions": [
+        "docs/research/community-family533-review.md"
+      ],
+      "disposition": "incorporated",
+      "integration_location": [
+        "research/lean-sequential-bank-bindings"
+      ],
       "github_state": "OPEN",
-      "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
+      "unresolved_question": "",
       "closure": null,
-      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
+      "current_head_observed_in": "research/community-family533-audit/DISPOSITIONS.json",
+      "reconciliation_evidence": [
+        "research/community-family533-audit/DISPOSITIONS.json"
+      ]
     },
     {
       "number": 515,
@@ -12355,6 +12413,7 @@
         }
       ],
       "historical_mentions": [
+        "docs/research/community-family533-review.md",
         "docs/research/community-formal-20261012-review.md"
       ],
       "disposition": "incorporated",
@@ -12643,14 +12702,28 @@
       "current_head": "df5bbdbf837df908ce2324ed880141918a19db5d",
       "previously_reviewed_heads": [],
       "historical_assessment_heads": [],
-      "evidence": [],
-      "historical_mentions": [],
-      "disposition": "unreviewed",
-      "integration_location": [],
+      "evidence": [
+        {
+          "head": "df5bbdbf837df908ce2324ed880141918a19db5d",
+          "evidence": "research/community-family533-audit/DISPOSITIONS.json",
+          "scope": "Nine exact Lean modules, 70 complete axiom reports, precise full-state theorem hypotheses reviewed. No full multiplication theorem or 72-call instance inferred.",
+          "kind": "integration_or_partial_review"
+        }
+      ],
+      "historical_mentions": [
+        "docs/research/community-family533-review.md"
+      ],
+      "disposition": "incorporated",
+      "integration_location": [
+        "research/lean-complete-bank-endpoint"
+      ],
       "github_state": "OPEN",
-      "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
+      "unresolved_question": "",
       "closure": null,
-      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
+      "current_head_observed_in": "research/community-family533-audit/DISPOSITIONS.json",
+      "reconciliation_evidence": [
+        "research/community-family533-audit/DISPOSITIONS.json"
+      ]
     },
     {
       "number": 529,
@@ -12736,18 +12809,33 @@
       },
       "draft": false,
       "starting_head": "ae63ec50f99862efeda351e7687b087744423521",
-      "current_head": "66b00aeaabb6b4b0545b65685c1ea78f157a8d5e",
+      "current_head": "6ad231bea07da57e94dbe4062bd045941db3287e",
       "previously_reviewed_heads": [],
       "historical_assessment_heads": [],
-      "evidence": [],
-      "historical_mentions": [],
-      "disposition": "unreviewed",
-      "integration_location": [],
+      "evidence": [
+        {
+          "head": "6ad231bea07da57e94dbe4062bd045941db3287e",
+          "evidence": "research/community-family533-audit/DISPOSITIONS.json",
+          "scope": "Complete 92-pivot finite supplier replay including all local phases, owners, invoice and exact assembly; source and negative findings retained.",
+          "kind": "integration_or_partial_review"
+        }
+      ],
+      "historical_mentions": [
+        "docs/research/community-family533-review.md"
+      ],
+      "disposition": "incorporated",
+      "integration_location": [
+        "research/direct504-kernel92",
+        "research/direct504-kernel92-validation"
+      ],
       "github_state": "OPEN",
-      "unresolved_question": "The head changed during reconciliation. Review current head 66b00aeaabb6b4b0545b65685c1ea78f157a8d5e; earlier metadata/source inspection does not establish coverage of this update.",
+      "unresolved_question": "",
       "closure": null,
-      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json",
-      "changed_during_round": true
+      "current_head_observed_in": "research/community-family533-audit/DISPOSITIONS.json",
+      "changed_during_round": true,
+      "reconciliation_evidence": [
+        "research/community-family533-audit/DISPOSITIONS.json"
+      ]
     },
     {
       "number": 534,
@@ -12761,17 +12849,139 @@
       },
       "draft": true,
       "starting_head": "768183a86a8c961621702547042579eb9f376c2c",
-      "current_head": "768183a86a8c961621702547042579eb9f376c2c",
+      "current_head": "3e148183cbf124fcaba4d3c2d609133ff2edd518",
       "previously_reviewed_heads": [],
       "historical_assessment_heads": [],
-      "evidence": [],
-      "historical_mentions": [],
-      "disposition": "unreviewed",
-      "integration_location": [],
+      "evidence": [
+        {
+          "head": "3e148183cbf124fcaba4d3c2d609133ff2edd518",
+          "evidence": "research/community-family533-audit/DISPOSITIONS.json",
+          "scope": "Frozen constructor/frame-lift replay, changed phases, physical owners and exact assembly; heuristic discovery retained without global-optimality claim.",
+          "kind": "integration_or_partial_review"
+        }
+      ],
+      "historical_mentions": [
+        "docs/research/community-family533-review.md"
+      ],
+      "disposition": "incorporated",
+      "integration_location": [
+        "research/frame-sa504"
+      ],
       "github_state": "OPEN",
-      "unresolved_question": "No exact-head substantive review established by the indexed records; inspect the contribution and its dependencies.",
+      "unresolved_question": "",
       "closure": null,
-      "current_head_observed_in": "research/pr-reconciliation-20261012/ending-snapshot.json"
+      "current_head_observed_in": "research/community-family533-audit/DISPOSITIONS.json",
+      "reconciliation_evidence": [
+        "research/community-family533-audit/DISPOSITIONS.json"
+      ]
+    },
+    {
+      "number": 535,
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/535",
+      "title": "Post-center rank-four kernels for conditional κ = 0.001584931111785787",
+      "contributor": {
+        "id": "U_kgDOC6jYTg",
+        "is_bot": false,
+        "login": "icekylinx",
+        "name": "IceKylin"
+      },
+      "draft": false,
+      "starting_head": "8b758a103915179322766bed5798f9b6e7198011",
+      "current_head": "8b758a103915179322766bed5798f9b6e7198011",
+      "previously_reviewed_heads": [],
+      "historical_assessment_heads": [],
+      "evidence": [
+        {
+          "head": "8b758a103915179322766bed5798f9b6e7198011",
+          "evidence": "research/community-family533-audit/DISPOSITIONS.json",
+          "scope": "Selected post-center rank-four complex supplier plus rebuilt PR510 bit dependency, complete phases/wrappers, scalar and owner mutations, exact final assembly.",
+          "kind": "integration_or_partial_review"
+        }
+      ],
+      "historical_mentions": [],
+      "integration_location": [
+        "research/post-center-rank4-global"
+      ],
+      "github_state": "OPEN",
+      "closure": null,
+      "disposition": "incorporated",
+      "unresolved_question": "",
+      "current_head_observed_in": "research/community-family533-audit/DISPOSITIONS.json",
+      "reconciliation_evidence": [
+        "research/community-family533-audit/DISPOSITIONS.json"
+      ]
+    },
+    {
+      "number": 536,
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/536",
+      "title": "Conditional kappa 0.001530327580902932: kernel92 plus optimized delivery frames",
+      "contributor": {
+        "id": "MDQ6VXNlcjExNjU5ODM5",
+        "is_bot": false,
+        "login": "rohanarun",
+        "name": ""
+      },
+      "draft": true,
+      "starting_head": "71a7ed7a95776810fede6f583885b7faf5d5ff2a",
+      "current_head": "71a7ed7a95776810fede6f583885b7faf5d5ff2a",
+      "previously_reviewed_heads": [],
+      "historical_assessment_heads": [],
+      "evidence": [
+        {
+          "head": "71a7ed7a95776810fede6f583885b7faf5d5ff2a",
+          "evidence": "research/community-family533-audit/DISPOSITIONS.json",
+          "scope": "Complete 92-pivot/frame-lift composition replay; all local phases, owners and exact accounting.",
+          "kind": "integration_or_partial_review"
+        }
+      ],
+      "historical_mentions": [],
+      "integration_location": [
+        "research/kernel92-frame-composition"
+      ],
+      "github_state": "OPEN",
+      "closure": null,
+      "disposition": "incorporated",
+      "unresolved_question": "",
+      "current_head_observed_in": "research/community-family533-audit/DISPOSITIONS.json",
+      "reconciliation_evidence": [
+        "research/community-family533-audit/DISPOSITIONS.json"
+      ]
+    },
+    {
+      "number": 537,
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/537",
+      "title": "Conditional kappa 0.001538356846647141: higher response spaces meet exact rank-32 saturation",
+      "contributor": {
+        "id": "MDQ6VXNlcjQ5MDU0NTMy",
+        "is_bot": false,
+        "login": "Dugongue",
+        "name": ""
+      },
+      "draft": false,
+      "starting_head": "39958faec4fd7e7958ca81f6cffcf70ce74c5e89",
+      "current_head": "39958faec4fd7e7958ca81f6cffcf70ce74c5e89",
+      "previously_reviewed_heads": [],
+      "historical_assessment_heads": [],
+      "evidence": [
+        {
+          "head": "39958faec4fd7e7958ca81f6cffcf70ce74c5e89",
+          "evidence": "research/community-family533-audit/DISPOSITIONS.json",
+          "scope": "Filtered construction and both observational variants rebuilt; registry, owner/resource/phase checks and exact assembly pass; scoped research arguments retained.",
+          "kind": "integration_or_partial_review"
+        }
+      ],
+      "historical_mentions": [],
+      "integration_location": [
+        "research/filtered-supplier-registry"
+      ],
+      "github_state": "OPEN",
+      "closure": null,
+      "disposition": "incorporated",
+      "unresolved_question": "",
+      "current_head_observed_in": "research/community-family533-audit/DISPOSITIONS.json",
+      "reconciliation_evidence": [
+        "research/community-family533-audit/DISPOSITIONS.json"
+      ]
     }
   ],
   "ending_snapshot": "research/pr-reconciliation-20261012/ending-snapshot.json",
@@ -12784,6 +12994,6 @@
   "github_dispositions": {
     "CLOSED": 3,
     "MERGED": 5,
-    "OPEN": 438
+    "OPEN": 441
   }
 }

@@ -148,9 +148,37 @@ def build():
         raise ValueError('Duplicate PR in starting snapshot')
     if set(map(int, decisions)) - {p['number'] for p in result}:
         raise ValueError('Decision outside the fixed snapshot')
+    # Later family rounds extend the inventory without rewriting the original
+    # 446-PR snapshot or changing an original row's starting head/attribution.
+    family_path = 'research/community-family533-audit/DISPOSITIONS.json'
+    family = load(family_path) if (ROOT / family_path).exists() else None
+    if family:
+        indexed = {p['number']: p for p in result}
+        for decision in family['pull_requests']:
+            n = decision['number']
+            if n not in indexed:
+                pr = decision['metadata']
+                item = dict(number=n, url=f'https://github.com/CrocSwap/integer-mult-bounds/pull/{n}',
+                            title=pr['title'], contributor=pr['author'], draft=pr['isDraft'],
+                            starting_head=pr['headRefOid'], current_head=pr['headRefOid'],
+                            previously_reviewed_heads=[], historical_assessment_heads=[], evidence=[],
+                            historical_mentions=[], integration_location=[], github_state='OPEN', closure=None)
+                result.append(item)
+                indexed[n] = item
+            item = indexed[n]
+            for key in ('current_head', 'disposition', 'integration_location', 'github_state',
+                        'unresolved_question', 'closure'):
+                if key in decision:
+                    item[key] = decision[key]
+            item['current_head_observed_in'] = family_path
+            item['reconciliation_evidence'] = list(dict.fromkeys(item.get('reconciliation_evidence', []) + [family_path]))
+            item['evidence'].append(dict(head=decision['reviewed_head'], evidence=family_path,
+                                         scope=decision['scope'], kind='integration_or_partial_review'))
+        result.sort(key=lambda p: p['number'])
     counts = dict(sorted(collections.Counter(p['disposition'] for p in result).items()))
     output = dict(schema_version=1, snapshot='research/pr-reconciliation-20261012/starting-snapshot.json',
-                  starting_main=snapshot['published_main'], starting_open_count=len(result),
+                  starting_main=snapshot['published_main'], starting_open_count=len(snapshot['pull_requests']),
+                  inventory_count=len(result), family_round=family_path if family else None,
                   counts=counts, source_sha256=sources,
                   scope='Reconciliation index, not blanket mathematical verification. Partial includes triage or scoped checks; mentions alone are not review. Integrated archives are distinguished from active implementations. No automatic closures.',
                   pull_requests=result)
@@ -162,7 +190,7 @@ def build():
     dest = ROOT / 'docs/research/pr-ledger.json'
     dest.write_text(json.dumps(output, indent=2, ensure_ascii=False) + '\n')
     lines = ['# PR review and integration ledger', '',
-             'This is the reconciliation of the **%d PRs open at the starting snapshot**. New arrivals are outside this fixed round.' % len(result), '',
+             'The immutable starting snapshot contains **%d PRs**. Explicit later family rounds extend the current inventory to **%d**; unrelated arrivals remain outside the round.' % (len(snapshot['pull_requests']), len(result)), '',
              '[Machine-readable ledger](pr-ledger.json) · [Starting snapshot](../../research/pr-reconciliation-20261012/starting-snapshot.json)', '',
              'The ledger separates historical review from integration. A prior snapshot or a mention in a note does not certify a contribution. '
              '“Partially reviewed” includes scoped review and triage with their original limitations; “changed since review” means the present head lacks matching recorded coverage. '
@@ -171,16 +199,19 @@ def build():
     lines += [f'| {k.replace("_", " ")} | {v} |' for k, v in counts.items()]
     if ending:
         states = collections.Counter(p['github_state'] for p in result)
-        lines += ['', f'At the closing snapshot: **{states["MERGED"]} merged, {states["CLOSED"]} closed as already incorporated, '
-                  f'{ending["remaining_from_start"]} starting PRs still open**. '
-                  f'{len(ending["new_arrivals"])} new arrivals bring the live open count to {ending["open_count"]}.', '',
-                  'New arrivals outside this round: ' + ', '.join(f'[#{p["number"]}]({p["url"]})' for p in ending['new_arrivals']) + '. Their claims remain unreviewed.']
+        lines += ['', f'The earlier reconciliation closing snapshot had {ending["remaining_from_start"]} starting PRs still open and {ending["open_count"]} total open. '
+                  'These are historical counts, not a live queue measurement. Later dispositions are recorded below.']
+    if family:
+        lines += ['', '[Current family review](community-family533-review.md) · '
+                  '[Family dispositions](../../research/community-family533-audit/DISPOSITIONS.json)', '',
+                  'The construction family #533–#537 and formal connections #513/#528 are covered in that review, '
+                  'including the #503/#510 bit dependency. #463 has only its vendored pipeline subset reviewed.']
     lines += ['', '## Remaining priorities', '',
               '1. Follow the new Linux CI for the published #442/#484/#509/#516/#520 batch; the [scoped review](community-formal-20261012-review.md) records completed local checks.',
-              '2. Review #533’s updated supplier against the published #531 baseline and triage the newer #535/#536/#537 followups together; their titles remain unverified claims.',
+              '2. Follow the explicit construction-family dispositions and remaining obligations; do not repeat completed foundation replays without a source/input change.',
               '3. Review #525’s checkpoint/ceiling and #529/#532’s distinct construction mechanisms; retain parallel credit.',
               '4. Reconcile #210/#279 updates with their earlier incorporated heads; audit #236’s source-package integration separately from its already published review receipts.',
-              '5. Continue the formal-interface queue, including draft #528, after its prerequisites are published. Review drafts as proposals, not ready-to-merge submissions.', '',
+              '5. Continue finite-instance connections for formal interfaces; abstract theorem builds do not instantiate all current physical constructions.', '',
               '## Starting PR inventory', '',
               'Each evidence link leads to the original scoped assessment. The JSON records exact heads, unresolved questions, integration locations and closure receipts.', '',
               '| PR | Contributor | Disposition | Evidence or remaining question |', '|---|---|---|---|']

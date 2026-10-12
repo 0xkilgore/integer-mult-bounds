@@ -43,3 +43,16 @@ research/e8-complex-gauge-kernel/** -text -whitespace
 research/e8-lemma-a-lean/** -text -whitespace
 research/e8-lemma-g-lean/** -text -whitespace
 research/community-formal-20261012-audit/** -text -whitespace
+
+# Preserve the reviewed construction/formal-interface family byte inventories.
+research/e8-r480-dead-totals/** -text -whitespace
+research/e8-r480-nine-stage/** -text -whitespace
+research/direct504-kernel92/** -text -whitespace
+research/direct504-kernel92-validation/** -text -whitespace
+research/frame-sa504/** -text -whitespace
+research/post-center-rank4-global/** -text -whitespace
+research/kernel92-frame-composition/** -text -whitespace
+research/filtered-supplier-registry/** -text -whitespace
+research/lean-sequential-bank-bindings/** -text -whitespace
+research/lean-complete-bank-endpoint/** -text -whitespace
+research/community-family533-audit/** -text -whitespace
