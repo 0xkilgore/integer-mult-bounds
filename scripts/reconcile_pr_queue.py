@@ -171,7 +171,7 @@ def build():
                 indexed[n] = item
             item = indexed[n]
             for key in ('reviewed_head', 'current_head', 'disposition', 'integration_location', 'github_state',
-                        'unresolved_question', 'closure'):
+                        'unresolved_question', 'closure', 'review_completion', 'verification_evidence'):
                 if key in decision:
                     item[key] = decision[key]
             item['current_head_observed_in'] = family_path

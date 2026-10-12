@@ -18,6 +18,36 @@ def require(condition, message):
         raise ValueError(message)
 
 
+def check_review_completion(item, decision):
+    """An incorporated disposition must not outrun its source/execution/publication record."""
+    flags = decision['review_completion']
+    required = {'changed_file_coverage', 'scoped_mechanism_review',
+                'required_execution_complete', 'published'}
+    require(set(flags) == required and all(type(v) is bool for v in flags.values()),
+            'Invalid review-completion flags')
+    require(item.get('review_completion') == flags and
+            item.get('verification_evidence') == decision['verification_evidence'],
+            'Ledger lost detailed review or evidence state')
+    require(decision['verification_evidence'], 'Missing contribution evidence')
+    if item['disposition'] == 'incorporated':
+        require(all(flags.values()), 'Incorporated before review, execution or publication completed')
+        require(item['reviewed_head'] == item['current_head'],
+                'Incorporated current head differs from reviewed head')
+        require(item['integration_location'], 'Incorporated without integration location')
+
+
+def check_archived_files(root, records):
+    """Verify the archived artifacts named by a separately pinned evidence inventory."""
+    for record in records:
+        require(record.get('files'), 'Empty replay evidence inventory')
+        for name, digest in record['files'].items():
+            path = (root / name).resolve()
+            require(path.is_relative_to(root.resolve()) and path.is_file(),
+                    'Invalid replay evidence path: ' + name)
+            require(hashlib.sha256(path.read_bytes()).hexdigest() == digest,
+                    'Changed archived replay artifact: ' + name)
+
+
 def main():
     ledger = json.loads((ROOT / 'docs/research/pr-ledger.json').read_text())
     snapshot = json.loads((AUDIT / 'starting-snapshot.json').read_text())
@@ -110,6 +140,13 @@ def main():
         for name, digest in receipt['receipts'].items():
             require(hashlib.sha256((ROOT / name).read_bytes()).hexdigest() == digest,
                     f'Changed family588 receipt: {name}')
+        decisions = {p['number']: p for p in json.loads(
+            (ROOT / 'research/community-family588-audit/DISPOSITIONS.json').read_text())['pull_requests']}
+        for name in ('BATCH1-EVIDENCE.json', 'BATCH2-EVIDENCE.json', 'SCOPED-EVIDENCE.json',
+                     'PR587-STRICT-EVIDENCE.json', 'PR587-SUITE-EVIDENCE.json',
+                     'PUBLIC-COLD-EVIDENCE.json'):
+            evidence = json.loads((ROOT / 'research/community-family588-audit' / name).read_text())
+            check_archived_files(ROOT, evidence if isinstance(evidence, list) else [evidence])
         source = json.loads((ROOT / 'research/community-family588-audit/SOURCE.json').read_text())
         for name, digest in source['source_files'].items():
             require(hashlib.sha256((ROOT / name).read_bytes()).hexdigest() == digest,
@@ -120,6 +157,7 @@ def main():
         for number, head in receipt['reviewed_heads'].items():
             item = actual[int(number)]
             require(item['reviewed_head'] == head, f'#{number}: family588 reviewed head mismatch')
+            check_review_completion(item, decisions[int(number)])
             covered = coverage['pull_requests'][number]
             require(covered['head'] == head and len(covered['files']) == covered['changed_files'],
                     f'#{number}: incomplete family588 coverage')

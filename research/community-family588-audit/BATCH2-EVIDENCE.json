@@ -122,5 +122,27 @@
       "research/community-family588-audit/pr568/RECEIPT.json": "529f90b6ac1d0939375ada03e84520a05e2d4b298145b2e4b764cd7192f0dfeb",
       "research/community-family588-audit/pr568/replay.log.txt": "bb78deb22407aee35855f01831a575d705e455a63cb967389f175981d4bc400a"
     }
+  },
+  {
+    "pr": 574,
+    "status": "PASS_FRESH_FINITE_REPLAY",
+    "command": [
+      "/tmp/integer-mult-review-venv/bin/python",
+      "-B",
+      "research/complex-571-plain8/verify.py",
+      "--work",
+      "/tmp/im574-review"
+    ],
+    "seconds": 734.403,
+    "output": "/tmp/im574-review",
+    "files": {
+      "research/community-family588-audit/pr574/ASSEMBLY.json": "f7c60a24476c40d39c48f38bf5ba2fbbb4d936aa90c46dba4f5d61e15a2c61ff",
+      "research/community-family588-audit/pr574/RESULT.json": "8aa6c405fd5b0105283e6884e19e09b7b47ea51e0456104ac6cdc81cf60eadcd",
+      "research/community-family588-audit/pr574/PHASE-TIMING-CONTROLS.json": "308a0c61f64a6275576fbb453dc62043c1ade82b0ed03d2ab0a09e72626244e3",
+      "research/community-family588-audit/pr574/STAGES.json": "ca655054f4284f4d23b871a54e7003a804d84f9590358200b13d12106083f356",
+      "research/community-family588-audit/pr574/ASSEMBLY-CONTROLS.json": "d46e182bf0c8fe5ba4cbc791b167ffb55c0435bdc384fb3e793ed0cd821c18c5",
+      "research/community-family588-audit/pr574/RECEIPT.json": "c1803af01ae470ddd6bf3cafd8c6ddff36d6ee182a34e8ff94e1693634d625c5",
+      "research/community-family588-audit/pr574/replay.log.txt": "b12f182feedbc4bc45b314f237ce3631e6830faa86f39460273e7af3fada16ac"
+    }
   }
 ]

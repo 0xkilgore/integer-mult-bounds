@@ -1025,16 +1025,17 @@
       ],
       "closure": null,
       "scope": "Combines the existing #571 joint-prefix provider with #568 plain eight-cold calls under a new owner assignment. It adds no new local scalar identity. Retained #571 local proof must be reconstructed before use.",
-      "unresolved_question": "Finish queued physical/tooling replay, then complete publication checks, integration and fresh-head check.",
+      "unresolved_question": "Complete publication checks, integrate, and recheck head before closure.",
       "review_completion": {
         "changed_file_coverage": true,
         "scoped_mechanism_review": true,
-        "required_execution_complete": false,
+        "required_execution_complete": true,
         "published": false
       },
       "verification_evidence": [
         "research/community-family588-audit/REVIEW-NOTES.json",
-        "research/community-family588-audit/CONTENT-COVERAGE.json"
+        "research/community-family588-audit/CONTENT-COVERAGE.json",
+        "research/community-family588-audit/pr574"
       ]
     },
     {

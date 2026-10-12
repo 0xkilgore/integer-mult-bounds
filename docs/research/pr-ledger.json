@@ -33,7 +33,7 @@
     "research/pr-reconciliation-20261012/decisions.json": "b710c0a7e7599a929120a4d4dfb067335964d9b0c8fd66818ff3fd5a3856e11f",
     "research/pr-reconciliation-20261012/ending-snapshot.json": "629522d6a438733f5316ee362979c35fb9f703ac801c3d30b6fc390ea62d2322",
     "research/community-family533-audit/DISPOSITIONS.json": "e0e51f92dc715525b8ff5e4987551336c292b0a466f1f3fb87221fb96d54544d",
-    "research/community-family588-audit/DISPOSITIONS.json": "a30ba4d6a8c910c06d6545ef98c5293fae832112cdb1265f8fac7c7d23e1e640"
+    "research/community-family588-audit/DISPOSITIONS.json": "4cc81f8da79e81235c87606f2bfd414f0c5f49d250d9c8e5880a64f2fb404198"
   },
   "scope": "Reconciliation index, not blanket mathematical verification. Partial includes triage or scoped checks; mentions alone are not review. Integrated archives are distinguished from active implementations. No automatic closures.",
   "pull_requests": [
@@ -13065,6 +13065,17 @@
       "reviewed_head": "a1460516226555dd375d9adb82a8e1dcbfe1ca79",
       "disposition": "partially_reviewed",
       "unresolved_question": "Complete publication checks, integrate, and recheck head before closure.",
+      "review_completion": {
+        "changed_file_coverage": true,
+        "scoped_mechanism_review": true,
+        "required_execution_complete": true,
+        "published": false
+      },
+      "verification_evidence": [
+        "research/community-family588-audit/REVIEW-NOTES.json",
+        "research/community-family588-audit/CONTENT-COVERAGE.json",
+        "research/community-family588-audit/pr538"
+      ],
       "current_head_observed_in": "research/community-family588-audit/DISPOSITIONS.json",
       "reconciliation_evidence": [
         "research/community-family588-audit/DISPOSITIONS.json"
@@ -13097,6 +13108,17 @@
       "reviewed_head": "915ca69db7f98c70b97ce96e1fcc96818517584c",
       "disposition": "partially_reviewed",
       "unresolved_question": "Complete publication checks, integrate, and recheck head before closure.",
+      "review_completion": {
+        "changed_file_coverage": true,
+        "scoped_mechanism_review": true,
+        "required_execution_complete": true,
+        "published": false
+      },
+      "verification_evidence": [
+        "research/community-family588-audit/REVIEW-NOTES.json",
+        "research/community-family588-audit/CONTENT-COVERAGE.json",
+        "research/community-family588-audit/pr539"
+      ],
       "current_head_observed_in": "research/community-family588-audit/DISPOSITIONS.json",
       "reconciliation_evidence": [
         "research/community-family588-audit/DISPOSITIONS.json"
@@ -13129,6 +13151,17 @@
       "reviewed_head": "8725c162e4ffdbada8847e235ccdbcaedef87af9",
       "disposition": "partially_reviewed",
       "unresolved_question": "Complete publication checks, integrate, and recheck head before closure.",
+      "review_completion": {
+        "changed_file_coverage": true,
+        "scoped_mechanism_review": true,
+        "required_execution_complete": true,
+        "published": false
+      },
+      "verification_evidence": [
+        "research/community-family588-audit/REVIEW-NOTES.json",
+        "research/community-family588-audit/CONTENT-COVERAGE.json",
+        "research/community-family588-audit/pr541"
+      ],
       "current_head_observed_in": "research/community-family588-audit/DISPOSITIONS.json",
       "reconciliation_evidence": [
         "research/community-family588-audit/DISPOSITIONS.json"
@@ -13161,6 +13194,17 @@
       "reviewed_head": "fceff375b8308e793afbc684690341fab5affc39",
       "disposition": "partially_reviewed",
       "unresolved_question": "Complete publication checks, integrate, and recheck head before closure.",
+      "review_completion": {
+        "changed_file_coverage": true,
+        "scoped_mechanism_review": true,
+        "required_execution_complete": true,
+        "published": false
+      },
+      "verification_evidence": [
+        "research/community-family588-audit/REVIEW-NOTES.json",
+        "research/community-family588-audit/CONTENT-COVERAGE.json",
+        "research/community-family588-audit/pr542"
+      ],
       "current_head_observed_in": "research/community-family588-audit/DISPOSITIONS.json",
       "reconciliation_evidence": [
         "research/community-family588-audit/DISPOSITIONS.json"
@@ -13193,6 +13237,17 @@
       "reviewed_head": "2065fe4f72a914d907f1046603f5a36f17018535",
       "disposition": "partially_reviewed",
       "unresolved_question": "Complete publication checks, integrate, and recheck head before closure.",
+      "review_completion": {
+        "changed_file_coverage": true,
+        "scoped_mechanism_review": true,
+        "required_execution_complete": true,
+        "published": false
+      },
+      "verification_evidence": [
+        "research/community-family588-audit/REVIEW-NOTES.json",
+        "research/community-family588-audit/CONTENT-COVERAGE.json",
+        "research/community-family588-audit/pr543"
+      ],
       "current_head_observed_in": "research/community-family588-audit/DISPOSITIONS.json",
       "reconciliation_evidence": [
         "research/community-family588-audit/DISPOSITIONS.json"
@@ -13225,6 +13280,17 @@
       "reviewed_head": "4858bb38da10cd8a1cd25ef85e7c14f4e2b529dd",
       "disposition": "partially_reviewed",
       "unresolved_question": "Complete publication checks, integrate, and recheck head before closure.",
+      "review_completion": {
+        "changed_file_coverage": true,
+        "scoped_mechanism_review": true,
+        "required_execution_complete": true,
+        "published": false
+      },
+      "verification_evidence": [
+        "research/community-family588-audit/REVIEW-NOTES.json",
+        "research/community-family588-audit/CONTENT-COVERAGE.json",
+        "research/community-family588-audit/pr544"
+      ],
       "current_head_observed_in": "research/community-family588-audit/DISPOSITIONS.json",
       "reconciliation_evidence": [
         "research/community-family588-audit/DISPOSITIONS.json"
@@ -13257,6 +13323,17 @@
       "reviewed_head": "376426f3b2b26ab430d10baf16bbd9ff42990a7c",
       "disposition": "partially_reviewed",
       "unresolved_question": "Complete publication checks, integrate, and recheck head before closure.",
+      "review_completion": {
+        "changed_file_coverage": true,
+        "scoped_mechanism_review": true,
+        "required_execution_complete": true,
+        "published": false
+      },
+      "verification_evidence": [
+        "research/community-family588-audit/REVIEW-NOTES.json",
+        "research/community-family588-audit/CONTENT-COVERAGE.json",
+        "research/community-family588-audit/pr545"
+      ],
       "current_head_observed_in": "research/community-family588-audit/DISPOSITIONS.json",
       "reconciliation_evidence": [
         "research/community-family588-audit/DISPOSITIONS.json"
@@ -13289,6 +13366,17 @@
       "reviewed_head": "77833ffa1110c6645f5d0866ebf41510ee3d27a3",
       "disposition": "partially_reviewed",
       "unresolved_question": "Complete publication checks, integrate, and recheck head before closure.",
+      "review_completion": {
+        "changed_file_coverage": true,
+        "scoped_mechanism_review": true,
+        "required_execution_complete": true,
+        "published": false
+      },
+      "verification_evidence": [
+        "research/community-family588-audit/REVIEW-NOTES.json",
+        "research/community-family588-audit/CONTENT-COVERAGE.json",
+        "research/community-family588-audit/pr546"
+      ],
       "current_head_observed_in": "research/community-family588-audit/DISPOSITIONS.json",
       "reconciliation_evidence": [
         "research/community-family588-audit/DISPOSITIONS.json"
@@ -13321,6 +13409,17 @@
       "reviewed_head": "eecca20a24258cb6d9f698b1984a95029bac0a1c",
       "disposition": "partially_reviewed",
       "unresolved_question": "Complete publication checks, integrate, and recheck head before closure.",
+      "review_completion": {
+        "changed_file_coverage": true,
+        "scoped_mechanism_review": true,
+        "required_execution_complete": true,
+        "published": false
+      },
+      "verification_evidence": [
+        "research/community-family588-audit/REVIEW-NOTES.json",
+        "research/community-family588-audit/CONTENT-COVERAGE.json",
+        "research/community-family588-audit/pr547"
+      ],
       "current_head_observed_in": "research/community-family588-audit/DISPOSITIONS.json",
       "reconciliation_evidence": [
         "research/community-family588-audit/DISPOSITIONS.json"
@@ -13353,6 +13452,17 @@
       "reviewed_head": "66dbc2bffc1bfa8d50b3f9a2ac7ccba8fd9f6f36",
       "disposition": "partially_reviewed",
       "unresolved_question": "Complete publication checks, integrate, and recheck head before closure.",
+      "review_completion": {
+        "changed_file_coverage": true,
+        "scoped_mechanism_review": true,
+        "required_execution_complete": true,
+        "published": false
+      },
+      "verification_evidence": [
+        "research/community-family588-audit/REVIEW-NOTES.json",
+        "research/community-family588-audit/CONTENT-COVERAGE.json",
+        "research/community-family588-audit/pr548"
+      ],
       "current_head_observed_in": "research/community-family588-audit/DISPOSITIONS.json",
       "reconciliation_evidence": [
         "research/community-family588-audit/DISPOSITIONS.json"
@@ -13385,6 +13495,17 @@
       "reviewed_head": "a248674ccdf0ed32f3a122f594b54524c90e4654",
       "disposition": "partially_reviewed",
       "unresolved_question": "Complete publication checks, integrate, and recheck head before closure.",
+      "review_completion": {
+        "changed_file_coverage": true,
+        "scoped_mechanism_review": true,
+        "required_execution_complete": true,
+        "published": false
+      },
+      "verification_evidence": [
+        "research/community-family588-audit/REVIEW-NOTES.json",
+        "research/community-family588-audit/CONTENT-COVERAGE.json",
+        "research/community-family588-audit/pr549"
+      ],
       "current_head_observed_in": "research/community-family588-audit/DISPOSITIONS.json",
       "reconciliation_evidence": [
         "research/community-family588-audit/DISPOSITIONS.json"
@@ -13417,6 +13538,17 @@
       "reviewed_head": "c7337040822978f1611ce9d9d44e7bb96d887e23",
       "disposition": "partially_reviewed",
       "unresolved_question": "Complete publication checks, integrate, and recheck head before closure.",
+      "review_completion": {
+        "changed_file_coverage": true,
+        "scoped_mechanism_review": true,
+        "required_execution_complete": true,
+        "published": false
+      },
+      "verification_evidence": [
+        "research/community-family588-audit/REVIEW-NOTES.json",
+        "research/community-family588-audit/CONTENT-COVERAGE.json",
+        "research/community-family588-audit/pr550"
+      ],
       "current_head_observed_in": "research/community-family588-audit/DISPOSITIONS.json",
       "reconciliation_evidence": [
         "research/community-family588-audit/DISPOSITIONS.json"
@@ -13449,6 +13581,17 @@
       "reviewed_head": "e7faafc4fec401d24080e5b2df12f964f1cfe123",
       "disposition": "partially_reviewed",
       "unresolved_question": "Complete publication checks, integrate, and recheck head before closure.",
+      "review_completion": {
+        "changed_file_coverage": true,
+        "scoped_mechanism_review": true,
+        "required_execution_complete": true,
+        "published": false
+      },
+      "verification_evidence": [
+        "research/community-family588-audit/REVIEW-NOTES.json",
+        "research/community-family588-audit/CONTENT-COVERAGE.json",
+        "research/community-family588-audit/pr551"
+      ],
       "current_head_observed_in": "research/community-family588-audit/DISPOSITIONS.json",
       "reconciliation_evidence": [
         "research/community-family588-audit/DISPOSITIONS.json"
@@ -13481,6 +13624,17 @@
       "reviewed_head": "33c33af0b7697155be1ea708e08cbd3f0707d94c",
       "disposition": "partially_reviewed",
       "unresolved_question": "Complete publication checks, integrate, and recheck head before closure.",
+      "review_completion": {
+        "changed_file_coverage": true,
+        "scoped_mechanism_review": true,
+        "required_execution_complete": true,
+        "published": false
+      },
+      "verification_evidence": [
+        "research/community-family588-audit/REVIEW-NOTES.json",
+        "research/community-family588-audit/CONTENT-COVERAGE.json",
+        "research/community-family588-audit/pr552"
+      ],
       "current_head_observed_in": "research/community-family588-audit/DISPOSITIONS.json",
       "reconciliation_evidence": [
         "research/community-family588-audit/DISPOSITIONS.json"
@@ -13513,6 +13667,17 @@
       "reviewed_head": "c1c252e2838918f3de866b228f5a3f21cb9f4b2d",
       "disposition": "partially_reviewed",
       "unresolved_question": "Complete publication checks, integrate, and recheck head before closure.",
+      "review_completion": {
+        "changed_file_coverage": true,
+        "scoped_mechanism_review": true,
+        "required_execution_complete": true,
+        "published": false
+      },
+      "verification_evidence": [
+        "research/community-family588-audit/REVIEW-NOTES.json",
+        "research/community-family588-audit/CONTENT-COVERAGE.json",
+        "research/community-family588-audit/pr554"
+      ],
       "current_head_observed_in": "research/community-family588-audit/DISPOSITIONS.json",
       "reconciliation_evidence": [
         "research/community-family588-audit/DISPOSITIONS.json"
@@ -13545,6 +13710,17 @@
       "reviewed_head": "65a6bc19f820c8b1873f65a517bcf70cd6887223",
       "disposition": "partially_reviewed",
       "unresolved_question": "Complete publication checks, integrate, and recheck head before closure.",
+      "review_completion": {
+        "changed_file_coverage": true,
+        "scoped_mechanism_review": true,
+        "required_execution_complete": true,
+        "published": false
+      },
+      "verification_evidence": [
+        "research/community-family588-audit/REVIEW-NOTES.json",
+        "research/community-family588-audit/CONTENT-COVERAGE.json",
+        "research/community-family588-audit/pr555"
+      ],
       "current_head_observed_in": "research/community-family588-audit/DISPOSITIONS.json",
       "reconciliation_evidence": [
         "research/community-family588-audit/DISPOSITIONS.json"
@@ -13577,6 +13753,17 @@
       "reviewed_head": "24321d9347828751adabd86de4a4a7807207afac",
       "disposition": "partially_reviewed",
       "unresolved_question": "Complete publication checks, integrate, and recheck head before closure.",
+      "review_completion": {
+        "changed_file_coverage": true,
+        "scoped_mechanism_review": true,
+        "required_execution_complete": true,
+        "published": false
+      },
+      "verification_evidence": [
+        "research/community-family588-audit/REVIEW-NOTES.json",
+        "research/community-family588-audit/CONTENT-COVERAGE.json",
+        "research/community-family588-audit/pr556"
+      ],
       "current_head_observed_in": "research/community-family588-audit/DISPOSITIONS.json",
       "reconciliation_evidence": [
         "research/community-family588-audit/DISPOSITIONS.json"
@@ -13609,6 +13796,17 @@
       "reviewed_head": "a1e805c528884818ddf7d730024c1d8de9660f81",
       "disposition": "partially_reviewed",
       "unresolved_question": "Complete publication checks, integrate, and recheck head before closure.",
+      "review_completion": {
+        "changed_file_coverage": true,
+        "scoped_mechanism_review": true,
+        "required_execution_complete": true,
+        "published": false
+      },
+      "verification_evidence": [
+        "research/community-family588-audit/REVIEW-NOTES.json",
+        "research/community-family588-audit/CONTENT-COVERAGE.json",
+        "research/community-family588-audit/pr557"
+      ],
       "current_head_observed_in": "research/community-family588-audit/DISPOSITIONS.json",
       "reconciliation_evidence": [
         "research/community-family588-audit/DISPOSITIONS.json"
@@ -13641,6 +13839,18 @@
       "reviewed_head": "060b137c8a6f9d73fd7864c7f8cf2736d6441774",
       "disposition": "partially_reviewed",
       "unresolved_question": "Complete publication checks, integrate, and recheck head before closure.",
+      "review_completion": {
+        "changed_file_coverage": true,
+        "scoped_mechanism_review": true,
+        "required_execution_complete": true,
+        "published": false
+      },
+      "verification_evidence": [
+        "research/community-family588-audit/REVIEW-NOTES.json",
+        "research/community-family588-audit/CONTENT-COVERAGE.json",
+        "research/community-family588-audit/FOUNDATION-SOURCE-BINDINGS.json",
+        "research/community-family588-audit/pr588"
+      ],
       "current_head_observed_in": "research/community-family588-audit/DISPOSITIONS.json",
       "reconciliation_evidence": [
         "research/community-family588-audit/DISPOSITIONS.json"
@@ -13673,6 +13883,17 @@
       "reviewed_head": "d858c0b2edcc704ef370b3c96dc51a75439b77b0",
       "disposition": "partially_reviewed",
       "unresolved_question": "Complete publication checks, integrate, and recheck head before closure.",
+      "review_completion": {
+        "changed_file_coverage": true,
+        "scoped_mechanism_review": true,
+        "required_execution_complete": true,
+        "published": false
+      },
+      "verification_evidence": [
+        "research/community-family588-audit/REVIEW-NOTES.json",
+        "research/community-family588-audit/CONTENT-COVERAGE.json",
+        "research/community-family588-audit/pr559"
+      ],
       "current_head_observed_in": "research/community-family588-audit/DISPOSITIONS.json",
       "reconciliation_evidence": [
         "research/community-family588-audit/DISPOSITIONS.json"
@@ -13705,6 +13926,17 @@
       "reviewed_head": "15246a063cac02653d702a80f79b36081e7f596a",
       "disposition": "partially_reviewed",
       "unresolved_question": "Complete publication checks, integrate, and recheck head before closure.",
+      "review_completion": {
+        "changed_file_coverage": true,
+        "scoped_mechanism_review": true,
+        "required_execution_complete": true,
+        "published": false
+      },
+      "verification_evidence": [
+        "research/community-family588-audit/REVIEW-NOTES.json",
+        "research/community-family588-audit/CONTENT-COVERAGE.json",
+        "research/community-family588-audit/pr560"
+      ],
       "current_head_observed_in": "research/community-family588-audit/DISPOSITIONS.json",
       "reconciliation_evidence": [
         "research/community-family588-audit/DISPOSITIONS.json"
@@ -13737,6 +13969,17 @@
       "reviewed_head": "210dfa4896e77a8fb5e22ca5a970b0fb0ac984a6",
       "disposition": "partially_reviewed",
       "unresolved_question": "Complete publication checks, integrate, and recheck head before closure.",
+      "review_completion": {
+        "changed_file_coverage": true,
+        "scoped_mechanism_review": true,
+        "required_execution_complete": true,
+        "published": false
+      },
+      "verification_evidence": [
+        "research/community-family588-audit/REVIEW-NOTES.json",
+        "research/community-family588-audit/CONTENT-COVERAGE.json",
+        "research/community-family588-audit/pr561"
+      ],
       "current_head_observed_in": "research/community-family588-audit/DISPOSITIONS.json",
       "reconciliation_evidence": [
         "research/community-family588-audit/DISPOSITIONS.json"
@@ -13769,6 +14012,17 @@
       "reviewed_head": "27070553cfbf094148a74170481738f8b747d82e",
       "disposition": "partially_reviewed",
       "unresolved_question": "Complete publication checks, integrate, and recheck head before closure.",
+      "review_completion": {
+        "changed_file_coverage": true,
+        "scoped_mechanism_review": true,
+        "required_execution_complete": true,
+        "published": false
+      },
+      "verification_evidence": [
+        "research/community-family588-audit/REVIEW-NOTES.json",
+        "research/community-family588-audit/CONTENT-COVERAGE.json",
+        "research/community-family588-audit/pr562"
+      ],
       "current_head_observed_in": "research/community-family588-audit/DISPOSITIONS.json",
       "reconciliation_evidence": [
         "research/community-family588-audit/DISPOSITIONS.json"
@@ -13801,6 +14055,17 @@
       "reviewed_head": "35925c7f36d06676c7e9d2a052826b0864a2dd9b",
       "disposition": "partially_reviewed",
       "unresolved_question": "Complete publication checks, integrate, and recheck head before closure.",
+      "review_completion": {
+        "changed_file_coverage": true,
+        "scoped_mechanism_review": true,
+        "required_execution_complete": true,
+        "published": false
+      },
+      "verification_evidence": [
+        "research/community-family588-audit/REVIEW-NOTES.json",
+        "research/community-family588-audit/CONTENT-COVERAGE.json",
+        "research/community-family588-audit/pr563"
+      ],
       "current_head_observed_in": "research/community-family588-audit/DISPOSITIONS.json",
       "reconciliation_evidence": [
         "research/community-family588-audit/DISPOSITIONS.json"
@@ -13833,6 +14098,17 @@
       "reviewed_head": "c18417b02b80594b2ca1c8c21185d28befafc935",
       "disposition": "partially_reviewed",
       "unresolved_question": "Complete publication checks, integrate, and recheck head before closure.",
+      "review_completion": {
+        "changed_file_coverage": true,
+        "scoped_mechanism_review": true,
+        "required_execution_complete": true,
+        "published": false
+      },
+      "verification_evidence": [
+        "research/community-family588-audit/REVIEW-NOTES.json",
+        "research/community-family588-audit/CONTENT-COVERAGE.json",
+        "research/community-family588-audit/pr564"
+      ],
       "current_head_observed_in": "research/community-family588-audit/DISPOSITIONS.json",
       "reconciliation_evidence": [
         "research/community-family588-audit/DISPOSITIONS.json"
@@ -13865,6 +14141,17 @@
       "reviewed_head": "7f452897d67282a76ada6df0162d34a751d5f3e6",
       "disposition": "partially_reviewed",
       "unresolved_question": "Complete publication checks, integrate, and recheck head before closure.",
+      "review_completion": {
+        "changed_file_coverage": true,
+        "scoped_mechanism_review": true,
+        "required_execution_complete": true,
+        "published": false
+      },
+      "verification_evidence": [
+        "research/community-family588-audit/REVIEW-NOTES.json",
+        "research/community-family588-audit/CONTENT-COVERAGE.json",
+        "research/community-family588-audit/pr567"
+      ],
       "current_head_observed_in": "research/community-family588-audit/DISPOSITIONS.json",
       "reconciliation_evidence": [
         "research/community-family588-audit/DISPOSITIONS.json"
@@ -13897,6 +14184,17 @@
       "reviewed_head": "71c99ac935a33bb7b59a1b4a7af8725a939b0b90",
       "disposition": "partially_reviewed",
       "unresolved_question": "Complete publication checks, integrate, and recheck head before closure.",
+      "review_completion": {
+        "changed_file_coverage": true,
+        "scoped_mechanism_review": true,
+        "required_execution_complete": true,
+        "published": false
+      },
+      "verification_evidence": [
+        "research/community-family588-audit/REVIEW-NOTES.json",
+        "research/community-family588-audit/CONTENT-COVERAGE.json",
+        "research/community-family588-audit/pr568"
+      ],
       "current_head_observed_in": "research/community-family588-audit/DISPOSITIONS.json",
       "reconciliation_evidence": [
         "research/community-family588-audit/DISPOSITIONS.json"
@@ -13929,6 +14227,17 @@
       "reviewed_head": "1424da81263a5305b35e4cf74ef686c275f03f3f",
       "disposition": "partially_reviewed",
       "unresolved_question": "Complete publication checks, integrate, and recheck head before closure.",
+      "review_completion": {
+        "changed_file_coverage": true,
+        "scoped_mechanism_review": true,
+        "required_execution_complete": true,
+        "published": false
+      },
+      "verification_evidence": [
+        "research/community-family588-audit/REVIEW-NOTES.json",
+        "research/community-family588-audit/CONTENT-COVERAGE.json",
+        "research/community-family588-audit/pr569"
+      ],
       "current_head_observed_in": "research/community-family588-audit/DISPOSITIONS.json",
       "reconciliation_evidence": [
         "research/community-family588-audit/DISPOSITIONS.json"
@@ -13961,6 +14270,17 @@
       "reviewed_head": "b7bdc5a8de18fcf418cfb9c7d83a2b1097a5e4a3",
       "disposition": "partially_reviewed",
       "unresolved_question": "Complete publication checks, integrate, and recheck head before closure.",
+      "review_completion": {
+        "changed_file_coverage": true,
+        "scoped_mechanism_review": true,
+        "required_execution_complete": true,
+        "published": false
+      },
+      "verification_evidence": [
+        "research/community-family588-audit/REVIEW-NOTES.json",
+        "research/community-family588-audit/CONTENT-COVERAGE.json",
+        "research/community-family588-audit/pr571"
+      ],
       "current_head_observed_in": "research/community-family588-audit/DISPOSITIONS.json",
       "reconciliation_evidence": [
         "research/community-family588-audit/DISPOSITIONS.json"
@@ -13993,6 +14313,16 @@
       "reviewed_head": "0c3a7d1b0d99dbc6a1cc5ec1675ddd74aa959586",
       "disposition": "partially_reviewed",
       "unresolved_question": "Finish queued physical/tooling replay, then complete publication checks, integration and fresh-head check.",
+      "review_completion": {
+        "changed_file_coverage": true,
+        "scoped_mechanism_review": true,
+        "required_execution_complete": false,
+        "published": false
+      },
+      "verification_evidence": [
+        "research/community-family588-audit/REVIEW-NOTES.json",
+        "research/community-family588-audit/CONTENT-COVERAGE.json"
+      ],
       "current_head_observed_in": "research/community-family588-audit/DISPOSITIONS.json",
       "reconciliation_evidence": [
         "research/community-family588-audit/DISPOSITIONS.json"
@@ -14024,7 +14354,18 @@
       "closure": null,
       "reviewed_head": "f3e0af901f88f2fd3a213224ad3b59a16b5f4688",
       "disposition": "partially_reviewed",
-      "unresolved_question": "Finish queued physical/tooling replay, then complete publication checks, integration and fresh-head check.",
+      "unresolved_question": "Complete publication checks, integrate, and recheck head before closure.",
+      "review_completion": {
+        "changed_file_coverage": true,
+        "scoped_mechanism_review": true,
+        "required_execution_complete": true,
+        "published": false
+      },
+      "verification_evidence": [
+        "research/community-family588-audit/REVIEW-NOTES.json",
+        "research/community-family588-audit/CONTENT-COVERAGE.json",
+        "research/community-family588-audit/pr574"
+      ],
       "current_head_observed_in": "research/community-family588-audit/DISPOSITIONS.json",
       "reconciliation_evidence": [
         "research/community-family588-audit/DISPOSITIONS.json"
@@ -14057,6 +14398,16 @@
       "reviewed_head": "eac6f7e378ab622dac50a2fd4b7ef6eab014de44",
       "disposition": "partially_reviewed",
       "unresolved_question": "Finish queued physical/tooling replay, then complete publication checks, integration and fresh-head check.",
+      "review_completion": {
+        "changed_file_coverage": true,
+        "scoped_mechanism_review": true,
+        "required_execution_complete": false,
+        "published": false
+      },
+      "verification_evidence": [
+        "research/community-family588-audit/REVIEW-NOTES.json",
+        "research/community-family588-audit/CONTENT-COVERAGE.json"
+      ],
       "current_head_observed_in": "research/community-family588-audit/DISPOSITIONS.json",
       "reconciliation_evidence": [
         "research/community-family588-audit/DISPOSITIONS.json"
@@ -14089,6 +14440,16 @@
       "reviewed_head": "f4e9f7e85e9211cf6ba6c5789da2aa0902d9121e",
       "disposition": "partially_reviewed",
       "unresolved_question": "Finish queued physical/tooling replay, then complete publication checks, integration and fresh-head check.",
+      "review_completion": {
+        "changed_file_coverage": true,
+        "scoped_mechanism_review": true,
+        "required_execution_complete": false,
+        "published": false
+      },
+      "verification_evidence": [
+        "research/community-family588-audit/REVIEW-NOTES.json",
+        "research/community-family588-audit/CONTENT-COVERAGE.json"
+      ],
       "current_head_observed_in": "research/community-family588-audit/DISPOSITIONS.json",
       "reconciliation_evidence": [
         "research/community-family588-audit/DISPOSITIONS.json"
@@ -14121,6 +14482,16 @@
       "reviewed_head": "086bd33ff5c1ce46f3ff23298b8dc756a54414db",
       "disposition": "partially_reviewed",
       "unresolved_question": "Finish queued physical/tooling replay, then complete publication checks, integration and fresh-head check.",
+      "review_completion": {
+        "changed_file_coverage": true,
+        "scoped_mechanism_review": true,
+        "required_execution_complete": false,
+        "published": false
+      },
+      "verification_evidence": [
+        "research/community-family588-audit/REVIEW-NOTES.json",
+        "research/community-family588-audit/CONTENT-COVERAGE.json"
+      ],
       "current_head_observed_in": "research/community-family588-audit/DISPOSITIONS.json",
       "reconciliation_evidence": [
         "research/community-family588-audit/DISPOSITIONS.json"
@@ -14153,6 +14524,16 @@
       "reviewed_head": "2aacc1f2edae76fc963699be5cfaf31bcf3ef56b",
       "disposition": "partially_reviewed",
       "unresolved_question": "Finish queued physical/tooling replay, then complete publication checks, integration and fresh-head check.",
+      "review_completion": {
+        "changed_file_coverage": true,
+        "scoped_mechanism_review": true,
+        "required_execution_complete": false,
+        "published": false
+      },
+      "verification_evidence": [
+        "research/community-family588-audit/REVIEW-NOTES.json",
+        "research/community-family588-audit/CONTENT-COVERAGE.json"
+      ],
       "current_head_observed_in": "research/community-family588-audit/DISPOSITIONS.json",
       "reconciliation_evidence": [
         "research/community-family588-audit/DISPOSITIONS.json"
@@ -14185,6 +14566,16 @@
       "reviewed_head": "970d38a3862ee35064a827b671d196744ee2a928",
       "disposition": "partially_reviewed",
       "unresolved_question": "Finish queued physical/tooling replay, then complete publication checks, integration and fresh-head check.",
+      "review_completion": {
+        "changed_file_coverage": true,
+        "scoped_mechanism_review": true,
+        "required_execution_complete": false,
+        "published": false
+      },
+      "verification_evidence": [
+        "research/community-family588-audit/REVIEW-NOTES.json",
+        "research/community-family588-audit/CONTENT-COVERAGE.json"
+      ],
       "current_head_observed_in": "research/community-family588-audit/DISPOSITIONS.json",
       "reconciliation_evidence": [
         "research/community-family588-audit/DISPOSITIONS.json"
@@ -14217,6 +14608,17 @@
       "reviewed_head": "1ba977f5b8376456dc1b2ca117195fdb4e1c39f5",
       "disposition": "partially_reviewed",
       "unresolved_question": "Complete publication checks, integrate, and recheck head before closure.",
+      "review_completion": {
+        "changed_file_coverage": true,
+        "scoped_mechanism_review": true,
+        "required_execution_complete": true,
+        "published": false
+      },
+      "verification_evidence": [
+        "research/community-family588-audit/REVIEW-NOTES.json",
+        "research/community-family588-audit/CONTENT-COVERAGE.json",
+        "research/community-family588-audit/pr580"
+      ],
       "current_head_observed_in": "research/community-family588-audit/DISPOSITIONS.json",
       "reconciliation_evidence": [
         "research/community-family588-audit/DISPOSITIONS.json"
@@ -14249,6 +14651,18 @@
       "reviewed_head": "747ec97129eb85b1e57bf73c934400fe08a8c6cd",
       "disposition": "partially_reviewed",
       "unresolved_question": "Complete publication checks, integrate, and recheck head before closure.",
+      "review_completion": {
+        "changed_file_coverage": true,
+        "scoped_mechanism_review": true,
+        "required_execution_complete": true,
+        "published": false
+      },
+      "verification_evidence": [
+        "research/community-family588-audit/REVIEW-NOTES.json",
+        "research/community-family588-audit/CONTENT-COVERAGE.json",
+        "research/community-family588-audit/PR582-PR587-BINDING.json",
+        "research/community-family588-audit/PR587-STRICT-EVIDENCE.json"
+      ],
       "current_head_observed_in": "research/community-family588-audit/DISPOSITIONS.json",
       "reconciliation_evidence": [
         "research/community-family588-audit/DISPOSITIONS.json"
@@ -14281,6 +14695,16 @@
       "reviewed_head": "89be768f0157f5a3d8e4db69cf1748768605eac9",
       "disposition": "partially_reviewed",
       "unresolved_question": "Finish queued physical/tooling replay, then complete publication checks, integration and fresh-head check.",
+      "review_completion": {
+        "changed_file_coverage": true,
+        "scoped_mechanism_review": true,
+        "required_execution_complete": false,
+        "published": false
+      },
+      "verification_evidence": [
+        "research/community-family588-audit/REVIEW-NOTES.json",
+        "research/community-family588-audit/CONTENT-COVERAGE.json"
+      ],
       "current_head_observed_in": "research/community-family588-audit/DISPOSITIONS.json",
       "reconciliation_evidence": [
         "research/community-family588-audit/DISPOSITIONS.json"
@@ -14313,6 +14737,16 @@
       "reviewed_head": "e580557d85eb8b8a100361926252d120eb447a44",
       "disposition": "partially_reviewed",
       "unresolved_question": "Finish queued physical/tooling replay, then complete publication checks, integration and fresh-head check.",
+      "review_completion": {
+        "changed_file_coverage": true,
+        "scoped_mechanism_review": true,
+        "required_execution_complete": false,
+        "published": false
+      },
+      "verification_evidence": [
+        "research/community-family588-audit/REVIEW-NOTES.json",
+        "research/community-family588-audit/CONTENT-COVERAGE.json"
+      ],
       "current_head_observed_in": "research/community-family588-audit/DISPOSITIONS.json",
       "reconciliation_evidence": [
         "research/community-family588-audit/DISPOSITIONS.json"
@@ -14345,6 +14779,16 @@
       "reviewed_head": "4846fee5b06af770e9b3a10c36200f673d656725",
       "disposition": "partially_reviewed",
       "unresolved_question": "Finish queued physical/tooling replay, then complete publication checks, integration and fresh-head check.",
+      "review_completion": {
+        "changed_file_coverage": true,
+        "scoped_mechanism_review": true,
+        "required_execution_complete": false,
+        "published": false
+      },
+      "verification_evidence": [
+        "research/community-family588-audit/REVIEW-NOTES.json",
+        "research/community-family588-audit/CONTENT-COVERAGE.json"
+      ],
       "current_head_observed_in": "research/community-family588-audit/DISPOSITIONS.json",
       "reconciliation_evidence": [
         "research/community-family588-audit/DISPOSITIONS.json"
@@ -14377,6 +14821,17 @@
       "reviewed_head": "9bf577d56312f7491e4bb39b5fa7d844f318cde9",
       "disposition": "partially_reviewed",
       "unresolved_question": "Complete publication checks, integrate, and recheck head before closure.",
+      "review_completion": {
+        "changed_file_coverage": true,
+        "scoped_mechanism_review": true,
+        "required_execution_complete": true,
+        "published": false
+      },
+      "verification_evidence": [
+        "research/community-family588-audit/REVIEW-NOTES.json",
+        "research/community-family588-audit/CONTENT-COVERAGE.json",
+        "research/community-family588-audit/pr587"
+      ],
       "current_head_observed_in": "research/community-family588-audit/DISPOSITIONS.json",
       "reconciliation_evidence": [
         "research/community-family588-audit/DISPOSITIONS.json"
@@ -14409,6 +14864,17 @@
       "reviewed_head": "6d0e53b66c29abd17981881a09eaff41ac862d85",
       "disposition": "partially_reviewed",
       "unresolved_question": "Complete publication checks, integrate, and recheck head before closure.",
+      "review_completion": {
+        "changed_file_coverage": true,
+        "scoped_mechanism_review": true,
+        "required_execution_complete": true,
+        "published": false
+      },
+      "verification_evidence": [
+        "research/community-family588-audit/REVIEW-NOTES.json",
+        "research/community-family588-audit/CONTENT-COVERAGE.json",
+        "research/community-family588-audit/pr588"
+      ],
       "current_head_observed_in": "research/community-family588-audit/DISPOSITIONS.json",
       "reconciliation_evidence": [
         "research/community-family588-audit/DISPOSITIONS.json"
