@@ -28,3 +28,6 @@ research/experiment-log/** -whitespace
 
 # Preserve the exact frozen E8 bit supplier source manifest.
 research/e8-bit-carrier-skeleton/** -text -whitespace
+# Preserve the exact reviewed complex supplier packages.
+research/direct-delivery504-global/** -text -whitespace
+research/punctured112-global/** -text -whitespace
