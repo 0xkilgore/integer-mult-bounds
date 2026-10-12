@@ -1,0 +1,60 @@
+{
+  "status": "PASS_FAST_OFFLINE_FINITE_REPLAY",
+  "kappa": "30476576931917/20000000000000000",
+  "kappa_decimal": "0.001523828846595850",
+  "complex_lower": "190769305595392600327/125000000000000000000000",
+  "binding_component": "complex",
+  "elapsed_seconds": 23.409515022999585,
+  "predecessor_cold_replay": false,
+  "unchanged_bit_operator_rebuilt": false,
+  "changed_phase_edges_replayed": true,
+  "scalar_factory_rebuilt": true,
+  "steps": [
+    {
+      "name": "rebuild-pr531-selected",
+      "seconds": 2.1587363450003068,
+      "log": "rebuild-pr531-selected.log"
+    },
+    {
+      "name": "monotone-frame-lifts",
+      "seconds": 0.3230993440001839,
+      "log": "monotone-frame-lifts.log"
+    },
+    {
+      "name": "changed-scalar-and-frames",
+      "seconds": 1.2765846910001528,
+      "log": "changed-scalar-and-frames.log"
+    },
+    {
+      "name": "changed-phase-edges",
+      "seconds": 7.767401101999894,
+      "log": "changed-phase-edges.log"
+    },
+    {
+      "name": "new-local-controller-binding",
+      "seconds": 2.087951159000113,
+      "log": "new-local-controller-binding.log"
+    },
+    {
+      "name": "emit-actual-owners",
+      "seconds": 4.683821134000027,
+      "log": "emit-actual-owners.log"
+    },
+    {
+      "name": "independent-whole-owners",
+      "seconds": 3.3190013560001717,
+      "log": "independent-whole-owners.log"
+    },
+    {
+      "name": "fresh-prefix-and-invoice",
+      "seconds": 1.0365934459996424,
+      "log": "fresh-prefix-and-invoice.log"
+    },
+    {
+      "name": "two-moments-and-outer",
+      "seconds": 0.4716282340000362,
+      "log": "two-moments-and-outer.log"
+    }
+  ],
+  "scope": "Fresh changed-word and actual-host finite checks; byte-pinned completed phase/data/bit dependencies reused by default. All-size realization and analytic-transfer interfaces remain conditional."
+}

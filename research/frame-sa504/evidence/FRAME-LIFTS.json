@@ -1,0 +1,22 @@
+{
+ "status": "PASS_MONOTONE_FRAME_LIFTS_OF_CONSTRUCTOR_WORD",
+ "selected_sha256": "99b04c9c733466a16a4ec83167fd6c919aec7b2c458ab28b338d655d934e1400",
+ "new_sha256": "b2761d9f8d4a1a30e66e997754c54c993eec657941a0e60f8ed5a33996042963",
+ "unchanged_frames": 3574,
+ "lifted": {
+  "B:4->5": 28,
+  "B:4->6": 80,
+  "B:5->6": 166,
+  "B:6->7": 332,
+  "B:7->8": 56
+ },
+ "lifted_total": 662,
+ "chain_paid_profile": {
+  "1": 2158,
+  "2": 476,
+  "3": 377,
+  "4": 226,
+  "5": 139,
+  "6": 56
+ }
+}
