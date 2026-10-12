@@ -1,3 +1,22 @@
+# Current selected record
+
+The selected maintainer-reviewed conditional witness is
+**κ=1517760977820331/10^18=0.001517760977820331**, from #531 on #523
+with #493's bit supplier. See the [selected record](../../certificates/selected-result.json),
+[review and assumptions](community-pr531-review.md), and
+[fresh integration receipts](community-pr531-integration.json).
+All three finite packages were replayed, including the complex predecessor
+and full bit physical audit; all-size and analytic interfaces remain conditional.
+
+The [research integration index](research-notes-20261011.md) also records
+accepted research and verification work that does not change κ. Larger pending
+PR claims remain proposals until reviewed. The gen4 result is preserved in
+[its checkpoint](../../certificates/checkpoints/gen4-pr279.json).
+
+Earlier “selected” statements below are historical snapshots.
+
+---
+
 # Selected construction: coordinated frames and completed entrance banks
 
 The selected conditional witness is **κ=330942774629799/500000000000000000

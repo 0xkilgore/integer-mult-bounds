@@ -1,6 +1,28 @@
 # Community contribution record
 
-**Current reviewed construction: #279 on #276, κ=0.000723571590007464.**
+**Current reviewed construction: #531 on #523 with #493,
+κ=0.001517760977820331.** The [review](docs/research/community-pr531-review.md)
+records fresh finite replays, dependency checks and retained interface assumptions.
+
+| Contributor | Contribution to this checkpoint |
+|---|---|
+| [icekylinx](https://github.com/icekylinx) | #531 direct delivery, 504-helper construction, frame coalescing and physical allocation; #523 exact port restriction; earlier source-basis and split-center work. |
+| [eumemic](https://github.com/eumemic) | #493 source-carrier bit supplier and full replay; #507 partial-own factory and #496 integration ancestry. |
+| [Dugongue](https://github.com/Dugongue) | #514 coordinated entrance/kernel construction; #505 asynchronous whole-owner scheduling; #522 related rank-sector idea. |
+| [DreamingOfClouds](https://github.com/DreamingOfClouds) | #484 shared-donor kernels, gauges and normalized wrappers; exact moment and assembly machinery. |
+| [Chafik Boukhalfa](https://github.com/chafreaky) | #472/#445 eleven-stage geometry, emitters, physical checks and invoice; #458 spectator wrappers. |
+| [DaysSky](https://github.com/DaysSky) | #442 idle-axis hosting and #381 bridged column checks. |
+| [Zhihao Chen](https://github.com/jacklightChen) | #425 mutable-basis interface and Hamming/scalar ancestry; #386 geometry. |
+| Dylan Crow and [Jacob Sussman](https://github.com/jacobalansussman) | #370 bit-format/checker and E8 geometry contributions recorded by the supplier notices. |
+| [higherbeing](https://github.com/higherbeing) | #520 related delivery geometry and allocation framing; idea credit, not an imported implementation. |
+
+Original commits, notices, licenses and AI-assistance disclosures are retained.
+Earlier, parallel and superseded contributions remain credited below and in the
+full source lineage; these are not independently additive numerical gains.
+
+## Historical gen4 checkpoint
+
+**Historical reviewed construction: #279 on #276, κ=0.000723571590007464.**
 The [review](docs/research/community-pr279-review.md) records the exact heads,
 finite checks, corrected prime coverage and retained all-size assumptions.
 
@@ -22,6 +44,29 @@ notices. Superseded and parallel work keeps its credit; this composition does
 not import every numerical refinement from the source527 branch. Original
 commits, licenses and AI-assistance disclosures are preserved. Douglas Colkitt
 performed the maintainer review and integration with OpenAI Codex assistance.
+
+### Research and verification integration, 2026-10-11
+
+The [research integration review](docs/research/research-notes-20261011.md)
+records these contributions separately from improvements to κ:
+
+- **Ali Romman (aliromman), #468:** a computer-assisted nine-call lower bound
+  for the stated three-register abelian bit model, with two exact engines.
+- **Chafik Boukhalfa (chafreaky), #524:** mixed-radix carry-graded convolution,
+  its scoped proof and exact finite controls; no multiplication-time claim.
+- **Rohan Arun, #477:** an attributed experiment archive preserving proposals,
+  unsuccessful searches, execution failures and reported verification.
+- **Richard Hoekstra, #239:** exact dual-Gram frame-check acceleration.
+- **Romain Hédouin, #190 and #222:** removal of unrelated source pins and
+  faster byte-equivalent generation of the historical bit word.
+- **Joel Pulikkan (GamingPuzzled), #218 and #231:** parallel frame checks and
+  the scoped Lucas-parity obstruction for the star/overlap decoder family.
+- **Maxime Fleury, #220:** gzip-container reproducibility audit and guidance.
+- **Jacob Sussman, #209:** the parallel Fourier-side Lean development reference.
+
+Original authorship, predecessor credits and AI-assistance disclosures remain
+in the imported packages and commits. Research inclusion is not a new record
+or formal verification of the complete multiplication theorem.
 
 ### Historical source527 checkpoint
 
@@ -252,3 +297,4 @@ verified posts, profile associations and unresolved account identities.
 
 - **Michiel Kosters** ([research repository](https://github.com/michielkosters/mathematics_ai/tree/2e0aa64ca09c87fc94f8575f59493f70cf929d71/problems/integer-multiplication-109); Douglas associates @one_line_proof) developed a parallel weighted-hypergraph/coordinate-frame candidate, compressed centers and aligned bit pairing. Our [review](research/parallel-announcements/README.md) reproduces the finite certificate with its transfer/precision limitations explicit.
 - **Abe / @abe_asfaw**, via a suggestion supplied by Douglas, identified the redundant complex center and its historical 26.5% numerical gain. We [checked the scalar identity, counts and assembly arithmetic](research/parallel-announcements/README.md), and credit this parallel observation alongside the already preserved rank-h center research.
+- **Jacob Sussman** ([jacobalansussman](https://github.com/jacobalansussman/wht-power-saving-lean/tree/fdfb7815c15ec43af0fb54818a6a57ae4025126b)) published a separate Lean 4 development on the Fourier side (OpenAI's family 130, not this project's multiplication theorem): a proof of #130's general frame lemma for that RAM model, and a kernel check of #193's complex word, rebuilt from the published data, inside a five-stage layout. It was built with AI agents (Claude) and makes no κ claim. Nothing in it has been replayed or reviewed here.
