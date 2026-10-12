@@ -73,5 +73,50 @@
     "exit_code": 0,
     "seconds": 734.403,
     "completed_utc": "2026-10-12T14:45:44.057981+00:00"
+  },
+  {
+    "pr": 572,
+    "package": "multicold-width7",
+    "command": [
+      "/tmp/integer-mult-review-venv/bin/python",
+      "-B",
+      "research/multicold-width7/verify.py",
+      "--work",
+      "/tmp/im572-review"
+    ],
+    "log": "/tmp/im572-review.log",
+    "exit_code": 0,
+    "seconds": 1090.673,
+    "completed_utc": "2026-10-12T14:51:00.095207+00:00"
+  },
+  {
+    "pr": 575,
+    "package": "complex-joint-prefix",
+    "command": [
+      "/tmp/integer-mult-review-venv/bin/python",
+      "-B",
+      "research/complex-joint-prefix/verify.py",
+      "--work",
+      "/tmp/im575-review"
+    ],
+    "log": "/tmp/im575-review.log",
+    "exit_code": 0,
+    "seconds": 651.102,
+    "completed_utc": "2026-10-12T14:56:35.160466+00:00"
+  },
+  {
+    "pr": 576,
+    "package": "complex-571-three-provider",
+    "command": [
+      "/tmp/integer-mult-review-venv/bin/python",
+      "-B",
+      "research/complex-571-three-provider/verify.py",
+      "--work",
+      "/tmp/im576-review"
+    ],
+    "log": "/tmp/im576-review.log",
+    "exit_code": 0,
+    "seconds": 552.827,
+    "completed_utc": "2026-10-12T15:00:12.922615+00:00"
   }
 ]

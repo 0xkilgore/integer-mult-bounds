@@ -65,13 +65,18 @@
       568,
       569,
       571,
-      574
+      572,
+      574,
+      575
     ],
     "pr587": "All eight tooling tests passed; PR582 inputs and complete expected outputs bound to the fresh strict witness replay.",
-    "review_bookkeeping": "Six focused closure/evidence integrity tests and five selected-record mutation tests pass. Central ledger now retains detailed review/execution/publication flags and rejects premature incorporation."
+    "review_bookkeeping": "Six focused closure/evidence integrity tests and five selected-record mutation tests pass. Central ledger now retains detailed review/execution/publication flags and rejects premature incorporation.",
+    "clean_checkout": "Fresh Git archive of 58372691 passed selected-record, full reconciliation and default #588 dependency pins; no untracked working-tree files were needed.",
+    "head_refresh": "All 43 frozen heads remain unchanged and OPEN; origin/main remains 7dfa22b109996e48db68daac3706e7a49a43002b. Refresh again before publication.",
+    "ancestry_screen": "All 489 currently open PR heads screened against the 84 commits introduced by preserving the frozen contributor heads. No outside-scope open head is included. New arrivals #589\u2013#594 remain deferred."
   },
   "remaining": [
-    "Finish ten remaining queue2 sibling replays.",
+    "Finish 7 remaining queue2 sibling replays: #576, #577, #578, #579, #583, #584, #586.",
     "Finalize dispositions, publication documents and prepublication heads.",
     "Publish to main, resolve fully covered unchanged PRs and record unrelated arrivals."
   ],
@@ -88,13 +93,18 @@
     "research/community-family588-audit/PIN-VARIANTS.json": "878d6b18b176a8e68f5b612b5b0111d650106df22ce49b88a6a85469f77b48d2",
     "research/community-family588-audit/HISTORICAL-PIN-REPRODUCTION.json": "4c3e0a14ff18828d48a6addbb64a51bb4c32d6351648e5a7206e067447a2a046",
     "research/community-family588-audit/PRIOR-PACKAGING-REPAIR.json": "86f26979e345c4e8c9bc5be073f8e06f1e28efed81cbc8a9013111818ec8ec2d",
-    "research/community-family588-audit/BATCH2-EVIDENCE.json": "3eca7ec81ba88873887c1f1cb7f693a65f413fe5f89772c4a4ea08818acb7271",
+    "research/community-family588-audit/BATCH2-EVIDENCE.json": "0ad84582782189d7af61babc38f572ddf91afe8be91410498c9e7dd8b4c60c94",
     "research/community-family588-audit/PUBLIC-COLD-EVIDENCE.json": "86e62cf9fb934b95a57a0b48cbcda6bcbece04b18a663708932dbaaca89836d8",
     "research/community-family588-audit/PR582-PR587-BINDING.json": "8271b32d9f3953c72d6e91729e40776f90dab28f12b20c7359f2213329972ff3",
     "research/community-family588-audit/PR587-STRICT-EVIDENCE.json": "e0211d7300dd2642c8e0c540be5f1a1c8ae36434e6d38445615bd3f27e28b30a",
     "research/community-family588-audit/PR587-SUITE-EVIDENCE.json": "1b6ec6e30d8a2bca22c34c14905cd20cb9e484b29b88f62821fdf12dbad1d979",
     "research/community-family588-audit/SCOPED-EVIDENCE.json": "cb0aeb4b1c312619d48333096afff0766423ebfc87806b342f5cbef1126ed71a",
-    "research/community-family588-audit/BOOKKEEPING-CONTROLS.json": "eade90ab496c65e9079aede71bc7daef7c7f4a9e38958afb2363bb5de36fcf0b"
+    "research/community-family588-audit/BOOKKEEPING-CONTROLS.json": "eade90ab496c65e9079aede71bc7daef7c7f4a9e38958afb2363bb5de36fcf0b",
+    "research/community-family588-audit/CLEAN-CHECKOUT.json": "dff1edfb0caf27ca201f64baf4bea019dbfc6b3869d5c3d9a0299610a99e549d",
+    "research/community-family588-audit/PREPUBLICATION-HEADS.json": "cc2cb7bc94043235399a8e4944e30ebd03aed81d667b54364e970323b8294aaa",
+    "research/community-family588-audit/CURRENT-OPEN.json": "ea58eb0417f9b3cad4424c64b8bf137dbf46ad87a3619f31b9dab0bd0f26da86",
+    "research/community-family588-audit/PREPUBLICATION-ANCESTRY.json": "9454fb4f5d2d41ec7d022728c881a03f4fb73fa4840cd7df66a277e919052bc4",
+    "research/community-family588-audit/LATER-ARRIVALS.json": "61b1a2b8a2370afb43930455eba18881980a5e1385f7154be7ddc444123b7eda"
   },
   "toolchain": {
     "platform": "macOS arm64",

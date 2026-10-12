@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-12T14:40:41.193318+00:00",
+  "updated_utc": "2026-10-12T14:58:32.070835+00:00",
   "goal_status": "active, concrete review/publication-preparation progress; not published and no current-family PRs closed",
   "branch": "integration/family588-20261012",
   "worktree": "/tmp/integer-mult-family588",
@@ -33,6 +33,9 @@
     568,
     569,
     571,
+    572,
+    574,
+    575,
     580,
     582,
     587,
@@ -49,14 +52,18 @@
         561,
         562,
         567,
-        568
+        568,
+        574,
+        572,
+        575
       ],
       "entries": 14
     }
   ],
   "next": [
     "Poll these same live sessions; do not restart because a tool observation times out.",
-    "Archive ten remaining queue2 sibling replays; PR582/587 fixture binding and suite now complete.",
+    "Archive 7 remaining queue2 sibling replays with /tmp/im588-collect-completed.py; PR582/587 and public cold command are complete.",
+    "Publication docs and selected-result.json now contain the prepared #588 record. Remove explicit preparation wording and update final receipts/status only when publishing; preserve old #535 checkpoint.",
     "Finalize per-PR dispositions and review, update README/current-status/reproduction/CI and selected-result from PREPARED-SELECTION only when ready.",
     "Refresh full receipt bindings and run selected-record/reconciliation checks, exact staged bytes and fresh Git-archive source-pin check.",
     "Recheck frozen heads and origin/main, preserve original ancestry, publish to main, resolve fully covered unchanged PRs with attribution/explanation.",
@@ -64,7 +71,7 @@
   ],
   "source_pins": "Selected #588 uses canonical integrated #569. Historical #582/#584/#587 can use exact bundled subset research/promoted-kernel-coalescing/vendor/larger_gain; verified pins and source equality in HISTORICAL-PIN-REPRODUCTION.json.",
   "preserve": "Root worktree and its seven unrelated untracked research dirs remain untouched.",
-  "checkpoint_commit": "ed9ed7f0",
+  "checkpoint_commit": "58372691",
   "scope_caveat_571": "Research and complete frontier admission both passed.",
   "public_cold_command": "PASS complete bit543 + complex588 + exact binding; evidence in PUBLIC-COLD-EVIDENCE.json"
 }

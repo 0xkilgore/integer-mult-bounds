@@ -144,5 +144,56 @@
       "research/community-family588-audit/pr574/RECEIPT.json": "c1803af01ae470ddd6bf3cafd8c6ddff36d6ee182a34e8ff94e1693634d625c5",
       "research/community-family588-audit/pr574/replay.log.txt": "b12f182feedbc4bc45b314f237ce3631e6830faa86f39460273e7af3fada16ac"
     }
+  },
+  {
+    "pr": 572,
+    "status": "PASS_FRESH_FINITE_REPLAY",
+    "command": [
+      "/tmp/integer-mult-review-venv/bin/python",
+      "-B",
+      "research/multicold-width7/verify.py",
+      "--work",
+      "/tmp/im572-review"
+    ],
+    "seconds": 1090.673,
+    "output": "/tmp/im572-review",
+    "files": {
+      "research/community-family588-audit/pr572/RESULT.json": "0bbdaef6b06b415910079cac6bc4a4e7e4bee569f0ec510f74f6b127c336b0af",
+      "research/community-family588-audit/pr572/STAGES.json": "a1da1b37189de32dd03837298d8cf90788fbb50f63318cf9eed42d630cc9234b",
+      "research/community-family588-audit/pr572/RECEIPT.json": "11d01967801420dfc0c78bf2669d6eac3efbefe1e2cd214bff01ab083f15bc90",
+      "research/community-family588-audit/pr572/global/ASSEMBLY.json": "1fbacbe86965a550665d7e24f5c289946d84224efd4412241fa0137e6898437a",
+      "research/community-family588-audit/pr572/global/PLAN.json": "233e0d471a4b328462e40e68ddc02c729649416c172033f4d34996b852ee0c58",
+      "research/community-family588-audit/pr572/global/BINDING.json": "5bc268c4f70fbd2538d647f5b464c4920ba0a66b1e6cd26cc16a38c91c3755f2",
+      "research/community-family588-audit/pr572/global/PHASE-TIMING-CONTROLS.json": "46b54f44541a91eb23e21a26220ca79d547d0074c4d6f9b9ace5d71587579a36",
+      "research/community-family588-audit/pr572/global/ASSEMBLY-CONTROLS.json": "fb21cf7e33b300b0527e072c1a51d5d8fd80f80ef9d4c0f19003f88b90663489",
+      "research/community-family588-audit/pr572/global/GENERATED-IDENTITY-CONTROLS.json": "062a1eb8f16d19f75b9f112e6a2d788ee523a234ea9d4047826e413a15d179b5",
+      "research/community-family588-audit/pr572/replay.log.txt": "626781b8622e3eb5fb87f1990477888674c47f855c532261941e70a3015387f0"
+    }
+  },
+  {
+    "pr": 575,
+    "status": "PASS_FRESH_FINITE_REPLAY",
+    "command": [
+      "/tmp/integer-mult-review-venv/bin/python",
+      "-B",
+      "research/complex-joint-prefix/verify.py",
+      "--work",
+      "/tmp/im575-review"
+    ],
+    "seconds": 651.102,
+    "output": "/tmp/im575-review",
+    "files": {
+      "research/community-family588-audit/pr575/PACKING-REPLAY.json": "8fc42912a71b3af7e708106acb11c96f1aa995b8961be111e9f66d435b6dc7d7",
+      "research/community-family588-audit/pr575/ASSEMBLY.json": "fe44b0143cfff65551a9f1aa78fedde4f62da0ccb8455de114513f096b243617",
+      "research/community-family588-audit/pr575/PROMOTION-IDENTITY-CONTROLS.json": "d8bbff491944f59e644a651b0ccad0b3bb6dbb4332de87c65f7608af7e0c2167",
+      "research/community-family588-audit/pr575/RESULT.json": "c6bbfc9c4a8df05fe00fe23aa938d0ed6f6db262dc609fd2a616c01f59767790",
+      "research/community-family588-audit/pr575/PHASE-TIMING-CONTROLS.json": "b0d795a20c511e658cafeb5f01e923998cdc61c5fbd6393b6aaf440d2da19ef4",
+      "research/community-family588-audit/pr575/STAGES.json": "f573b6a3911e70f211c23e5e38484f8cd0cdbd2b5d4fabcf59617265444897b7",
+      "research/community-family588-audit/pr575/ASSEMBLY-CONTROLS.json": "99c6fdb04faf6a7e83e4602089fcbe2467fd81cc7bc7a1e5ca4c7a41cf486003",
+      "research/community-family588-audit/pr575/GENERATED-IDENTITY-CONTROLS.json": "8c758b667a9548649277cb74abb243c326beedb8143f2e408ab07bd77f32fed7",
+      "research/community-family588-audit/pr575/INDEPENDENT-OWNER-REVIEW.json": "8d9a7d59c6f343675e70bc96a9f4e7d343c2aae1f3bd39025691f8ec0a6dbb31",
+      "research/community-family588-audit/pr575/RECEIPT.json": "2dd3c35498e8fb1b3eda3704819f3a832028629b3d329e92ff72f1abafc85958",
+      "research/community-family588-audit/pr575/replay.log.txt": "cef341868e402d32654b4ded89247d2f84364a885441c4e0ca9c37e389aea120"
+    }
   }
 ]
