@@ -1,7 +1,7 @@
 {
   "status": "PASS_INDEPENDENT_LOCAL_SCALAR_FRAME_AND_WRAPPER_REPLAY",
-  "canonical_word_sha256": "eb40fe2a995ab4b46c0bdc2f590633a0118a6f7a7adf7d1c83e3720f14aef600",
-  "local_programs_sha256": "0bde032337fd5e9a760a79429c0339db24db234dca10fed6c0ad7ef1f709f711",
+  "canonical_word_sha256": "a27a2c0dd119dc25bec40190396ecc0ab62f31ae73d86a58ef2115cddcdea703",
+  "local_programs_sha256": "55d6580691d674570beff0d90d0dc0d23a6a062806d68b329dda9cf00fab1b52",
   "v": 112,
   "helpers": 504,
   "local": {
@@ -22,21 +22,21 @@
   },
   "paid_profiles": {
     "forward": {
-      "1": 2166,
-      "4": 226,
+      "1": 2220,
+      "4": 168,
       "7": 8,
-      "2": 476,
-      "3": 377,
-      "5": 139,
+      "2": 368,
+      "3": 460,
+      "5": 168,
       "6": 56
     },
     "backward": {
-      "1": 2166,
-      "4": 226,
+      "1": 2220,
+      "4": 168,
       "7": 8,
-      "2": 476,
-      "3": 377,
-      "5": 139,
+      "2": 368,
+      "3": 460,
+      "5": 168,
       "6": 56
     }
   },
