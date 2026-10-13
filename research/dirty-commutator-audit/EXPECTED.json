@@ -1,0 +1,505 @@
+{
+  "status": "PASS",
+  "base_commit": "66849e1475c930fd7732b1a0067ffee7e1e95f60",
+  "subject_head": "0768f97d06c623b8211e651543c66135796b62bf",
+  "assignment_seed": 62,
+  "symbolic_factor_counts": [
+    1,
+    64
+  ],
+  "symbolic_cases": [
+    {
+      "factors": 1,
+      "leaf_calls": 1,
+      "scratch_arrays": 0,
+      "free_term_atoms": 3,
+      "possible_dirty_dependencies": 0
+    },
+    {
+      "factors": 2,
+      "leaf_calls": 4,
+      "scratch_arrays": 1,
+      "free_term_atoms": 6,
+      "possible_dirty_dependencies": 1
+    },
+    {
+      "factors": 3,
+      "leaf_calls": 10,
+      "scratch_arrays": 2,
+      "free_term_atoms": 10,
+      "possible_dirty_dependencies": 2
+    },
+    {
+      "factors": 4,
+      "leaf_calls": 16,
+      "scratch_arrays": 2,
+      "free_term_atoms": 12,
+      "possible_dirty_dependencies": 2
+    },
+    {
+      "factors": 5,
+      "leaf_calls": 28,
+      "scratch_arrays": 3,
+      "free_term_atoms": 17,
+      "possible_dirty_dependencies": 3
+    },
+    {
+      "factors": 6,
+      "leaf_calls": 40,
+      "scratch_arrays": 3,
+      "free_term_atoms": 20,
+      "possible_dirty_dependencies": 3
+    },
+    {
+      "factors": 7,
+      "leaf_calls": 52,
+      "scratch_arrays": 3,
+      "free_term_atoms": 23,
+      "possible_dirty_dependencies": 3
+    },
+    {
+      "factors": 8,
+      "leaf_calls": 64,
+      "scratch_arrays": 3,
+      "free_term_atoms": 25,
+      "possible_dirty_dependencies": 3
+    },
+    {
+      "factors": 9,
+      "leaf_calls": 88,
+      "scratch_arrays": 4,
+      "free_term_atoms": 31,
+      "possible_dirty_dependencies": 4
+    },
+    {
+      "factors": 10,
+      "leaf_calls": 112,
+      "scratch_arrays": 4,
+      "free_term_atoms": 35,
+      "possible_dirty_dependencies": 4
+    },
+    {
+      "factors": 11,
+      "leaf_calls": 136,
+      "scratch_arrays": 4,
+      "free_term_atoms": 39,
+      "possible_dirty_dependencies": 4
+    },
+    {
+      "factors": 12,
+      "leaf_calls": 160,
+      "scratch_arrays": 4,
+      "free_term_atoms": 42,
+      "possible_dirty_dependencies": 4
+    },
+    {
+      "factors": 13,
+      "leaf_calls": 184,
+      "scratch_arrays": 4,
+      "free_term_atoms": 46,
+      "possible_dirty_dependencies": 4
+    },
+    {
+      "factors": 14,
+      "leaf_calls": 208,
+      "scratch_arrays": 4,
+      "free_term_atoms": 49,
+      "possible_dirty_dependencies": 4
+    },
+    {
+      "factors": 15,
+      "leaf_calls": 232,
+      "scratch_arrays": 4,
+      "free_term_atoms": 52,
+      "possible_dirty_dependencies": 4
+    },
+    {
+      "factors": 16,
+      "leaf_calls": 256,
+      "scratch_arrays": 4,
+      "free_term_atoms": 54,
+      "possible_dirty_dependencies": 4
+    },
+    {
+      "factors": 17,
+      "leaf_calls": 304,
+      "scratch_arrays": 5,
+      "free_term_atoms": 61,
+      "possible_dirty_dependencies": 5
+    },
+    {
+      "factors": 18,
+      "leaf_calls": 352,
+      "scratch_arrays": 5,
+      "free_term_atoms": 66,
+      "possible_dirty_dependencies": 5
+    },
+    {
+      "factors": 19,
+      "leaf_calls": 400,
+      "scratch_arrays": 5,
+      "free_term_atoms": 71,
+      "possible_dirty_dependencies": 5
+    },
+    {
+      "factors": 20,
+      "leaf_calls": 448,
+      "scratch_arrays": 5,
+      "free_term_atoms": 75,
+      "possible_dirty_dependencies": 5
+    },
+    {
+      "factors": 21,
+      "leaf_calls": 496,
+      "scratch_arrays": 5,
+      "free_term_atoms": 80,
+      "possible_dirty_dependencies": 5
+    },
+    {
+      "factors": 22,
+      "leaf_calls": 544,
+      "scratch_arrays": 5,
+      "free_term_atoms": 84,
+      "possible_dirty_dependencies": 5
+    },
+    {
+      "factors": 23,
+      "leaf_calls": 592,
+      "scratch_arrays": 5,
+      "free_term_atoms": 88,
+      "possible_dirty_dependencies": 5
+    },
+    {
+      "factors": 24,
+      "leaf_calls": 640,
+      "scratch_arrays": 5,
+      "free_term_atoms": 91,
+      "possible_dirty_dependencies": 5
+    },
+    {
+      "factors": 25,
+      "leaf_calls": 688,
+      "scratch_arrays": 5,
+      "free_term_atoms": 96,
+      "possible_dirty_dependencies": 5
+    },
+    {
+      "factors": 26,
+      "leaf_calls": 736,
+      "scratch_arrays": 5,
+      "free_term_atoms": 100,
+      "possible_dirty_dependencies": 5
+    },
+    {
+      "factors": 27,
+      "leaf_calls": 784,
+      "scratch_arrays": 5,
+      "free_term_atoms": 104,
+      "possible_dirty_dependencies": 5
+    },
+    {
+      "factors": 28,
+      "leaf_calls": 832,
+      "scratch_arrays": 5,
+      "free_term_atoms": 107,
+      "possible_dirty_dependencies": 5
+    },
+    {
+      "factors": 29,
+      "leaf_calls": 880,
+      "scratch_arrays": 5,
+      "free_term_atoms": 111,
+      "possible_dirty_dependencies": 5
+    },
+    {
+      "factors": 30,
+      "leaf_calls": 928,
+      "scratch_arrays": 5,
+      "free_term_atoms": 114,
+      "possible_dirty_dependencies": 5
+    },
+    {
+      "factors": 31,
+      "leaf_calls": 976,
+      "scratch_arrays": 5,
+      "free_term_atoms": 117,
+      "possible_dirty_dependencies": 5
+    },
+    {
+      "factors": 32,
+      "leaf_calls": 1024,
+      "scratch_arrays": 5,
+      "free_term_atoms": 119,
+      "possible_dirty_dependencies": 5
+    },
+    {
+      "factors": 33,
+      "leaf_calls": 1120,
+      "scratch_arrays": 6,
+      "free_term_atoms": 127,
+      "possible_dirty_dependencies": 6
+    },
+    {
+      "factors": 34,
+      "leaf_calls": 1216,
+      "scratch_arrays": 6,
+      "free_term_atoms": 133,
+      "possible_dirty_dependencies": 6
+    },
+    {
+      "factors": 35,
+      "leaf_calls": 1312,
+      "scratch_arrays": 6,
+      "free_term_atoms": 139,
+      "possible_dirty_dependencies": 6
+    },
+    {
+      "factors": 36,
+      "leaf_calls": 1408,
+      "scratch_arrays": 6,
+      "free_term_atoms": 144,
+      "possible_dirty_dependencies": 6
+    },
+    {
+      "factors": 37,
+      "leaf_calls": 1504,
+      "scratch_arrays": 6,
+      "free_term_atoms": 150,
+      "possible_dirty_dependencies": 6
+    },
+    {
+      "factors": 38,
+      "leaf_calls": 1600,
+      "scratch_arrays": 6,
+      "free_term_atoms": 155,
+      "possible_dirty_dependencies": 6
+    },
+    {
+      "factors": 39,
+      "leaf_calls": 1696,
+      "scratch_arrays": 6,
+      "free_term_atoms": 160,
+      "possible_dirty_dependencies": 6
+    },
+    {
+      "factors": 40,
+      "leaf_calls": 1792,
+      "scratch_arrays": 6,
+      "free_term_atoms": 164,
+      "possible_dirty_dependencies": 6
+    },
+    {
+      "factors": 41,
+      "leaf_calls": 1888,
+      "scratch_arrays": 6,
+      "free_term_atoms": 170,
+      "possible_dirty_dependencies": 6
+    },
+    {
+      "factors": 42,
+      "leaf_calls": 1984,
+      "scratch_arrays": 6,
+      "free_term_atoms": 175,
+      "possible_dirty_dependencies": 6
+    },
+    {
+      "factors": 43,
+      "leaf_calls": 2080,
+      "scratch_arrays": 6,
+      "free_term_atoms": 180,
+      "possible_dirty_dependencies": 6
+    },
+    {
+      "factors": 44,
+      "leaf_calls": 2176,
+      "scratch_arrays": 6,
+      "free_term_atoms": 184,
+      "possible_dirty_dependencies": 6
+    },
+    {
+      "factors": 45,
+      "leaf_calls": 2272,
+      "scratch_arrays": 6,
+      "free_term_atoms": 189,
+      "possible_dirty_dependencies": 6
+    },
+    {
+      "factors": 46,
+      "leaf_calls": 2368,
+      "scratch_arrays": 6,
+      "free_term_atoms": 193,
+      "possible_dirty_dependencies": 6
+    },
+    {
+      "factors": 47,
+      "leaf_calls": 2464,
+      "scratch_arrays": 6,
+      "free_term_atoms": 197,
+      "possible_dirty_dependencies": 6
+    },
+    {
+      "factors": 48,
+      "leaf_calls": 2560,
+      "scratch_arrays": 6,
+      "free_term_atoms": 200,
+      "possible_dirty_dependencies": 6
+    },
+    {
+      "factors": 49,
+      "leaf_calls": 2656,
+      "scratch_arrays": 6,
+      "free_term_atoms": 206,
+      "possible_dirty_dependencies": 6
+    },
+    {
+      "factors": 50,
+      "leaf_calls": 2752,
+      "scratch_arrays": 6,
+      "free_term_atoms": 211,
+      "possible_dirty_dependencies": 6
+    },
+    {
+      "factors": 51,
+      "leaf_calls": 2848,
+      "scratch_arrays": 6,
+      "free_term_atoms": 216,
+      "possible_dirty_dependencies": 6
+    },
+    {
+      "factors": 52,
+      "leaf_calls": 2944,
+      "scratch_arrays": 6,
+      "free_term_atoms": 220,
+      "possible_dirty_dependencies": 6
+    },
+    {
+      "factors": 53,
+      "leaf_calls": 3040,
+      "scratch_arrays": 6,
+      "free_term_atoms": 225,
+      "possible_dirty_dependencies": 6
+    },
+    {
+      "factors": 54,
+      "leaf_calls": 3136,
+      "scratch_arrays": 6,
+      "free_term_atoms": 229,
+      "possible_dirty_dependencies": 6
+    },
+    {
+      "factors": 55,
+      "leaf_calls": 3232,
+      "scratch_arrays": 6,
+      "free_term_atoms": 233,
+      "possible_dirty_dependencies": 6
+    },
+    {
+      "factors": 56,
+      "leaf_calls": 3328,
+      "scratch_arrays": 6,
+      "free_term_atoms": 236,
+      "possible_dirty_dependencies": 6
+    },
+    {
+      "factors": 57,
+      "leaf_calls": 3424,
+      "scratch_arrays": 6,
+      "free_term_atoms": 241,
+      "possible_dirty_dependencies": 6
+    },
+    {
+      "factors": 58,
+      "leaf_calls": 3520,
+      "scratch_arrays": 6,
+      "free_term_atoms": 245,
+      "possible_dirty_dependencies": 6
+    },
+    {
+      "factors": 59,
+      "leaf_calls": 3616,
+      "scratch_arrays": 6,
+      "free_term_atoms": 249,
+      "possible_dirty_dependencies": 6
+    },
+    {
+      "factors": 60,
+      "leaf_calls": 3712,
+      "scratch_arrays": 6,
+      "free_term_atoms": 252,
+      "possible_dirty_dependencies": 6
+    },
+    {
+      "factors": 61,
+      "leaf_calls": 3808,
+      "scratch_arrays": 6,
+      "free_term_atoms": 256,
+      "possible_dirty_dependencies": 6
+    },
+    {
+      "factors": 62,
+      "leaf_calls": 3904,
+      "scratch_arrays": 6,
+      "free_term_atoms": 259,
+      "possible_dirty_dependencies": 6
+    },
+    {
+      "factors": 63,
+      "leaf_calls": 4000,
+      "scratch_arrays": 6,
+      "free_term_atoms": 262,
+      "possible_dirty_dependencies": 6
+    },
+    {
+      "factors": 64,
+      "leaf_calls": 4096,
+      "scratch_arrays": 6,
+      "free_term_atoms": 264,
+      "possible_dirty_dependencies": 6
+    }
+  ],
+  "recurrence_factor_counts": [
+    1,
+    10000
+  ],
+  "negative_controls": [
+    {
+      "name": "inverse_without_reversal",
+      "detected": "whole word is not inverted"
+    },
+    {
+      "name": "omit_final_A_inverse",
+      "detected": "wrong linear product or uncancelled dirt"
+    },
+    {
+      "name": "omit_B_restoration",
+      "detected": "source or scratch not restored"
+    },
+    {
+      "name": "borrow_ancestor_target",
+      "detected": "all ancestor arrays distinct"
+    },
+    {
+      "name": "borrow_ancestor_source",
+      "detected": "all ancestor arrays distinct"
+    },
+    {
+      "name": "reuse_scratch_depth",
+      "detected": "all ancestor arrays distinct"
+    },
+    {
+      "name": "missing_scratch_depth",
+      "detected": "dirty depth"
+    }
+  ],
+  "nonlinear_scratch_counterexample": [
+    {
+      "initial_scratch": 0,
+      "target_increment": 1
+    },
+    {
+      "initial_scratch": 1,
+      "target_increment": 3
+    }
+  ],
+  "scope": "Exact finite symbolic instruction audit, with a separate written all-n proof; no leaf accuracy, bit-cost, or multiplication proof."
+}
